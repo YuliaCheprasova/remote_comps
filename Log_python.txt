@@ -1,0 +1,2387 @@
+start Python
+Time_data_preparation: 0.8786
+General 0
+-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	-2.78687e-07	
+-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	
+0.00563281	0.0153116	0.0416211	0.113138	0.307541	0.835983	2.27244	6.17712	16.7912	45.6431	124.071	337.26	916.767	2492.03	6774.04	18413.7	50053.8	136060	369850	1.00536e+06	
+0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	0.00399069	
+0.000367879	0.000135335	4.97871e-05	1.83156e-05	6.73795e-06	2.47875e-06	9.11882e-07	3.35463e-07	1.2341e-07	4.53999e-08	1.67017e-08	6.14421e-09	2.26033e-09	8.31529e-10	3.05902e-10	1.12535e-10	4.13994e-11	1.523e-11	5.6028e-12	2.06115e-12	
+0.000745624	0.000789072	0.000140652	-0.0006866	-0.000818574	-0.000275794	0.000610734	0.000835674	0.000400551	-0.000517581	-0.000841466	-0.000511194	0.000407913	0.000836359	0.000605416	-0.000283942	-0.000819992	-0.000682361	0.000149317	0.000791308	
+0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	0.000357076	
+-0.00108614	0.00115321	-0.00128133	0.0013299	-0.0015116	0.00153366	-0.00178324	0.00176864	-0.0021037	0.00203963	-0.00248176	0.00235213	-0.00292775	0.00271251	-0.00345389	0.0031281	-0.00407457	0.00360737	-0.00480681	0.00416007	
+0.000167371	0.000454962	0.00123671	0.00336174	0.00913815	0.0248401	0.0675223	0.183545	0.498926	1.35622	3.68659	10.0212	27.2404	74.0472	201.281	547.139	1487.28	4042.84	10989.6	29872.8	
+2.08189e-05	-0.00100498	-0.00203078	-0.00305658	-0.00408238	-0.00510818	-0.00613398	-0.00715978	-0.00818558	-0.00921138	-0.0102372	-0.011263	-0.0122888	-0.0133146	-0.0143404	-0.0153662	-0.016392	-0.0174178	-0.0184436	-0.0194694	
+0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	
+0.000123072	-0.000876928	-0.00187693	-0.00287693	-0.00387693	-0.00487693	-0.00587693	-0.00687693	-0.00787693	-0.00887693	-0.00987693	-0.0108769	-0.0118769	-0.0128769	-0.0138769	-0.0148769	-0.0158769	-0.0168769	-0.0178769	-0.0188769	
+-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	
+-2.3685	-2.3675	-2.3665	-2.3655	-2.3645	-2.3635	-2.3625	-2.3615	-2.3605	-2.3595	-2.3585	-2.3575	-2.3565	-2.3555	-2.3545	-2.3535	-2.3525	-2.3515	-2.3505	-2.3495	
+0.0025428	0.0055428	0.0105428	0.0175428	0.0265428	0.0375428	0.0505428	0.0655428	0.0825428	0.101543	0.122543	0.145543	0.170543	0.197543	0.226543	0.257543	0.290543	0.325543	0.362543	0.401543	
+Tree 0: Epoch [1/20], lr:-0.0000, Loss:2.3086, Time_for_epoch: 7.0293
+Tree 0: Epoch [2/20], lr:-0.0000, Loss:2.3097, Time_for_epoch: 6.3258
+Tree 0: Epoch [3/20], lr:-0.0000, Loss:2.3105, Time_for_epoch: 6.3299
+Tree 0: Epoch [4/20], lr:-0.0000, Loss:2.3114, Time_for_epoch: 6.4008
+Tree 0: Epoch [5/20], lr:-0.0000, Loss:2.3123, Time_for_epoch: 6.3414
+Tree 0: Epoch [6/20], lr:-0.0000, Loss:2.3134, Time_for_epoch: 6.3474
+Tree 0: Epoch [7/20], lr:-0.0000, Loss:2.3144, Time_for_epoch: 6.4231
+Tree 0: Epoch [8/20], lr:-0.0000, Loss:2.3154, Time_for_epoch: 6.3412
+Tree 0: Epoch [9/20], lr:-0.0000, Loss:2.3165, Time_for_epoch: 6.3469
+Tree 0: Epoch [10/20], lr:-0.0000, Loss:2.3174, Time_for_epoch: 6.4234
+Tree 0: Epoch [11/20], lr:-0.0000, Loss:2.3187, Time_for_epoch: 6.3367
+Tree 0: Epoch [12/20], lr:-0.0000, Loss:2.3197, Time_for_epoch: 6.4019
+Tree 0: Epoch [13/20], lr:-0.0000, Loss:2.3210, Time_for_epoch: 6.3178
+Tree 0: Epoch [14/20], lr:-0.0000, Loss:2.3219, Time_for_epoch: 6.3132
+Tree 0: Epoch [15/20], lr:-0.0000, Loss:2.3234, Tim2662	0.000562662	0.000562662	0.000562662	0.000562662	0.000562662	0.000562662	
+-50000	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	0.000258395	
+-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	-0.00275682	
+0.000454012	0.000206127	9.35843e-05	4.24884e-05	1.92903e-05	8.75802e-06	3.97625e-06	1.80527e-06	8.19614e-07	3.72115e-07	1.68945e-07	7.6703e-08	3.48241e-08	1.58106e-08	7.1782e-09	3.25899e-09	1.47962e-09	6.71767e-10	3.0499e-10	1.38469e-10	
+-50000	1.01774	0.638415	0.502474	0.429493	0.382574	0.349122	0.323614	0.303221	0.286336	0.271976	0.2595	0.248472	0.238585	0.229615	0.221394	0.213795	0.206719	0.200087	0.193836	
+Tree 0: Epoch [1/20], lr:0.0020, Loss:0.5868, Time_for_epoch: 6.3584
+Tree 0: Epoch [2/20], lr:0.0039, Loss:0.1387, Time_for_epoch: 6.0639
+Tree 0: Epoch [3/20], lr:0.0059, Loss:0.0930, Time_for_epoch: 6.1035
+Tree 0: Epoch [4/20], lr:0.0079, Loss:0.0710, Time_for_epoch: 6.0619
+Tree 0: Epoch [5/20], lr:0.0099, Loss:0.0608, Time_for_epoch: 6.0915
+Tree 0: Epoch [6/20], lr:0.0118, Loss:0.0559, Time_for_epoch: 6.0475
+Tree 0: Epoch [7/20], lr:0.0138, Loss:0.0512, Time_for_epoch: 6.0870
+Tree 0: Epoch [8/20], lr:0.0158, Loss:0.0527, Time_for_epoch: 6.0485
+Tree 0: Epoch [9/2Tree 2: Epoch [16/20], lr:18413.7000, Loss:12497.6345, Time_for_epoch: 6.7086
+Tree 2 is not valid
+Tree 3: Epoch [1/20], lr:0.0040, Loss:0.5005, Time_for_epoch: 6.6580
+Tree 3: Epoch [2/20], lr:0.0040, Loss:0.1059, Time_for_epoch: 6.6548
+Tree 3: Epoch [3/20], lr:0.0040, Loss:0.0766, Time_for_epoch: 6.5680
+Tree 3: Epoch [4/20], lr:0.0040, Loss:0.0635, Time_for_epoch: 6.3469
+Tree 3: Epoch [5/20], lr:0.0040, Loss:0.0532, Time_for_epoch: 6.3405
+Tree 3: Epoch [6/20], lr:0.0040, Loss:0.0454, Time_for_epoch: 6.4176
+Tree 3: Epoch [7/20], lr:0.0040, Loss:0.0411, Time_for_epoch: 6.3273
+Tree 3: Epoch [8/20], lr:0.0040, Loss:0.0353, Time_for_epoch: 6.2950
+Tree 3: Epoch [9/20], lr:0.0040, Loss:0.0348, Time_for_epoch: 6.3914
+Tree 3: Epoch [10/20], lr:0.0040, Loss:0.0328, Time_for_epoch: 6.3283
+Tree 3: Epoch [11/20], lr:0.0040, Loss:0.0301, Time_for_epoch: 6.4027
+Tree 3: Epoch [12/20], lr:0.0040, Loss:0.0260, Time_for_epoch: 6.3418
+Tree 3: Epoch [13/20], lr:0.0040, Loss:0.0247, Time_for_epoch: 6.3330
+Tree 3: EpoTree 2: Epoch [5/20], lr:0.0005, Loss:0.1465, Time_for_epocTree 3: EpTree 2: Epoch [6/20], lr:0.0005, Loss:0.1268, Time_for_epochTree 3: Epoch [16/20], lr:0.0040, Loss:0.0193, Time_for_epoch: 6.3307
+Tree 3: Tree 2: Epoch [8/20], lr:0.0005, Loss:0.0993, Time_for_epoch: Tree 3:Tree 2: Epoch [9/20], lr:0.0005, Loss:0.0916, Time_for_epoch: 7Tree 3Tree 2: Epoch [10/20], lr:0.0005, Loss:0.0831, Time_for_epoch: 7Tree 3Tree 2: Epoch [11/20], lr:0.0005, Loss:0.0796, Time_for_epoch: 7.4749
+Tree 2: Epoch [12/20], lr:0.0005, Loss:0.0738, Time_for_epoch: 7.5167
+Tree 2: Epoch [13/20], lr:0.0005, Loss:0.0689, Time_for_epoch: 7.4914
+Tree 2: Epoch [14/20], lr:0.0005, Loss:0.0637, Time_for_epoch: 7.4711
+Tree 2: Epoch [15/20], lr:0.0005, Loss:0.0620, Time_for_epoch: 7.5182
+Tree 2: Epoch [16/20], lr:0.0005, Loss:0.0578, Time_for_epoch: 7.4580
+Tree 2: Epoch [17/20], lr:0.0005, Loss:0.0564, Time_for_epoch: 7.5210
+Tree 2: Epoch [18/20], lr:0.0005, Loss:0.0533, Time_for_epoch: 7.4760
+Tree 2: Epoch [19/20], lr:0.0005, Loss:0.0512, Time_for_epoch: 7.4643
+Tree 2: Epoch [20/20], lr:0.0005, Loss:0.0474, Time_for_epoch: 7.5176
+Tree 2: TestLoss: 0.0361, TestAccuracy: 0.9882, Time_for_individ: 151.0686
+Tree 3: Epoch [1/20], lr:-0.7084, Loss:379474031964304.6875, Time_for_epoch: 7.4738
+Tree 3: Epoch [2/20], lr:-0.7084, Loss:38279333324853520.0000, Time_for_epoch: 7.5292
+Tree 3 is not valid
+Tree 4: Epoch [1/20], lr:0.0023, Loss:0.5853, Time_for_epoch: 7.4705
+Tree 4: Epoch [2/20], lr:0.0025, Loss:0.1396, Time_for_epoch: 7.5314
+Tree 4: Epoch [3/20], lr:0.003: Epoch [1/20], lr:0.0014, Loss:0.7014, Time_for_epoch: 6.0834
+Tree 3: Epoch [2/20], lr:0.0014, Loss:0.1852, Time_for_epoch: 6.1006
+Tree 3: Epoch [3/20], lr:0.0014, Loss:0.1178, Time_for_epoch: 6.0722
+Tree 3: Epoch [4/20], lr:0.0014, Loss:0.0914, Time_for_epoch: 6.1041
+Tree 3: Epoch [5/20], lr:0.0014, Loss:0.0754, Time_for_epoch: 6.0682
+Tree 3: Epoch [6/20], lr:0.0014, Loss:0.0668, Time_for_epoch: 6.1103
+Tree 3: Epoch [7/20], lr:0.0014, Loss:0.0595, Time_for_epoch: 6.0647
+Tree 3: Epoch [8/20], lr:0.0014, Loss:0.0526, Time_for_epoch: 6.0707
+Tree 3: Epoch [9/20], lr:0.0014, Loss:0.0480, Time_for_epoch: 6.1069
+Tree 3: Epoch [10/20], lr:0.0014, Loss:0.0429, Time_for_epoch: 6.0608
+Tree 3: Epoch [11/20], lr:0.0014, Loss:0.0423, Time_for_epoch: 6.1132
+Tree 3: Epoch [12/20], lr:0.0014, Loss:0.0384, Time_for_epoch: 6.0700
+Tree 3: Epoch [13/20], lr:0.0014, Loss:0.0334, Time_for_epoch: 6.1028
+Tree 3: Epoch [14/20], lr:0.0014, Loss:0.0318, TTree 4: Epoch [17/20], lr:0.0004, Loss:0.0251, Time_for_epoch: 7.4843
+Tree 4: Epoch [18/20], lr:0.0005, Loss:0.0240, Time_for_epoch: 7.4862
+Tree 4: Epoch [19/20], lr:0.0012, Loss:0.0244, Time_for_epoch: 7.5459
+Tree 4: Epoch [20/20], lr:0.0025, Loss:0.0328, Time_for_epoch: 7.5027
+Tree 4: TestLoss: 0.0227, TestAccuracy: 0.9913, Time_for_individ: 151.2900
+Tree 5: Epoch [1/20], lr:0.0010, Loss:0.7828, Time_for_epoch: 7.5424
+Tree 5: Epoch [2/20], lr:0.0007, Loss:0.2619, Time_for_epoch: 7.4804
+Tree 5: Epoch [3/20], lr:0.0005, Loss:0.1906, Time_for_epoch: 7.5310
+Tree 5: Epoch [4/20], lr:0.0004, Loss:0.1551, Time_for_epoch: 7.4767
+Tree 5: Epoch [5/20], lr:0.0003, Loss:0.1344, Time_for_epoch: 7.4846
+Tree 5: Epoch [6/20], lr:0.0003, Loss:0.1205, Time_for_epoch: 7.5407
+Tree 5: Epoch [7/20], lr:0.0002, Loss:0.1107, Time_for_epoch: 7.4810
+Tree 5: Epoch [8/20], lr:0.0002, Loss:0.1052, Time_for_epoch: 7.5395
+Tree 5: Epoch [9/20], lr:0.0002, Loss:0.0969, Time_for_epoch: 7.4903
+Tree 5: Epoch [10/20], lr:0.0002, Loss:0.0933, Time_for_epoch: 7.5443
+Tree 5: Epoch [11/20], lr:0.0001, Loss:0.0895, Time_for_epoch: 7.4835
+Tree 5: Epoch [12/20], lr:0.0001, Loss:0.0860, Time_for_epoch: 7.4844
+Tree 5: Epoch [13/20], lr:0.0001, Loss:0.0827, Time_for_epoch: 7.5279
+Tree 5: Epoch [14/20], lr:0.0001, Loss:0.0806, Time_for_epoch: 7.4918
+Tree 5: Epoch [15/20], lr:0.0001, Loss:0.0785, Time_for_epoch: 7.5235
+Tree 5: Epoch [16/20], lr:0.0001, Loss:0.0770, Time_for_epoch: 7.4730
+Tree 5: Epoch [17/20], lr:0.0001, Loss:0.0757, Time_for_epoch: 7.5163
+Tree 5: Epoch [18/20], lr:0.0001, Loss:0.0747, Time_for_epoch: 7.4741
+Tree 5: Epoch [19/20], lr:0.0001, Loss:0.0724, Time_for_epoch: 7.4640
+Tree 5: Epoch [20/20], lr:0.0001, Loss:0.0695, Time_for_epoch: 7.5209
+Tree 5: TestLoss: 0.0485, TestAccuracy: 0.9837, Time_for_individ: 151.2159
+Tree 6: Epoch [1/20], lr:-0.0044, Loss:734506.7617, Time_for_epoch: 7.4708
+Tree 6: Epoch [2/20], lr:-0.0044, Loss:66214827.6917, Time_for_epoch: 7.5276
+Tree 6 is not valid
+Tree 7 is not valid
+Tree 8: Epoch [1/20], lr:-0.0005, Loss:359.0297, Time_for_epoch: 7.4748
+Tree 8: Epoch [2/20], lr:-0.0005, Loss:14772.4732, Time_for_epoch: 7.5288
+Tree 8 is not valid
+Tree 9: Epoch [1/20], lr:0.0005, Loss:1.0259, Time_for_epoch: 7.4797
+Tree 9: Epoch [2/20], lr:0.0000, Loss:0.3693, Time_for_epoch: 7.5228
+Tree 9: Epoch [3/20], lr:-0.0003, Loss:791.0332, Time_for_epoch: 7.4928
+Tree 9: Epoch [4/20], lr:-0.0005, Loss:43326.4422, Time_for_epoch: 7.4863
+Tree 9 is not valid
+Tree 10: Epoch [1/20], lr:0.0002, Loss:1.6937, Time_for_epoch: 7.5375
+Tree 10: Epoch [2/20], lr:-0.0001, Loss:27.0150, Time_for_epoch: 7.4934
+Tree 10: Epoch [3/20], lr:-0.0002, Loss:687.5526, Time_for_epoch: 7.5536
+Tree 10: Epoch [4/20], lr:-0.0002, Loss:7346.4340, Time_for_epoch: 7.4900
+Tree 10: Epoch [5/20], lr:-0.0003, Loss:43126.0431, Time_for_epoch: 7.4940
+Tree 10 is not valid
+Tree 11: Epoch [1/20], lr:-0.0000, Loss:2.3045, Time_for_epoch: 7.5546
+Tree 11: Epoch [2/20], lr:-0.0007, Loss:3868.7297, Time_for_epoch: 7.4949
+Tree 11: Epoch [3/20], lr:-0.0011, Loss:466779.1715, Time_for_epoch: 7.5498
+Tree 11 is not valid
+Tree 12: Epoch [1/20], lr:0.0012, Loss:0.6ch [15/20], lr:0.0000, Loss:2.3082, Time_for_epoch: 6.1006
+Tree 7: Epoch [16/20], lr:0.0000, Loss:Tree 12: Epoch [3/20], lr:0.0071, Loss:0.1192, Time_for_epoch: 7.4887
+Tree 12: Epoch [4/20], lr:-0.0013, Loss:66690.3531, Time_for_epoch: 7.5040
+Tree 12 is not valid
+Tree 13 is not valid
+Tree 14 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 921.8821 seconds
+General 1
+0.00214421	0.00314421	0.00414421	0.00514421	0.00614421	0.00714421	0.00814421	0.00914421	0.0101442	0.0111442	0.0121442	0.0131442	0.0141442	0.0151442	0.0161442	0.0171442	0.0181442	0.0191442	0.0201442	0.0211442	
+0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	0.047952	
+0	0.00458089	0.016813	0.0393081	0.0744324	0.124387	0.191251	0.277005	0.383555	0.512735	0.666328	0.846062	1.05363	1.29067	1.55879	1.85959	2.1946	2.56536	2.97335	3.42006	
+-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	
+0	0.000693147	0.00109861	0.00138629	0.00160944	0.00179176	0.00194591	0.00207944	0.00219722	0.00230259	0.0023979	0.00248491	0.00256495	0.00263906	0.00270805	0.00277259	0.00283321	0.00289037	0.00294444	0.00299573	
+0.000745624	0.000789072	0.000140652	-0.0006866	-0.000818574	-0.000275794	0.000610734	0.000835674	0.000400551	-0.000517581	-0.000841466	-0.000511194	0.000407913	0.000836359	0.000605416	-0.000283942	-0.000819992	-0.000682361	0.000149317	0.000791308	
+-0.00097033	-0.00103816	-0.000269979	0.000627944	0.000830065	0.000150557	-0.000785845	-0.00111822	-0.000540977	0.000415162	0.000871131	0.000407714	-0.000549026	-0.00111947	-0.000779147	0.000159045	0.000832539	0.000622128	-0.000278736	-0.0010418	
+0.000657904	0.000352047	-0.000155208	-0.000311981	-0.000338668	-0.000341795	-0.000342074	-0.000342094	-0.000342096	-0.000342096	-0.000342096	-0.000342096	-0.000342096	-0.000342096	-0.000342096	-0.000342096	-0.000342096	-0.000342096	-0.000342096	-0.000342096	
+-2.37469	-2.37569	-2.37669	-2.37769	-2.37869	-2.37969	-2.38069	-2.38169	-2.38269	-2.38369	-2.38469	-2.38569	-2.38669	-2.38769	-2.38869	-2.38969	-2.39069	-2.39169	-2.39269	-2.39369	
+6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	6.86257e+12	
+0.0033107	0.0063107	0.0293107	0.258311	3.12731	46.6583	823.545	16777.2	387420	1e+07	2.85312e+08	8.9161e+09	3.02875e+11	1.1112e+13	4.37894e+14	1.84467e+16	8.2724e+17	3.93464e+19	1.97842e+21	1.04858e+23	
+-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	-0.000572501	
+-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	-0.00108614	
+0.00104344	0.00339813	0.020944	0.190039	2.2779	33.9421	604.702	12536.3	296451	7.87482e+06	2.32151e+08	7.52098e+09	2.65593e+11	1.01538e+13	4.17803e+14	1.84103e+16	8.64944e+17	4.31596e+19	2.27951e+21	1.27044e+23	
+-0.000504944	-0.00205651	-0.00360807	-0.00515963	-0.0067112	-0.00826276	-0.00981432	-0.0113659	-0.0129175	-0.014469	-0.0160206	-0.0175721	-0.0191237	-0.0206753	-0.0222268	-0.0237784	-0.02533	-0.0268815	-0.0284331	-0.0299846	
+Tree 0: Epoch [1/20], lr:0.0021, Loss:0.5748, Time_for_epoch: 7.3612
+Tree 0: Epoch [2/20], lr:0.0031, Loss:0.1338, Time_for_epoch: 7.3050
+Tree 0: Epoch [3/20], lr:0.0041, Loss:0.0854, Time_for_epoch: 7.3268
+Tree 0: Epoch [4/20], lr:0.0051, Loss:0.0696, Time_for_epoch: 7.2455
+Tree 0: Epoch [5/20], lr:0.0061, Loss:0.0609, Time_for_epoch: 7.2978
+Tree 0: Epoch [6/20], lr:0.0071, Loss:0.0535, Time_for_epoch: 7.2491
+Tree 0: Epoch [7/20], lr:0.0081, Loss:0.0499, Time_for_epoch: 7.2507
+Tree 0: Epoch [8/20], lr:0.0091, Loss:0.0480, Time_for_epoch: 7.3021
+Tree 0: Epoch [9/20], lr:0.0101, Loss:0.0440, Time_for_epoch: 7.2607
+Tree 0: Epoch [10/20], lr:0.0111, Loss:0.0380, Time_for_epoch: 7.3028
+Tree 0: Epoch [11/20], lr:0.0121, Loss:0.0424, Time_for_epoch: 7.2499
+Tree 0: Epoch [12/20], lr:0.0131, Loss:0.0374, Time_for_epoch: 7.2496
+Tree 0: Epoch [13/20], lr:0.0141, Loss:0.0383, Time_for_epoch: 7.3022
+Tree 0: Epoch [14/20], lr:0.0151, Loss:0.0393, Time_for_epoch: 7.2612
+Tree 0: Epoch [15/20], lr:0.0161, Loss:0.0418, Time_for_epoch: 7.3022
+Tree 0: Epoch [16/20], lr:0.0171, Loss:0.0415, Time_for_epoch: 7.2521
+Tree 0: Epoch [17/20], lr:0.0181, Loss:0.0480, Time_for_epoch: 7.2901
+Tree 0: Epoch [18/20], lr:0.0191, Loss:0.0557, Time_for_epoch: 7.2621
+Tree 0: Epoch [19/20], lr:0.0201, Loss:0.0583, Time_for_epoch: 7.2583
+Tree 0: Epoch [20/20], lr:0.0211, Loss:0.0616, Time_for_epoch: 7.3035
+Tree 0: TestLoss: 0.0388, TestAccuracy: 0.9891, Time_for_individ: 146.7593
+Tree 1: Epoch [1/20], lr:0.0480, Loss:3.6312, Time_for_epoch: 7.2453
+Tree 1: Epoch [2/20], lr:0.0480, Loss:2.3018, Time_for_epoch: 7.3071
+Tree 1: Epoch [3/20], lr:0.0480, Loss:2.3018, Time_for_epoch: 7.2564
+Tree 1: Epoch [4/20], lr:0.0480, Loss:2.3018, Time_for_epoch: 7.2980
+Tree 1: Epoch [5/20], lr:0.0480, Loss:2.3017, Time_for_epoch: 7.2552
+Tree 1: Epoch [6/20], lr:0.0480, Loss:2.3019, Time_for_epoch: 7.2533
+Tree 1: Epoch [7/20], lr:0.0480, Loss:2.3019, Time_for_epoch: 7.3152
+Tree 1: Epoch [8/20], lr:0.0480, Loss:2.3021, Time_for_epoch: 7.2527
+Tree 1: Epoch [9/20], lr:0.0480, Loss:2.3019, Time_for_epoch: 7.3088
+Tree 1: Epoch [10/20], lr:0.0480, Loss:2.3021, Time_for_epoch: 7.2504
+Tree 1: Epoch [11/20], lr:0.0480, Loss:2.3020, Time_for_epoch: 7.3116
+Tree 1: Epoch [12/20], lr:0.0480, Loss:2.3022, Time_for_epoch: 7.2568
+Tree 1: Epoch [13/20], lr:0.0480, Loss:2.3021, Time_for_epoch: 7.2569
+Tree 1: Epoch [14/20], lr:0.0480, Loss:2.3020, Time_for_epoch: 7.3108
+Tree 1: Epoch [15/20], lr:0.0480, Loss:2.3022, Time_for_epoch: 7.2625
+Tree 1: Epoch [16/20], lr:0.0480, Loss:2.3018, Time_for_epoch: 7.3154
+Tree 1: Epoch [17/20], lr:0.0480, Loss:2.3019, Time_for_epoch: 7.2660
+Tree 1: Epoch [18/20], lr:0.0480, Loss:2.3020, Time_for_epoch: 7.2520
+Tree 1: Epoch [19/20], lr:0.0480, Loss:2.3023, Time_for_epoch: 7.3033
+Tree 1: Epoch [20/20], lr:0.0480, Loss:2.3020, Time_for_epoch: 7.2602
+Tree 1: TestLoss: 2.3012, TestAccuracy: 0.1135, Time_for_individ: 146.6479
+Tree 2: Epoch [1/20], lr:0.0000, Loss:2.3067, Time_for_epoch: 7.3054
+Tree 2: Epoch [2/20], lr:0.0046, Loss:0.4443, Time_for_epoch: 7.2634
+Tree 2: Epoch [3/20], lr:0.0168, Loss:0.1085, Time_for_epoch: 7.3096
+Tree 2: Epoch [4/20], lr:0.0393, Loss:0.1229, Time_for_epoch: 7.2591
+Tree 2: Epoch [5/20], lr:0.0744, Loss:0.2646, Time_for_epoch: 7.3041
+Tree 2: Epoch [6/20], lr:0.1244, Loss:0.8326, Time_for_epoch: 7.2610
+Tree 2: Epoch [7/20], lr:0.1913, Loss:1.2318, Time_for_epoch: 7.2640
+Tree 2: Epoch [8/20], lr:0.2770, Loss:2.2085, Time_for_epoch: 7.3110
+Tree 2: Epoch [9/20], lr:0.3836, Loss:2.3063, Time_for_epoch: 7.2655
+Tree 2: Epoch [10/20], lr:0.5127, Loss:2.3081, Time_for_epoch: 7.3043
+Tree 2: Epoch [11/20], lr:0.6663, Loss:2.3130, Time_for_epoch: 7.2613
+Tree 2: Epoch [12/20], lr:0.8461, Loss:2.3203, Time_for_epoch: 7.2598
+Tree 2: Epoch [13/20], lr:1.0536, Loss:2.3239, Time_for_epoch: 7.3137
+Tree 2: Epoch [14/20], lr:1.2907, Loss:2.3236, Time_for_epoch: 7.2742
+Tree 2: Epoch [15/20], lr:1.5588, Loss:2.3248, Time_for_epoch: 7.3071
+Tree 2: Epoch [16/20], lr:1.8596, Loss:2.3360, Time_for_epoch: 7.2603
+Tree 2: Epoch [17/20], lr:2.1946, Loss:2.3405, Time_for_epoch: 7.3129
+Tree 2: Epoch [18/20], lr:2.5654, Loss:2.3392, Time_for_epoch: 7.2722
+Tree 2: Epoch [19/20], lr:2.9733, Loss:2.3464, Time_for_epoch: 7.2642
+Tree 2: Epoch [20/20], lr:3.4201, Loss:2.3585, Time_for_epoch: 7.3073
+Tree 2: TestLoss: 2.4447, TestAccuracy: 0.0892, Time_for_individ: 146.7946
+Tree 3 is not valid
+Tree 4: Epoch [1/20], lr:0.0000, Loss:2.3047, Time_for_epoch: 7.2505
+Tree 4: Epoch [2/20], lr:0.0007, Loss:0.8454, Time_for_epoch: 7.3098
+Tree 4: Epoch [3/20], lr:0.0011, Loss:0.2061, Time_for_epoch: 7.2864
+Tree 4: Epoch [4/20], lr:0.0014, Loss:0.1212, Time_for_epoch: 7.3071
+Tree 4: Epoch [5/20], lr:0.0016, Loss:0.0915, Time_for_epoch: 7.2633
+Tree 4: Epoch [6/20], lr:0.0018, Loss:0.0725, Time_for_epoch: 7.2659
+Tree 4: Epoch [7/20], lr:0.0019, Loss:0.0619, Time_for_epoch: 7.3122
+Tree 4: Epoch [8/20], lr:0.0021, Loss:0.0550, Time_for_epoch: 7.2609
+Tree 4: Epoch [9/20], lr:0.0022, Loss:0.0491, Time_for_epoch: 7.3085
+Tree 4: Epoch [10/20], lr:0.0023, Loss:0.0432, Time_for_epoch: 7.2661
+Tree 4: Epoch [11/20], lr:0.0024, Loss:0.0426, Time_for_epoch: 7.3102
+Tree 4: Epoch [12/20], lr:0.0025, Loss:0.0358, Time_for_epoch: 7.2677
+Tree 4: Epoch [13/20], lr:0.0026, Loss:0.0338, Time_for_epoch: 7.2603
+Tree 4: Epoch [14/20], lr:0.0026, Loss:0.0307, Time_for_epoch: 7.3237
+Tree 4: Epoch [15/20], lr:0.0027, Loss:0.0300, Time_for_epoch: 7.2637
+Tree 4: Epoch [16/20], lr:0.0028, Loss:0.0276, Time_for_epoch: 7.3149
+Tree 4: Epoch [17/20], lr:0.0028, Loss:0.0265, Time_for_epoch: 7.2577
+Tree 4: Epoch [18/20], lr:0.0029, Loss:0.0241, Time_for_epoch: 7.3052
+Tree 4: Epoch [19/20], lr:0.0029, Loss:0.0249, Time_for_epoch: 7.2613
+Tree 4: Epoch [20/20], lr:0.0030, Loss:0.0227, Time_for_epoch: 7.2682
+Tree 4: TestLoss: 0.0248, TestAccuracy: 0.9920, Time_for_individ: 146.7805
+Tree 5: Epoch [1/20], lr:0.0007, Loss:0.7942, Time_for_epoch: 7.3105
+Tree 5: Epoch [2/20], lr:0.0008, Loss:0.2427, Time_for_epoch: 7.2686
+Tree 5: Epoch [3/20], lr:0.0001, Loss:0.1720, Time_for_epoch: 7.3052
+Tree 5: Epoch [4/20], lr:-0.0007, Loss:16488.5217, Time_for_epoch: 7.2700
+Tree 5 is not valid
+Tree 6: Epoch [1/20], lr:-0.0010, Loss:3159.1592, Time_for_epoch: 7.3703
+Tree 6: Epoch [2/20], lr:-0.0010, Loss:204859.0232, Time_for_epoch: 7.3343
+Tree 6 is not valid
+Tree 7: Epoch [1/20], lr:0.0007, Loss:0.9099, Time_for_epoch: 7.3092
+Tree 7: Epoch [2/20], lr:0.0004, Loss:0.2889, Time_for_epoch: 7.3116
+Tree 7: Epoch [3/20], lr:-0.0002, Loss:130.3202, Time_for_epoch: 7.2724
+Tree 7: Epoch [4/20], lr:-0.0003, Loss:5973.6648, Time_for_epoch: 7.3108
+Tree 7: Epoch [5/20], lr:-0.0003, Loss:63634.4982, Time_for_epoch: 7.2627
+Tree 7 is not valid
+Tree 8: Epoch [1/20], lr:-2.3747, Loss:44383977397171968.0000, Time_for_epoch: 7.3034
+Tree 8: Epoch [2/20], lr:-2.3757, Loss:4559305221487285760.0000, Time_for_epoch: 7.2648
+Tree 8 is not valid
+Tree 9: Epoch [1/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2586
+Tree 9: Epoch [2/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.3058
+Tree 9: Epoch [3/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2501
+Tree 9: Epoch [4/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.3065
+Tree 9: Epoch [5/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2677
+Tree 9: Epoch [6/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2953
+Tree 9: Epoch [7/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2540
+Tree 9: Epoch [8/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2521
+Tree 9: Epoch [9/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.3086
+Tree 9: Epoch [10/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2615
+Tree 9: Epoch [11/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.3025
+Tree 9: Epoch [12/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2526
+Tree 9: Epoch [13/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2547
+Tree 9: Epoch [14/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.3101
+Tree 9: Epoch [15/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2519
+Tree 9: Epoch [16/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.3078
+Tree 9: Epoch [17/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2538
+Tree 9: Epoch [18/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.3016
+Tree 9: Epoch [19/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2626
+Tree 9: Epoch [20/20], lr:6862570000000.0000, Loss:nan, Time_for_epoch: 7.2534
+Tree 9: TestLoss: nan, TestAccuracy: 0.0980, Time_for_individ: 146.6629
+Tree 10: Epoch [1/20], lr:0.0033, Loss:0.5403, Time_for_epoch: 7.2661
+Tree 10: Epoch [2/20], lr:0.0063, Loss:0.1154, Time_for_epoch: 7.2558
+Tree 10: Epoch [3/20], lr:0.0293, Loss:0.4454, Time_for_epoch: 7.3189
+Tree 10: Epoch [4/20], lr:0.2583, Loss:8.9347, Time_for_epoch: 7.2520
+Tree 10: Epoch [5/20], lr:3.1273, Loss:2.3295, Time_for_epoch: 7.3002
+Tree 10: Epoch [6/20], lr:46.6583, Loss:77.5230, Time_for_epoch: 7.2620
+Tree 10: Epoch [7/20], lr:823.5450, Loss:805.7983, Time_for_epoch: 7.2599
+Tree 10: Epoch [8/20], lr:16777.2000, Loss:15352.7172, Time_for_epoch: 7.3172
+Tree 10 is not valid
+Tree 11: Epoch [1/20], lr:-0.0006, Loss:509.2855, Time_for_epoch: 7.2606
+Tree 11: Epoch [2/20], lr:-0.0006, Loss:25456.5132, Time_for_epoch: 7.2993
+Tree 11 is not valid
+Tree 12: Epoch [1/20], lr:-0.0011, Loss:4039.8748, Time_for_epoch: 7.2339
+Tree 12: Epoch [2/20], lr:-0.0011, Loss:266060.4166, Time_for_epoch: 7.2898
+Tree 12 is not valid
+Tree 13: Epoch [1/20], lr:0.0010, Loss:0.7326, Time_for_epoch: 7.2507
+Tree 13: Epoch [2/20], lr:0.0034, Loss:0.1798, Time_for_epoch: 7.2942
+Tree 13: Epoch [3/20], lr:0.0209, Loss:0.3514, Time_for_epoch: 7.2490
+Tree 13: Epoch [4/20], lr:0.1900, Loss:2.9588, Time_for_epoch: 7.2494
+Tree 13: Epoch [5/20], lr:2.2779, Loss:2.3254, Time_for_epoch: 7.3149
+Tree 13: Epoch [6/20], lr:33.9421, Loss:79.5209, Time_for_epoch: 7.2507
+Tree 13: Epoch [7/20], lr:604.7020, Loss:633.5454, Time_for_epoch: 7.2926
+Tree 13: Epoch [8/20], lr:12536.3000, Loss:8995.3496, Time_for_epoch: 7.2478
+Tree 13: Epoch [9/20], lr:296451.0000, Loss:157368.6599, Time_for_epoch: 7.2547
+Tree 13 is not valid
+Tree 14: Epoch [1/20], lr:-0.0005, Loss:356.1551, Time_for_epoch: 7.3060
+Tree 14: Epoch [2/20], lr:-0.0021, Loss:664310.7796, Time_for_epoch: 7.2528
+Tree 14 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 1782.2929 seconds
+General 2
+0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	
+-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	-0.000440728	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+0.00296363	0.0152688	0.0609927	0.219374	0.743293	2.42204	7.67815	23.8496	72.93	220.267	658.618	1953.06	5751.38	16836.5	49035.3	142178	410634	1.18188e+06	3.39116e+06	9.7033e+06	
+0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	0.00266706	
+0.000841471	0.000479426	0.000327195	0.000247404	0.000198669	0.000165896	0.000142372	0.000124675	0.000110883	9.98334e-05	9.07839e-05	8.32369e-05	7.68472e-05	7.13678e-05	6.66173e-05	6.24593e-05	5.87896e-05	5.5527e-05	5.26073e-05	4.99792e-05	
+0.000330172	0.000972675	0.000720905	-0.000193662	-0.000930176	-0.000811491	5.32751e-05	0.000869061	0.000885836	8.81776e-05	-0.000790551	-0.00094245	-0.000227865	0.000696218	0.000980202	0.000362993	-0.00058795	-0.000998334	-0.000490854	0.000467915	
+0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	0.000172408	
+-0.000416147	-0.000653644	0.00096017	-0.0001455	-0.000839072	0.000843854	0.000136737	-0.000957659	0.000660317	0.000408082	-0.000999961	0.000424179	0.000646919	-0.000962606	0.000154251	0.000834223	-0.00084857	-0.000127964	0.000955074	-0.000666938	
+-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	-0.000889251	
+-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	
+0.000841471	0.000666414	0.000569955	0.000507265	0.000462328	0.000428054	0.000400774	0.000378376	0.000359547	0.000343422	0.000329405	0.000317068	0.000306098	0.000296257	0.000287362	0.000279269	0.000271863	0.000265051	0.000258756	0.000252916	
+0.00232274	0.000854487	0.000314348	0.000115642	4.25424e-05	1.56505e-05	5.75749e-06	2.11806e-06	7.79191e-07	2.86648e-07	1.05452e-07	3.87937e-08	1.42714e-08	5.25015e-09	1.93142e-09	7.10531e-10	2.6139e-10	9.61599e-11	3.53752e-11	1.30138e-11	
+Tree 0: Epoch [1/20], lr:0.0008, Loss:0.8280, Time_for_epoch: 7.3016
+Tree 0: Epoch [2/20], lr:0.0008, Loss:0.2558, Time_for_epoch: 7.2770
+Tree 0: Epoch [3/20], lr:0.0008, Loss:0.1674, Time_for_epoch: 7.2558
+Tree 0: Epoch [4/20], lr:0.0008, Loss:0.1252, Time_for_epoch: 7.2985
+Tree 0: Epoch [5/20], lr:0.0008, Loss:0.1043, Time_for_epoch: 7.2494
+Tree 0: Epoch [6/20], lr:0.0008, Loss:0.0895, Time_for_epoch: 7.2951
+Tree 0: Epoch [7/20], lr:0.0008, Loss:0.0807, Time_for_epoch: 7.2564
+Tree 0: Epoch [8/20], lr:0.0008, Loss:0.0717, Time_for_epoch: 7.2942
+Tree 0: Epoch [9/20], lr:0.0008, Loss:0.0665, Time_for_epoch: 7.2564
+Tree 0: Epoch [10/20], lr:0.0008, Loss:0.0599, Time_for_epoch: 7.2459
+Tree 0: Epoch [11/20], lr:0.0008, Loss:0.0566, Time_for_epoch: 7.3070
+Tree 0: Epoch [12/20], lr:0.0008, Loss:0.0540, Time_for_epoch: 7.2515
+Tree 0: Epoch [13/20], lr:0.0008, Loss:0.0489, Time_for_epoch: 7.3001
+Tree 0: Epoch [14/20], lr:0.0008, Loss:0.0460, Time_for_epoch: 7.2633
+Tree 0: Epoch [15/20], lr:0.0008, Loss:0.0454, Time_for_epoch: 7.2966
+Tree 0: Epoch [16/20], lr:0.0008, Loss:0.0405, Time_for_epoch: 7.2528
+Tree 0: Epoch [17/20], lr:0.0008, Loss:0.0383, Time_for_epoch: 7.2479
+Tree 0: Epoch [18/20], lr:0.0008, Loss:0.0360, Time_for_epoch: 7.3078
+Tree 0: Epoch [19/20], lr:0.0008, Loss:0.0350, Time_for_epoch: 7.2569
+Tree 0: Epoch [20/20], lr:0.0008, Loss:0.0328, Time_for_epoch: 7.2983
+Tree 0: TestLoss: 0.0255, TestAccuracy: 0.9912, Time_for_individ: 146.6379
+Tree 1: Epoch [1/20], lr:-0.0004, Loss:184.8009, Time_for_epoch: 7.2524
+Tree 1: Epoch [2/20], lr:-0.0004, Loss:8592.0008, Time_for_epoch: 7.2997
+Tree 1: Epoch [3/20], lr:-0.0004, Loss:92377.0564, Time_for_epoch: 7.2509
+Tree 1 is not valid
+Tree 2: Epoch [1/20], lr:0.0008, Loss:0.8154, Time_for_epoch: 7.2559
+Tree 2: Epoch [2/20], lr:0.0009, Loss:0.2396, Time_for_epoch: 7.2994
+Tree 2: Epoch [3/20], lr:0.0001, Loss:0.1665, Time_for_epoch: 7.2496
+Tree 2: Epoch [4/20], lr:-0.0008, Loss:17923.8912, Time_for_epoch: 7.3120
+Tree 2 is not valid
+Tree 3: Epoch [1/20], lr:0.0030, Loss:0.5437, Time_for_epoch: 7.2450
+Tree 3: Epoch [2/20], lr:0.0153, Loss:0.1372, Time_for_epoch: 7.2934
+Tree 3: Epoch [3/20], lr:0.0610, Loss:0.3201, Time_for_epoch: 7.2505
+Tree 3: Epoch [4/20], lr:0.2194, Loss:8.5909, Time_for_epoch: 7.2554
+Tree 3: Epoch [5/20], lr:0.7433, Loss:2.3096, Time_for_epoch: 7.3067
+Tree 3: Epoch [6/20], lr:2.4220, Loss:2.3294, Time_for_epoch: 7.2531
+Tree 3: Epoch [7/20], lr:7.6781, Loss:11.1669, Time_for_epoch: 7.3035
+Tree 3: Epoch [8/20], lr:23.8496, Loss:17.9806, Time_for_epoch: 7.2548
+Tree 3: Epoch [9/20], lr:72.9300, Loss:63.7620, Time_for_epoch: 7.3069
+Tree 3: Epoch [10/20], lr:220.2670, Loss:158.4010, Time_for_epoch: 7.2535
+Tree 3: Epoch [11/20], lr:658.6180, Loss:540.4314, Time_for_epoch: 7.2608
+Tree 3: Epoch [12/20], lr:1953.0600, Loss:1522.3299, Time_for_epoch: 7.3024
+Tree 3: Epoch [13/20], lr:5751.3800, Loss:4398.3264, Time_for_epoch: 7.2593
+Tree 3: Epoch [14/20], lr:16836.5000, Loss:10205.5545, Time_for_epoch: 7.2960
+Tree 3 is not valid
+Tree 4: Epoch [1/20], lr:0.0010, Loss:0.7696, Time_for_epoch: 7.2573
+Tree 4: Epoch [2/20], lr:0.0010, Loss:0.2197, Time_for_epoch: 7.2950
+Tree 4: Epoch [3/20], lr:0.0010, Loss:0.1388, Time_for_epoch: 7.2494
+Tree 4: Epoch [4/20], lr:0.0010, Loss:0.1069, Time_for_epoch: 7.2520
+Tree 4: Epoch [5/20], lr:0.0010, Loss:0.0891, Time_for_epoch: 7.3053
+Tree 4: Epoch [6/20], lr:0.0010, Loss:0.0762, Time_for_epoch: 7.2453
+Tree 4: Epoch [7/20], lr:0.0010, Loss:0.0667, Time_for_epoch: 7.3029
+Tree 4: Epoch [8/20], lr:0.0010, Loss:0.0605, Time_for_epoch: 7.2586
+Tree 4: Epoch [9/20], lr:0.0010, Loss:0.0557, Time_for_epoch: 7.2983
+Tree 4: Epoch [10/20], lr:0.0010, Loss:0.0504, Time_for_epoch: 7.2570
+Tree 4: Epoch [11/20], lr:0.0010, Loss:0.0478, Time_for_epoch: 7.2526
+Tree 4: Epoch [12/20], lr:0.0010, Loss:0.0445, Time_for_epoch: 7.3021
+Tree 4: Epoch [13/20], lr:0.0010, Loss:0.0403, Time_for_epoch: 7.2589
+Tree 4: Epoch [14/20], lr:0.0010, Loss:0.0390, Time_for_epoch: 7.2972
+Tree 4: Epoch [15/20], lr:0.0010, Loss:0.0350, Time_for_epoch: 7.2535
+Tree 4: Epoch [16/20], lr:0.0010, Loss:0.0349, Time_for_epoch: 7.2558
+Tree 4: Epoch [17/20], lr:0.0010, Loss:0.0334, Time_for_epoch: 7.3061
+Tree 4: Epoch [18/20], lr:0.0010, Loss:0.0298, Time_for_epoch: 7.2539
+Tree 4: Epoch [19/20], lr:0.0010, Loss:0.0289, Time_for_epoch: 7.2953
+Tree 4: Epoch [20/20], lr:0.0010, Loss:0.0267, Time_for_epoch: 7.2504
+Tree 4: TestLoss: 0.0263, TestAccuracy: 0.9910, Time_for_individ: 146.5555
+Tree 5: Epoch [1/20], lr:0.0008, Loss:0.8229, Time_for_epoch: 7.3126
+Tree 5: Epoch [2/20], lr:0.0009, Loss:0.2585, Time_for_epoch: 7.2711
+Tree 5: Epoch [3/20], lr:0.0001, Loss:0.1821, Time_for_epoch: 7.2609
+Tree 5: Epoch [4/20], lr:-0.0008, Loss:16590.5378, Time_for_epoch: 7.3096
+Tree 5 is not valid
+Tree 6: Epoch [1/20], lr:0.0027, Loss:0.5177, Time_for_epoch: 7.2607
+Tree 6: Epoch [2/20], lr:0.0027, Loss:0.1249, Time_for_epoch: 7.3129
+Tree 6: Epoch [3/20], lr:0.0027, Loss:0.0853, Time_for_epoch: 7.2564
+Tree 6: Epoch [4/20], lr:0.0027, Loss:0.0672, Time_for_epoch: 7.3124
+Tree 6: Epoch [5/20], lr:0.0027, Loss:0.0560, Time_for_epoch: 7.2552
+Tree 6: Epoch [6/20], lr:0.0027, Loss:0.0496, Time_for_epoch: 7.2743
+Tree 6: Epoch [7/20], lr:0.0027, Loss:0.0434, Time_for_epoch: 7.3824
+Tree 6: Epoch [8/20], lr:0.0027, Loss:0.0377, Time_for_epoch: 7.3165
+Tree 6: Epoch [9/20], lr:0.0027, Loss:0.0359, Time_for_epoch: 7.3029
+Tree 6: Epoch [10/20], lr:0.0027, Loss:0.0320, Time_for_epoch: 7.2515
+Tree 6: Epoch [11/20], lr:0.0027, Loss:0.0294, Time_for_epoch: 7.3075
+Tree 6: Epoch [12/20], lr:0.0027, Loss:0.0288, Time_for_epoch: 7.2550
+Tree 6: Epoch [13/20], lr:0.0027, Loss:0.0252, Time_for_epoch: 7.2581
+Tree 6: Epoch [14/20], lr:0.0027, Loss:0.0234, Time_for_epoch: 7.3033
+Tree 6: Epoch [15/20], lr:0.0027, Loss:0.0217, Time_for_epoch: 7.2619
+Tree 6: Epoch [16/20], lr:0.0027, Loss:0.0195, Time_for_epoch: 7.3065
+Tree 6: Epoch [17/20], lr:0.0027, Loss:0.0183, Time_for_epoch: 7.2613
+Tree 6: Epoch [18/20], lr:0.0027, Loss:0.0189, Time_for_epoch: 7.2489
+Tree 6: Epoch [19/20], lr:0.0027, Loss:0.0164, Time_for_epoch: 7.3014
+Tree 6: Epoch [20/20], lr:0.0027, Loss:0.0159, Time_for_epoch: 7.2620
+Tree 6: TestLoss: 0.0222, TestAccuracy: 0.9928, Time_for_individ: 146.8026
+Tree 7: Epoch [1/20], lr:0.0008, Loss:0.8111, Time_for_epoch: 7.3076
+Tree 7: Epoch [2/20], lr:0.0005, Loss:0.2715, Time_for_epoch: 7.2601
+Tree 7: Epoch [3/20], lr:0.0003, Loss:0.2114, Time_for_epoch: 7.3058
+Tree 7: Epoch [4/20], lr:0.0002, Loss:0.1769, Time_for_epoch: 7.2570
+Tree 7: Epoch [5/20], lr:0.0002, Loss:0.1557, Time_for_epoch: 7.3096
+Tree 7: Epoch [6/20], lr:0.0002, Loss:0.1411, Time_for_epoch: 7.2575
+Tree 7: Epoch [7/20], lr:0.0001, Loss:0.1313, Time_for_epoch: 7.2566
+Tree 7: Epoch [8/20], lr:0.0001, Loss:0.1232, Time_for_epoch: 7.3181
+Tree 7: Epoch [9/20], lr:0.0001, Loss:0.1155, Time_for_epoch: 7.2960
+Tree 7: Epoch [10/20], lr:0.0001, Loss:0.1116, Time_for_epoch: 7.3199
+Tree 7: Epoch [11/20], lr:0.0001, Loss:0.1079, Time_for_epoch: 7.3179
+Tree 7: Epoch [12/20], lr:0.0001, Loss:0.1037, Time_for_epoch: 7.3099
+Tree 7: Epoch [13/20], lr:0.0001, Loss:0.0996, Time_for_epoch: 7.3717
+Tree 7: Epoch [14/20], lr:0.0001, Loss:0.0970, Time_for_epoch: 7.3272
+Tree 7: Epoch [15/20], lr:0.0001, Loss:0.0961, Time_for_epoch: 7.3554
+Tree 7: Epoch [16/20], lr:0.0001, Loss:0.0937, Time_for_epoch: 7.3160
+Tree 7: Epoch [17/20], lr:0.0001, Loss:0.0909, Time_for_epoch: 7.3533
+Tree 7: Epoch [18/20], lr:0.0001, Loss:0.0894, Time_for_epoch: 7.3194
+Tree 7: Epoch [19/20], lr:0.0001, Loss:0.0872, Time_for_epoch: 7.3153
+Tree 7: Epoch [20/20], lr:0.0000, Loss:0.0866, Time_for_epoch: 7.3599
+Tree 7: TestLoss: 0.0621, TestAccuracy: 0.9805, Time_for_individ: 147.3531
+Tree 8: Epoch [1/20], lr:0.0003, Loss:1.1484, Time_for_epoch: 7.3245
+Tree 8: Epoch [2/20], lr:0.0010, Loss:0.3196, Time_for_epoch: 7.3749
+Tree 8: Epoch [3/20], lr:0.0007, Loss:0.1865, Time_for_epoch: 7.3241
+Tree 8: Epoch [4/20], lr:-0.0002, Loss:249.3161, Time_for_epoch: 7.3691
+Tree 8: Epoch [5/20], lr:-0.0009, Loss:224988.6778, Time_for_epoch: 7.3215
+Tree 8 is not valid
+Tree 9: Epoch [1/20], lr:0.0002, Loss:1.6983, Time_for_epoch: 7.3650
+Tree 9: Epoch [2/20], lr:0.0002, Loss:0.5949, Time_for_epoch: 7.3258
+Tree 9: Epoch [3/20], lr:0.0002, Loss:0.3896, Time_for_epoch: 7.3050
+Tree 9: Epoch [4/20], lr:0.0002, Loss:0.3116, Time_for_epoch: 7.3117
+Tree 9: Epoch [5/20], lr:0.0002, Loss:0.2653, Time_for_epoch: 7.2726
+Tree 9: Epoch [6/20], lr:0.0002, Loss:0.2331, Time_for_epoch: 7.3203
+Tree 9: Epoch [7/20], lr:0.0002, Loss:0.2049, Time_for_epoch: 7.2445
+Tree 9: Epoch [8/20], lr:0.0002, Loss:0.1829, Time_for_epoch: 7.2439
+Tree 9: Epoch [9/20], lr:0.0002, Loss:0.1671, Time_for_epoch: 7.2928
+Tree 9: Epoch [10/20], lr:0.0002, Loss:0.1518, Time_for_epoch: 7.2398
+Tree 9: Epoch [11/20], lr:0.0002, Loss:0.1402, Time_for_epoch: 7.2976
+Tree 9: Epoch [12/20], lr:0.0002, Loss:0.1319, Time_for_epoch: 7.2400
+Tree 9: Epoch [13/20], lr:0.0002, Loss:0.1220, Time_for_epoch: 7.2880
+Tree 9: Epoch [14/20], lr:0.0002, Loss:0.1151, Time_for_epoch: 7.2432
+Tree 9: Epoch [15/20], lr:0.0002, Loss:0.1078, Time_for_epoch: 7.2558
+Tree 9: Epoch [16/20], lr:0.0002, Loss:0.1032, Time_for_epoch: 7.2894
+Tree 9: Epoch [17/20], lr:0.0002, Loss:0.0994, Time_for_epoch: 7.2403
+Tree 9: Epoch [18/20], lr:0.0002, Loss:0.0937, Time_for_epoch: 7.2839
+Tree 9: Epoch [19/20], lr:0.0002, Loss:0.0883, Time_for_epoch: 7.2411
+Tree 9: Epoch [20/20], lr:0.0002, Loss:0.0861, Time_for_epoch: 7.2948
+Tree 9: TestLoss: 0.0563, TestAccuracy: 0.9815, Time_for_individ: 146.7039
+Tree 10: Epoch [1/20], lr:-0.0004, Loss:156.4384, Time_for_epoch: 7.2294
+Tree 10: Epoch [2/20], lr:-0.0007, Loss:19843.5849, Time_for_epoch: 7.2305
+Tree 10 is not valid
+Tree 11: Epoch [1/20], lr:-0.0009, Loss:2501.0051, Time_for_epoch: 7.2959
+Tree 11: Epoch [2/20], lr:-0.0009, Loss:136164.1858, Time_for_epoch: 7.2579
+Tree 11 is not valid
+Tree 12: Epoch [1/20], lr:-0.7084, Loss:407285032817151.6250, Time_for_epoch: 7.2961
+Tree 12: Epoch [2/20], lr:-0.7084, Loss:41070650282790096.0000, Time_for_epoch: 7.2475
+Tree 12 is not valid
+Tree 13: Epoch [1/20], lr:0.0008, Loss:0.8070, Time_for_epoch: 7.2960
+Tree 13: Epoch [2/20], lr:0.0007, Loss:0.2515, Time_for_epoch: 7.2460
+Tree 13: Epoch [3/20], lr:0.0006, Loss:0.1742, Time_for_epoch: 7.2545
+Tree 13: Epoch [4/20], lr:0.0005, Loss:0.1368, Time_for_epoch: 7.2998
+Tree 13: Epoch [5/20], lr:0.0005, Loss:0.1157, Time_for_epoch: 7.2499
+Tree 13: Epoch [6/20], lr:0.0004, Loss:0.1034, Time_for_epoch: 7.2937
+Tree 13: Epoch [7/20], lr:0.0004, Loss:0.0920, Time_for_epoch: 7.2527
+Tree 13: Epoch [8/20], lr:0.0004, Loss:0.0841, Time_for_epoch: 7.2910
+Tree 13: Epoch [9/20], lr:0.0004, Loss:0.0793, Time_for_epoch: 7.2440
+Tree 13: Epoch [10/20], lr:0.0003, Loss:0.0741, Time_for_epoch: 7.2508
+Tree 13: Epoch [11/20], lr:0.0003, Loss:0.0696, Time_for_epoch: 7.3022
+Tree 13: Epoch [12/20], lr:0.0003, Loss:0.0670, Time_for_epoch: 7.2545
+Tree 13: Epoch [13/20], lr:0.0003, Loss:0.0631, Time_for_epoch: 7.2905
+Tree 13: Epoch [14/20], lr:0.0003, Loss:0.0602, Time_for_epoch: 7.2463
+Tree 13: Epoch [15/20], lr:0.0003, Loss:0.0580, Time_for_epoch: 7.2545
+Tree 13: Epoch [16/20], lr:0.0003, Loss:0.0560, Time_for_epoch: 7.2954
+Tree 13: Epoch [17/20], lr:0.0003, Loss:0.0530, Time_for_epoch: 7.2454
+Tree 13: Epoch [18/20], lr:0.0003, Loss:0.0517, Time_for_epoch: 7.2987
+Tree 13: Epoch [19/20], lr:0.0003, Loss:0.0501, Time_for_epoch: 7.2504
+Tree 13: Epoch [20/20], lr:0.0003, Loss:0.0476, Time_for_epoch: 7.3025
+Tree 13: TestLoss: 0.0337, TestAccuracy: 0.9881, Time_for_individ: 146.5290
+Tree 14: Epoch [1/20], lr:0.0023, Loss:0.5287, Time_for_epoch: 7.2431
+Tree 14: Epoch [2/20], lr:0.0009, Loss:0.1388, Time_for_epoch: 7.2849
+Tree 14: Epoch [3/20], lr:0.0003, Loss:0.1108, Time_for_epoch: 7.2359
+Tree 14: Epoch [4/20], lr:0.0001, Loss:0.1015, Time_for_epoch: 7.2349
+Tree 14: Epoch [5/20], lr:0.0000, Loss:0.1001, Time_for_epoch: 7.2908
+Tree 14: Epoch [6/20], lr:0.0000, Loss:0.0985, Time_for_epoch: 7.2374
+Tree 14: Epoch [7/20], lr:0.0000, Loss:0.0973, Time_for_epoch: 7.2856
+Tree 14: Epoch [8/20], lr:0.0000, Loss:0.0977, Time_for_epoch: 7.2341
+Tree 14: Epoch [9/20], lr:0.0000, Loss:0.0977, Time_for_epoch: 7.2389
+Tree 14: Epoch [10/20], lr:0.0000, Loss:0.0981, Time_for_epoch: 7.2970
+Tree 14: Epoch [11/20], lr:0.0000, Loss:0.0970, Time_for_epoch: 7.2390
+Tree 14: Epoch [12/20], lr:0.0000, Loss:0.0968, Time_for_epoch: 7.2802
+Tree 14: Epoch [13/20], lr:0.0000, Loss:0.0982, Time_for_epoch: 7.2266
+Tree 14: Epoch [14/20], lr:0.0000, Loss:0.0982, Time_for_epoch: 7.2726
+Tree 14: Epoch [15/20], lr:0.0000, Loss:0.0981, Time_for_epoch: 7.2316
+Tree 14: Epoch [16/20], lr:0.0000, Loss:0.0971, Time_for_epoch: 7.2352
+Tree 14: Epoch [17/20], lr:0.0000, Loss:0.0981, Time_for_epoch: 7.2828
+Tree 14: Epoch [18/20], lr:0.0000, Loss:0.0967, Time_for_epoch: 7.2334
+Tree 14: Epoch [19/20], lr:0.0000, Loss:0.0973, Time_for_epoch: 7.2927
+Tree 14: Epoch [20/20], lr:0.0000, Loss:0.0972, Time_for_epoch: 7.2371
+Tree 14: TestLoss: 0.0693, TestAccuracy: 0.9769, Time_for_individ: 146.2177
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 2128.2759 seconds
+General 3
+-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	-0.000689433	
+-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	-5.24952e-05	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+-50000	0.0018819	0.000783984	0.000324012	0.000128425	4.88853e-05	1.79593e-05	6.39736e-06	2.21819e-06	7.51022e-07	2.48936e-07	8.09525e-08	2.58735e-08	8.1399e-09	2.52394e-09	7.72177e-10	2.3332e-10	6.96868e-11	2.05891e-11	6.02142e-12	
+0.001	0.004	0.027	0.256	3.125	46.656	823.543	16777.2	387420	1e+07	2.85312e+08	8.9161e+09	3.02875e+11	1.1112e+13	4.37894e+14	1.84467e+16	8.2724e+17	3.93464e+19	1.97842e+21	1.04858e+23	
+0	-0.000693147	-0.00109861	-0.00138629	-0.00160944	-0.00179176	-0.00194591	-0.00207944	-0.00219722	-0.00230259	-0.0023979	-0.00248491	-0.00256495	-0.00263906	-0.00270805	-0.00277259	-0.00283321	-0.00289037	-0.00294444	-0.00299573	
+-50000	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	
+-0.001	-0.002	-0.003	-0.004	-0.005	-0.006	-0.007	-0.008	-0.009	-0.01	-0.011	-0.012	-0.013	-0.014	-0.015	-0.016	-0.017	-0.018	-0.019	-0.02	
+0.001	0.000891764	-50000	0.000632411	-50000	0.000411332	-50000	0.000252928	-50000	0.000149165	-50000	8.50911e-05	-50000	4.72153e-05	-50000	2.55855e-05	-50000	1.35803e-05	-50000	7.07671e-06	
+0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	0.000414126	
+0.001	0.000775655	0.00110885	0.00157273	0.00215095	0.00284326	0.00365264	0.00458302	0.00563865	0.0068239	0.00814316	0.00960083	0.0112012	0.0129487	0.0148476	0.016902	0.0191163	0.0214945	0.0240408	0.0267593	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+0.00031831	0.00031831	0.00031831	0.00031831	0.00031831	0.000318-0.000920689	0.000851733	-0.000780438	0.000725449	-0.000661552	0.000617889	-0.000560776	0.000526276	-0.000475352	0.000448247	-0.00040294	0.000381786	-0.00034156	0.00032518	-0.000289529	0.000276967	-0.000245424	0.000235902	-0.000208038	0.000200925	
+0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	0.0005	
+-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	-0.00187875	
+-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	-0.000836261	
+0	0.000693147	0.00109861	0.00138629	0.00160944	0.00179176	0.00194591	0.00207944	0.00219722	0.00230259	0.0023979	0.00248491	0.00256495	0.00263906	0.00270805	0.00277259	0.00283321	0.00289037	0.00294444	0.00299573	
+0	0.000693147	0.00109861	0.00138629	0.00160944	0.00179176	0.00194Tree 1: Epoch [7/20], lr:-0.0001, Loss:2316.4845, Time_for_epoch: 7.2899
+Tree 1: Epoch [8/20], lr:-0.0001, Loss:3996.4985, Time_for_epoch: 7.2394
+Tree 1: Epoch [9/20], lr:-0.0001, Loss:6459.8138, Time_for_epoch: 7.2845
+Tree 1: Epoch [10/20], lr:-0.0001, Loss:9928.5445, Time_for_epoch: 7.2399
+Tree 1: Epoch [11/20], lr:-0.0001, Loss:14646.7158, Time_for_epoch: 7.2402
+Tree 1 is not valid
+Tree 2: Epoch [1/20], lr:0.0008, Loss:0.8121, Time_for_epoch: 7.2902
+Tree 2: Epoch [2/20], lr:0.0009, Loss:0.2613, Time_for_epoch: 7.2385
+Tree 2: Epoch [3/20], lr:0.0001, Loss:0.1875, Time_for_epoch: 7.2904
+Tree 2: Epoch [4/20], lr:-0.0008, Loss:15362.2944, Time_for_epoch: 7.2494
+Tree 2 is not valid
+Tree 3 is not valid
+Tree 4: Epoch [1/20], lr:0.0010, Loss:0.7364, Time_for_epoch: 7.2765
+Tree 4: Epoch [2/20], lr:0.0040, Loss:0.1752, Time_for_epoch: 7.2365
+Tree 4: Epoch [3/20], lr:0.0270, Loss:0.3219, Time_for_epoch: 7.2409
+Tree 4: Epoch [4/20], lr:0.2560, Loss:19.5943, Time_for_epoch: 7.2934
+Tree 4: Epoch [5/20], lr:3.1250, Loss:42.8755, Time_for_epoch: 7.2432
+Tree 4: Epoch [6/20], lr:46.6560, Loss:73.4113, Time_for_epoch: 7.2823
+Tree 4: Epoch [7/20], lr:823.5430, Loss:811.5792, Time_for_epoch: 7.2442
+Tree 4: Epoch [8/20], lr:16777.2000, Loss:14562.7841, Time_for_epoch: 7.2877
+Tree 4 is not valid
+Tree 5: Epoch [1/20], lr:0.0000, Loss:2.3035, Time_for_epoch: 7.2273
+Tree 5: Epoch [2/20], lr:-0.0007, Loss:3338.4261, Time_for_epoch: 7.2177
+Tree 5: Epoch [3/20], lr:-0.0011, Loss:435918.1479, Time_for_epoch: 7.2929
+Tree 5 is not valid
+Tree 6 is not valid
+Tree 7: Epoch [1/20], lr:-0.0010, Loss:2568.9510, Time_for_epoch: 7.2198
+Tree 7: Epoch [2/20], lr:-0.0020, Loss:1030319.4123, Time_for_epoch: 7.2864
+Tree 7 is not valid
+Tree 8 is not valid
+Tree 9: Epoch [1/20], lr:0.0004, Loss:1.1558, Time_for_epoch: 7.2419
+Tree 9: Epoch [2/20], lr:0.0004, Loss:0.3399, Time_for_epoch: 7.2845
+Tree 9: Epoch [3/20], lr:0.0004, Loss:0.2412, Time_for_epoch: 7.2404
+Tree 9: Epoch [4/20], lr:0.0004, Loss:0.1839, Time_for_epoch: 7.2497
+Tree 9: Epoch [5/20], lr:0.0004, Loss:0.1489, Time_for_epoch: 7.2985
+Tree 9: Epoch [6/20], lr:0.0004, Loss:0.1273, Time_for_epoch: 7.2477
+Tree 9: Epoch [7/20], lr:0.0004, Loss:0.1115, Time_for_epoch: 7.2844
+Tree 9: Epoch [8/20], lr:0.0004, Loss:0.1001, Time_for_epoch: 7.2423
+Tree 9: Epoch [9/20], lr:0.0004, Loss:0.0927, Time_for_epoch: 7.2895
+Tree 9: Epoch [10/20], lr:0.0004, Loss:0.0861, Time_for_epoch: 7.2545
+Tree 9: Epoch [11/20], lr:0.0004, Loss:0.0793, Time_for_epoch: 7.2546
+Tree 9: Epoch [12/20], lr:0.0004, Loss:0.0739, Time_for_epoch: 7.2960
+Tree 9: Epoch [13/20], lr:0.0004, Loss:0.0697, Time_for_epoch: 7.2406
+Tree 9: Epoch [14/20], lr:0.0004, Loss:0.0660, Time_for_epoch: 7.3029
+Tree 9: Epoch [15/20], lr:0.0004, Loss:0.0632, Time_for_epoch: 7.2411
+Tree 9: Epoch [16/20], lr:0.0004, Loss:0.0608, Time_for_epoch: 7.2905
+Tree 9: Epoch [17/20], lr:0.0004, Loss:0.0566, Time_for_epoch: 7.2428
+Tree 9: Epoch [18/20], lr:0.0004, Loss:0.0554, Time_for_epoch: 7.2445
+Tree 9: Epoch [19/20], lr:0.0004, Loss:0.0517, Time_for_epoch: 7.2979
+Tree 9: Epoch [20/20], lr:0.0004, Loss:0.0504, Time_for_epoch: 7.2491
+Tree 9: TestLoss: 0.0363, TestAccuracy: 0.9865, Time_for_individ: 146.4022
+Tree 10: Epoch [1/20], lr:0.0010, Loss:0.8242, Time_for_epoch: 7.2757
+Tree 10: Epoch [2/20], lr:0.0008, Loss:0.2371, Time_for_epoch: 7.2319
+Tree 10: Epoch [3/20], lr:0.0011, Loss:0.1579, Time_for_epoch: 7.2913
+Tree 10: Epoch [4/20], lr:0.0016, Loss:0.1211, Time_for_epoch: 7.2334
+Tree 10: Epoch [5/20], lr:0.0022, Loss:0.0930, Time_for_epoch: 7.2321
+Tree 10: Epoch [6/20], lr:0.0028, Loss:0.0789, Time_for_epoch: 7.2828
+Tree 10: Epoch [7/20], lr:0.0037, Loss:0.0671, Time_for_epoch: 7.2432
+Tree 10: Epoch [8/20], lr:0.0046, Loss:0.0587, Time_for_epoch: 7.2827
+Tree 10: Epoch [9/20], lr:0.0056, Loss:0.0526, Time_for_epoch: 7.2354
+Tree 10: Epoch [10/20], lr:0.0068, Loss:0.0497, Time_for_epoch: 7.2773
+Tree 10: Epoch [11/20], lr:0.0081, Loss:0.0475, Time_for_epoch: 7.2370
+Tree 10: Epoch [12/20], lr:0.0096, Loss:0.0466, Time_for_epoch: 7.2438
+Tree 10: Epoch [13/20], lr:0.0112, Loss:0.0443, Time_for_epoch: 7.2868
+Tree 10: Epoch [14/20], lr:0.0129, Loss:0.0439, Time_for_epoch: 7.2330
+Tree 10: Epoch [15/20], lr:0.0148, Loss:0.0462, Time_for_epoch: 7.2816
+Tree 10: Epoch [16/20], lr:0.0169, Loss:0.0473, Time_for_epoch: 7.2469
+Tree 10: Epoch [17/20], lr:0.0191, Loss:0.0517, Time_for_epoch: 7.2381
+Tree 10: Epoch [18/20], lr:0.0215, Loss:0.0591, Time_for_epoch: 7.2854
+Tree 10: Epoch [19/20], lr:0.0240, Loss:0.0767, Time_for_epoch: 7.2452
+Tree 10: Epoch [20/20], lr:0.0268, Loss:0.0867, Time_for_epoch: 7.2821
+Tree 10: TestLoss: 0.0518, TestAccuracy: 0.9842, Time_for_individ: 146.2709
+Tree 11: Epoch [1/20], lr:0.0008, Loss:0.8189, Time_for_epoch: 7.2304
+Tree 11: Epoch [2/20], lr:0.0009, Loss:0.2442, Time_for_epoch: 7.2719
+Tree 11: Epoch [3/20], lr:0.0001, Loss:0.1778, Time_for_epoch: 7.2350
+Tree 11: Epoch [4/20], lr:-0.0008, Loss:15220.6473, Time_for_epoch: 7.2783
+Tree 11 is not valid
+Tree 12: Epoch [1/20], lr:0.0003, Loss:1.3146, Time_for_epoch: 7.2166
+Tree 12: Epoch [2/20], lr:0.0003, Loss:0.3900, Time_for_epoch: 7.2055
+Tree 12: Epoch [3/20], lr:0.0003, Loss:0.2733, Time_for_epoch: 7.2733
+Tree 12: Epoch [4/20], lr:0.0003, Loss:0.2171, Time_for_epoch: 7.2287
+Tree 12: Epoch [5/20], lr:0.0003, Loss:0.1798, Time_for_epoch: 7.2790
+Tree 12: Epoch [6/20], lr:0.0003, Loss:0.1493, Time_for_epoch: 7.2360
+Tree 12: Epoch [7/20], lr:0.0003, Loss:0.1334, Time_for_epoch: 7.2282
+Tree 12: Epoch [8/20], lr:0.0003, Loss:0.1182, Time_for_epoch: 7.2802
+Tree 12: Epoch [9/20], lr:0.0003, Loss:0.1073, Time_for_epoch: 7.2256
+Tree 12: Epoch [10/20], lr:0.0003, Loss:0.1006, Time_for_epoch: 7.2831
+Tree 12: Epoch [11/20], lr:0.0003, Loss:0.0932, Time_for_epoch: 7.2372
+Tree 12: Epoch [12/20], lr:0.0003, Loss:0.0849, Time_for_epoch: 7.2726
+Tree 12: Epoch [13/20], lr:0.0003, Loss:0.0805, Time_for_epoch: 7.2318
+Tree 12: Epoch [14/20], lr:0.0003, Loss:0.0763, Time_for_epoch: 7.2303
+Tree 12: Epoch [15/20], lr:0.0003, Loss:0.0730, Time_for_epoch: 7.2804
+Tree 12: Epoch [16/20], lr:0.0003, Loss:0.0680, Time_for_epoch: 7.2329
+Tree 12: Epoch [17/20], lr:0.0003, Loss:0.0658, Time_for_epoch: 7.2775
+Tree 12: Epoch [18/20], lr:0.0003, Loss:0.0632, Time_for_epoch: 7.2355
+Tree 12: Epoch [19/20], lr:0.0003, Loss:0.0603, Time_for_epoch: 7.2844
+Tree 12: Epoch [20/20], lr:0.0003, Loss:0.0588, Time_for_epoch: 7.2298
+Tree 12: TestLoss: 0.0401, TestAccuracy: 0.9870, Time_for_individ: 146.0746
+Tree 13: Epoch [1/20], lr:0.0008, Loss:0.8368, Time_for_epoch: 7.2083
+Tree 13: Epoch [2/20], lr:0.0009, Loss:0.2427, Time_for_epoch: 7.2815
+Tree 13: Epoch [3/20], lr:0.0001, Loss:0.1680, Time_for_epoch: 7.2317
+Tree 13: Epoch [4/20], lr:-0.0008, Loss:15594.0926, Time_for_epoch: 7.2891
+Tree 13 is not valid
+Tree 14: Epoch [1/20], lr:0.0027, Loss:0.5871, Time_for_epoch: 7.2106
+Tree 14: Epoch [2/20], lr:0.0074, Loss:0.1262, Time_for_epoch: 7.2623
+Tree 14: Epoch [3/20], lr:0.0201, Loss:0.1019, Time_for_epoch: 7.2253
+Tree 14: Epoch [4/20], lr:0.0546, Loss:0.1398, Time_for_epoch: 7.2307
+Tree 14: Epoch [5/20], lr:0.1484, Loss:7.9335, Time_for_epoch: 7.2776
+Tree 14: Epoch [6/20], lr:0.4034, Loss:2.3079, Time_for_epoch: 7.2335
+Tree 14: Epoch [7/20], lr:1.0966, Loss:2.3140, Time_for_epoch: 7.2736
+Tree 14: Epoch [8/20], lr:2.9810, Loss:2.3575, Time_for_epoch: 7.2286
+Tree 14: Epoch [9/20], lr:8.1031, Loss:8.9519, Time_for_epoch: 7.2800
+Tree 14: Epoch [10/20], lr:22.0265, Loss:19.9963, Time_for_epoch: 7.2304
+Tree 14: Epoch [11/20], lr:59.8741, Loss:55.7603, Time_for_epoch: 7.2285
+Tree 14: Epoch [12/20], lr:162.7550, Loss:127.3714, Time_for_epoch: 7.2793
+Tree 14: Epoch [13/20], lr:442.4130, Loss:404.5262, Time_for_epoch: 7.2339
+Tree 14: Epoch [14/20], lr:1202.6000, Loss:937.0384, Time_for_epoch: 7.2753
+Tree 14: Epoch [15/20], lr:3269.0200, Loss:2143.5789, Time_for_epoch: 7.2296
+Tree 14: Epoch [16/20], lr:8886.1100, Loss:5984.6559, Time_for_epoch: 7.2776
+Tree 14: Epoch [17/20], lr:24155.0000, Loss:17319.6202, Time_for_epoch: 7.2302
+Tree 14 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 1064.1326 seconds
+General 4
+0.000615626	-50000	-50000	-50000	0.000251994	6.7741e-06	4.03561e-05	-50000	-50000	-50000	0.000492757	1.4148e-05	7.4708e-06	0.000142121	-50000	-50000	-50000	2.30575e-05	5.97877e-07	4.48143e-05	
+-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	-0.00097033	
+-50000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+0.00116311	0.00120666	0.00163282	0.00296917	0.00490647	0.00658298	0.00737671	0.00747731	0.00771168	0.00878374	0.0106272	0.0124667	0.0135303	0.0137595	0.0138631	0.0146651	0.0163476	0.0182831	0.0196115	0.0200309	
+0.00271828	0.00738906	0.0200855	0.0545982	0.148413	0.403429	1.09663	2.98096	8.10308	22.0265	59.8741	162.755	442.413	1202.6	3269.02	8886.11	24155	65660	178482	485165	
+-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	
+0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	0.0320291	
+0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	0.000539922	
+-0.000396075	-0.000792151	-0.00118823	-0.0015843	-0.00198038	-0.00237645	-0.00277253	-0.0031686	-0.00356468	-0.00396075	-0.00435683	-0.00475291	-0.00514898	-0.00554506	-0.00594113	-0.00633721	-0.00673328	-0.00712936	-0.00752543	-0.00792151	
+-50000	0.00103546	0.000831803	-50000	-50000	-50000	0.000756035	0.000992198	0.000497677	-50000	-50000	-50000	0.000441862	0.000990884	0.000651344	-50000	-50000	-50000	0.000128784	0.0009049	
+0.000997856	0.000367091	0.000135045	4.96803e-05	1.82764e-05	6.7235e-06	2.47344e-06	9.09927e-07	3.34743e-07	1.23145e-07	4.53026e-08	1.66659e-08	6.13104e-09	2.25548e-09	8.29746e-10	3.05246e-10	1.12294e-10	4.13106e-11	1.51973e-11	5.59078e-12	
+-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	-0.00137991	
+-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	-0.00175787	
+-0.000843329	0.000718255	-0.000599778	0.00051589	-0.000426564	0.00037054	-0.000303374	0.000266142	-0.000215761	0.000191158	-0.00015345	0.0001373	-0.000109134	9.86165e-05	-7.76165e-05	7.08318e-05	-5.52011e-05	5.08753e-05	-3.92592e-05	3.65414e-05	
+-0.001	-0.0005	-0.000333333	-0.00025	-0.0002	-0.000166667	-0.000142857	-0.000125	-0.000111111	-0.0001	-9.09091e-05	-8.33333e-05	-7.69231e-05	-7.14286e-05	-6.66667e-05	-6.25e-05	-5.88235e-05	-5.55556e-05	-5.26316e-05	-5e-05	
+Tree 0 is not valid
+Tree 1: Epoch [1/20], lr:-0.0010, Loss:3452.3703, Time_for_epoch: 7.2618
+Tree 1: Epoch [2/20], lr:-0.0010, Loss:192262.0995, Time_for_epoch: 7.2533
+Tree 1 is not valid
+Tree 2 is not valid
+Tree 3: Epoch [1/20], lr:0.0012, Loss:0.7263, Time_for_epoch: 7.2879
+Tree 3: Epoch [2/20], lr:0.0012, Loss:0.1986, Time_for_epoch: 7.2347
+Tree 3: Epoch [3/20], lr:0.0016, Loss:0.1257, Time_for_epoch: 7.2823
+Tree 3: Epoch [4/20], lr:0.0030, Loss:0.0940, Time_for_epoch: 7.2318
+Tree 3: Epoch [5/20], lr:0.0049, Loss:0.0810, Time_for_epoch: 7.2388
+Tree 3: Epoch [6/20], lr:0.0066, Loss:0.0651, Time_for_epoch: 7.2783
+Tree 3: Epoch [7/20], lr:0.0074, Loss:0.0563, Time_for_epoch: 7.2231
+Tree 3: Epoch [8/20], lr:0.0075, Loss:0.0474, Time_for_epoch: 7.2823
+Tree 3: Epoch [9/20], lr:0.0077, Loss:0.0436, Time_for_epoch: 7.2369
+Tree 3: Epoch [10/20], lr:0.0088, Loss:0.0394, Time_for_epoch: 7.2784
+Tree 3: Epoch [11/20], lr:0.0106, Loss:0.0376, Time_for_epoch: 7.2414
+Tree 3: Epoch [12/20], lr:0.0125, Loss:0.0405, Time_for_epoch: 7.2335
+Tree 3: Epoch [13/20], lr:0.0135, Loss:0.0424, Time_for_epoch: 7.2828
+Tree 3: Epoch [14/20], lr:0.0138, Loss:0.0424, Time_for_epoch: 7.2408
+Tree 3: Epoch [15/20], lr:0.0139, Loss:0.0357, Time_for_epoch: 7.2862
+Tree 3: Epoch [16/20], lr:0.0147, Loss:0.0350, Time_for_epoch: 7.2394
+Tree 3: Epoch [17/20], lr:0.0163, Loss:0.0397, Time_for_epoch: 7.2769
+Tree 3: Epoch [18/20], lr:0.0183, Loss:0.0441, Time_for_epoch: 7.2362
+Tree 3: Epoch [19/20], lr:0.0196, Loss:0.0520, Time_for_epoch: 7.2316
+Tree 3: Epoch [20/20], lr:0.0200, Loss:0.0609, Time_for_epoch: 7.2882
+Tree 3: TestLoss: 0.0376, TestAccuracy: 0.9871, Time_for_individ: 146.2393
+Tree 4: Epoch [1/20], lr:0.0027, Loss:0.5653, Time_for_epoch: 7.2448
+Tree 4: Epoch [2/20], lr:0.0074, Loss:0.1207, Time_for_epoch: 7.2823
+Tree 4: Epoch [3/20], lr:0.0201, Loss:0.0993, Time_for_epoch: 7.2298
+Tree 4: Epoch [4/20], lr:0.0546, Loss:0.1420, Time_for_epoch: 7.2803
+Tree 4: Epoch [5/20], lr:0.1484, Loss:6.6818, Time_for_epoch: 7.2307
+Tree 4: Epoch [6/20], lr:0.4034, Loss:2.3067, Time_for_epoch: 7.2274
+Tree 4: Epoch [7/20], lr:1.0966, Loss:2.3121, Time_for_epoch: 7.2909
+Tree 4: Epoch [8/20], lr:2.9810, Loss:2.3437, Time_for_epoch: 7.2316
+Tree 4: Epoch [9/20], lr:8.1031, Loss:10.2069, Time_for_epoch: 7.2904
+Tree 4: Epoch [10/20], lr:22.0265, Loss:22.6195, Time_for_epoch: 7.2328
+Tree 4: Epoch [11/20], lr:59.8741, Loss:69.5632, Time_for_epoch: 7.2881
+Tree 4: Epoch [12/20], lr:162.7550, Loss:166.2774, Time_for_epoch: 7.2414
+Tree 4: Epoch [13/20], lr:442.4130, Loss:357.6450, Time_for_epoch: 7.2471
+Tree 4: Epoch [14/20], lr:1202.6000, Loss:842.5190, Time_for_epoch: 7.2838
+Tree 4: Epoch [15/20], lr:3269.0200, Loss:2895.5399, Time_for_epoch: 7.2394
+Tree 4: Epoch [16/20], lr:8886.1100, Loss:7951.1817, Time_for_epoch: 7.2870
+Tree 4: Epoch [17/20], lr:24155.0000, Loss:17604.9516, Time_for_epoch: 7.2349
+Tree 4 is not valid
+Tree 5 is not valid
+Tree 6: Epoch [1/20], lr:0.0320, Loss:1.9370, Time_for_epoch: 7.2728
+Tree 6: Epoch [2/20], lr:0.0320, Loss:0.4491, Time_for_epoch: 7.2395
+Tree 6: Epoch [3/20], lr:0.0320, Loss:0.3244, Time_for_epoch: 7.2428
+Tree 6: Epoch [4/20], lr:0.0320, Loss:0.2976, Time_for_epoch: 7.2957
+Tree 6: Epoch [5/20], lr:0.0320, Loss:0.2745, Time_for_epoch: 7.2467
+Tree 6: Epoch [6/20], lr:0.0320, Loss:0.2635, Time_for_epoch: 7.2895
+Tree 6: Epoch [7/20], lr:0.0320, Loss:0.2503, Time_for_epoch: 7.2443
+Tree 6: Epoch [8/20], lr:0.0320, Loss:0.2432, Time_for_epoch: 7.2470
+Tree 6: Epoch [9/20], lr:0.0320, Loss:0.2532, Time_for_epoch: 7.2780
+Tree 6: Epoch [10/20], lr:0.0320, Loss:0.2466, Time_for_epoch: 7.2499
+Tree 6: Epoch [11/20], lr:0.0320, Loss:0.2381, Time_for_epoch: 7.2954
+Tree 6: Epoch [12/20], lr:0.0320, Loss:0.2389, Time_for_epoch: 7.2375
+Tree 6: Epoch [13/20], lr:0.0320, Loss:0.2288, Time_for_epoch: 7.2771
+Tree 6: Epoch [14/20], lr:0.0320, Loss:0.2333, Time_for_epoch: 7.2398
+Tree 6: Epoch [15/20], lr:0.0320, Loss:0.2337, Time_for_epoch: 7.2345
+Tree 6: Epoch [16/20], lr:0.0320, Loss:0.2272, Time_for_epoch: 7.2932
+Tree 6: Epoch [17/20], lr:0.0320, Loss:0.2344, Time_for_epoch: 7.2302
+Tree 6: Epoch [18/20], lr:0.0320, Loss:0.2215, Time_for_epoch: 7.2870
+Tree 6: Epoch [19/20], lr:0.0320, Loss:0.2263, Time_for_epoch: 7.2474
+Tree 6: Epoch [20/20], lr:0.0320, Loss:0.2197, Time_for_epoch: 7.2895
+Tree 6: TestLoss: 0.0594, TestAccuracy: 0.9827, Time_for_individ: 146.3421
+Tree 7: Epoch [1/20], lr:0.0005, Loss:0.9407, Time_for_epoch: 7.2369
+Tree 7: Epoch [2/20], lr:0.0005, Loss:0.3121, Time_for_epoch: 7.2403
+Tree 7: Epoch [3/20], lr:0.0005, Loss:0.2223, Time_for_epoch: 7.3008
+Tree 7: Epoch [4/20], lr:0.0005, Loss:0.1720, Time_for_epoch: 7.2355
+Tree 7: Epoch [5/20], lr:0.0005, Loss:0.1423, Time_for_epoch: 7.2838
+Tree 7: Epoch [6/20], lr:0.0005, Loss:0.1209, Time_for_epoch: 7.2316
+Tree 7: Epoch [7/20], lr:0.0005, Loss:0.1060, Time_for_epoch: 7.2922
+Tree 7: Epoch [8/20], lr:0.0005, Loss:0.0947, Time_for_epoch: 7.2439
+Tree 7: Epoch [9/20], lr:0.0005, Loss:0.0849, Time_for_epoch: 7.2401
+Tree 7: Epoch [10/20], lr:0.0005, Loss:0.0793, Time_for_epoch: 7.2813
+Tree 7: Epoch [11/20], lr:0.0005, Loss:0.0729, Time_for_epoch: 7.2417
+Tree 7: Epoch [12/20], lr:0.0005, Loss:0.0689, Time_for_epoch: 7.2909
+Tree 7: Epoch [13/20], lr:0.0005, Loss:0.0640, Time_for_epoch: 7.2395
+Tree 7: Epoch [14/20], lr:0.0005, Loss:0.0606, Time_for_epoch: 7.2866
+Tree 7: Epoch [15/20], lr:0.0005, Loss:0.0567, Time_for_epoch: 7.2417
+Tree 7: Epoch [16/20], lr:0.0005, Loss:0.0534, Time_for_epoch: 7.2411
+Tree 7: Epoch [17/20], lr:0.0005, Loss:0.0505, Time_for_epoch: 7.2925
+Tree 7: Epoch [18/20], lr:0.0005, Loss:0.0492, Time_for_epoch: 7.2383
+Tree 7: Epoch [19/20], lr:0.0005, Loss:0.0471, Time_for_epoch: 7.2826
+Tree 7: Epoch [20/20], lr:0.0005, Loss:0.0463, Time_for_epoch: 7.2413
+Tree 7: TestLoss: 0.0287, TestAccuracy: 0.9902, Time_for_individ: 146.2906
+Tree 8: Epoch [1/20], lr:-0.0004, Loss:172.5416, Time_for_epoch: 7.2837
+Tree 8: Epoch [2/20], lr:-0.0008, Loss:33686.3676, Time_for_epoch: 7.2411
+Tree 8 is not valid
+Tree 9 is not valid
+Tree 10: Epoch [1/20], lr:0.0010, Loss:0.7305, Time_for_epoch: 7.2420
+Tree 10: Epoch [2/20], lr:0.0004, Loss:0.2358, Time_for_epoch: 7.2879
+Tree 10: Epoch [3/20], lr:0.0001, Loss:0.1964, Time_for_epoch: 7.2489
+Tree 10: Epoch [4/20], lr:0.0000, Loss:0.1837, Time_for_epoch: 7.3171
+Tree 10: Epoch [5/20], lr:0.0000, Loss:0.1792, Time_for_epoch: 7.2879
+Tree 10: Epoch [6/20], lr:0.0000, Loss:0.1785, Time_for_epoch: 7.3280
+Tree 10: Epoch [7/20], lr:0.0000, Loss:0.1761, Time_for_epoch: 7.2887
+Tree 10: Epoch [8/20], lr:0.0000, Loss:0.1764, Time_for_epoch: 7.2986
+Tree 10: Epoch [9/20], lr:0.0000, Loss:0.1766, Time_for_epoch: 7.3446
+Tree 10: Epoch [10/20], lr:0.0000, Loss:0.1762, Time_for_epoch: 7.2878
+Tree 10: Epoch [11/20], lr:0.0000, Loss:0.1766, Time_for_epoch: 7.3321
+Tree 10: Epoch [12/20], lr:0.0000, Loss:0.1749, Time_for_epoch: 7.3024
+Tree 10: Epoch [13/20], lr:0.0000, Loss:0.1759, Time_for_epoch: 7.3306
+Tree 10: Epoch [14/20], lr:0.0000, Loss:0.1757, Time_for_epoch: 7.2868
+Tree 10: Epoch [15/20], lr:0.0000, Loss:0.1756, Time_for_epoch: 7.2864
+Tree 10: Epoch [16/20], lr:0.0000, Loss:0.1768, Time_for_epoch: 7.3348
+Tree 10: Epoch [17/20], lr:0.0000, Loss:0.1757, Time_for_epoch: 7.2986
+Tree 10: Epoch [18/20], lr:0.0000, Loss:0.1762, Time_for_epoch: 7.3345
+Tree 10: Epoch [19/20], lr:0.0000, Loss:0.1751, Time_for_epoch: 7.2885
+Tree 10: Epoch [20/20], lr:0.0000, Loss:0.1760, Time_for_epoch: 7.2866
+Tree 10: TestLoss: 0.1418, TestAccuracy: 0.9569, Time_for_individ: 147.1689
+Tree 11: Epoch [1/20], lr:-0.0014, Loss:11361.4718, Time_for_epoch: 7.2794
+Tree 11: Epoch [2/20], lr:-0.0014, Loss:721675.2035, Time_for_epoch: 7.2915
+Tree 11 is not valid
+Tree 12: Epoch [1/20], lr:-0.0018, Loss:21748.8729, Time_for_epoch: 7.3375
+Tree 12: Epoch [2/20], lr:-0.0018, Loss:1732376.2984, Time_for_epoch: 7.2882
+Tree 12 is not valid
+Tree 13: Epoch [1/20], lr:-0.0008, Loss:1589.3088, Time_for_epoch: 7.3042
+Tree 13: Epoch [2/20], lr:0.0007, Loss:2311.3870, Time_for_epoch: 7.2510
+Tree 13: Epoch [3/20], lr:-0.0006, Loss:798.7976, Time_for_epoch: 7.2952
+Tree 13: Epoch [4/20], lr:0.0005, Loss:758.2953, Time_for_epoch: 7.2436
+Tree 13: Epoch [5/20], lr:-0.0004, Loss:494.4885, Time_for_epoch: 7.2437
+Tree 13: Epoch [6/20], lr:0.0004, Loss:486.3409, Time_for_epoch: 7.3035
+Tree 13: Epoch [7/20], lr:-0.0003, Loss:375.1995, Time_for_epoch: 7.2422
+Tree 13: Epoch [8/20], lr:0.0003, Loss:376.4954, Time_for_epoch: 7.2886
+Tree 13: Epoch [9/20], lr:-0.0002, Loss:318.1527, Time_for_epoch: 7.2444
+Tree 13: Epoch [10/20], lr:0.0002, Loss:320.6663, Time_for_epoch: 7.2473
+Tree 13: Epoch [11/20], lr:-0.0002, Loss:284.4844, Time_for_epoch: 7.2951
+Tree 13: Epoch [12/20], lr:0.0001, Loss:288.2043, Time_for_epoch: 7.2426
+Tree 13: Epoch [13/20], lr:-0.0001, Loss:264.4218, Time_for_epoch: 7.2862
+Tree 13: Epoch [14/20], lr:0.0001, Loss:267.1287, Time_for_epoch: 7.2471
+Tree 13: Epoch [15/20], lr:-0.0001, Loss:251.2328, Time_for_epoch: 7.2944
+Tree 13: Epoch [16/20], lr:0.0001, Loss:253.8221, Time_for_epoch: 7.2495
+Tree 13: Epoch [17/20], lr:-0.0001, Loss:242.1279, Time_for_epoch: 7.2396
+Tree 13: Epoch [18/20], lr:0.0001, Loss:244.0054, Time_for_epoch: 7.2951
+Tree 13: Epoch [19/20], lr:-0.0000, Loss:235.9521, Time_for_epoch: 7.2392
+Tree 13: Epoch [20/20], lr:0.0000, Loss:236.9661, Time_for_epoch: 7.2928
+Tree 13: TestLoss: 216.3657, TestAccuracy: 0.0892, Time_for_individ: 146.4531
+Tree 14: Epoch [1/20], lr:-0.0010, Loss:3700.1917, Time_for_epoch: 7.2305
+Tree 14: Epoch [2/20], lr:-0.0005, Loss:67960.5914, Time_for_epoch: 7.2790
+Tree 14 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 2415.5934 seconds
+General 5
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	-0.130147	
+0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	0.000193846	
+0.00220689	0.00110345	0.000735631	0.000551723	0.000441378	0.000367815	0.00031527	0.000275861	0.00024521	0.000220689	0.000200627	0.000183908	0.000169761	0.000157635	0.000147126	0.000137931	0.000129817	0.000122605	0.000116152	0.000110345	
+0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	0.000720976	
+0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	0.0124362	
+-0.000615626	-50000	-50000	-50000	-0.00125997	-4.06446e-05	-0.000282493	-50000	-50000	-50000	-0.00542033	-0.000169776	-9.71204e-05	-0.00198969	-50000	-50000	-50000	-0.000415036	-1.13597e-05	-0.000896287	
+-0.00232885	-0.00365814	-0.00498743	-0.00631673	-0.00764602	-0.00897531	-0.0103046	-0.0116339	-0.0129632	-0.0142925	-0.0156218	-0.0169511	-0.0182803	-0.0196096	-0.0209389	-0.0222682	-0.0235975	-0.0249268	-0.0262561	-0.0275854	
+-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	
+0.00360872	0.00132758	0.000488388	0.000179668	6.60961e-05	2.43154e-05	8.94513e-06	3.29073e-06	1.21059e-06	4.45352e-07	1.63836e-07	6.02718e-08	2.21728e-08	8.15691e-09	3.00076e-09	1.10392e-09	4.06108e-10	1.49399e-10	5.49608e-11	2.02189e-11	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	0.000818462	
+0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	0.000966544	
+0	0.00187838	0.00297716	0.00375675	0.00436146	0.00485553	0.00527327	0.00563513	0.00595431	0.00623983	0.00649811	0.00673391	0.00695082	0.00715165	0.00733861	0.00751351	0.00767779	0.00783269	0.00797921	0.00811821	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+Tree 0: Epoch [1/20], lr:0.0008, Loss:0.8221, Time_for_epoch: 7.4508
+Tree 0: Epoch [2/20], lr:0.0009, Loss:0.2634, Time_for_epoch: 7.4674
+Tree 0: Epoch [3/20], lr:0.0001, Loss:0.1847, Time_for_epoch: 7.4997
+Tree 0: Epoch [4/20], lr:-0.0008, Loss:19718.8209, Time_for_epoch: 7.5674
+Tree 0 is not valid
+Tree 1: Epoch [1/20], lr:-0.1301, Loss:496129836814.6660, Time_for_epoch: 7.5488
+Tree 1: Epoch [2/20], lr:-0.1301, Loss:51431662572885.3359, Time_for_epoch: 7.5551
+Tree 1 is not valid
+Tree 2: Epoch [1/20], lr:0.0002, Loss:1.5742, Time_for_epoch: 7.5041
+Tree 2: Epoch [2/20], lr:0.0002, Loss:0.5141, Time_for_epoch: 7.5065
+Tree 2: Epoch [3/20], lr:0.0002, Loss:0.3537, Time_for_epoch: 7.5513
+Tree 2: Epoch [4/20], lr:0.0002, Loss:0.2881, Time_for_epoch: 7.5056
+Tree 2: Epoch [5/20], lr:0.0002, Loss:0.2464, Time_for_epoch: 7.5547
+Tree 2: Epoch [6/20], lr:0.0002, Loss:0.2132, Time_for_epoch: 7.5051
+Tree 2: Epoch [7/20], lr:0.0002, Loss:0.1874, Time_for_epoch: 7.5556
+Tree 2: Epoch [8/20], lr:0.0002, Loss:0.1670, Time_for_epoch: 7.5122
+Tree 2: Epoch [9/20], lr:0.0002, Loss:0.1496, Time_for_epoch: 7.5225
+Tree 2: Epoch [10/20], lr:0.0002, Loss:0.1381, Time_for_epoch: 7.5588
+Tree 2: Epoch [11/20], lr:0.0002, Loss:0.1261, Time_for_epoch: 7.4963
+Tree 2: Epoch [12/20], lr:0.0002, Loss:0.1161, Time_for_epoch: 7.5399
+Tree 2: Epoch [13/20], lr:0.0002, Loss:0.1106, Time_for_epoch: 7.4946
+Tree 2: Epoch [14/20], lr:0.0002, Loss:0.1051, Time_for_epoch: 7.5086
+Tree 2: Epoch [15/20], lr:0.0002, Loss:0.0983, Time_for_epoch: 7.5592
+Tree 2: Epoch [16/20], lr:0.0002, Loss:0.0919, Time_for_epoch: 7.4826
+Tree 2: Epoch [17/20], lr:0.0002, Loss:0.0892, Time_for_epoch: 7.5415
+Tree 2: Epoch [18/20], lr:0.0002, Loss:0.0850, Time_for_epoch: 7.4884
+Tree 2: Epoch [19/20], lr:0.0002, Loss:0.0806, Time_for_epoch: 7.5588
+Tree 2: Epoch [20/20], lr:0.0002, Loss:0.0787, Time_for_epoch: 7.4850
+Tree 2: TestLoss: 0.0539, TestAccuracy: 0.9828, Time_for_individ: 151.5821
+Tree 3: Epoch [1/20], lr:0.0022, Loss:0.5674, Time_for_epoch: 7.5260
+Tree 3: Epoch [2/20], lr:0.0011, Loss:0.1599, Time_for_epoch: 7.4779
+Tree 3: Epoch [3/20], lr:0.0007, Loss:0.1184, Time_for_epoch: 7.4403
+Tree 3: Epoch [4/20], lr:0.0006, Loss:0.0990, Time_for_epoch: 7.4595
+Tree 3: Epoch [5/20], lr:0.0004, Loss:0.0859, Time_for_epoch: 7.4191
+Tree 3: Epoch [6/20], lr:0.0004, Loss:0.0791, Time_for_epoch: 7.4632
+Tree 3: Epoch [7/20], lr:0.0003, Loss:0.0741, Time_for_epoch: 7.4094
+Tree 3: Epoch [8/20], lr:0.0003, Loss:0.0695, Time_for_epoch: 7.4029
+Tree 3: Epoch [9/20], lr:0.0002, Loss:0.0671, Time_for_epoch: 7.4582
+Tree 3: Epoch [10/20], lr:0.0002, Loss:0.0619, Time_for_epoch: 7.4119
+Tree 3: Epoch [11/20], lr:0.0002, Loss:0.0615, Time_for_epoch: 7.4625
+Tree 3: Epoch [12/20], lr:0.0002, Loss:0.0595, Time_for_epoch: 7.4054
+Tree 3: Epoch [13/20], lr:0.0002, Loss:0.0575, Time_for_epoch: 7.4580
+Tree 3: Epoch [14/20], lr:0.0002, Loss:0.0560, Time_for_epoch: 7.4076
+Tree 3: Epoch [15/20], lr:0.0001, Loss:0.0541, Time_for_epoch: 7.4153
+Tree 3: Epoch [16/20], lr:0.0001, Loss:0.0529, Time_for_epoch: 7.4591
+Tree 3: Epoch [17/20], lr:0.0001, Loss:0.0512, Time_for_epoch: 7.4085
+Tree 3: Epoch [18/20], lr:0.0001, Loss:0.0509, Time_for_epoch: 7.4580
+Tree 3: Epoch [19/20], lr:0.0001, Loss:0.0498, Time_for_epoch: 7.4142
+Tree 3: Epoch [20/20], lr:0.0001, Loss:0.0479, Time_for_epoch: 7.4675
+Tree 3: TestLoss: 0.0335, TestAccuracy: 0.9873, Time_for_individ: 149.9591
+Tree 4: Epoch [1/20], lr:0.0007, Loss:0.8763, Time_for_epoch: 7.4136
+Tree 4: Epoch [2/20], lr:0.0007, Loss:0.2765, Time_for_epoch: 7.4042
+Tree 4: Epoch [3/20], lr:0.0007, Loss:0.1799, Time_for_epoch: 7.4588
+Tree 4: Epoch [4/20], lr:0.0007, Loss:0.1325, Time_for_epoch: 7.4211
+Tree 4: Epoch [5/20], lr:0.0007, Loss:0.1110, Time_for_epoch: 7.4627
+Tree 4: Epoch [6/20], lr:0.0007, Loss:0.0923, Time_for_epoch: 7.4085
+Tree 4: Epoch [7/20], lr:0.0007, Loss:0.0829, Time_for_epoch: 7.4519
+Tree 4: Epoch [8/20], lr:0.0007, Loss:0.0758, Time_for_epoch: 7.4101
+Tree 4: Epoch [9/20], lr:0.0007, Loss:0.0679, Time_for_epoch: 7.4074
+Tree 4: Epoch [10/20], lr:0.0007, Loss:0.0623, Time_for_epoch: 7.4580
+Tree 4: Epoch [11/20], lr:0.0007, Loss:0.0579, Time_for_epoch: 7.4071
+Tree 4: Epoch [12/20], lr:0.0007, Loss:0.0554, Time_for_epoch: 7.4511
+Tree 4: Epoch [13/20], lr:0.0007, Loss:0.0523, Time_for_epoch: 7.4153
+Tree 4: Epoch [14/20], lr:0.0007, Loss:0.0479, Time_for_epoch: 7.4110
+Tree 4: Epoch [15/20], lr:0.0007, Loss:0.0444, Time_for_epoch: 7.4583
+Tree 4: Epoch [16/20], lr:0.0007, Loss:0.0450, Time_for_epoch: 7.4042
+Tree 4: Epoch [17/20], lr:0.0007, Loss:0.0413, Time_for_epoch: 7.4755
+Tree 4: Epoch [18/20], lr:0.0007, Loss:0.0382, Time_for_epoch: 7.4147
+Tree 4: Epoch [19/20], lr:0.0007, Loss:0.0354, Time_for_epoch: 7.4595
+Tree 4: Epoch [20/20], lr:0.0007, Loss:0.0343, Time_for_epoch: 7.4057
+Tree 4: TestLoss: 0.0271, TestAccuracy: 0.9906, Time_for_individ: 149.7356
+Tree 5: Epoch [1/20], lr:0.0124, Loss:1.1840, Time_for_epoch: 7.4575
+Tree 5: Epoch [2/20], lr:0.0124, Loss:0.3356, Time_for_epoch: 7.4175
+Tree 5: Epoch [3/20], lr:0.0124, Loss:0.2371, Time_for_epoch: 7.4078
+Tree 5: Epoch [4/20], lr:0.0124, Loss:0.1965, Time_for_epoch: 7.4543
+Tree 5: Epoch [5/20], lr:0.0124, Loss:0.1792, Time_for_epoch: 7.4019
+Tree 5: Epoch [6/20], lr:0.0124, Loss:0.1664, Time_for_epoch: 7.4658
+Tree 5: Epoch [7/20], lr:0.0124, Loss:0.1550, Time_for_epoch: 7.4051
+Tree 5: Epoch [8/20], lr:0.0124, Loss:0.1395, Time_for_epoch: 7.4057
+Tree 5: Epoch [9/20], lr:0.0124, Loss:0.1328, Time_for_epoch: 7.4527
+Tree 5: Epoch [10/20], lr:0.0124, Loss:0.1290, Time_for_epoch: 7.4135
+Tree 5: Epoch [11/20], lr:0.0124, Loss:0.1232, Time_for_epoch: 7.4491
+Tree 5: Epoch [12/20], lr:0.0124, Loss:0.1135, Time_for_epoch: 7.4056
+Tree 5: Epoch [13/20], lr:0.0124, Loss:0.1105, Time_for_epoch: 7.4438
+Tree 5: Epoch [14/20], lr:0.0124, Loss:0.1056, Time_for_epoch: 7.4023
+Tree 5: Epoch [15/20], lr:0.0124, Loss:0.1063, Time_for_epoch: 7.4011
+Tree 5: Epoch [16/20], lr:0.0124, Loss:0.1027, Time_for_epoch: 7.4475
+Tree 5: Epoch [17/20], lr:0.0124, Loss:0.1014, Time_for_epoch: 7.3907
+Tree 5: Epoch [18/20], lr:0.0124, Loss:0.0929, Time_for_epoch: 7.4493
+Tree 5: Epoch [19/20], lr:0.0124, Loss:0.0949, Time_for_epoch: 7.3970
+Tree 5: Epoch [20/20], lr:0.0124, Loss:0.0985, Time_for_epoch: 7.4389
+Tree 5: TestLoss: 0.0415, TestAccuracy: 0.9867, Time_for_individ: 149.6395
+Tree 6 is not valid
+Tree 7: Epoch [1/20], lr:-0.0023, Loss:53714.6132, Time_for_epoch: 7.3828
+Tree 7: Epoch [2/20], lr:-0.0037, Loss:14749103.4193, Time_for_epoch: 7.3836
+Tree 7 is not valid
+Tree 8: Epoch [1/20], lr:-0.7084, Loss:308273566990872.1250, Time_for_epoch: 7.4675
+Tree 8: Epoch [2/20], lr:-0.7084, Loss:32325708247413556.0000, Time_for_epoch: 7.4026
+Tree 8 is not valid
+Tree 9: Epoch [1/20], lr:0.0036, Loss:0.5119, Time_for_epoch: 7.4585
+Tree 9: Epoch [2/20], lr:0.0013, Loss:0.1202, Time_for_epoch: 7.3967
+Tree 9: Epoch [3/20], lr:0.0005, Loss:0.0949, Time_for_epoch: 7.4540
+Tree 9: Epoch [4/20], lr:0.0002, Loss:0.0862, Time_for_epoch: 7.4070
+Tree 9: Epoch [5/20], lr:0.0001, Loss:0.0845, Time_for_epoch: 7.4001
+Tree 9: Epoch [6/20], lr:0.0000, Loss:0.0829, Time_for_epoch: 7.4582
+Tree 9: Epoch [7/20], lr:0.0000, Loss:0.0835, Time_for_epoch: 7.4056
+Tree 9: Epoch [8/20], lr:0.0000, Loss:0.0820, Time_for_epoch: 7.4621
+Tree 9: Epoch [9/20], lr:0.0000, Loss:0.0834, Time_for_epoch: 7.4023
+Tree 9: Epoch [10/20], lr:0.0000, Loss:0.0809, Time_for_epoch: 7.4509
+Tree 9: Epoch [11/20], lr:0.0000, Loss:0.0813, Time_for_epoch: 7.4016
+Tree 9: Epoch [12/20], lr:0.0000, Loss:0.0810, Time_for_epoch: 7.4033
+Tree 9: Epoch [13/20], lr:0.0000, Loss:0.0818, Time_for_epoch: 7.4587
+Tree 9: Epoch [14/20], lr:0.0000, Loss:0.0829, Time_for_epoch: 7.4073
+Tree 9: Epoch [15/20], lr:0.0000, Loss:0.0826, Time_for_epoch: 7.4537
+Tree 9: Epoch [16/20], lr:0.0000, Loss:0.0820, Time_for_epoch: 7.3987
+Tree 9: Epoch [17/20], lr:0.0000, Loss:0.0808, Time_for_epoch: 7.4637
+Tree 9: Epoch [18/20], lr:0.0000, Loss:0.0827, Time_for_epoch: 7.3959
+Tree 9: Epoch [19/20], lr:0.0000, Loss:0.0823, Time_for_epoch: 7.3954
+Tree 9: Epoch [20/20], lr:0.0000, Loss:0.0821, Time_for_epoch: 7.4517
+Tree 9: TestLoss: 0.0528, TestAccuracy: 0.9837, Time_for_individ: 149.6577
+Tree 10: Epoch [1/20], lr:0.0008, Loss:0.8120, Time_for_epoch: 7.4090
+Tree 10: Epoch [2/20], lr:0.0009, Loss:0.2556, Time_for_epoch: 7.4478
+Tree 10: Epoch [3/20], lr:0.0001, Loss:0.1806, Time_for_epoch: 7.3999
+Tree 10: Epoch [4/20], lr:-0.0008, Loss:18835.0871, Time_for_epoch: 7.4433
+Tree 10 is not valid
+Tree 11: Epoch [1/20], lr:0.0008, Loss:0.7979, Time_for_epoch: 7.3966
+Tree 11: Epoch [2/20], lr:0.0008, Loss:0.2394, Time_for_epoch: 7.4078
+Tree 11: Epoch [3/20], lr:0.0008, Loss:0.1525, Time_for_epoch: 7.4528
+Tree 11: Epoch [4/20], lr:0.0008, Loss:0.1162, Time_for_epoch: 7.4000
+Tree 11: Epoch [5/20], lr:0.0008, Loss:0.0973, Time_for_epoch: 7.4478
+Tree 11: Epoch [6/20], lr:0.0008, Loss:0.0849, Time_for_epoch: 7.4139
+Tree 11: Epoch [7/20], lr:0.0008, Loss:0.0750, Time_for_epoch: 7.4440
+Tree 11: Epoch [8/20], lr:0.0008, Loss:0.0688, Time_for_epoch: 7.4053
+Tree 11: Epoch [9/20], lr:0.0008, Loss:0.0632, Time_for_epoch: 7.4022
+Tree 11: Epoch [10/20], lr:0.0008, Loss:0.0588, Time_for_epoch: 7.4614
+Tree 11: Epoch [11/20], lr:0.0008, Loss:0.0556, Time_for_epoch: 7.4151
+Tree 11: Epoch [12/20], lr:0.0008, Loss:0.0510, Time_for_epoch: 7.4506
+Tree 11: Epoch [13/20], lr:0.0008, Loss:0.0477, Time_for_epoch: 7.3979
+Tree 11: Epoch [14/20], lr:0.0008, Loss:0.0471, Time_for_epoch: 7.4029
+Tree 11: Epoch [15/20], lr:0.0008, Loss:0.0419, Time_for_epoch: 7.4586
+Tree 11: Epoch [16/20], lr:0.0008, Loss:0.0405, Time_for_epoch: 7.4010
+Tree 11: Epoch [17/20], lr:0.0008, Loss:0.0376, Time_for_epoch: 7.4513
+Tree 11: Epoch [18/20], lr:0.0008, Loss:0.0383, Time_for_epoch: 7.4065
+Tree 11: Epoch [19/20], lr:0.0008, Loss:0.0344, Time_for_epoch: 7.4638
+Tree 11: Epoch [20/20], lr:0.0008, Loss:0.0330, Time_for_epoch: 7.4036
+Tree 11: TestLoss: 0.0258, TestAccuracy: 0.9914, Time_for_individ: 149.6216
+Tree 12: Epoch [1/20], lr:0.0010, Loss:0.7962, Time_for_epoch: 7.4413
+Tree 12: Epoch [2/20], lr:0.0010, Loss:0.2319, Time_for_epoch: 7.4044
+Tree 12: Epoch [3/20], lr:0.0010, Loss:0.1466, Time_for_epoch: 7.4044
+Tree 12: Epoch [4/20], lr:0.0010, Loss:0.1092, Time_for_epoch: 7.4643
+Tree 12: Epoch [5/20], lr:0.0010, Loss:0.0887, Time_for_epoch: 7.4050
+Tree 12: Epoch [6/20], lr:0.0010, Loss:0.0760, Time_for_epoch: 7.4508
+Tree 12: Epoch [7/20], lr:0.0010, Loss:0.0682, Time_for_epoch: 7.4075
+Tree 12: Epoch [8/20], lr:0.0010, Loss:0.0582, Time_for_epoch: 7.4095
+Tree 12: Epoch [9/20], lr:0.0010, Loss:0.0545, Time_for_epoch: 7.4542
+Tree 12: Epoch [10/20], lr:0.0010, Loss:0.0500, Time_for_epoch: 7.3318
+Tree 12: Epoch [11/20], lr:0.0010, Loss:0.0469, Time_for_epoch: 7.3093
+Tree 12: Epoch [12/20], lr:0.0010, Loss:0.0444, Time_for_epoch: 7.2679
+Tree 12: Epoch [13/20], lr:0.0010, Loss:0.0420, Time_for_epoch: 7.3000
+Tree 12: Epoch [14/20], lr:0.0010, Loss:0.0388, Time_for_epoch: 7.2565
+Tree 12: Epoch [15/20], lr:0.0010, Loss:0.0355, Time_for_epoch: 7.2611
+Tree 12: Epoch [16/20], lr:0.0010, Loss:0.0345, Time_for_epoch: 7.3066
+Tree 12: Epoch [17/20], lr:0.0010, Loss:0.0312, Time_for_epoch: 7.2650
+Tree 12: Epoch [18/20], lr:0.0010, Loss:0.0311, Time_for_epoch: 7.3017
+Tree 12: Epoch [19/20], lr:0.0010, Loss:0.0280, Time_for_epoch: 7.2502
+Tree 12: Epoch [20/20], lr:0.0010, Loss:0.0281, Time_for_epoch: 7.2975
+Tree 12: TestLoss: 0.0233, TestAccuracy: 0.9908, Time_for_individ: 148.1033
+Tree 13: Epoch [1/20], lr:0.0000, Loss:2.3046, Time_for_epoch: 7.2398
+Tree 13: Epoch [2/20], lr:0.0019, Loss:0.5426, Time_for_epoch: 7.2267
+Tree 13: Epoch [3/20], lr:0.0030, Loss:0.1195, Time_for_epoch: 7.2968
+Tree 13: Epoch [4/20], lr:0.0038, Loss:0.0801, Time_for_epoch: 7.2552
+Tree 13: Epoch [5/20], lr:0.0044, Loss:0.0650, Time_for_epoch: 7.3140
+Tree 13: Epoch [6/20], lr:0.0049, Loss:0.0545, Time_for_epoch: 7.2660
+Tree 13: Epoch [7/20], lr:0.0053, Loss:0.0502, Time_for_epoch: 7.3046
+Tree 13: Epoch [8/20], lr:0.0056, Loss:0.0432, Time_for_epoch: 7.2556
+Tree 13: Epoch [9/20], lr:0.0060, Loss:0.0400, Time_for_epoch: 7.2526
+Tree 13: Epoch [10/20], lr:0.0062, Loss:0.0368, Time_for_epoch: 7.3111
+Tree 13: Epoch [11/20], lr:0.0065, Loss:0.0339, Time_for_epoch: 7.2578
+Tree 13: Epoch [12/20], lr:0.0067, Loss:0.0309, Time_for_epoch: 7.2983
+Tree 13: Epoch [13/20], lr:0.0070, Loss:0.0295, Time_for_epoch: 7.2576
+Tree 13: Epoch [14/20], lr:0.0072, Loss:0.0263, Time_for_epoch: 7.3026
+Tree 13: Epoch [15/20], lr:0.0073, Loss:0.0265, Time_for_epoch: 7.2645
+Tree 13: Epoch [16/20], lr:0.0075, Loss:0.0275, Time_for_epoch: 7.2533
+Tree 13: Epoch [17/20], lr:0.0077, Loss:0.0258, Time_for_epoch: 7.3049
+Tree 13: Epoch [18/20], lr:0.0078, Loss:0.0214, Time_for_epoch: 7.2566
+Tree 13: Epoch [19/20], lr:0.0080, Loss:0.0212, Time_for_epoch: 7.3119
+Tree 13: Epoch [20/20], lr:0.0081, Loss:0.0227, Time_for_epoch: 7.2609
+Tree 13: TestLoss: 0.0258, TestAccuracy: 0.9927, Time_for_individ: 146.5988
+Tree 14: Epoch [1/20], lr:0.0008, Loss:0.8651, Time_for_epoch: 7.3045
+Tree 14: Epoch [2/20], lr:0.0009, Loss:0.2586, Time_for_epoch: 7.2570
+Tree 14: Epoch [3/20], lr:0.0001, Loss:0.1831, Time_for_epoch: 7.2556
+Tree 14: Epoch [4/20], lr:-0.0008, Loss:12342.6967, Time_for_epoch: 7.3110
+Tree 14 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 2409.8805 seconds
+General 6
+0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	0.000209712	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+-0	-0.00728991	-0.000561048	-50000	-50000	-50000	-0.00463211	-0.194362	-0.00247869	-50000	-50000	-50000	-0.00295807	-0.279649	-0.00629281	-50000	-50000	-50000	-0.00155139	-0.0328914	
+-50000	-50000	9.89239e-05	-0.000461867	-0.000660903	-0.000759149	-0.000816393	-0.000853329	-0.000878877	-0.000897463	-0.000911514	-0.000922463	-0.000931203	-0.000938323	-0.00094422	-0.000949176	-0.000953391	-0.000957016	-0.000960162	-0.000962915	
+-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	
+0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	0.000586732	
+0.000367879	0.000135335	4.97871e-05	1.83156e-05	6.73795e-06	2.47875e-06	9.11882e-07	3.35463e-07	1.2341e-07	4.53999e-08	1.67017e-08	6.14421e-09	2.26033e-09	8.31529e-10	3.05902e-10	1.12535e-10	4.13994e-11	1.523e-11	5.6028e-12	2.06115e-12	
+-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	-0.000293127	
+0.00563281	0.0153116	0.0416211	0.113138	0.307541	0.835983	2.27244	6.17712	16.7912	45.6431	124.071	337.26	916.767	2492.03	6774.04	18413.7	50053.8	136060	369850	1.00536e+06	
+-50000	-0.000774849	-0.000530597	-0.000428867	-0.000372577	-0.000336253	-0.000310548	-0.000291211	-0.000276021	-0.0002637	-0.000253454	-0.000244764	-0.000237275	-0.000230735	-0.000224959	-0.000219809	-0.000215181	-0.00021099	-0.000207173	-0.000203676	
+-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	-0.000669929	
+0	0.000693147	0.00109861	0.00138629	0.00160944	0.00179176	0.00194591	0.00207944	0.00219722	0.00230259	0.0023979	0.00248491	0.00256495	0.00263906	0.00270805	0.00277259	0.00283321	0.00289037	0.00294444	0.00299573	
+0	0.000309642	0.000533495	0.000715161	0.000870767	0.00100833	0.0011325	0.00124625	0.00135161	0.00145003	0.00154262	0.00163019	0.00171341	0.00179281	0.00186881	0.00194178	0.00201201	0.00207976	0.00214525	0.00220867	
+0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	0.000999465	
+0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	
+Tree 0: Epoch [1/20], lr:0.0002, Loss:1.4598, Time_for_epoch: 7.2376
+Tree 0: Epoch [2/20], lr:0.0002, Loss:0.4682, Time_for_epoch: 7.2435
+Tree 0: Epoch [3/20], lr:0.0002, Loss:0.3335, Time_for_epoch: 7.3031
+Tree 0: Epoch [4/20], lr:0.0002, Loss:0.2729, Time_for_epoch: 7.2766
+Tree 0: Epoch [5/20], lr:0.0002, Loss:0.2313, Time_for_epoch: 7.3091
+Tree 0: Epoch [6/20], lr:0.0002, Loss:0.1963, Time_for_epoch: 7.2668
+Tree 0: Epoch [7/20], lr:0.0002, Loss:0.1707, Time_for_epoch: 7.2687
+Tree 0: Epoch [8/20], lr:0.0002, Loss:0.1511, Time_for_epoch: 7.3105
+Tree 0: Epoch [9/20], lr:0.0002, Loss:0.1376, Time_for_epoch: 7.2635
+Tree 0: Epoch [10/20], lr:0.0002, Loss:0.1244, Time_for_epoch: 7.3048
+Tree 0: Epoch [11/20], lr:0.0002, Loss:0.1159, Time_for_epoch: 7.2601
+Tree 0: Epoch [12/20], lr:0.0002, Loss:0.1083, Time_for_epoch: 7.3139
+Tree 0: Epoch [13/20], lr:0.0002, Loss:0.0992, Time_for_epoch: 7.4078
+Tree 0: Epoch [14/20], lr:0.0002, Loss:0.0938, Time_for_epoch: 7.3997
+Tree 0: Epoch [15/20], lr:0.0002, Loss:0.0899, Time_for_epoch: 7.4391
+Tree 0: Epoch [16/20], lr:0.0002, Loss:0.0851, Time_for_epoch: 7.3943
+Tree 0: Epoch [17/20], lr:0.0002, Loss:0.0808, Time_for_epoch: 7.4396
+Tree 0: Epoch [18/20], lr:0.0002, Loss:0.0793, Time_for_epoch: 7.4207
+Tree 0: Epoch [19/20], lr:0.0002, Loss:0.0748, Time_for_epoch: 7.3993
+Tree 0: Epoch [20/20], lr:0.0002, Loss:0.0729, Time_for_epoch: 7.4933
+Tree 0: TestLoss: 0.0470, TestAccuracy: 0.9844, Time_for_individ: 147.9142
+Tree 1: Epoch [1/20], lr:0.0008, Loss:0.7995, Time_for_epoch: 7.4617
+Tree 1: Epoch [2/20], lr:0.0009, Loss:0.2401, Time_for_epoch: 7.5018
+Tree 1: Epoch [3/20], lr:0.0001, Loss:0.1668, Time_for_epoch: 7.4088
+Tree 1: Epoch [4/20], lr:-0.0008, Loss:19635.6052, Time_for_epoch: 7.4512
+Tree 1 is not valid
+Tree 2 is not valid
+Tree 3 is not valid
+Tree 4: Epoch [1/20], lr:-0.7084, Loss:325284389310326.0625, Time_for_epoch: 7.4066
+Tree 4: Epoch [2/20], lr:-0.7084, Loss:32888478136567944.0000, Time_for_epoch: 7.4651
+Tree 4 is not valid
+Tree 5: Epoch [1/20], lr:0.0006, Loss:1.0039, Time_for_epoch: 7.4611
+Tree 5: Epoch [2/20], lr:0.0006, Loss:0.3088, Time_for_epoch: 7.4315
+Tree 5: Epoch [3/20], lr:0.0006, Loss:0.2130, Time_for_epoch: 7.4669
+Tree 5: Epoch [4/20], lr:0.0006, Loss:0.1600, Time_for_epoch: 7.4103
+Tree 5: Epoch [5/20], lr:0.0006, Loss:0.1283, Time_for_epoch: 7.4595
+Tree 5: Epoch [6/20], lr:0.0006, Loss:0.1108, Time_for_epoch: 7.4000
+Tree 5: Epoch [7/20], lr:0.0006, Loss:0.0969, Time_for_epoch: 7.4427
+Tree 5: Epoch [8/20], lr:0.0006, Loss:0.0862, Time_for_epoch: 7.4073
+Tree 5: Epoch [9/20], lr:0.0006, Loss:0.0784, Time_for_epoch: 7.4150
+Tree 5: Epoch [10/20], lr:0.0006, Loss:0.0721, Time_for_epoch: 7.4548
+Tree 5: Epoch [11/20], lr:0.0006, Loss:0.0690, Time_for_epoch: 7.4082
+Tree 5: Epoch [12/20], lr:0.0006, Loss:0.0633, Time_for_epoch: 7.4482
+Tree 5: Epoch [13/20], lr:0.0006, Loss:0.0591, Time_for_epoch: 7.4329
+Tree 5: Epoch [14/20], lr:0.0006, Loss:0.0545, Time_for_epoch: 7.3968
+Tree 5: Epoch [15/20], lr:0.0006, Loss:0.0537, Time_for_epoch: 7.4728
+Tree 5: Epoch [16/20], lr:0.0006, Loss:0.0503, Time_for_epoch: 7.4048
+Tree 5: Epoch [17/20], lr:0.0006, Loss:0.0490, Time_for_epoch: 7.4635
+Tree 5: Epoch [18/20], lr:0.0006, Loss:0.0454, Time_for_epoch: 7.4498
+Tree 5: Epoch [19/20], lr:0.0006, Loss:0.0427, Time_for_epoch: 7.4570
+Tree 5: Epoch [20/20], lr:0.0006, Loss:0.0403, Time_for_epoch: 7.4144
+Tree 5: TestLoss: 0.0287, TestAccuracy: 0.9907, Time_for_individ: 149.8360
+Tree 6: Epoch [1/20], lr:0.0004, Loss:1.1035, Time_for_epoch: 7.4555
+Tree 6: Epoch [2/20], lr:0.0001, Loss:0.3712, Time_for_epoch: 7.4128
+Tree 6: Epoch [3/20], lr:0.0000, Loss:0.3256, Time_for_epoch: 7.4139
+Tree 6: Epoch [4/20], lr:0.0000, Loss:0.3126, Time_for_epoch: 7.4557
+Tree 6: Epoch [5/20], lr:0.0000, Loss:0.3062, Time_for_epoch: 7.4064
+Tree 6: Epoch [6/20], lr:0.0000, Loss:0.3041, Time_for_epoch: 7.4563
+Tree 6: Epoch [7/20], lr:0.0000, Loss:0.3033, Time_for_epoch: 7.4010
+Tree 6: Epoch [8/20], lr:0.0000, Loss:0.3040, Time_for_epoch: 7.3963
+Tree 6: Epoch [9/20], lr:0.0000, Loss:0.3018, Time_for_epoch: 7.4412
+Tree 6: Epoch [10/20], lr:0.0000, Loss:0.3035, Time_for_epoch: 7.4160
+Tree 6: Epoch [11/20], lr:0.0000, Loss:0.3026, Time_for_epoch: 7.4624
+Tree 6: Epoch [12/20], lr:0.0000, Loss:0.3022, Time_for_epoch: 7.4299
+Tree 6: Epoch [13/20], lr:0.0000, Loss:0.3025, Time_for_epoch: 7.5030
+Tree 6: Epoch [14/20], lr:0.0000, Loss:0.3017, Time_for_epoch: 7.4077
+Tree 6: Epoch [15/20], lr:0.0000, Loss:0.3014, Time_for_epoch: 7.4058
+Tree 6: Epoch [16/20], lr:0.0000, Loss:0.3034, Time_for_epoch: 7.4363
+Tree 6: Epoch [17/20], lr:0.0000, Loss:0.3026, Time_for_epoch: 7.3925
+Tree 6: Epoch [18/20], lr:0.0000, Loss:0.3042, Time_for_epoch: 7.4426
+Tree 6: Epoch [19/20], lr:0.0000, Loss:0.3041, Time_for_epoch: 7.3939
+Tree 6: Epoch [20/20], lr:0.0000, Loss:0.3027, Time_for_epoch: 7.4466
+Tree 6: TestLoss: 0.2689, TestAccuracy: 0.9233, Time_for_individ: 149.7089
+Tree 7: Epoch [1/20], lr:-0.0003, Loss:112.7353, Time_for_epoch: 7.3787
+Tree 7: Epoch [2/20], lr:-0.0003, Loss:3259.7281, Time_for_epoch: 7.3746
+Tree 7: Epoch [3/20], lr:-0.0003, Loss:26146.0950, Time_for_epoch: 7.4483
+Tree 7 is not valid
+Tree 8: Epoch [1/20], lr:0.0056, Loss:0.5260, Time_for_epoch: 7.4009
+Tree 8: Epoch [2/20], lr:0.0153, Loss:0.1143, Time_for_epoch: 7.4433
+Tree 8: Epoch [3/20], lr:0.0416, Loss:0.1231, Time_for_epoch: 7.4033
+Tree 8: Epoch [4/20], lr:0.1131, Loss:3.7951, Time_for_epoch: 7.4473
+Tree 8: Epoch [5/20], lr:0.3075, Loss:2.3050, Time_for_epoch: 7.4088
+Tree 8: Epoch [6/20], lr:0.8360, Loss:2.3105, Time_for_epoch: 7.4052
+Tree 8: Epoch [7/20], lr:2.2724, Loss:2.3285, Time_for_epoch: 7.4641
+Tree 8: Epoch [8/20], lr:6.1771, Loss:5.7942, Time_for_epoch: 7.4336
+Tree 8: Epoch [9/20], lr:16.7912, Loss:15.4726, Time_for_epoch: 7.5023
+Tree 8: Epoch [10/20], lr:45.6431, Loss:53.3214, Time_for_epoch: 7.4113
+Tree 8: Epoch [11/20], lr:124.0710, Loss:132.1024, Time_for_epoch: 7.4464
+Tree 8: Epoch [12/20], lr:337.2600, Loss:305.7127, Time_for_epoch: 7.3297
+Tree 8: Epoch [13/20], lr:916.7670, Loss:713.5956, Time_for_epoch: 7.3376
+Tree 8: Epoch [14/20], lr:2492.0300, Loss:2105.9336, Time_for_epoch: 7.3278
+Tree 8: Epoch [15/20], lr:6774.0400, Loss:5046.3249, Time_for_epoch: 7.2726
+Tree 8: Epoch [16/20], lr:18413.7000, Loss:14733.6715, Time_for_epoch: 7.3219
+Tree 8 is not valid
+Tree 9 is not valid
+Tree 10: Epoch [1/20], lr:-0.0007, Loss:1135.9421, Time_for_epoch: 7.2765
+Tree 10: Epoch [2/20], lr:-0.0007, Loss:51991.2851, Time_for_epoch: 7.3179
+Tree 10 is not valid
+Tree 11: Epoch [1/20], lr:0.0000, Loss:2.3116, Time_for_epoch: 7.2524
+Tree 11: Epoch [2/20], lr:0.0007, Loss:0.8359, Time_for_epoch: 7.2479
+Tree 11: Epoch [3/20], lr:0.0011, Loss:0.2087, Time_for_epoch: 7.3237
+Tree 11: Epoch [4/20], lr:0.0014, Loss:0.1185, Time_for_epoch: 7.2770
+Tree 11: Epoch [5/20], lr:0.0016, Loss:0.0882, Time_for_epoch: 7.3789
+Tree 11: Epoch [6/20], lr:0.0018, Loss:0.0722, Time_for_epoch: 7.3317
+Tree 11: Epoch [7/20], lr:0.0019, Loss:0.0607, Time_for_epoch: 7.3435
+Tree 11: Epoch [8/20], lr:0.0021, Loss:0.0550, Time_for_epoch: 7.3825
+Tree 11: Epoch [9/20], lr:0.0022, Loss:0.0498, Time_for_epoch: 7.3351
+Tree 11: Epoch [10/20], lr:0.0023, Loss:0.0448, Time_for_epoch: 7.3892
+Tree 11: Epoch [11/20], lr:0.0024, Loss:0.0418, Time_for_epoch: 7.3438
+Tree 11: Epoch [12/20], lr:0.0025, Loss:0.0368, Time_for_epoch: 7.3896
+Tree 11: Epoch [13/20], lr:0.0026, Loss:0.0347, Time_for_epoch: 7.3486
+Tree 11: Epoch [14/20], lr:0.0026, Loss:0.0327, Time_for_epoch: 7.3447
+Tree 11: Epoch [15/20], lr:0.0027, Loss:0.0306, Time_for_epoch: 7.3884
+Tree 11: Epoch [16/20], lr:0.0028, Loss:0.0292, Time_for_epoch: 7.3327
+Tree 11: Epoch [17/20], lr:0.0028, Loss:0.0284, Time_for_epoch: 7.3836
+Tree 11: Epoch [18/20], lr:0.0029, Loss:0.0227, Time_for_epoch: 7.3356
+Tree 11: Epoch [19/20], lr:0.0029, Loss:0.0243, Time_for_epoch: 7.3893
+Tree 11: Epoch [20/20], lr:0.0030, Loss:0.0243, Time_for_epoch: 7.3430
+Tree 11: TestLoss: 0.0234, TestAccuracy: 0.9920, Time_for_individ: 147.9861
+Tree 12: Epoch [1/20], lr:0.0000, Loss:2.3076, Time_for_epoch: 7.3182
+Tree 12: Epoch [2/20], lr:0.0003, Loss:1.1552, Time_for_epoch: 7.3992
+Tree 12: Epoch [3/20], lr:0.0005, Loss:0.3260, Time_for_epoch: 7.3496
+Tree 12: Epoch [4/20], lr:0.0007, Loss:0.1993, Time_for_epoch: 7.3950
+Tree 12: Epoch [5/20], lr:0.0009, Loss:0.1353, Time_for_epoch: 7.3361
+Tree 12: Epoch [6/20], lr:0.0010, Loss:0.1051, Time_for_epoch: 7.3885
+Tree 12: Epoch [7/20], lr:0.0011, Loss:0.0868, Time_for_epoch: 7.3532
+Tree 12: Epoch [8/20], lr:0.0012, Loss:0.0769, Time_for_epoch: 7.3418
+Tree 12: Epoch [9/20], lr:0.0014, Loss:0.0656, Time_for_epoch: 7.3300
+Tree 12: Epoch [10/20], lr:0.0015, Loss:0.0587, Time_for_epoch: 7.2801
+Tree 12: Epoch [11/20], lr:0.0015, Loss:0.0507, Time_for_epoch: 7.3284
+Tree 12: Epoch [12/20], lr:0.0016, Loss:0.0493, Time_for_epoch: 7.2881
+Tree 12: Epoch [13/20], lr:0.0017, Loss:0.0455, Time_for_epoch: 7.3307
+Tree 12: Epoch [14/20], lr:0.0018, Loss:0.0416, Time_for_epoch: 7.2800
+Tree 12: Epoch [15/20], lr:0.0019, Loss:0.0393, Time_for_epoch: 7.2796
+Tree 12: Epoch [16/20], lr:0.0019, Loss:0.0360, Time_for_epoch: 7.3337
+Tree 12: Epoch [17/20], lr:0.0020, Loss:0.0351, Time_for_epoch: 7.2846
+Tree 12: Epoch [18/20], lr:0.0021, Loss:0.0317, Time_for_epoch: 7.3254
+Tree 12: Epoch [19/20], lr:0.0021, Loss:0.0287, Time_for_epoch: 7.2825
+Tree 12: Epoch [20/20], lr:0.0022, Loss:0.0278, Time_for_epoch: 7.2860
+Tree 12: TestLoss: 0.0271, TestAccuracy: 0.9910, Time_for_individ: 147.6672
+Tree 13: Epoch [1/20], lr:0.0010, Loss:0.7522, Time_for_epoch: 7.2742
+Tree 13: Epoch [2/20], lr:0.0010, Loss:0.2291, Time_for_epoch: 7.3972
+Tree 13: Epoch [3/20], lr:0.0010, Loss:0.1443, Time_for_epoch: 7.4702
+Tree 13: Epoch [4/20], lr:0.0010, Loss:0.1105, Time_for_epoch: 7.4162
+Tree 13: Epoch [5/20], lr:0.0010, Loss:0.0890, Time_for_epoch: 7.4703
+Tree 13: Epoch [6/20], lr:0.0010, Loss:0.0786, Time_for_epoch: 7.4215
+Tree 13: Epoch [7/20], lr:0.0010, Loss:0.0692, Time_for_epoch: 7.4863
+Tree 13: Epoch [8/20], lr:0.0010, Loss:0.0614, Time_for_epoch: 7.4292
+Tree 13: Epoch [9/20], lr:0.0010, Loss:0.0597, Time_for_epoch: 7.4034
+Tree 13: Epoch [10/20], lr:0.0010, Loss:0.0525, Time_for_epoch: 7.4490
+Tree 13: Epoch [11/20], lr:0.0010, Loss:0.0470, Time_for_epoch: 7.3871
+Tree 13: Epoch [12/20], lr:0.0010, Loss:0.0463, Time_for_epoch: 7.4343
+Tree 13: Epoch [13/20], lr:0.0010, Loss:0.0417, Time_for_epoch: 7.3808
+Tree 13: Epoch [14/20], lr:0.0010, Loss:0.0396, Time_for_epoch: 7.3920
+Tree 13: Epoch [15/20], lr:0.0010, Loss:0.0375, Time_for_epoch: 7.4364
+Tree 13: Epoch [16/20], lr:0.0010, Loss:0.0355, Time_for_epoch: 7.3924
+Tree 13: Epoch [17/20], lr:0.0010, Loss:0.0341, Time_for_epoch: 7.4442
+Tree 13: Epoch [18/20], lr:0.0010, Loss:0.0337, Time_for_epoch: 7.4469
+Tree 13: Epoch [19/20], lr:0.0010, Loss:0.0302, Time_for_epoch: 7.4865
+Tree 13: Epoch [20/20], lr:0.0010, Loss:0.0289, Time_for_epoch: 7.4370
+Tree 13: TestLoss: 0.0231, TestAccuracy: 0.9912, Time_for_individ: 149.5899
+Tree 14: Epoch [1/20], lr:0.0010, Loss:0.7763, Time_for_epoch: 7.3842
+Tree 14: Epoch [2/20], lr:0.0010, Loss:0.2308, Time_for_epoch: 7.4437
+Tree 14: Epoch [3/20], lr:0.0010, Loss:0.1478, Time_for_epoch: 7.4070
+Tree 14: Epoch [4/20], lr:0.0010, Loss:0.1106, Time_for_epoch: 7.4507
+Tree 14: Epoch [5/20], lr:0.0010, Loss:0.0921, Time_for_epoch: 7.4074
+Tree 14: Epoch [6/20], lr:0.0010, Loss:0.0810, Time_for_epoch: 7.4497
+Tree 14: Epoch [7/20], lr:0.0010, Loss:0.0716, Time_for_epoch: 7.4206
+Tree 14: Epoch [8/20], lr:0.0010, Loss:0.0648, Time_for_epoch: 7.4039
+Tree 14: Epoch [9/20], lr:0.0010, Loss:0.0586, Time_for_epoch: 7.4543
+Tree 14: Epoch [10/20], lr:0.0010, Loss:0.0549, Time_for_epoch: 7.4092
+Tree 14: Epoch [11/20], lr:0.0010, Loss:0.0484, Time_for_epoch: 7.4597
+Tree 14: Epoch [12/20], lr:0.0010, Loss:0.0458, Time_for_epoch: 7.4090
+Tree 14: Epoch [13/20], lr:0.0010, Loss:0.0418, Time_for_epoch: 7.4499
+Tree 14: Epoch [14/20], lr:0.0010, Loss:0.0395, Time_for_epoch: 7.4186
+Tree 14: Epoch [15/20], lr:0.0010, Loss:0.0379, Time_for_epoch: 7.4095
+Tree 14: Epoch [16/20], lr:0.0010, Loss:0.0363, Time_for_epoch: 7.4669
+Tree 14: Epoch [17/20], lr:0.0010, Loss:0.0335, Time_for_epoch: 7.3786
+Tree 14: Epoch [18/20], lr:0.0010, Loss:0.0315, Time_for_epoch: 7.3148
+Tree 14: Epoch [19/20], lr:0.0010, Loss:0.0293, Time_for_epoch: 7.2770
+Tree 14: Epoch [20/20], lr:0.0010, Loss:0.0293, Time_for_epoch: 7.2745
+Tree 14: TestLoss: 0.0249, TestAccuracy: 0.9909, Time_for_individ: 149.2430
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 1438.4258 seconds
+General 7
+, Time_for_epoch: 6.3890
+Tree 6: Epoch [7/20], lr:0.0016, Loss:0.0621, Time_for_epoch: 6.4444
+Tree 6: Epoch [8/20], lr:0.0016, Loss:0.0576, Time_for_epoch: 6.3783
+Tree 6: Epoch [9/20], lr:0.0016, Loss:0.0517, Time_for_epoch: 6.4354
+Tree 6: Epoch [10/20], lr:0.0016, Loss:0.0465, Time_for_epoch: 6.3826
+Tree 6: Epoch [11/20], lr:0.0016, Loss:0.0422, Time_for_epoch: 6.3772
+Tree 6: Epoch [12/20], lr:0.0016, Loss:0.0380, Time_for_epoch: 6.4356
+Tree 6: Epoch [13/20], lr:0.0016, Loss:0.0365, Time_for_epoch: 6.3652
+Tree 6: Epoch [14/20], lr:0.0016, Loss:0.0318, Time_for_epoch: 6.3724
+Tree 6: Epoch [15/20], lr:0.0016, Loss:0.0326, Time_for_epoch: 6.4475
+Tree 6: Epoch [16/20], lr:0.0016, Loss:0.0306, Time_for_epoch: 6.3812
+Tree 6: Epoch [17/20], lr:0.0016, Loss:0.0282, Time_for_epoch: 6.4271
+Tree 6: Epoch [18/20], lr:0.0016, Loss:0.0250, Time_for_epoch: 6.3674
+Tree 6: Epoch [19/20], lr:0.0016, Loss:0.0264, Time_for_epoch: 6.3596
+Tree 6: Epoch [20/20], lr:0.0016, Loss:0.0254, Time_for_epoch: 6.4734
+Tree 6: TestLoss: 0.0263, TestAccuracy: 0.9917, Time_for_individ: 128.9047
+Tree 7: Epoch [1/20], lr:0.0001, Loss:2.0374, Time_for_epoch: 6.4343
+Tree 7: Epoch [2/20], lr:0.0001, Loss:1.0474, Time_for_epoch: 6.4347
+Tree 7: Epoch [3/20], lr:0.0001, Loss:0.5788, Time_for_epoch: 6.4956
+Tree 7: Epoch [4/20], lr:0.0001, Loss:0.4415, Time_for_epoch: 6.4346
+Tree 7: Epoch [5/20], lr:0.0001, Loss:0.3768, Time_for_epoch: 6.4631
+Tree 7: Epoch [6/20], lr:0.0001, Loss:0.3349, Time_for_epoch: 6.4010
+Tree 7: Epoch [7/20], lr:0.0001, Loss:0.3045, Time_for_epoch: 6.3925
+Tree 7: Epoch [8/20], lr:0.0001, Loss:0.2790, Time_for_epoch: 6.4657
+Tree 7: Epoch [9/20], lr:0.0001, Loss:0.2561, Time_for_epoch: 6.4075
+Tree 7: Epoch [10/20], lr:0.0001, Loss:0.2375, Time_for_epoch: 6.4030
+Tree 7: Epoch [11/20], lr:0.0001, Loss:0.2210, Time_for_epoch: 6.4827
+Tree 7: Epoch [12/20], lr:0.0001, Loss:0.2074, Time_for_epoch: 6.3931
+Tree 7: Epoch [13/20], lr:0.0001, Loss:0.1937, Time_for_epoch: 6.4583
+Tree 7: Epoch [14/20], lr:0.0001, Loss:0.1831, Time_for_epoch: 6.4120
+Tree 7: Epoch [15/20], lr:0.0001, Loss:0.1732, Time_for_epoch: 6.4088
+Tree 7: Epoch [16/20], lr:0.0001, Loss:0.1640, Time_for_epoch: 6.4873
+Tree 7: Epoch [17/20], lr:0.0001, Loss:0.1565, Time_for_epoch: 6.4137
+Tree 7: Epoch [18/20], lr:0.0001, Loss:0.1494, Time_for_epoch: 6.4202
+Tree 7: Epoch [19/20], lr:0.0001, Loss:0.1427, Time_for_epoch: 6.4883
+Tree 7: Epoch [20/20], lr:0.0001, Loss:0.1362, Time_for_epoch: 6.4262
+Tree 7: TestLoss: 0.1000, TestAccuracy: 0.9710, Time_for_individ: 129.6001
+Tree 8: Epoch [1/20], lr:0.0006, Loss:0.9550, Time_for_epoch: 6.5080
+Tree 8: Epoch [2/20], lr:-0.0012, Loss:29209.0633, Time_for_epoch: 6.4332
+Tree 8 is not valid
+Tree 9: Epoch [1/20], lr:-0.0005, Loss:249.0946, Time_for_epoch: 6.4463
+Tree 9: Epoch [2/20], lr:-0.0005, Loss:12095.2722, Time_for_epoch: 6.5068
+Tree 9 is not valid
+Tree 10: Epoch [1/20], lr:-0.0003, Loss:173.7373, Time_for_epoch: 6.4327
+Tree 10: Epoch [2/20], lr:-0.0003, Loss:5302.6528, Time_for_epoch: 6.3651
+Tree 10: Epoch [3/20], lr:-0.0003, Loss:43080.3064, Time_for_epoch: 6.4409
+Tree 10 is not valid
+Tree 11: Epoch [1/20], lr:-0.0007, Loss:1461.3743, Time_for_epoch: 6.3870
+Tree 11: Epoch [2/20], lr:-0.0007, Loss:75219.0246, Time_for_epoch: 6.4062
+Tree 11 is not valid
+Tree 12: Epoch [1/20], lr:0.0003, Loss:1.2912, Time_for_epoch: 6.4805
+Tree 12: Epoch [2/20], lr:0.0003, Loss:0.4291, Time_for_epoch: 6.4397
+Tree 12: Epoch [3/20], lr:0.0003, Loss:0.3225, Time_for_epoch: 6.5038
+Tree 12: Epoch [4/20], lr:0.0003, Loss:0.2667, Time_for_epoch: 6.4109
+Tree 12: Epoch [5/20], lr:0.0003, Loss:0.2232, Time_for_epoch: 6.4185
+Tree 12: Epoch [6/20], lr:0.0003, Loss:0.1907, Time_for_epoch: 6.5045
+Tree 12: Epoch [7/20], lr:0.0003, Loss:0.1658, Time_for_epoch: 6.4377
+Tree 12: Epoch [8/20], lr:0.0003, Loss:0.1450, Time_for_epoch: 6.4482
+Tree 12: Epoch [9/20], lr:0.0003, Loss:0.1295, Time_for_epoch: 6.5151
+Tree 12: Epoch [10/20], lr:0.0003, Loss:0.1199, Time_for_epoch: 6.4459
+Tree 12: Epoch [11/20], lr:0.0003, Loss:0.1084, Time_for_epoch: 6.5064
+Tree 12: Epoch [12/20], lr:0.0003, Loss:0.1005, Time_for_epoch: 6.4475
+Tree 12: Epoch [13/20], lr:0.0003, Loss:0.0938, Time_for_epoch: 6.4487
+Tree 12: Epoch [14/20], lr:0.0003, Loss:0.0876, Time_for_epoch: 6.5145
+Tree 12: Epoch [15/20], lr:0.0003, Loss:0.0826, Time_for_epoch: 6.4409
+Tree 12: Epoch [16/20], lr:0.0003, Loss:0.0790, Time_for_epoch: 6.4401
+Tree 12: Epoch [17/20], lr:0.0003, Loss:0.0751, Time_for_epoch: 6.5051
+Tree 12: Epoch [18/20], lr:0.0003, Loss:0.0730, Time_for_epoch: 6.3939
+Tree 12: Epoch [19/20], lr:0.0003, Loss:0.0674, Time_for_epoch: 6.4595
+Tree 12: Epoch [20/20], lr:0.0003, Loss:0.0645, Time_for_epoch: 6.3984
+Tree 12: TestLoss: 0.0448, TestAccuracy: 0.9845, Time_for_individ: 130.0258
+Tree 13: Epoch [1/20], lr:0.0014, Loss:0.6908, Time_for_epoch: 6.4007
+Tree 13: Epoch [2/20], lr:0.0014, Loss:0.1944, Time_for_epoch: 6.4649
+Tree 13: Epoch [3/20], lr:0.0014, Loss:0.1213, Time_for_epoch: 6.4380
+Tree 13: Epoch [4/20], lr:0.0014, Loss:0.0947, Time_for_epoch: 6.4427
+Tree 13: Epoch [5/20], lr:0.0014, Loss:0.0802, Time_for_epoch: 6.5138
+Tree 13: Epoch [6/20], lr:0.0014, Loss:0.0713, Time_for_epoch: 6.4412
+Tree 13: Epoch [7/20], lr:0.0014, Loss:0.0617, Time_for_epoch: 6.5012
+Tree 13: Epoch [8/20], lr:0.0014, Loss:0.0536, Time_for_epoch: 6.4381
+Tree 13: Epoch [9/20], lr:0.0014, Loss:0.0493, Time_for_epoch: 6.4455
+Tree 13: Epoch [10/20], lr:0.0014, Loss:0.0463, Time_for_epoch: 6.5060
+Tree 13: Epoch [11/20], lr:0.0014, Loss:0.0402, Time_for_epoch: 6.4405
+Tree 13: Epoch [12/20], lr:0.0014, Loss:0.0369, Time_for_epoch: 6.4195
+Tree 13: Epoch [13/20], lr:0.0014, Loss:0.0357, Time_for_epoch: 6.4744
+Tree 13: Epoch [14/20], lr:0.0014, Loss:0.0320, Time_for_epoch: 6.4098
+Tree 13: Epoch [15/20], lr:0.0014, Loss:0.0330, Time_for_epoch: 6.5022
+Tree 13: Epoch [16/20], lr:0.0014, Loss:0.0290, Time_for_epoch: 6.4420
+Tree 13: Epoch [17/20], lr:0.0014, Loss:0.0282, Time_for_epoch: 6.4377
+Tree 13: Epoch [18/20], lr:0.0014, Loss:0.0267, Time_for_epoch: 6.5148
+Tree 13: Epoch [19/20], lr:0.0014, Loss:0.0249, Time_for_epoch: 6.4470
+Tree 13: Epoch [20/20], lr:0.0014, Loss:0.0246, Time_for_epoch: 6.4646
+Tree 13: TestLoss: 0.0234, TestAccuracy: 0.9925, Time_for_individ: 130.0274
+Tree 14: Epoch [1/20], lr:0.0005, Loss:0.9696, Time_for_epoch: 6.5258
+Tree 14: Epoch [2/20], lr:-0.0004, Loss:1051.6830, Time_for_epoch: 6.4270
+Tree 14: Epoch [3/20], lr:-0.0008, Loss:113314.6014, Time_for_epoch: 6.4161
+Tree 14 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 1437.9697 seconds
+General 7
+ss:0.0422, Time_for_epoch: 6.1407
+Tree 21: Epoch [14/20], lr:0.0010, Loss:0.0400, Time_for_epoch: 6.1810
+Tree 21: Epoch [15/20], lr:0.0010, Loss:0.0384, Time_for_epoch: 6.1369
+Tree 21: Epoch [16/20], lr:0.0010, Loss:0.0358, Time_for_epoch: 6.1857
+Tree 21: Epoch [17/20], lr:0.0010, Loss:0.0332, Time_for_epoch: 6.1470
+Tree 21: Epoch [18/20], lr:0.0010, Loss:0.0318, Time_for_epoch: 6.1821
+Tree 21: Epoch [19/20], lr:0.0010, Loss:0.0314, Time_for_epoch: 6.1590
+Tree 21: Epoch [20/20], lr:0.0010, Loss:0.0292, Time_for_epoch: 6.2023
+Tree 21: TestLoss: 0.0240, TestAccuracy: 0.9915, Time_for_individ: 124.2193
+Tree 22: Epoch [1/20], lr:0.0002, Loss:1.5523, Time_for_epoch: 6.1483
+Tree 22: Epoch [2/20], lr:0.0002, Loss:0.4780, Time_for_epoch: 6.1845
+Tree 22: Epoch [3/20], lr:0.0002, Loss:0.3183, Time_for_epoch: 6.1456
+Tree 22: Epoch [4/20], lr:0.0002, Loss:0.2551, Time_for_epoch: 6.1790
+Tree 22: Epoch [5/20], lr:0.0002, Loss:0.2145, Time_for_epoch: 6.1400
+Tree 22: Epoch [6/20], lr:0.0002, Loss:0.1831, Time_for_epoch: 6.1350
+Tree 22: Epoch [7/20], lr:0.0002, Loss:0.1631, Time_for_epoch: 6.1802
+Tree 22: Epoch [8/20], lr:0.0002, Loss:0.1469, Time_for_epoch: 6.1370
+Tree 22: Epoch [9/20], lr:0.0002, Loss:0.1339, Time_for_epoch: 6.1897
+Tree 22: Epoch [10/20], lr:0.0002, Loss:0.1236, Time_for_epoch: 6.1401
+Tree 22: Epoch [11/20], lr:0.0002, Loss:0.1145, Time_for_epoch: 6.1755
+Tree 22: Epoch [12/20], lr:0.0002, Loss:0.1093, Time_for_epoch: 6.1413
+Tree 22: Epoch [13/20], lr:0.0002, Loss:0.1025, Time_for_epoch: 6.1785
+Tree 22: Epoch [14/20], lr:0.0002, Loss:0.0950, Time_for_epoch: 6.1340
+Tree 22: Epoch [15/20], lr:0.0002, Loss:0.0910, Time_for_epoch: 6.1696
+Tree 22: Epoch [16/20], lr:0.0002, Loss:0.0869, Time_for_epoch: 6.1404
+Tree 22: Epoch [17/20], lr:0.0002, Loss:0.0827, Time_for_epoch: 6.1339
+Tree 22: Epoch [18/20], lr:0.0002, Loss:0.0798, Time_for_epoch: 6.1811
+Tree 22: Epoch [19/20], lr:0.0002, Loss:0.0772, Time_for_epoch: 6.1358
+Tree 22: Epoch [20/20], lr:0.0002, Loss:0.0754, Time_for_epoch: 6.1754
+Tree 22: TestLoss: 0.0483, TestAccuracy: 0.9836, Time_for_individ: 124.1212
+Tree 23: Epoch [1/20], lr:-0.0002, Loss:44.5633, Time_for_epoch: 6.1422
+Tree 23: Epoch [2/20], lr:-0.0002, Loss:1199.0208, Time_for_epoch: 6.1744
+Tree 23: Epoch [3/20], lr:-0.0002, Loss:9360.3218, Time_for_epoch: 6.1450
+Tree 23: Epoch [4/20], lr:-0.0002, Loss:40995.4895, Time_for_epoch: 6.1756
+Tree 23 is not valid
+Tree 24: Epoch [1/20], lr:0.0048, Loss:0.5459, Time_for_epoch: 6.1366
+Tree 24: Epoch [2/20], lr:0.0024, Loss:0.1057, Time_for_epoch: 6.1668
+Tree 24: Epoch [3/20], lr:0.0016, Loss:0.0795, Time_for_epoch: 6.1404
+Tree 24: Epoch [4/20], lr:0.0012, Loss:0.0664, Time_for_epoch: 6.1794
+Tree 24: Epoch [5/20], lr:0.0010, Loss:0.0589, Time_for_epoch: 6.1384
+Tree 24: Epoch [6/20], lr:0.0008, Loss:0.0535, Time_for_epoch: 6.1237
+Tree 24: Epoch [7/20], lr:0.0007, Loss:0.0505, Time_for_epoch: 6.1761
+Tree 24: Epoch [8/20], lr:0.0006, Loss:0.0459, Time_for_epoch: 6.1464
+Tree 24: Epoch [9/20], lr:0.0005, Loss:0.0433, Time_for_epoch: 6.1680
+Tree 24: Epoch [10/20], lr:0.0005, Loss:0.0417, Time_for_epoch: 6.1440
+Tree 24: Epoch [11/20], lr:0.0004, Loss:0.0386, Time_for_epoch: 6.1821
+Tree 24: Epoch [12/20], lr:0.0004, Loss:0.0369, Time_for_epoch: 6.1342
+Tree 24: Epoch [13/20], lr:0.0004, Loss:0.0374, Time_for_epoch: 6.1729
+Tree 24: Epoch [14/20], lr:0.0003, Loss:0.0352, Time_for_epoch: 6.1364
+Tree 24: Epoch [15/20], lr:0.0003, Loss:0.0344, Time_for_epoch: 6.1775
+Tree 24: Epoch [16/20], lr:0.0003, Loss:0.0318, Time_for_epoch: 6.1403
+Tree 24: Epoch [17/20], lr:0.0003, Loss:0.0329, Time_for_epoch: 6.1346
+Tree 24: Epoch [18/20], lr:0.0003, Loss:0.0312, Time_for_epoch: 6.2013
+Tree 24: Epoch [19/20], lr:0.0003, Loss:0.0314, Time_for_epoch: 6.1545
+Tree 24: Epoch [20/20], lr:0.0002, Loss:0.0283, Time_for_epoch: 6.2079
+Tree 24: TestLoss: 0.0260, TestAccuracy: 0.9897, Time_for_individ: 124.1424
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 2325.8091 seconds
+General 4
+-50000	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	
+-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	
+0.0011884	0.00109975	0.00708617	-0.00132135	-0.00104284	-0.0035789	0.0015221	0.00101076	0.00242649	-0.00183816	-0.00100001	-0.00186368	0.00238001	0.00100948	0.00153778	-0.00347339	-0.00104015	-0.00133158	0.00667213	0.00109536	
+-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	
+0.001	0.0005	0.000333333	0.00025	0.0002	0.000166667	0.000142857	0.000125	0.000111111	0.0001	9.09091e-05	8.33333e-05	7.69231e-05	7.14286e-05	6.66667e-05	6.25e-05	5.88235e-05	5.55556e-05	5.26316e-05	5e-05	
+-0.00579362	-0.0210342	-0.00153206	-50000	-50000	-50000	-0.016663	-0.747749	-0.0101529	-50000	-50000	-50000	-0.0149925	-1.48352	-0.0348561	-50000	-50000	-50000	-0.0100109	-0.219589	
+0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	0.000631245	
+-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	-0.000761898	
+0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	0.000108458	
+0.000521347	0.00040666	0.000302477	0.000236433	0.000192915	0.000162522	0.00014023	0.000123232	0.000109866	9.90902e-05	9.02245e-05	8.28054e-05	7.65074e-05	7.10955e-05	6.63957e-05	6.22767e-05	5.86372e-05	5.53986e-05	5.24981e-05	4.98855e-05	
+0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	0.0108106	
+0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	0.000841471	
+-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	-0.000966216	
+0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	0.00232036	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	-0.000181279	
+0.000732383	0.000612338	0.000913401	0.000452141	0.000373988	0.000686181	0.000936538	0.000436842	0.000998153	0.000548367	0.000359641	0.00055199	0.00099882	0.000433815	0.000940975	0.000681517	0.000373109	0.00045458	0.000917477	0.000605141	
+0.000476412	0.000434245	0.000387585	0.000336158	0.000279753	0.000218246	0.000151644	8.0117e-05	4.04229e-06	-7.59583e-05	-0.000158988	-0.000243863	-0.000329117	-0.000413049	-0.000493796	-0.000569449	-0.000638193	-0.000698452	-0.000749007	-0.000789045	
+0.00395083	0.0086216	0.0213181	0.0558307	0.149646	0.404661	1.09787	2.98219	8.10432	22.0277	59.8754	162.756	442.415	1202.61	3269.02	8886.11	24155	65660	178482	485165	
+0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	0.0124066	
+0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	0.000662921	
+7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	7.24938e-05	
+-0.000396075	2.461e-05	-2.39884e-07	3.66815e-10	-8.79931e-14	3.31136e-18	-1.95488e-23	1.81046e-29	-2.63035e-36	5.99508e-44	-2.14354e-52	1.20233e-61	-1.05797e-71	1.46042e-82	-3.16255e-94	1.07437e-106	-5.72567e-120	4.7869e-134	-6.27825e-149	1.29175e-164	
+0	0.00026708	0.000423312	0.00053416	0.000620141	0.000690392	0.000749788	0.00080124	0.000846624	0.000887221	0.000923945	0.000957472	0.000988313	0.00101687	0.00104345	0.00106832	0.00109168	0.0011137	0.00113454	0.0011543	
+0.000668158	0.000474503	0.0004327	0.000414443	0.000404211	0.000397665	0.000393118	0.000389776	0.000387215	0.00038519	0.00038355	0.000382193	0.000381053	0.00038008	0.000379242	0.000378511	0.000377869	0.0003773	0.000376792	0.000376336	
+Tree 0 is not valid
+Tree 1: Epoch [1/20], lr:-0.7084, Loss:416601272533133.8750, Time_for_epoch: 6.0847
+Tree 1: Epoch [2/20], lr:-0.7084, Loss:42596576558212712.0000, Time_for_epoch: 6.1229
+Tree 1 is not valid
+Tree 2: Epoch [1/20], lr:0.0012, Loss:0.7061, Time_for_epoch: 6.0685
+Tree 2: Epoch [2/20], lr:0.0011, Loss:0.2101, Time_for_epoch: 6.1070
+Tree 2: Epoch [3/20], lr:0.0071, Loss:0.1390, Time_for_epoch: 6.0654
+Tree 2: Epoch [4/20], lr:-0.0013, Loss:69173.8429, Time_for_epoch: 6.1067
+Tree 2 is not valid
+Tree 3 is not valid
+Tree 4: Epoch [1/20], lr:0.0010, Loss:0.7731, Time_for_epoch: 6.0636
+Tree 4: Epoch [2/20], lr:0.0005, Loss:0.2554, Time_for_epoch: 6.0668
+Tree 4: Epoch [3/20], lr:0.0003, Loss:0.1941, Time_for_epoch: 6.1143
+Tree 4: Epoch [4/20], lr:0.0003, Loss:0.1643, Time_for_epoch: 6.0730
+Tree 4: Epoch [5/20], lr:0.0002, Loss:0.1441, Time_for_epoch: 6.1083
+Tree 4: Epoch [6/20], lr:0.0002, Loss:0.1332, Time_for_epoch: 6.0669
+Tree 4: Epoch [7/20], lr:0.0001, Loss:0.1245, Time_for_epoch: 6.1012
+Tree 4: Epoch [8/20], lr:0.0001, Loss:0.1176, Time_for_epoch: 6.0699
+Tree 4: Epoch [9/20], lr:0.0001, Loss:0.1123, Time_for_epoch: 6.1145
+Tree 4: Epoch [10/20], lr:0.0001, Loss:0.1085, Time_for_epoch: 6.0690
+Tree 4: Epoch [11/20], lr:0.0001, Loss:0.1035, Time_for_epoch: 6.1092
+Tree 4: Epoch [12/20], lr:0.0001, Loss:0.1016, Time_for_epoch: 6.0649
+Tree 4: Epoch [13/20], lr:0.0001, Loss:0.0974, Time_for_epoch: 6.0655
+Tree 4: Epoch [14/20], lr:0.0001, Loss:0.0955, Time_for_epoch: 6.1113
+Tree 4: Epoch [15/20], lr:0.0001, Loss:0.0938, Time_for_epoch: 6.0783
+Tree 4: Epoch [16/20], lr:0.0001, Loss:0.0904, Time_for_epoch: 6.1098
+Tree 4: Epoch [17/20], lr:0.0001, Loss:0.0896, Time_for_epoch: 6.0728
+Tree 4: Epoch [18/20], lr:0.0001, Loss:0.0866, Time_for_epoch: 6.1077
+Tree 4: Epoch [19/20], lr:0.0001, Loss:0.0865, Time_for_epoch: 6.0692
+Tree 4: Epoch [20/20], lr:0.0001, Loss:0.0839, Time_for_epoch: 6.1060
+Tree 4: TestLoss: 0.0585, TestAccuracy: 0.9809, Time_for_individ: 122.7083
+Tree 5 is not valid
+Tree 6: Epoch [1/20], lr:0.0006, Loss:0.8511, Time_for_epoch: 6.0740
+Tree 6: Epoch [2/20], lr:0.0006, Loss:0.2757, Time_for_epoch: 6.1120
+Tree 6: Epoch [3/20], lr:0.0006, Loss:0.1882, Time_for_epoch: 6.0684
+Tree 6: Epoch [4/20], lr:0.0006, Loss:0.1433, Time_for_epoch: 6.1076
+Tree 6: Epoch [5/20], lr:0.0006, Loss:0.1174, Time_for_epoch: 6.0692
+Tree 6: Epoch [6/20], lr:0.0006, Loss:0.0990, Time_for_epoch: 6.0691
+Tree 6: Epoch [7/20], lr:0.0006, Loss:0.0861, Time_for_epoch: 6.1062
+Tree 6: Epoch [8/20], lr:0.0006, Loss:0.0794, Time_for_epoch: 6.0637
+Tree 6: Epoch [9/20], lr:0.0006, Loss:0.0700, Time_for_epoch: 6.1040
+Tree 6: Epoch [10/20], lr:0.0006, Loss:0.0658, Time_for_epoch: 6.0626
+Tree 6: Epoch [11/20], lr:0.0006, Loss:0.0596, Time_for_epoch: 6.1122
+Tree 6: Epoch [12/20], lr:0.0006, Loss:0.0568, Time_for_epoch: 6.0714
+Tree 6: Epoch [13/20], lr:0.0006, Loss:0.0520, Time_for_epoch: 6.1149
+Tree 6: Epoch [14/20], lr:0.0006, Loss:0.0496, Time_for_epoch: 6.0731
+Tree 6: Epoch [15/20], lr:0.0006, Loss:0.0466, Time_for_epoch: 6.1149
+Tree 6: Epoch [16/20], lr:0.0006, Loss:0.0431, Time_for_epoch: 6.0747
+Tree 6: Epoch [17/20], lr:0.0006, Loss:0.0398, Time_for_epoch: 6.0686
+Tree 6: Epoch [18/20], lr:0.0006, Loss:0.0379, Time_for_epoch: 6.1159
+Tree 6: Epoch [19/20], lr:0.0006, Loss:0.0375, Time_for_epoch: 6.0719
+Tree 6: Epoch [20/20], lr:0.0006, Loss:0.0345, Time_for_epoch: 6.1097
+Tree 6: TestLoss: 0.0266, TestAccuracy: 0.9912, Time_for_individ: 122.7331
+Tree 7: Epoch [1/20], lr:-0.0008, Loss:1145.2962, Time_for_epoch: 6.0779
+Tree 7: Epoch [2/20], lr:-0.0008, Loss:65756.9774, Time_for_epoch: 6.1158
+Tree 7 is not valid
+Tree 8: Epoch [1/20], lr:0.0001, Loss:1.9745, Time_for_epoch: 6.0728
+Tree 8: Epoch [2/20], lr:0.0001, Loss:0.8866, Time_for_epoch: 6.1104
+Tree 8: Epoch [3/20], lr:0.0001, Loss:0.4993, Time_for_epoch: 6.0750
+Tree 8: Epoch [4/20], lr:0.0001, Loss:0.3931, Time_for_epoch: 6.1177
+Tree 8: Epoch [5/20], lr:0.0001, Loss:0.3373, Time_for_epoch: 6.0649
+Tree 8: Epoch [6/20], lr:0.0001, Loss:0.2982, Time_for_epoch: 6.1066
+Tree 8: Epoch [7/20], lr:0.0001, Loss:0.2669, Time_for_epoch: 6.0711
+Tree 8: Epoch [8/20], lr:0.0001, Loss:0.2444, Time_for_epoch: 6.0671
+Tree 8: Epoch [9/20], lr:0.0001, Loss:0.2241, Time_for_epoch: 6.1028
+Tree 8: Epoch [10/20], lr:0.0001, Loss:0.2051, Time_for_epoch: 6.0690
+Tree 8: Epoch [11/20], lr:0.0001, Loss:0.1891, Time_for_epoch: 6.1050
+Tree 8: Epoch [12/20], lr:0.0001, Loss:0.1781, Time_for_epoch: 6.0691
+Tree 8: Epoch [13/20], lr:0.0001, Loss:0.1681, Time_for_epoch: 6.1110
+Tree 8: Epoch [14/20], lr:0.0001, Loss:0.1558, Time_for_epoch: 6.0687
+Tree 8: Epoch [15/20], lr:0.0001, Loss:0.1472, Time_for_epoch: 6.1076
+Tree 8: Epoch [16/20], lr:0.0001, Loss:0.1397, Time_for_epoch: 6.0722
+Tree 8: Epoch [17/20], lr:0.0001, Loss:0.1327, Time_for_epoch: 6.1134
+Tree 8: Epoch [18/20], lr:0.0001, Loss:0.1262, Time_for_epoch: 6.0641
+Tree 8: Epoch [19/20], lr:0.0001, Loss:0.1219, Time_for_epoch: 6.0612
+Tree 8: Epoch [20/20], lr:0.0001, Loss:0.1165, Time_for_epoch: 6.1078
+Tree 8: TestLoss: 0.0822, TestAccuracy: 0.9736, Time_for_individ: 122.7057
+Tree 9: Epoch [1/20], lr:0.0005, Loss:0.9754, Time_for_epoch: 6.0606
+Tree 9: Epoch [2/20], lr:0.0004, Loss:0.3310, Time_for_epoch: 6.1077
+Tree 9: Epoch [3/20], lr:0.0003, Loss:0.2496, Time_for_epoch: 6.0803
+Tree 9: Epoch [4/20], lr:0.0002, Loss:0.2057, Time_for_epoch: 6.1038
+Tree 9: Epoch [5/20], lr:0.0002, Loss:0.1799, Time_for_epoch: 6.0688
+Tree 9: Epoch [6/20], lr:0.0002, Loss:0.1622, Time_for_epoch: 6.1044
+Tree 9: Epoch [7/20], lr:0.0001, Loss:0.1493, Time_for_epoch: 6.0668
+Tree 9: Epoch [8/20], lr:0.0001, Loss:0.1376, Time_for_epoch: 6.1008
+Tree 9: Epoch [9/20], lr:0.0001, Loss:0.1308, Time_for_epoch: 6.0640
+Tree 9: Epoch [10/20], lr:0.0001, Loss:0.1254, Time_for_epoch: 6.1024
+Tree 9: Epoch [11/20], lr:0.0001, Loss:0.1192, Time_for_epoch: 6.0666
+Tree 9: Epoch [12/20], lr:0.0001, Loss:0.1143, Time_for_epoch: 6.0646
+Tree 9: Epoch [13/20], lr:0.0001, Loss:0.1116, Time_for_epoch: 6.1014
+Tree 9: Epoch [14/20], lr:0.0001, Loss:0.1092, Time_for_epoch: 6.0667
+Tree 9: Epoch [15/20], lr:0.0001, Loss:0.1047, Time_for_epoch: 6.1035
+Tree 9: Epoch [16/20], lr:0.0001, Loss:0.1023, Time_for_epoch: 6.0624
+Tree 9: Epoch [17/20], lr:0.0001, Loss:0.1018, Time_for_epoch: 6.1005
+Tree 9: Epoch [18/20], lr:0.0001, Loss:0.0994, Time_for_epoch: 6.0526
+Tree 9: Epoch [19/20], lr:0.0001, Loss:0.0963, Time_for_epoch: 6.1020
+Tree 9: Epoch [20/20], lr:0.0000, Loss:0.0965, Time_for_epoch: 6.0629
+Tree 9: TestLoss: 0.0686, TestAccuracy: 0.9791, Time_for_individ: 122.6090
+Tree 10: Epoch [1/20], lr:0.0108, Loss:0.5615, Time_for_epoch: 6.1054
+Tree 10: Epoch [2/20], lr:0.0108, Loss:0.1261, Time_for_epoch: 6.0718
+Tree 10: Epoch [3/20], lr:0.0108, Loss:0.0928, Time_for_epoch: 6.0961
+Tree 10: Epoch [4/20], lr:0.0108, Loss:0.0740, Time_for_epoch: 6.0687
+Tree 10: Epoch [5/20], lr:0.0108, Loss:0.0678, Time_for_epoch: 6.0696
+Tree 10: Epoch [6/20], lr:0.0108, Loss:0.0634, Time_for_epoch: 6.1038
+Tree 10: Epoch [7/20], lr:0.0108, Loss:0.0554, Time_for_epoch: 6.0661
+Tree 10: Epoch [8/20], lr:0.0108, Loss:0.0543, Time_for_epoch: 6.1057
+Tree 10: Epoch [9/20], lr:0.0108, Loss:0.0477, Time_for_epoch: 6.0684
+Tree 10: Epoch [10/20], lr:0.0108, Loss:0.0452, Time_for_epoch: 6.1075
+Tree 10: Epoch [11/20], lr:0.0108, Loss:0.0434, Time_for_epoch: 6.0646
+Tree 10: Epoch [12/20], lr:0.0108, Loss:0.0440, Time_for_epoch: 6.1062
+Tree 10: Epoch [13/20], lr:0.0108, Loss:0.0416, Time_for_epoch: 6.0678
+Tree 10: Epoch [14/20], lr:0.0108, Loss:0.0389, Time_for_epoch: 6.1026
+Tree 10: Epoch [15/20], lr:0.0108, Loss:0.0396, Time_for_epoch: 6.0622
+Tree 10: Epoch [16/20], lr:0.0108, Loss:0.0408, Time_for_epoch: 6.0731
+Tree 10: Epoch [17/20], lr:0.0108, Loss:0.0383, Time_for_epoch: 6.1082
+Tree 10: Epoch [18/20], lr:0.0108, Loss:0.0360, Time_for_epoch: 6.0624
+Tree 10: Epoch [19/20], lr:0.0108, Loss:0.0338, Time_for_epoch: 6.1065
+Tree 10: Epoch [20/20], lr:0.0108, Loss:0.0358, Time_for_epoch: 6.0640
+Tree 10: TestLoss: 0.0314, TestAccuracy: 0.9901, Time_for_individ: 122.6455
+Tree 11: Epoch [1/20], lr:0.0008, Loss:0.7823, Time_for_epoch: 6.1043
+Tree 11: Epoch [2/20], lr:0.0008, Loss:0.2473, Time_for_epoch: 6.0798
+Tree 11: Epoch [3/20], lr:0.0008, Loss:0.1630, Time_for_epoch: 6.1112
+Tree 11: Epoch [4/20], lr:0.0008, Loss:0.1229, Time_for_epoch: 6.0795
+Tree 11: Epoch [5/20], lr:0.0008, Loss:0.1018, Time_for_epoch: 6.1109
+Tree 11: Epoch [6/20], lr:0.0008, Loss:0.0860, Time_for_epoch: 6.0608
+Tree 11: Epoch [7/20], lr:0.0008, Loss:0.0755, Time_for_epoch: 6.1079
+Tree 11: Epoch [8/20], lr:0.0008, Loss:0.0701, Time_for_epoch: 6.0728
+Tree 11: Epoch [9/20], lr:0.0008, Loss:0.0634, Time_for_epoch: 6.0707
+Tree 11: Epoch [10/20], lr:0.0008, Loss:0.0598, Time_for_epoch: 6.1088
+Tree 11: Epoch [11/20], lr:0.0008, Loss:0.0538, Time_for_epoch: 6.0739
+Tree 11: Epoch [12/20], lr:0.0008, Loss:0.0514, Time_for_epoch: 6.1128
+Tree 11: Epoch [13/20], lr:0.0008, Loss:0.0457, Time_for_epoch: 6.0650
+Tree 11: Epoch [14/20], lr:0.0008, Loss:0.0451, Time_for_epoch: 6.0989
+Tree 11: Epoch [15/20], lr:0.0008, Loss:0.0439, Time_for_epoch: 6.0674
+Tree 11: Epoch [16/20], lr:0.0008, Loss:0.0394, Time_for_epoch: 6.1131
+Tree 11: Epoch [17/20], lr:0.0008, Loss:0.0371, Time_for_epoch: 6.0672
+Tree 11: Epoch [18/20], lr:0.0008, Loss:0.0374, Time_for_epoch: 6.1084
+Tree 11: Epoch [19/20], lr:0.0008, Loss:0.0350, Time_for_epoch: 6.0707
+Tree 11: Epoch [20/20], lr:0.0008, Loss:0.0316, Time_for_epoch: 6.0753
+Tree 11: TestLoss: 0.0259, TestAccuracy: 0.9909, Time_for_individ: 122.7225
+Tree 12: Epoch [1/20], lr:-0.0010, Loss:3890.6472, Time_for_epoch: 6.1043
+Tree 12: Epoch [2/20], lr:-0.0010, Loss:206466.8848, Time_for_epoch: 6.0743
+Tree 12 is not valid
+Tree 13: Epoch [1/20], lr:0.0023, Loss:0.5606, Time_for_epoch: 6.0715
+Tree 13: Epoch [2/20], lr:0.0023, Loss:0.1338, Time_for_epoch: 6.1059
+Tree 13: Epoch [3/20], lr:0.0023, Loss:0.0906, Time_for_epoch: 6.0797
+Tree 13: Epoch [4/20], lr:0.0023, Loss:0.0737, Time_for_epoch: 6.0653
+Tree 13: Epoch [5/20], lr:0.0023, Loss:0.0584, Time_for_epoch: 6.1081
+Tree 13: Epoch [6/20], lr:0.0023, Loss:0.0504, Time_for_epoch: 6.0720
+Tree 13: Epoch [7/20], lr:0.0023, Loss:0.0462, Time_for_epoch: 6.1054
+Tree 13: Epoch [8/20], lr:0.0023, Loss:0.0418, Time_for_epoch: 6.0705
+Tree 13: Epoch [9/20], lr:0.0023, Loss:0.0365, Time_for_epoch: 6.1222
+Tree 13: Epoch [10/20], lr:0.0023, Loss:0.0350, Time_for_epoch: 6.0911
+Tree 13: Epoch [11/20], lr:0.0023, Loss:0.0307, Time_for_epoch: 6.1362
+Tree 13: Epoch [12/20], lr:0.0023, Loss:0.0282, Time_for_epoch: 6.0907
+Tree 13: Epoch [13/20], lr:0.0023, Loss:0.0258, Time_for_epoch: 6.1217
+Tree 13: Epoch [14/20], lr:0.0023, Loss:0.0255, Time_for_epoch: 6.0854
+Tree 13: Epoch [15/20], lr:0.0023, Loss:0.0243, Time_for_epoch: 6.0941
+Tree 13: Epoch [16/20], lr:0.0023, Loss:0.0210, Time_for_epoch: 6.1248
+Tree 13: Epoch [17/20], lr:0.0023, Loss:0.0216, Time_for_epoch: 6.0930
+Tree 13: Epoch [18/20], lr:0.0023, Loss:0.0203, Time_for_epoch: 6.1091
+Tree 13: Epoch [19/20], lr:0.0023, Loss:0.0194, Time_for_epoch: 6.0757
+Tree 13: Epoch [20/20], lr:0.0023, Loss:0.0190, Time_for_epoch: 6.1060
+Tree 13: TestLoss: 0.0262, TestAccuracy: 0.9898, Time_for_individ: 122.8956
+Tree 14: Epoch [1/20], lr:0.0008, Loss:0.7885, Time_for_epoch: 6.0605
+Tree 14: Epoch [2/20], lr:0.0009, Loss:0.2517, Time_for_epoch: 6.0989
+Tree 14: Epoch [3/20], lr:0.0001, Loss:0.1763, Time_for_epoch: 6.0621
+Tree 14: Epoch [4/20], lr:-0.0008, Loss:19294.7890, Time_for_epoch: 6.1008
+Tree 14 is not valid
+Tree 15: Epoch [1/20], lr:-0.0002, Loss:17.8163, Time_for_epoch: 6.0622
+Tree 15: Epoch [2/20], lr:-0.0002, Loss:439.0399, Time_for_epoch: 6.0930
+Tree 15: Epoch [3/20], lr:-0.0002, Loss:3315.3465, Time_for_epoch: 6.0610
+Tree 15: Epoch [4/20], lr:-0.0002, Loss:14227.2870, Time_for_epoch: 6.0617
+Tree 15 is not valid
+Tree 16: Epoch [1/20], lr:0.0007, Loss:0.8982, Time_for_epoch: 6.1061
+Tree 16: Epoch [2/20], lr:0.0006, Loss:0.2803, Time_for_epoch: 6.0602
+Tree 16: Epoch [3/20], lr:0.0009, Loss:0.1825, Time_for_epoch: 6.1039
+Tree 16: Epoch [4/20], lr:0.0005, Loss:0.1301, Time_for_epoch: 6.0601
+Tree 16: Epoch [5/20], lr:0.0004, Loss:0.1110, Time_for_epoch: 6.1065
+Tree 16: Epoch [6/20], lr:0.0007, Loss:0.1009, Time_for_epoch: 6.0608
+Tree 16: Epoch [7/20], lr:0.0009, Loss:0.0873, Time_for_epoch: 6.1029
+Tree 16: Epoch [8/20], lr:0.0004, Loss:0.0743, Time_for_epoch: 6.0592
+Tree 16: Epoch [9/20], lr:0.0010, Loss:0.0710, Time_for_epoch: 6.1030
+Tree 16: Epoch [10/20], lr:0.0005, Loss:0.0647, Time_for_epoch: 6.0621
+Tree 16: Epoch [11/20], lr:0.0004, Loss:0.0553, Time_for_epoch: 6.0699
+Tree 16: Epoch [12/20], lr:0.0006, Loss:0.0545, Time_for_epoch: 6.1039
+Tree 16: Epoch [13/20], lr:0.0010, Loss:0.0558, Time_for_epoch: 6.0676
+Tree 16: Epoch [14/20], lr:0.0004, Loss:0.0468, Time_for_epoch: 6.1075
+Tree 16: Epoch [15/20], lr:0.0009, Loss:0.0468, Time_for_epoch: 6.0661
+Tree 16: Epoch [16/20], lr:0.0007, Loss:0.0446, Time_for_epoch: 6.1088
+Tree 16: Epoch [17/20], lr:0.0004, Loss:0.0383, Time_for_epoch: 6.0683
+Tree 16: Epoch [18/20], lr:0.0005, Loss:0.0378, Time_for_epoch: 6.1034
+Tree 16: Epoch [19/20], lr:0.0009, Loss:0.0380, Time_for_epoch: 6.0725
+Tree 16: Epoch [20/20], lr:0.0006, Loss:0.0357, Time_for_epoch: 6.1090
+Tree 16: TestLoss: 0.0255, TestAccuracy: 0.9909, Time_for_individ: 122.6694
+Tree 17: Epoch [1/20], lr:0.0005, Loss:1.0949, Time_for_epoch: 6.0613
+Tree 17: Epoch [2/20], lr:0.0004, Loss:0.3404, Time_for_epoch: 6.1047
+Tree 17: Epoch [3/20], lr:0.0004, Loss:0.2500, Time_for_epoch: 6.0598
+Tree 17: Epoch [4/20], lr:0.0003, Loss:0.1997, Time_for_epoch: 6.0605
+Tree 17: Epoch [5/20], lr:0.0003, Loss:0.1656, Time_for_epoch: 6.0995
+Tree 17: Epoch [6/20], lr:0.0002, Loss:0.1456, Time_for_epoch: 6.0602
+Tree 17: Epoch [7/20], lr:0.0002, Loss:0.1334, Time_for_epoch: 6.1053
+Tree 17: Epoch [8/20], lr:0.0001, Loss:0.1267, Time_for_epoch: 6.0625
+Tree 17: Epoch [9/20], lr:0.0000, Loss:0.1242, Time_for_epoch: 6.1010
+Tree 17: Epoch [10/20], lr:-0.0001, Loss:56.2261, Time_for_epoch: 6.0624
+Tree 17: Epoch [11/20], lr:-0.0002, Loss:2973.5920, Time_for_epoch: 6.1042
+Tree 17: Epoch [12/20], lr:-0.0002, Loss:41374.4683, Time_for_epoch: 6.0607
+Tree 17 is not valid
+Tree 18: Epoch [1/20], lr:0.0040, Loss:0.5403, Time_for_epoch: 6.1001
+Tree 18: Epoch [2/20], lr:0.0086, Loss:0.1183, Time_for_epoch: 6.0596
+Tree 18: Epoch [3/20], lr:0.0213, Loss:0.1028, Time_for_epoch: 6.0608
+Tree 18: Epoch [4/20], lr:0.0558, Loss:0.1294, Time_for_epoch: 6.1073
+Tree 18: Epoch [5/20], lr:0.1496, Loss:8.7529, Time_for_epoch: 6.0671
+Tree 18: Epoch [6/20], lr:0.4047, Loss:2.3069, Time_for_epoch: 6.1099
+Tree 18: Epoch [7/20], lr:1.0979, Loss:2.3112, Time_for_epoch: 6.0707
+Tree 18: Epoch [8/20], lr:2.9822, Loss:2.3394, Time_for_epoch: 6.1091
+Tree 18: Epoch [9/20], lr:8.1043, Loss:13.6490, Time_for_epoch: 6.0642
+Tree 18: Epoch [10/20], lr:22.0277, Loss:20.6069, Time_for_epoch: 6.1014
+Tree 18: Epoch [11/20], lr:59.8754, Loss:52.2957, Time_for_epoch: 6.0632
+Tree 18: Epoch [12/20], lr:162.7560, Loss:131.9724, Time_for_epoch: 6.1022
+Tree 18: Epoch [13/20], lr:442.4150, Loss:393.4173, Time_for_epoch: 6.0622
+Tree 18: Epoch [14/20], lr:1202.6100, Loss:925.1196, Time_for_epoch: 6.0675
+Tree 18: Epoch [15/20], lr:3269.0200, Loss:2645.3272, Time_for_epoch: 6.1091
+Tree 18: Epoch [16/20], lr:8886.1100, Loss:6736.3708, Time_for_epoch: 6.0709
+Tree 18: Epoch [17/20], lr:24155.0000, Loss:17450.9904, Time_for_epoch: 6.1071
+Tree 18 is not valid
+Tree 19: Epoch [1/20], lr:0.0124, Loss:0.6318, Time_for_epoch: 6.0610
+Tree 19: Epoch [2/20], lr:0.0124, Loss:0.1375, Time_for_epoch: 6.1065
+Tree 19: Epoch [3/20], lr:0.0124, Loss:0.1048, Time_for_epoch: 6.0677
+Tree 19: Epoch [4/20], lr:0.0124, Loss:0.0887, Time_for_epoch: 6.1092
+Tree 19: Epoch [5/20], lr:0.0124, Loss:0.0812, Time_for_epoch: 6.0690
+Tree 19: Epoch [6/20], lr:0.0124, Loss:0.0694, Time_for_epoch: 6.1061
+Tree 19: Epoch [7/20], lr:0.0124, Loss:0.0635, Time_for_epoch: 6.0669
+Tree 19: Epoch [8/20], lr:0.0124, Loss:0.0596, Time_for_epoch: 6.0713
+Tree 19: Epoch [9/20], lr:0.0124, Loss:0.0587, Time_for_epoch: 6.1073
+Tree 19: Epoch [10/20], lr:0.0124, Loss:0.0570, Time_for_epoch: 6.0620
+Tree 19: Epoch [11/20], lr:0.0124, Loss:0.0565, Time_for_epoch: 6.1100
+Tree 19: Epoch [12/20], lr:0.0124, Loss:0.0500, Time_for_epoch: 6.0707
+Tree 19: Epoch [13/20], lr:0.0124, Loss:0.0482, Time_for_epoch: 6.0985
+Tree 19: Epoch [14/20], lr:0.0124, Loss:0.0495, Time_for_epoch: 6.0665
+Tree 19: Epoch [15/20], lr:0.0124, Loss:0.0468, Time_for_epoch: 6.1136
+Tree 19: Epoch [16/20], lr:0.0124, Loss:0.0483, Time_for_epoch: 6.0671
+Tree 19: Epoch [17/20], lr:0.0124, Loss:0.0431, Time_for_epoch: 6.1096
+Tree 19: Epoch [18/20], lr:0.0124, Loss:0.0468, Time_for_epoch: 6.0833
+Tree 19: Epoch [19/20], lr:0.0124, Loss:0.0424, Time_for_epoch: 6.0839
+Tree 19: Epoch [20/20], lr:0.0124, Loss:0.0442, Time_for_epoch: 6.1236
+Tree 19: TestLoss: 0.0307, TestAccuracy: 0.9911, Time_for_individ: 122.7238
+Tree 20: Epoch [1/20], lr:0.0007, Loss:0.9231, Time_for_epoch: 6.0819
+Tree 20: Epoch [2/20], lr:0.0007, Loss:0.2936, Time_for_epoch: 6.1162
+Tree 20: Epoch [3/20], lr:0.0007, Loss:0.1960, Time_for_epoch: 6.0700
+Tree 20: Epoch [4/20], lr:0.0007, Loss:0.1465, Time_for_epoch: 6.1096
+Tree 20: Epoch [5/20], lr:0.0007, Loss:0.1268, Time_for_epoch: 6.0694
+Tree 20: Epoch [6/20], lr:0.0007, Loss:0.1063, Time_for_epoch: 6.1138
+Tree 20: Epoch [7/20], lr:0.0007, Loss:0.0940, Time_for_epoch: 6.0767
+Tree 20: Epoch [8/20], lr:0.0007, Loss:0.0842, Time_for_epoch: 6.1172
+Tree 20: Epoch [9/20], lr:0.0007, Loss:0.0764, Time_for_epoch: 6.0731
+Tree 20: Epoch [10/20], lr:0.0007, Loss:0.0692, Time_for_epoch: 6.1110
+Tree 20: Epoch [11/20], lr:0.0007, Loss:0.0642, Time_for_epoch: 6.0667
+Tree 20: Epoch [12/20], lr:0.0007, Loss:0.0610, Time_for_epoch: 6.0710
+Tree 20: Epoch [13/20], lr:0.0007, Loss:0.0577, Time_for_epoch: 6.1131
+Tree 20: Epoch [14/20], lr:0.0007, Loss:0.0536, Time_for_epoch: 6.0759
+Tree 20: Epoch [15/20], lr:0.0007, Loss:0.0527, Time_for_epoch: 6.1089
+Tree 20: Epoch [16/20], lr:0.0007, Loss:0.0465, Time_for_epoch: 6.0742
+Tree 20: Epoch [17/20], lr:0.0007, Loss:0.0451, Time_for_epoch: 6.0989
+Tree 20: Epoch [18/20], lr:0.0007, Loss:0.0421, Time_for_epoch: 6.0656
+Tree 20: Epoch [19/20], lr:0.0007, Loss:0.0433, Time_for_epoch: 6.1024
+Tree 20: Epoch [20/20], lr:0.0007, Loss:0.0388, Time_for_epoch: 6.0679
+Tree 20: TestLoss: 0.0300, TestAccuracy: 0.9898, Time_for_individ: 122.7516
+Tree 21: Epoch [1/20], lr:0.0001, Loss:2.1698, Time_for_epoch: 6.1093
+Tree 21: Epoch [2/20], lr:0.0001, Loss:1.4563, Time_for_epoch: 6.0681
+Tree 21: Epoch [3/20], lr:0.0001, Loss:0.7848, Time_for_epoch: 6.1144
+Tree 21: Epoch [4/20], lr:0.0001, Loss:0.5406, Time_for_epoch: 6.0648
+Tree 21: Epoch [5/20], lr:0.0001, Loss:0.4366, Time_for_epoch: 6.0643
+Tree 21: Epoch [6/20], lr:0.0001, Loss:0.3798, Time_for_epoch: 6.1096
+Tree 21: Epoch [7/20], lr:0.0001, Loss:0.3415, Time_for_epoch: 6.0659
+Tree 21: Epoch [8/20], lr:0.0001, Loss:0.3111, Time_for_epoch: 6.1026
+Tree 21: Epoch [9/20], lr:0.0001, Loss:0.2878, Time_for_epoch: 6.0679
+Tree 21: Epoch [10/20], lr:0.0001, Loss:0.2688, Time_for_epoch: 6.1042
+Tree 21: Epoch [11/20], lr:0.0001, Loss:0.2511, Time_for_epoch: 6.0661
+Tree 21: Epoch [12/20], lr:0.0001, Loss:0.2364, Time_for_epoch: 6.0962
+Tree 21: Epoch [13/20], lr:0.0001, Loss:0.2228, Time_for_epoch: 6.0752
+Tree 21: Epoch [14/20], lr:0.0001, Loss:0.2101, Time_for_epoch: 6.1062
+Tree 21: Epoch [15/20], lr:0.0001, Loss:0.1989, Time_for_epoch: 6.0900
+Tree 21: Epoch [16/20], lr:0.0001, Loss:0.1886, Time_for_epoch: 6.0713
+Tree 21: Epoch [17/20], lr:0.0001, Loss:0.1791, Time_for_epoch: 6.1031
+Tree 21: Epoch [18/20], lr:0.0001, Loss:0.1708, Time_for_epoch: 6.0677
+Tree 21: Epoch [19/20], lr:0.0001, Loss:0.1647, Time_for_epoch: 6.1073
+Tree 21: Epoch [20/20], lr:0.0001, Loss:0.1556, Time_for_epoch: 6.0695
+Tree 21: TestLoss: 0.1212, TestAccuracy: 0.9638, Time_for_individ: 122.6926
+Tree 22: Epoch [1/20], lr:-0.0004, Loss:196.7143, Time_for_epoch: 6.1175
+Tree 22: Epoch [2/20], lr:0.0000, Loss:889.9240, Time_for_epoch: 6.0777
+Tree 22: Epoch [3/20], lr:-0.0000, Loss:795.3956, Time_for_epoch: 6.1129
+Tree 22: Epoch [4/20], lr:0.0000, Loss:795.2635, Time_for_epoch: 6.0753
+Tree 22: Epoch [5/20], lr:-0.0000, Loss:797.1198, Time_for_epoch: 6.1082
+Tree 22: Epoch [6/20], lr:0.0000, Loss:796.4601, Time_for_epoch: 6.0708
+Tree 22: Epoch [7/20], lr:-0.0000, Loss:796.4492, Time_for_epoch: 6.1106
+Tree 22: Epoch [8/20], lr:0.0000, Loss:796.4873, Time_for_epoch: 6.0704
+Tree 22: Epoch [9/20], lr:-0.0000, Loss:795.8930, Time_for_epoch: 6.0726
+Tree 22: Epoch [10/20], lr:0.0000, Loss:796.5166, Time_for_epoch: 6.1083
+Tree 22: Epoch [11/20], lr:-0.0000, Loss:796.1120, Time_for_epoch: 6.0803
+Tree 22: Epoch [12/20], lr:0.0000, Loss:796.3187, Time_for_epoch: 6.1127
+Tree 22: Epoch [13/20], lr:-0.0000, Loss:796.1663, Time_for_epoch: 6.0715
+Tree 22: Epoch [14/20], lr:0.0000, Loss:795.6569, Time_for_epoch: 6.1082
+Tree 22: Epoch [15/20], lr:-0.0000, Loss:795.6444, Time_for_epoch: 6.0720
+Tree 22: Epoch [16/20], lr:0.0000, Loss:796.2225, Time_for_epoch: 6.1101
+Tree 22: Epoch [17/20], lr:-0.0000, Loss:797.7397, Time_for_epoch: 6.0764
+Tree 22: Epoch [18/20], lr:0.0000, Loss:796.0507, Time_for_epoch: 6.1114
+Tree 22: Epoch [19/20], lr:-0.0000, Loss:796.0120, Time_for_epoch: 6.0692
+Tree 22: Epoch [20/20], lr:0.0000, Loss:796.2604, Time_for_epoch: 6.0747
+Tree 22: TestLoss: 800.8077, TestAccuracy: 0.0958, Time_for_individ: 122.7778
+Tree 23: Epoch [1/20], lr:0.0000, Loss:2.3031, Time_for_epoch: 6.1057
+Tree 23: Epoch [2/20], lr:0.0003, Loss:1.2219, Time_for_epoch: 6.0651
+Tree 23: Epoch [3/20], lr:0.0004, Loss:0.3686, Time_for_epoch: 6.0722
+Tree 23: Epoch [4/20], lr:0.0005, Loss:0.2404, Time_for_epoch: 6.1062
+Tree 23: Epoch [5/20], lr:0.0006, Loss:0.1709, Time_for_epoch: 6.0804
+Tree 23: Epoch [6/20], lr:0.0007, Loss:0.1295, Time_for_epoch: 6.0699
+Tree 23: Epoch [7/20], lr:0.0007, Loss:0.1050, Time_for_epoch: 6.1116
+Tree 23: Epoch [8/20], lr:0.0008, Loss:0.0906, Time_for_epoch: 6.0769
+Tree 23: Epoch [9/20], lr:0.0008, Loss:0.0802, Time_for_epoch: 6.1152
+Tree 23: Epoch [10/20], lr:0.0009, Loss:0.0722, Time_for_epoch: 6.0639
+Tree 23: Epoch [11/20], lr:0.0009, Loss:0.0649, Time_for_epoch: 6.1129
+Tree 23: Epoch [12/20], lr:0.0010, Loss:0.0591, Time_for_epoch: 6.0656
+Tree 23: Epoch [13/20], lr:0.0010, Loss:0.0578, Time_for_epoch: 6.1042
+Tree 23: Epoch [14/20], lr:0.0010, Loss:0.0524, Time_for_epoch: 6.0706
+Tree 23: Epoch [15/20], lr:0.0010, Loss:0.0478, Time_for_epoch: 6.1103
+Tree 23: Epoch [16/20], lr:0.0011, Loss:0.0454, Time_for_epoch: 6.0687
+Tree 23: Epoch [17/20], lr:0.0011, Loss:0.0437, Time_for_epoch: 6.0713
+Tree 23: Epoch [18/20], lr:0.0011, Loss:0.0394, Time_for_epoch: 6.1143
+Tree 23: Epoch [19/20], lr:0.0011, Loss:0.0373, Time_for_epoch: 6.0747
+Tree 23: Epoch [20/20], lr:0.0012, Loss:0.0372, Time_for_epoch: 6.1032
+Tree 23: TestLoss: 0.0239, TestAccuracy: 0.9915, Time_for_individ: 122.7316
+Tree 24: Epoch [1/20], lr:0.0007, Loss:0.9112, Time_for_epoch: 6.0700
+Tree 24: Epoch [2/20], lr:0.0005, Loss:0.2953, Time_for_epoch: 6.1166
+Tree 24: Epoch [3/20], lr:0.0004, Loss:0.2165, Time_for_epoch: 6.0760
+Tree 24: Epoch [4/20], lr:0.0004, Loss:0.1693, Time_for_epoch: 6.1084
+Tree 24: Epoch [5/20], lr:0.0004, Loss:0.1399, Time_for_epoch: 6.0770
+Tree 24: Epoch [6/20], lr:0.0004, Loss:0.1201, Time_for_epoch: 6.1126
+Tree 24: Epoch [7/20], lr:0.0004, Loss:0.1072, Time_for_epoch: 6.0714
+Tree 24: Epoch [8/20], lr:0.0004, Loss:0.0969, Time_for_epoch: 6.1133
+Tree 24: Epoch [9/20], lr:0.0004, Loss:0.0904, Time_for_epoch: 6.0733
+Tree 24: Epoch [10/20], lr:0.0004, Loss:0.0823, Time_for_epoch: 6.0760
+Tree 24: Epoch [11/20], lr:0.0004, Loss:0.0777, Time_for_epoch: 6.1092
+Tree 24: Epoch [12/20], lr:0.0004, Loss:0.0715, Time_for_epoch: 6.0667
+Tree 24: Epoch [13/20], lr:0.0004, Loss:0.0664, Time_for_epoch: 6.1037
+Tree 24: Epoch [14/20], lr:0.0004, Loss:0.0633, Time_for_epoch: 6.0654
+Tree 24: Epoch [15/20], lr:0.0004, Loss:0.0619, Time_for_epoch: 6.1075
+Tree 24: Epoch [16/20], lr:0.0004, Loss:0.0577, Time_for_epoch: 6.0655
+Tree 24: Epoch [17/20], lr:0.0004, Loss:0.0558, Time_for_epoch: 6.1115
+Tree 24: Epoch [18/20], lr:0.0004, Loss:0.0518, Time_for_epoch: 6.0725
+Tree 24: Epoch [19/20], lr:0.0004, Loss:0.0509, Time_for_epoch: 6.1085
+Tree 24: Epoch [20/20], lr:0.0004, Loss:0.0494, Time_for_epoch: 6.0635
+Tree 24: TestLoss: 0.0341, TestAccuracy: 0.9891, Time_for_individ: 122.7365
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 2010.0553 seconds
+General 5
+-0.000401403	-0.000441649	-0.000490865	-0.000552425	-0.00063164	-0.000737376	-0.00088563	-0.0011085	-0.00148127	-0.00223175	-0.0045237	0.167714	0.00429216	0.0021739	0.00145555	0.00109404	0.000876375	0.000730949	0.000626918	0.00054881	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	0.000384178	
+0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	0.000672326	
+-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	-0.708396	
+0.000581389	0.00105712	0.00149974	0.00192213	0.0023301	0.00272693	0.00311472	0.00349495	0.00386869	0.00423674	0.00459977	0.00495828	0.00531271	0.0056634	0.00601066	0.00635476	0.00669591	0.00703431	0.00737014	0.00770354	
+-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	-0.000896449	
+0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	0.000386425	
+-50000	0.00180291	0.00170627	0.00180291	0.00194118	0.00209239	0.00224774	0.00240388	0.0025594	0.00271365	0.00286637	0.00301746	0.0031669	0.00331474	0.00346102	0.00360582	0.00374921	0.00389125	0.00403201	0.00417155	
+0.00271828	0.00738906	0.0200855	0.0545982	0.148413	0.403429	1.09663	2.98096	8.10308	22.0265	59.8741	162.755	442.413	1202.6	3269.02	8886.11	24155	65660	178482	485165	
+0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	0.000818096	
+0.001	0.00143692	0.001	0.00206473	0.001	0.00296685	0.001	0.00426312	0.001	0.00612576	0.001	0.00880221	0.001	0.0126481	0.001	0.0181742	0.001	0.0261149	0.001	0.0375249	
+-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	-0.000843329	
+0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	0.000880562	
+0.000144227	-0.000259271	-0.00105213	-0.000629034	0.000273915	0.000964031	0.000752373	-0.000144894	-0.00091137	-0.000838977	4.38807e-06	0.000843869	0.000907441	0.00013674	-0.000759689	-0.000957659	-0.000275163	0.000660317	0.000988705	0.000408082	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	0.00128788	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	0.000195701	
+0.000410781	0.000893855	0.000944471	-0.000928768	-0.000687691	0.000964866	-0.000215616	0.000401763	-0.000793461	-0.000688704	0.000995189	0.000991769	0.000984312	0.000501405	0.000988763	0.000513363	0.000732754	-0.000814402	0.000292799	0.000400682	
+-0.00225879	-0.00321524	-0.00378909	-0.00345274	-0.00251543	-0.00183892	-0.00204519	-0.00294459	-0.00371022	-0.00363816	-0.00279467	-0.00195524	-0.00189165	-0.00266236	-0.00355878	-0.00375675	-0.00307426	-0.00213878	-0.00181039	-0.00239101	
+0.00238859	0.00649287	0.0176495	0.0479762	0.130413	0.354499	0.963628	2.61941	7.1203	19.355	52.6123	143.015	388.755	1056.75	2872.53	7808.36	21225.3	57696.4	156835	426322	
+-50000	0.0014427	0.000910239	0.000721348	0.000621335	0.000558111	0.000513898	0.000480898	0.00045512	0.000434294	0.000417032	0.00040243	0.000389871	0.000378923	0.000369269	0.000360674	0.000352956	0.000345976	0.000339623	0.000333808	
+-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	-0.000627225	
+-0.000919721	-0.00045986	-0.000306574	-0.00022993	-0.000183944	-0.000153287	-0.000131389	-0.000114965	-0.000102191	-9.19721e-05	-8.3611e-05	-7.66434e-05	-7.07478e-05	-6.56943e-05	-6.13147e-05	-5.74826e-05	-5.41012e-05	-5.10956e-05	-4.84064e-05	-4.5986e-05	
+Tree 0: Epoch [1/20], lr:-0.0004, Loss:216.7489, Time_for_epoch: 6.1081
+Tree 0: Epoch [2/20], lr:-0.0004, Loss:9654.1028, Time_for_epoch: 6.0705
+Tree 0: Epoch [3/20], lr:-0.0005, Loss:112454.8142, Time_for_epoch: 6.0742
+Tree 0 is not valid
+Tree 1: Epoch [1/20], lr:0.0008, Loss:0.8311, Time_for_epoch: 6.0935
+Tree 1: Epoch [2/20], lr:0.0009, Loss:0.2685, Time_for_epoch: 6.0634
+Tree 1: Epoch [3/20], lr:0.0001, Loss:0.1939, Time_for_epoch: 6.0992
+Tree 1: Epoch [4/20], lr:-0.0008, Loss:16691.5790, Time_for_epoch: 6.0614
+Tree 1 is not valid
+Tree 2: Epoch [1/20], lr:0.0004, Loss:1.1346, Time_for_epoch: 6.1118
+Tree 2: Epoch [2/20], lr:0.0004, Loss:0.3483, Time_for_epoch: 6.0741
+Tree 2: Epoch [3/20], lr:0.0004, Loss:0.2512, Time_for_epoch: 6.1055
+Tree 2: Epoch [4/20], lr:0.0004, Loss:0.1970, Time_for_epoch: 6.0761
+Tree 2: Epoch [5/20], lr:0.0004, Loss:0.1633, Time_for_epoch: 6.1176
+Tree 2: Epoch [6/20], lr:0.0004, Loss:0.1398, Time_for_epoch: 6.0605
+Tree 2: Epoch [7/20], lr:0.0004, Loss:0.1225, Time_for_epoch: 6.0621
+Tree 2: Epoch [8/20], lr:0.0004, Loss:0.1087, Time_for_epoch: 6.1118
+Tree 2: Epoch [9/20], lr:0.0004, Loss:0.0989, Time_for_epoch: 6.0570
+Tree 2: Epoch [10/20], lr:0.0004, Loss:0.0901, Time_for_epoch: 6.1089
+Tree 2: Epoch [11/20], lr:0.0004, Loss:0.0840, Time_for_epoch: 6.0624
+Tree 2: Epoch [12/20], lr:0.0004, Loss:0.0788, Time_for_epoch: 6.1041
+Tree 2: Epoch [13/20], lr:0.0004, Loss:0.0722, Time_for_epoch: 6.0669
+Tree 2: Epoch [14/20], lr:0.0004, Loss:0.0705, Time_for_epoch: 6.1059
+Tree 2: Epoch [15/20], lr:0.0004, Loss:0.0661, Time_for_epoch: 6.0615
+Tree 2: Epoch [16/20], lr:0.0004, Loss:0.0609, Time_for_epoch: 6.1003
+Tree 2: Epoch [17/20], lr:0.0004, Loss:0.0592, Time_for_epoch: 6.0690
+Tree 2: Epoch [18/20], lr:0.0004, Loss:0.0569, Time_for_epoch: 6.0675
+Tree 2: Epoch [19/20], lr:0.0004, Loss:0.0537, Time_for_epoch: 6.0973
+Tree 2: Epoch [20/20], lr:0.0004, Loss:0.0510, Time_for_epoch: 6.0624
+Tree 2: TestLoss: 0.0339, TestAccuracy: 0.9882, Time_for_individ: 122.6486
+Tree 3: Epoch [1/20], lr:0.0007, Loss:0.8439, Time_for_epoch: 6.1233
+Tree 3: Epoch [2/20], lr:0.0007, Loss:0.2796, Time_for_epoch: 6.0782
+Tree 3: Epoch [3/20], lr:0.0007, Loss:0.1817, Time_for_epoch: 6.1108
+Tree 3: Epoch [4/20], lr:0.0007, Loss:0.1366, Time_for_epoch: 6.0733
+Tree 3: Epoch [5/20], lr:0.0007, Loss:0.1138, Time_for_epoch: 6.1115
+Tree 3: Epoch [6/20], lr:0.0007, Loss:0.0985, Time_for_epoch: 6.0746
+Tree 3: Epoch [7/20], lr:0.0007, Loss:0.0870, Time_for_epoch: 6.1138
+Tree 3: Epoch [8/20], lr:0.0007, Loss:0.0779, Time_for_epoch: 6.0799
+Tree 3: Epoch [9/20], lr:0.0007, Loss:0.0733, Time_for_epoch: 6.1150
+Tree 3: Epoch [10/20], lr:0.0007, Loss:0.0674, Time_for_epoch: 6.0690
+Tree 3: Epoch [11/20], lr:0.0007, Loss:0.0620, Time_for_epoch: 6.0807
+Tree 3: Epoch [12/20], lr:0.0007, Loss:0.0560, Time_for_epoch: 6.1136
+Tree 3: Epoch [13/20], lr:0.0007, Loss:0.0515, Time_for_epoch: 6.0754
+Tree 3: Epoch [14/20], lr:0.0007, Loss:0.0484, Time_for_epoch: 6.1128
+Tree 3: Epoch [15/20], lr:0.0007, Loss:0.0469, Time_for_epoch: 6.0715
+Tree 3: Epoch [16/20], lr:0.0007, Loss:0.0425, Time_for_epoch: 6.1275
+Tree 3: Epoch [17/20], lr:0.0007, Loss:0.0398, Time_for_epoch: 6.0851
+Tree 3: Epoch [18/20], lr:0.0007, Loss:0.0391, Time_for_epoch: 6.1339
+Tree 3: Epoch [19/20], lr:0.0007, Loss:0.0376, Time_for_epoch: 6.0923
+Tree 3: Epoch [20/20], lr:0.0007, Loss:0.0344, Time_for_epoch: 6.1234
+Tree 3: TestLoss: 0.0271, TestAccuracy: 0.9903, Time_for_individ: 122.9374
+Tree 4: Epoch [1/20], lr:-0.7084, Loss:337267734955903.6250, Time_for_epoch: 6.0700
+Tree 4: Epoch [2/20], lr:-0.7084, Loss:34714290392364920.0000, Time_for_epoch: 6.1016
+Tree 4 is not valid
+Tree 5: Epoch [1/20], lr:0.0006, Loss:0.8969, Time_for_epoch: 6.0821
+Tree 5: Epoch [2/20], lr:0.0011, Loss:0.2440, Time_for_epoch: 6.0845
+Tree 5: Epoch [3/20], lr:0.0015, Loss:0.1358, Time_for_epoch: 6.1190
+Tree 5: Epoch [4/20], lr:0.0019, Loss:0.0978, Time_for_epoch: 6.0855
+Tree 5: Epoch [5/20], lr:0.0023, Loss:0.0782, Time_for_epoch: 6.1281
+Tree 5: Epoch [6/20], lr:0.0027, Loss:0.0651, Time_for_epoch: 6.0821
+Tree 5: Epoch [7/20], lr:0.0031, Loss:0.0553, Time_for_epoch: 6.1268
+Tree 5: Epoch [8/20], lr:0.0035, Loss:0.0511, Time_for_epoch: 6.0916
+Tree 5: Epoch [9/20], lr:0.0039, Loss:0.0467, Time_for_epoch: 6.1247
+Tree 5: Epoch [10/20], lr:0.0042, Loss:0.0425, Time_for_epoch: 6.0891
+Tree 5: Epoch [11/20], lr:0.0046, Loss:0.0375, Time_for_epoch: 6.1222
+Tree 5: Epoch [12/20], lr:0.0050, Loss:0.0341, Time_for_epoch: 6.0630
+Tree 5: Epoch [13/20], lr:0.0053, Loss:0.0334, Time_for_epoch: 6.0623
+Tree 5: Epoch [14/20], lr:0.0057, Loss:0.0304, Time_for_epoch: 6.1105
+Tree 5: Epoch [15/20], lr:0.0060, Loss:0.0273, Time_for_epoch: 6.0637
+Tree 5: Epoch [16/20], lr:0.0064, Loss:0.0289, Time_for_epoch: 6.1056
+Tree 5: Epoch [17/20], lr:0.0067, Loss:0.0278, Time_for_epoch: 6.0695
+Tree 5: Epoch [18/20], lr:0.0070, Loss:0.0280, Time_for_epoch: 6.1085
+Tree 5: Epoch [19/20], lr:0.0074, Loss:0.0276, Time_for_epoch: 6.0655
+Tree 5: Epoch [20/20], lr:0.0077, Loss:0.0263, Time_for_epoch: 6.1063
+Tree 5: TestLoss: 0.0268, TestAccuracy: 0.9914, Time_for_individ: 122.8568
+Tree 6: Epoch [1/20], lr:-0.0009, Loss:1951.4438, Time_for_epoch: 6.0688
+Tree 6: Epoch [2/20], lr:-0.0009, Loss:122622.2770, Time_for_epoch: 6.1029
+Tree 6 is not valid
+Tree 7: Epoch [1/20], lr:0.0004, Loss:1.1561, Time_for_epoch: 6.0559
+Tree 7: Epoch [2/20], lr:0.0004, Loss:0.3576, Time_for_epoch: 6.0906
+Tree 7: Epoch [3/20], lr:0.0004, Loss:0.2553, Time_for_epoch: 6.0591
+Tree 7: Epoch [4/20], lr:0.0004, Loss:0.1986, Time_for_epoch: 6.0614
+Tree 7: Epoch [5/20], lr:0.0004, Loss:0.1607, Time_for_epoch: 6.0988
+Tree 7: Epoch [6/20], lr:0.0004, Loss:0.1348, Time_for_epoch: 6.0611
+Tree 7: Epoch [7/20], lr:0.0004, Loss:0.1189, Time_for_epoch: 6.1017
+Tree 7: Epoch [8/20], lr:0.0004, Loss:0.1062, Time_for_epoch: 6.0618
+Tree 7: Epoch [9/20], lr:0.0004, Loss:0.0971, Time_for_epoch: 6.1086
+Tree 7: Epoch [10/20], lr:0.0004, Loss:0.0886, Time_for_epoch: 6.0597
+Tree 7: Epoch [11/20], lr:0.0004, Loss:0.0838, Time_for_epoch: 6.0978
+Tree 7: Epoch [12/20], lr:0.0004, Loss:0.0779, Time_for_epoch: 6.0511
+Tree 7: Epoch [13/20], lr:0.0004, Loss:0.0735, Time_for_epoch: 6.1032
+Tree 7: Epoch [14/20], lr:0.0004, Loss:0.0682, Time_for_epoch: 6.0622
+Tree 7: Epoch [15/20], lr:0.0004, Loss:0.0658, Time_for_epoch: 6.0605
+Tree 7: Epoch [16/20], lr:0.0004, Loss:0.0615, Time_for_epoch: 6.1024
+Tree 7: Epoch [17/20], lr:0.0004, Loss:0.0593, Time_for_epoch: 6.0620
+Tree 7: Epoch [18/20], lr:0.0004, Loss:0.0551, Time_for_epoch: 6.1046
+Tree 7: Epoch [19/20], lr:0.0004, Loss:0.0533, Time_for_epoch: 6.0676
+Tree 7: Epoch [20/20], lr:0.0004, Loss:0.0516, Time_for_epoch: 6.1015
+Tree 7: TestLoss: 0.0350, TestAccuracy: 0.9884, Time_for_individ: 122.5382
+Tree 8 is not valid
+Tree 9: Epoch [1/20], lr:0.0027, Loss:0.5331, Time_for_epoch: 6.0603
+Tree 9: Epoch [2/20], lr:0.0074, Loss:0.1123, Time_for_epoch: 6.0984
+Tree 9: Epoch [3/20], lr:0.0201, Loss:0.0999, Time_for_epoch: 6.0661
+Tree 9: Epoch [4/20], lr:0.0546, Loss:0.1622, Time_for_epoch: 6.1002
+Tree 9: Epoch [5/20], lr:0.1484, Loss:5.1443, Time_for_epoch: 6.0639
+Tree 9: Epoch [6/20], lr:0.4034, Loss:2.3055, Time_for_epoch: 6.1014
+Tree 9: Epoch [7/20], lr:1.0966, Loss:2.3189, Time_for_epoch: 6.0587
+Tree 9: Epoch [8/20], lr:2.9810, Loss:2.3443, Time_for_epoch: 6.0641
+Tree 9: Epoch [9/20], lr:8.1031, Loss:11.1997, Time_for_epoch: 6.1051
+Tree 9: Epoch [10/20], lr:22.0265, Loss:21.2681, Time_for_epoch: 6.0768
+Tree 9: Epoch [11/20], lr:59.8741, Loss:82.3609, Time_for_epoch: 6.1042
+Tree 9: Epoch [12/20], lr:162.7550, Loss:127.1033, Time_for_epoch: 6.0660
+Tree 9: Epoch [13/20], lr:442.4130, Loss:334.2630, Time_for_epoch: 6.1119
+Tree 9: Epoch [14/20], lr:1202.6000, Loss:901.2431, Time_for_epoch: 6.0768
+Tree 9: Epoch [15/20], lr:3269.0200, Loss:2910.5709, Time_for_epoch: 6.1099
+Tree 9: Epoch [16/20], lr:8886.1100, Loss:5717.5932, Time_for_epoch: 6.0780
+Tree 9: Epoch [17/20], lr:24155.0000, Loss:17433.3054, Time_for_epoch: 6.1070
+Tree 9 is not valid
+Tree 10: Epoch [1/20], lr:0.0008, Loss:0.8217, Time_for_epoch: 6.0758
+Tree 10: Epoch [2/20], lr:0.0008, Loss:0.2556, Time_for_epoch: 6.0651
+Tree 10: Epoch [3/20], lr:0.0008, Loss:0.1666, Time_for_epoch: 6.1084
+Tree 10: Epoch [4/20], lr:0.0008, Loss:0.1287, Time_for_epoch: 6.0633
+Tree 10: Epoch [5/20], lr:0.0008, Loss:0.1065, Time_for_epoch: 6.1013
+Tree 10: Epoch [6/20], lr:0.0008, Loss:0.0897, Time_for_epoch: 6.0666
+Tree 10: Epoch [7/20], lr:0.0008, Loss:0.0792, Time_for_epoch: 6.1028
+Tree 10: Epoch [8/20], lr:0.0008, Loss:0.0726, Time_for_epoch: 6.0575
+Tree 10: Epoch [9/20], lr:0.0008, Loss:0.0663, Time_for_epoch: 6.1048
+Tree 10: Epoch [10/20], lr:0.0008, Loss:0.0603, Time_for_epoch: 6.0714
+Tree 10: Epoch [11/20], lr:0.0008, Loss:0.0557, Time_for_epoch: 6.1107
+Tree 10: Epoch [12/20], lr:0.0008, Loss:0.0529, Time_for_epoch: 6.0683
+Tree 10: Epoch [13/20], lr:0.0008, Loss:0.0476, Time_for_epoch: 6.0685
+Tree 10: Epoch [14/20], lr:0.0008, Loss:0.0449, Time_for_epoch: 6.1031
+Tree 10: Epoch [15/20], lr:0.0008, Loss:0.0441, Time_for_epoch: 6.0715
+Tree 10: Epoch [16/20], lr:0.0008, Loss:0.0407, Time_for_epoch: 6.1125
+Tree 10: Epoch [17/20], lr:0.0008, Loss:0.0406, Time_for_epoch: 6.0675
+Tree 10: Epoch [18/20], lr:0.0008, Loss:0.0359, Time_for_epoch: 6.1119
+Tree 10: Epoch [19/20], lr:0.0008, Loss:0.0337, Time_for_epoch: 6.0609
+Tree 10: Epoch [20/20], lr:0.0008, Loss:0.0340, Time_for_epoch: 6.1039
+Tree 10: TestLoss: 0.0247, TestAccuracy: 0.9918, Time_for_individ: 122.6628
+Tree 11: Epoch [1/20], lr:0.0010, Loss:0.7875, Time_for_epoch: 6.0663
+Tree 11: Epoch [2/20], lr:0.0014, Loss:0.2078, Time_for_epoch: 6.0963
+Tree 11: Epoch [3/20], lr:0.0010, Loss:0.1199, Time_for_epoch: 6.0618
+Tree 11: Epoch [4/20], lr:0.0021, Loss:0.0954, Time_for_epoch: 6.0535
+Tree 11: Epoch [5/20], lr:0.0010, Loss:0.0720, Time_for_epoch: 6.1024
+Tree 11: Epoch [6/20], lr:0.0030, Loss:0.0746, Time_for_epoch: 6.0548
+Tree 11: Epoch [7/20], lr:0.0010, Loss:0.0541, Time_for_epoch: 6.1048
+Tree 11: Epoch [8/20], lr:0.0043, Loss:0.0603, Time_for_epoch: 6.0530
+Tree 11: Epoch [9/20], lr:0.0010, Loss:0.0428, Time_for_epoch: 6.1024
+Tree 11: Epoch [10/20], lr:0.0061, Loss:0.0585, Time_for_epoch: 6.0466
+Tree 11: Epoch [11/20], lr:0.0010, Loss:0.0391, Time_for_epoch: 6.0918
+Tree 11: Epoch [12/20], lr:0.0088, Loss:0.0581, Time_for_epoch: 6.0615
+Tree 11: Epoch [13/20], lr:0.0010, Loss:0.0384, Time_for_epoch: 6.0940
+Tree 11: Epoch [14/20], lr:0.0126, Loss:0.0574, Time_for_epoch: 6.0547
+Tree 11: Epoch [15/20], lr:0.0010, Loss:0.0350, Time_for_epoch: 6.0615
+Tree 11: Epoch [16/20], lr:0.0182, Loss:0.0640, Time_for_epoch: 6.1064
+Tree 11: Epoch [17/20], lr:0.0010, Loss:0.0406, Time_for_epoch: 6.0660
+Tree 11: Epoch [18/20], lr:0.0261, Loss:0.0816, Time_for_epoch: 6.0981
+Tree 11: Epoch [19/20], lr:0.0010, Loss:0.0712, Time_for_epoch: 6.0693
+Tree 11: Epoch [20/20], lr:0.0375, Loss:0.1533, Time_for_epoch: 6.1042
+Tree 11: TestLoss: 0.0857, TestAccuracy: 0.9747, Time_for_individ: 122.5166
+Tree 12: Epoch [1/20], lr:-0.0008, Loss:2432.6440, Time_for_epoch: 6.0658
+Tree 12: Epoch [2/20], lr:-0.0008, Loss:124075.5868, Time_for_epoch: 6.1070
+Tree 12 is not valid
+Tree 13: Epoch [1/20], lr:0.0009, Loss:0.7915, Time_for_epoch: 6.0729
+Tree 13: Epoch [2/20], lr:0.0009, Loss:0.2391, Time_for_epoch: 6.1056
+Tree 13: Epoch [3/20], lr:0.0009, Loss:0.1551, Time_for_epoch: 6.0648
+Tree 13: Epoch [4/20], lr:0.0009, Loss:0.1148, Time_for_epoch: 6.1052
+Tree 13: Epoch [5/20], lr:0.0009, Loss:0.0965, Time_for_epoch: 6.0663
+Tree 13: Epoch [6/20], lr:0.0009, Loss:0.0831, Time_for_epoch: 6.0637
+Tree 13: Epoch [7/20], lr:0.0009, Loss:0.0739, Time_for_epoch: 6.1006
+Tree 13: Epoch [8/20], lr:0.0009, Loss:0.0668, Time_for_epoch: 6.0627
+Tree 13: Epoch [9/20], lr:0.0009, Loss:0.0629, Time_for_epoch: 6.1049
+Tree 13: Epoch [10/20], lr:0.0009, Loss:0.0556, Time_for_epoch: 6.0656
+Tree 13: Epoch [11/20], lr:0.0009, Loss:0.0535, Time_for_epoch: 6.1079
+Tree 13: Epoch [12/20], lr:0.0009, Loss:0.0487, Time_for_epoch: 6.0624
+Tree 13: Epoch [13/20], lr:0.0009, Loss:0.0459, Time_for_epoch: 6.1069
+Tree 13: Epoch [14/20], lr:0.0009, Loss:0.0417, Time_for_epoch: 6.0602
+Tree 13: Epoch [15/20], lr:0.0009, Loss:0.0404, Time_for_epoch: 6.0953
+Tree 13: Epoch [16/20], lr:0.0009, Loss:0.0391, Time_for_epoch: 6.0655
+Tree 13: Epoch [17/20], lr:0.0009, Loss:0.0353, Time_for_epoch: 6.0619
+Tree 13: Epoch [18/20], lr:0.0009, Loss:0.0341, Time_for_epoch: 6.1037
+Tree 13: Epoch [19/20], lr:0.0009, Loss:0.0325, Time_for_epoch: 6.0654
+Tree 13: Epoch [20/20], lr:0.0009, Loss:0.0317, Time_for_epoch: 6.1100
+Tree 13: TestLoss: 0.0286, TestAccuracy: 0.9913, Time_for_individ: 122.6199
+Tree 14: Epoch [1/20], lr:0.0001, Loss:1.7579, Time_for_epoch: 6.0634
+Tree 14: Epoch [2/20], lr:-0.0003, Loss:239.6266, Time_for_epoch: 6.1020
+Tree 14: Epoch [3/20], lr:-0.0011, Loss:121561.1834, Time_for_epoch: 6.0565
+Tree 14 is not valid
+Tree 15: Epoch [1/20], lr:0.0008, Loss:0.7848, Time_for_epoch: 6.1060
+Tree 15: Epoch [2/20], lr:0.0009, Loss:0.2246, Time_for_epoch: 6.0591
+Tree 15: Epoch [3/20], lr:0.0001, Loss:0.1571, Time_for_epoch: 6.0975
+Tree 15: Epoch [4/20], lr:-0.0008, Loss:20716.7332, Time_for_epoch: 6.0581
+Tree 15 is not valid
+Tree 16: Epoch [1/20], lr:0.0013, Loss:0.6631, Time_for_epoch: 6.1035
+Tree 16: Epoch [2/20], lr:0.0013, Loss:0.1807, Time_for_epoch: 6.0597
+Tree 16: Epoch [3/20], lr:0.0013, Loss:0.1181, Time_for_epoch: 6.0579
+Tree 16: Epoch [4/20], lr:0.0013, Loss:0.0910, Time_for_epoch: 6.0957
+Tree 16: Epoch [5/20], lr:0.0013, Loss:0.0741, Time_for_epoch: 6.0597
+Tree 16: Epoch [6/20], lr:0.0013, Loss:0.0665, Time_for_epoch: 6.1009
+Tree 16: Epoch [7/20], lr:0.0013, Loss:0.0586, Time_for_epoch: 6.0603
+Tree 16: Epoch [8/20], lr:0.0013, Loss:0.0528, Time_for_epoch: 6.0993
+Tree 16: Epoch [9/20], lr:0.0013, Loss:0.0496, Time_for_epoch: 6.0623
+Tree 16: Epoch [10/20], lr:0.0013, Loss:0.0449, Time_for_epoch: 6.1020
+Tree 16: Epoch [11/20], lr:0.0013, Loss:0.0409, Time_for_epoch: 6.0598
+Tree 16: Epoch [12/20], lr:0.0013, Loss:0.0364, Time_for_epoch: 6.0927
+Tree 16: Epoch [13/20], lr:0.0013, Loss:0.0330, Time_for_epoch: 6.0673
+Tree 16: Epoch [14/20], lr:0.0013, Loss:0.0329, Time_for_epoch: 6.0710
+Tree 16: Epoch [15/20], lr:0.0013, Loss:0.0305, Time_for_epoch: 6.1077
+Tree 16: Epoch [16/20], lr:0.0013, Loss:0.0280, Time_for_epoch: 6.0574
+Tree 16: Epoch [17/20], lr:0.0013, Loss:0.0273, Time_for_epoch: 6.1029
+Tree 16: Epoch [18/20], lr:0.0013, Loss:0.0262, Time_for_epoch: 6.0647
+Tree 16: Epoch [19/20], lr:0.0013, Loss:0.0235, Time_for_epoch: 6.0869
+Tree 16: Epoch [20/20], lr:0.0013, Loss:0.0225, Time_for_epoch: 6.0554
+Tree 16: TestLoss: 0.0229, TestAccuracy: 0.9921, Time_for_individ: 122.5323
+Tree 17: Epoch [1/20], lr:0.0008, Loss:0.7917, Time_for_epoch: 6.0931
+Tree 17: Epoch [2/20], lr:0.0009, Loss:0.2329, Time_for_epoch: 6.0554
+Tree 17: Epoch [3/20], lr:0.0001, Loss:0.1660, Time_for_epoch: 6.0971
+Tree 17: Epoch [4/20], lr:-0.0008, Loss:15496.1401, Time_for_epoch: 6.0635
+Tree 17 is not valid
+Tree 18: Epoch [1/20], lr:0.0002, Loss:1.5563, Time_for_epoch: 6.0984
+Tree 18: Epoch [2/20], lr:0.0002, Loss:0.4977, Time_for_epoch: 6.0571
+Tree 18: Epoch [3/20], lr:0.0002, Loss:0.3452, Time_for_epoch: 6.0624
+Tree 18: Epoch [4/20], lr:0.0002, Loss:0.2804, Time_for_epoch: 6.0950
+Tree 18: Epoch [5/20], lr:0.0002, Loss:0.2433, Time_for_epoch: 6.0574
+Tree 18: Epoch [6/20], lr:0.0002, Loss:0.2096, Time_for_epoch: 6.1095
+Tree 18: Epoch [7/20], lr:0.0002, Loss:0.1875, Time_for_epoch: 6.0757
+Tree 18: Epoch [8/20], lr:0.0002, Loss:0.1679, Time_for_epoch: 6.0934
+Tree 18: Epoch [9/20], lr:0.0002, Loss:0.1540, Time_for_epoch: 6.0631
+Tree 18: Epoch [10/20], lr:0.0002, Loss:0.1421, Time_for_epoch: 6.1017
+Tree 18: Epoch [11/20], lr:0.0002, Loss:0.1305, Time_for_epoch: 6.0631
+Tree 18: Epoch [12/20], lr:0.0002, Loss:0.1235, Time_for_epoch: 6.0949
+Tree 18: Epoch [13/20], lr:0.0002, Loss:0.1152, Time_for_epoch: 6.0544
+Tree 18: Epoch [14/20], lr:0.0002, Loss:0.1093, Time_for_epoch: 6.0576
+Tree 18: Epoch [15/20], lr:0.0002, Loss:0.1022, Time_for_epoch: 6.1005
+Tree 18: Epoch [16/20], lr:0.0002, Loss:0.1002, Time_for_epoch: 6.0640
+Tree 18: Epoch [17/20], lr:0.0002, Loss:0.0948, Time_for_epoch: 6.1088
+Tree 18: Epoch [18/20], lr:0.0002, Loss:0.0897, Time_for_epoch: 6.0645
+Tree 18: Epoch [19/20], lr:0.0002, Loss:0.0865, Time_for_epoch: 6.0998
+Tree 18: Epoch [20/20], lr:0.0002, Loss:0.0823, Time_for_epoch: 6.0602
+Tree 18: TestLoss: 0.0547, TestAccuracy: 0.9811, Time_for_individ: 122.5461
+Tree 19: Epoch [1/20], lr:0.0004, Loss:1.1506, Time_for_epoch: 6.1010
+Tree 19: Epoch [2/20], lr:0.0009, Loss:0.3315, Time_for_epoch: 6.0672
+Tree 19: Epoch [3/20], lr:0.0009, Loss:0.2030, Time_for_epoch: 6.1095
+Tree 19: Epoch [4/20], lr:-0.0009, Loss:40632.7792, Time_for_epoch: 6.0630
+Tree 19 is not valid
+Tree 20: Epoch [1/20], lr:-0.0023, Loss:56230.2302, Time_for_epoch: 6.1051
+Tree 20: Epoch [2/20], lr:-0.0032, Loss:10162695.1609, Time_for_epoch: 6.0718
+Tree 20 is not valid
+Tree 21: Epoch [1/20], lr:0.0024, Loss:0.6017, Time_for_epoch: 6.0641
+Tree 21: Epoch [2/20], lr:0.0065, Loss:0.1292, Time_for_epoch: 6.1025
+Tree 21: Epoch [3/20], lr:0.0176, Loss:0.0995, Time_for_epoch: 6.0673
+Tree 21: Epoch [4/20], lr:0.0480, Loss:0.1266, Time_for_epoch: 6.1009
+Tree 21: Epoch [5/20], lr:0.1304, Loss:6.5384, Time_for_epoch: 6.0614
+Tree 21: Epoch [6/20], lr:0.3545, Loss:2.3112, Time_for_epoch: 6.0992
+Tree 21: Epoch [7/20], lr:0.9636, Loss:2.3196, Time_for_epoch: 6.0649
+Tree 21: Epoch [8/20], lr:2.6194, Loss:2.3356, Time_for_epoch: 6.0970
+Tree 21: Epoch [9/20], lr:7.1203, Loss:8.1041, Time_for_epoch: 6.0644
+Tree 21: Epoch [10/20], lr:19.3550, Loss:19.8582, Time_for_epoch: 6.0958
+Tree 21: Epoch [11/20], lr:52.6123, Loss:54.5792, Time_for_epoch: 6.0588
+Tree 21: Epoch [12/20], lr:143.0150, Loss:150.1408, Time_for_epoch: 6.0570
+Tree 21: Epoch [13/20], lr:388.7550, Loss:359.0618, Time_for_epoch: 6.0994
+Tree 21: Epoch [14/20], lr:1056.7500, Loss:639.8890, Time_for_epoch: 6.0642
+Tree 21: Epoch [15/20], lr:2872.5300, Loss:2036.3339, Time_for_epoch: 6.1016
+Tree 21: Epoch [16/20], lr:7808.3600, Loss:5352.5801, Time_for_epoch: 6.0634
+Tree 21: Epoch [17/20], lr:21225.3000, Loss:18944.8417, Time_for_epoch: 6.1037
+Tree 21 is not valid
+Tree 22 is not valid
+Tree 23: Epoch [1/20], lr:-0.0006, Loss:592.5971, Time_for_epoch: 6.0539
+Tree 23: Epoch [2/20], lr:-0.0006, Loss:31798.6426, Time_for_epoch: 6.0900
+Tree 23 is not valid
+Tree 24: Epoch [1/20], lr:-0.0009, Loss:2896.1819, Time_for_epoch: 6.0557
+Tree 24: Epoch [2/20], lr:-0.0005, Loss:53510.4841, Time_for_epoch: 6.1079
+Tree 24 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 1523.4992 seconds
+General 6
+0.000466906	0.000848614	-0.000346009	-9.93668e-05	-4.91582e-05	-2.96504e-05	-1.99142e-05	-1.43247e-05	-1.08098e-05	-8.45215e-06	-6.79243e-06	-5.5792e-06	-4.66511e-06	-3.95911e-06	-3.40238e-06	-2.95555e-06	-2.59143e-06	-2.29078e-06	-2.03964e-06	-1.82769e-06	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	
+-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	-0.00103593	
+0.00065353	0.00330706	0.00796059	0.0146141	0.0232677	0.0339212	0.0465747	0.0612282	0.0778818	0.0965353	0.117189	0.139842	0.164496	0.191149	0.219803	0.250456	0.28311	0.317764	0.354417	0.393071	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	6.08341e-05	
+0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	0.000915357	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+-0.000882658	-0.000779085	-0.000687665	-0.000606973	-0.000535749	-0.000472883	-0.000417394	-0.000368416	-0.000325185	-0.000287027	-0.000253347	-0.000223618	-0.000197379	-0.000174218	-0.000153775	-0.00013573	-0.000119803	-0.000105745	-9.3337e-05	-8.23846e-05	
+-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	-0.000714915	
+0.000841471	0.000909297	0.00014112	-0.000756802	-0.000958924	-0.000279415	0.000656987	0.000989358	0.000412118	-0.000544021	-0.00099999	-0.000536573	0.000420167	0.000990607	0.000650288	-0.000287903	-0.000961397	-0.000750987	0.000149877	0.000912945	
+-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	
+-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	-0.000495704	
+-1.41164e-06	-2.82328e-06	-4.23492e-06	-5.64656e-06	-7.05819e-06	-8.46983e-06	-9.88147e-06	-1.12931e-05	-1.27048e-05	-1.41164e-05	-1.5528e-05	-1.69397e-05	-1.83513e-05	-1.97629e-05	-2.11746e-05	-2.25862e-05	-2.39979e-05	-2.54095e-05	-2.68211e-05	-2.82328e-05	
+-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	-50000	
+0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	0.000273407	
+-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	-0.000878772	
+-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	-0.000823712	
+0.001	0.000759923	0.000647178	0.000577482	0.000528634	0.000491805	0.000462676	0.000438842	0.00041884	0.000401721	0.000386839	0.000373734	0.000362072	0.000351598	0.000342121	0.000333486	0.000325574	0.000318286	0.000311542	0.000305277	
+0.00260838	0.0026074	0.00260683	0.00260642	0.00260611	0.00260585	0.00260563	0.00260544	0.00260528	0.00260513	0.00260499	0.00260487	0.00260476	0.00260465	0.00260456	0.00260447	0.00260438	0.0026043	0.00260422	0.00260415	
+3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	3.80447e-05	
+0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	0.000603571	
+Tree 0: Epoch [1/20], lr:0.0005, Loss:0.9815, Time_for_epoch: 6.0662
+Tree 0: Epoch [2/20], lr:0.0008, Loss:0.2877, Time_for_epoch: 6.0633
+Tree 0: Epoch [3/20], lr:-0.0003, Loss:1205.8237, Time_for_epoch: 6.1077
+Tree 0: Epoch [4/20], lr:-0.0001, Loss:8864.0635, Time_for_epoch: 6.0622
+Tree 0: Epoch [5/20], lr:-0.0000, Loss:14495.2414, Time_for_epoch: 6.1095
+Tree 0 is not valid
+Tree 1: Epoch [1/20], lr:0.0008, Loss:0.8774, Time_for_epoch: 6.0535
+Tree 1: Epoch [2/20], lr:0.0009, Loss:0.2343, Time_for_epoch: 6.0991
+Tree 1: Epoch [3/20], lr:0.0001, Loss:0.1626, Time_for_epoch: 6.0547
+Tree 1: Epoch [4/20], lr:-0.0008, Loss:15618.9533, Time_for_epoch: 6.0931
+Tree 1 is not valid
+Tree 2: Epoch [1/20], lr:0.0010, Loss:0.7562, Time_for_epoch: 6.0635
+Tree 2: Epoch [2/20], lr:0.0010, Loss:0.2385, Time_for_epoch: 6.0992
+Tree 2: Epoch [3/20], lr:0.0010, Loss:0.1563, Time_for_epoch: 6.0682
+Tree 2: Epoch [4/20], lr:0.0010, Loss:0.1165, Time_for_epoch: 6.0590
+Tree 2: Epoch [5/20], lr:0.0010, Loss:0.0952, Time_for_epoch: 6.1019
+Tree 2: Epoch [6/20], lr:0.0010, Loss:0.0831, Time_for_epoch: 6.0629
+Tree 2: Epoch [7/20], lr:0.0010, Loss:0.0708, Time_for_epoch: 6.1046
+Tree 2: Epoch [8/20], lr:0.0010, Loss:0.0639, Time_for_epoch: 6.0647
+Tree 2: Epoch [9/20], lr:0.0010, Loss:0.0579, Time_for_epoch: 6.1055
+Tree 2: Epoch [10/20], lr:0.0010, Loss:0.0525, Time_for_epoch: 6.0608
+Tree 2: Epoch [11/20], lr:0.0010, Loss:0.0486, Time_for_epoch: 6.1065
+Tree 2: Epoch [12/20], lr:0.0010, Loss:0.0456, Time_for_epoch: 6.0696
+Tree 2: Epoch [13/20], lr:0.0010, Loss:0.0416, Time_for_epoch: 6.1037
+Tree 2: Epoch [14/20], lr:0.0010, Loss:0.0396, Time_for_epoch: 6.0647
+Tree 2: Epoch [15/20], lr:0.0010, Loss:0.0370, Time_for_epoch: 6.0684
+Tree 2: Epoch [16/20], lr:0.0010, Loss:0.0352, Time_for_epoch: 6.1074
+Tree 2: Epoch [17/20], lr:0.0010, Loss:0.0329, Time_for_epoch: 6.0637
+Tree 2: Epoch [18/20], lr:0.0010, Loss:0.0323, Time_for_epoch: 6.1005
+Tree 2: Epoch [19/20], lr:0.0010, Loss:0.0289, Time_for_epoch: 6.0598
+Tree 2: Epoch [20/20], lr:0.0010, Loss:0.0273, Time_for_epoch: 6.1035
+Tree 2: TestLoss: 0.0258, TestAccuracy: 0.9909, Time_for_individ: 122.6063
+Tree 3: Epoch [1/20], lr:-0.0010, Loss:4118.0931, Time_for_epoch: 6.0635
+Tree 3: Epoch [2/20], lr:-0.0010, Loss:244851.1293, Time_for_epoch: 6.1022
+Tree 3 is not valid
+Tree 4: Epoch [1/20], lr:0.0007, Loss:0.8894, Time_for_epoch: 6.0710
+Tree 4: Epoch [2/20], lr:0.0033, Loss:0.2121, Time_for_epoch: 6.1105
+Tree 4: Epoch [3/20], lr:0.0080, Loss:0.1116, Time_for_epoch: 6.0635
+Tree 4: Epoch [4/20], lr:0.0146, Loss:0.0853, Time_for_epoch: 6.1064
+Tree 4: Epoch [5/20], lr:0.0233, Loss:0.0809, Time_for_epoch: 6.0781
+Tree 4: Epoch [6/20], lr:0.0339, Loss:0.0823, Time_for_epoch: 6.0742
+Tree 4: Epoch [7/20], lr:0.0466, Loss:0.1172, Time_for_epoch: 6.1124
+Tree 4: Epoch [8/20], lr:0.0612, Loss:0.2081, Time_for_epoch: 6.0633
+Tree 4: Epoch [9/20], lr:0.0779, Loss:0.3343, Time_for_epoch: 6.1163
+Tree 4: Epoch [10/20], lr:0.0965, Loss:0.4029, Time_for_epoch: 6.0679
+Tree 4: Epoch [11/20], lr:0.1172, Loss:0.5089, Time_for_epoch: 6.1008
+Tree 4: Epoch [12/20], lr:0.1398, Loss:0.6262, Time_for_epoch: 6.0598
+Tree 4: Epoch [13/20], lr:0.1645, Loss:1.7417, Time_for_epoch: 6.1114
+Tree 4: Epoch [14/20], lr:0.1911, Loss:2.9117, Time_for_epoch: 6.0624
+Tree 4: Epoch [15/20], lr:0.2198, Loss:2.3074, Time_for_epoch: 6.0999
+Tree 4: Epoch [16/20], lr:0.2505, Loss:2.3066, Time_for_epoch: 6.0650
+Tree 4: Epoch [17/20], lr:0.2831, Loss:2.3079, Time_for_epoch: 6.0624
+Tree 4: Epoch [18/20], lr:0.3178, Loss:2.3067, Time_for_epoch: 6.0986
+Tree 4: Epoch [19/20], lr:0.3544, Loss:2.3095, Time_for_epoch: 6.0661
+Tree 4: Epoch [20/20], lr:0.3931, Loss:2.3084, Time_for_epoch: 6.1075
+Tree 4: TestLoss: 2.3045, TestAccuracy: 0.1135, Time_for_individ: 122.6621
+Tree 5: Epoch [1/20], lr:0.0008, Loss:0.8042, Time_for_epoch: 6.0668
+Tree 5: Epoch [2/20], lr:0.0009, Loss:0.2560, Time_for_epoch: 6.1002
+Tree 5: Epoch [3/20], lr:0.0001, Loss:0.1800, Time_for_epoch: 6.0637
+Tree 5: Epoch [4/20], lr:-0.0008, Loss:18231.1995, Time_for_epoch: 6.1082
+Tree 5 is not valid
+Tree 6: Epoch [1/20], lr:0.0001, Loss:2.1214, Time_for_epoch: 6.0656
+Tree 6: Epoch [2/20], lr:0.0001, Loss:1.2986, Time_for_epoch: 6.1044
+Tree 6: Epoch [3/20], lr:0.0001, Loss:0.7191, Time_for_epoch: 6.0616
+Tree 6: Epoch [4/20], lr:0.0001, Loss:0.5234, Time_for_epoch: 6.0600
+Tree 6: Epoch [5/20], lr:0.0001, Loss:0.4382, Time_for_epoch: 6.1117
+Tree 6: Epoch [6/20], lr:0.0001, Loss:0.3884, Time_for_epoch: 6.0659
+Tree 6: Epoch [7/20], lr:0.0001, Loss:0.3565, Time_for_epoch: 6.1081
+Tree 6: Epoch [8/20], lr:0.0001, Loss:0.3299, Time_for_epoch: 6.0649
+Tree 6: Epoch [9/20], lr:0.0001, Loss:0.3097, Time_for_epoch: 6.1010
+Tree 6: Epoch [10/20], lr:0.0001, Loss:0.2924, Time_for_epoch: 6.0619
+Tree 6: Epoch [11/20], lr:0.0001, Loss:0.2767, Time_for_epoch: 6.1062
+Tree 6: Epoch [12/20], lr:0.0001, Loss:0.2635, Time_for_epoch: 6.0617
+Tree 6: Epoch [13/20], lr:0.0001, Loss:0.2510, Time_for_epoch: 6.0942
+Tree 6: Epoch [14/20], lr:0.0001, Loss:0.2394, Time_for_epoch: 6.0631
+Tree 6: Epoch [15/20], lr:0.0001, Loss:0.2291, Time_for_epoch: 6.0644
+Tree 6: Epoch [16/20], lr:0.0001, Loss:0.2187, Time_for_epoch: 6.1058
+Tree 6: Epoch [17/20], lr:0.0001, Loss:0.2103, Time_for_epoch: 6.0624
+Tree 6: Epoch [18/20], lr:0.0001, Loss:0.2017, Time_for_epoch: 6.1114
+Tree 6: Epoch [19/20], lr:0.0001, Loss:0.1937, Time_for_epoch: 6.0659
+Tree 6: Epoch [20/20], lr:0.0001, Loss:0.1851, Time_for_epoch: 6.1034
+Tree 6: TestLoss: 0.1513, TestAccuracy: 0.9548, Time_for_individ: 122.6107
+Tree 7: Epoch [1/20], lr:0.0009, Loss:0.7699, Time_for_epoch: 6.0725
+Tree 7: Epoch [2/20], lr:0.0009, Loss:0.2359, Time_for_epoch: 6.1193
+Tree 7: Epoch [3/20], lr:0.0009, Loss:0.1505, Time_for_epoch: 6.0899
+Tree 7: Epoch [4/20], lr:0.0009, Loss:0.1121, Time_for_epoch: 6.1298
+Tree 7: Epoch [5/20], lr:0.0009, Loss:0.0909, Time_for_epoch: 6.0839
+Tree 7: Epoch [6/20], lr:0.0009, Loss:0.0813, Time_for_epoch: 6.1277
+Tree 7: Epoch [7/20], lr:0.0009, Loss:0.0694, Time_for_epoch: 6.0883
+Tree 7: Epoch [8/20], lr:0.0009, Loss:0.0638, Time_for_epoch: 6.0860
+Tree 7: Epoch [9/20], lr:0.0009, Loss:0.0572, Time_for_epoch: 6.1087
+Tree 7: Epoch [10/20], lr:0.0009, Loss:0.0525, Time_for_epoch: 6.0611
+Tree 7: Epoch [11/20], lr:0.0009, Loss:0.0497, Time_for_epoch: 6.1111
+Tree 7: Epoch [12/20], lr:0.0009, Loss:0.0468, Time_for_epoch: 6.0689
+Tree 7: Epoch [13/20], lr:0.0009, Loss:0.0449, Time_for_epoch: 6.1080
+Tree 7: Epoch [14/20], lr:0.0009, Loss:0.0418, Time_for_epoch: 6.0709
+Tree 7: Epoch [15/20], lr:0.0009, Loss:0.0389, Time_for_epoch: 6.1094
+Tree 7: Epoch [16/20], lr:0.0009, Loss:0.0359, Time_for_epoch: 6.0644
+Tree 7: Epoch [17/20], lr:0.0009, Loss:0.0345, Time_for_epoch: 6.1022
+Tree 7: Epoch [18/20], lr:0.0009, Loss:0.0332, Time_for_epoch: 6.0594
+Tree 7: Epoch [19/20], lr:0.0009, Loss:0.0309, Time_for_epoch: 6.0679
+Tree 7: Epoch [20/20], lr:0.0009, Loss:0.0297, Time_for_epoch: 6.1061
+Tree 7: TestLoss: 0.0254, TestAccuracy: 0.9915, Time_for_individ: 122.8054
+Tree 8: Epoch [1/20], lr:0.0008, Loss:0.7596, Time_for_epoch: 6.0693
+Tree 8: Epoch [2/20], lr:0.0009, Loss:0.2307, Time_for_epoch: 6.1035
+Tree 8: Epoch [3/20], lr:0.0001, Loss:0.1607, Time_for_epoch: 6.0730
+Tree 8: Epoch [4/20], lr:-0.0008, Loss:16928.9957, Time_for_epoch: 6.1219
+Tree 8 is not valid
+Tree 9: Epoch [1/20], lr:0.0010, Loss:0.6899, Time_for_epoch: 6.0657
+Tree 9: Epoch [2/20], lr:0.0010, Loss:0.2230, Time_for_epoch: 6.1094
+Tree 9: Epoch [3/20], lr:0.0010, Loss:0.1464, Time_for_epoch: 6.0636
+Tree 9: Epoch [4/20], lr:0.0010, Loss:0.1148, Time_for_epoch: 6.1022
+Tree 9: Epoch [5/20], lr:0.0010, Loss:0.0945, Time_for_epoch: 6.0656
+Tree 9: Epoch [6/20], lr:0.0010, Loss:0.0819, Time_for_epoch: 6.1028
+Tree 9: Epoch [7/20], lr:0.0010, Loss:0.0711, Time_for_epoch: 6.0583
+Tree 9: Epoch [8/20], lr:0.0010, Loss:0.0657, Time_for_epoch: 6.0613
+Tree 9: Epoch [9/20], lr:0.0010, Loss:0.0595, Time_for_epoch: 6.1138
+Tree 9: Epoch [10/20], lr:0.0010, Loss:0.0533, Time_for_epoch: 6.0651
+Tree 9: Epoch [11/20], lr:0.0010, Loss:0.0486, Time_for_epoch: 6.1093
+Tree 9: Epoch [12/20], lr:0.0010, Loss:0.0467, Time_for_epoch: 6.0671
+Tree 9: Epoch [13/20], lr:0.0010, Loss:0.0425, Time_for_epoch: 6.1063
+Tree 9: Epoch [14/20], lr:0.0010, Loss:0.0398, Time_for_epoch: 6.0712
+Tree 9: Epoch [15/20], lr:0.0010, Loss:0.0371, Time_for_epoch: 6.1048
+Tree 9: Epoch [16/20], lr:0.0010, Loss:0.0347, Time_for_epoch: 6.0570
+Tree 9: Epoch [17/20], lr:0.0010, Loss:0.0342, Time_for_epoch: 6.1258
+Tree 9: Epoch [18/20], lr:0.0010, Loss:0.0312, Time_for_epoch: 6.0877
+Tree 9: Epoch [19/20], lr:0.0010, Loss:0.0291, Time_for_epoch: 6.0879
+Tree 9: Epoch [20/20], lr:0.0010, Loss:0.0287, Time_for_epoch: 6.1256
+Tree 9: TestLoss: 0.0275, TestAccuracy: 0.9901, Time_for_individ: 122.7189
+Tree 10: Epoch [1/20], lr:0.0008, Loss:0.7908, Time_for_epoch: 6.0792
+Tree 10: Epoch [2/20], lr:0.0009, Loss:0.2350, Time_for_epoch: 6.1118
+Tree 10: Epoch [3/20], lr:0.0001, Loss:0.1626, Time_for_epoch: 6.0700
+Tree 10: Epoch [4/20], lr:-0.0008, Loss:16351.5834, Time_for_epoch: 6.1069
+Tree 10 is not valid
+Tree 11: Epoch [1/20], lr:-0.0009, Loss:2753.9520, Time_for_epoch: 6.0644
+Tree 11: Epoch [2/20], lr:-0.0008, Loss:109441.8960, Time_for_epoch: 6.1092
+Tree 11 is not valid
+Tree 12: Epoch [1/20], lr:-0.0007, Loss:1243.7003, Time_for_epoch: 6.0745
+Tree 12: Epoch [2/20], lr:-0.0007, Loss:61608.9122, Time_for_epoch: 6.1199
+Tree 12 is not valid
+Tree 13: Epoch [1/20], lr:0.0008, Loss:0.8275, Time_for_epoch: 6.0682
+Tree 13: Epoch [2/20], lr:0.0009, Loss:0.2501, Time_for_epoch: 6.1090
+Tree 13: Epoch [3/20], lr:0.0001, Loss:0.1750, Time_for_epoch: 6.0686
+Tree 13: Epoch [4/20], lr:-0.0008, Loss:17847.9602, Time_for_epoch: 6.0649
+Tree 13 is not valid
+Tree 14 is not valid
+Tree 15: Epoch [1/20], lr:-0.0005, Loss:303.2077, Time_for_epoch: 6.1215
+Tree 15: Epoch [2/20], lr:-0.0005, Loss:13110.7551, Time_for_epoch: 6.0686
+Tree 15 is not valid
+Tree 16: Epoch [1/20], lr:-0.0000, Loss:2.3083, Time_for_epoch: 6.1183
+Tree 16: Epoch [2/20], lr:-0.0000, Loss:2.3174, Time_for_epoch: 6.0689
+Tree 16: Epoch [3/20], lr:-0.0000, Loss:2.3404, Time_for_epoch: 6.1196
+Tree 16: Epoch [4/20], lr:-0.0000, Loss:2.4189, Time_for_epoch: 6.0740
+Tree 16: Epoch [5/20], lr:-0.0000, Loss:3.0270, Time_for_epoch: 6.1191
+Tree 16: Epoch [6/20], lr:-0.0000, Loss:6.5368, Time_for_epoch: 6.0748
+Tree 16: Epoch [7/20], lr:-0.0000, Loss:13.7504, Time_for_epoch: 6.1148
+Tree 16: Epoch [8/20], lr:-0.0000, Loss:25.2744, Time_for_epoch: 6.0734
+Tree 16: Epoch [9/20], lr:-0.0000, Loss:43.6810, Time_for_epoch: 6.0715
+Tree 16: Epoch [10/20], lr:-0.0000, Loss:72.3637, Time_for_epoch: 6.1200
+Tree 16: Epoch [11/20], lr:-0.0000, Loss:116.4127, Time_for_epoch: 6.0749
+Tree 16: Epoch [12/20], lr:-0.0000, Loss:182.8752, Time_for_epoch: 6.1199
+Tree 16: Epoch [13/20], lr:-0.0000, Loss:281.7979, Time_for_epoch: 6.0656
+Tree 16: Epoch [14/20], lr:-0.0000, Loss:425.4298, Time_for_epoch: 6.1101
+Tree 16: Epoch [15/20], lr:-0.0000, Loss:633.7396, Time_for_epoch: 6.0785
+Tree 16: Epoch [16/20], lr:-0.0000, Loss:928.2758, Time_for_epoch: 6.1176
+Tree 16: Epoch [17/20], lr:-0.0000, Loss:1340.1801, Time_for_epoch: 6.0701
+Tree 16: Epoch [18/20], lr:-0.0000, Loss:1909.3670, Time_for_epoch: 6.1133
+Tree 16: Epoch [19/20], lr:-0.0000, Loss:2674.8986, Time_for_epoch: 6.0794
+Tree 16: Epoch [20/20], lr:-0.0000, Loss:3708.2237, Time_for_epoch: 6.0751
+Tree 16: TestLoss: 4357.0838, TestAccuracy: 0.0892, Time_for_individ: 122.8679
+Tree 17 is not valid
+Tree 18: Epoch [1/20], lr:0.0003, Loss:1.4970, Time_for_epoch: 6.0768
+Tree 18: Epoch [2/20], lr:0.0003, Loss:0.4513, Time_for_epoch: 6.0687
+Tree 18: Epoch [3/20], lr:0.0003, Loss:0.3153, Time_for_epoch: 6.1153
+Tree 18: Epoch [4/20], lr:0.0003, Loss:0.2557, Time_for_epoch: 6.0770
+Tree 18: Epoch [5/20], lr:0.0003, Loss:0.2112, Time_for_epoch: 6.1234
+Tree 18: Epoch [6/20], lr:0.0003, Loss:0.1806, Time_for_epoch: 6.0688
+Tree 18: Epoch [7/20], lr:0.0003, Loss:0.1590, Time_for_epoch: 6.1102
+Tree 18: Epoch [8/20], lr:0.0003, Loss:0.1411, Time_for_epoch: 6.0715
+Tree 18: Epoch [9/20], lr:0.0003, Loss:0.1276, Time_for_epoch: 6.1212
+Tree 18: Epoch [10/20], lr:0.0003, Loss:0.1180, Time_for_epoch: 6.0784
+Tree 18: Epoch [11/20], lr:0.0003, Loss:0.1065, Time_for_epoch: 6.1176
+Tree 18: Epoch [12/20], lr:0.0003, Loss:0.1009, Time_for_epoch: 6.0684
+Tree 18: Epoch [13/20], lr:0.0003, Loss:0.0934, Time_for_epoch: 6.0779
+Tree 18: Epoch [14/20], lr:0.0003, Loss:0.0891, Time_for_epoch: 6.1197
+Tree 18: Epoch [15/20], lr:0.0003, Loss:0.0856, Time_for_epoch: 6.0798
+Tree 18: Epoch [16/20], lr:0.0003, Loss:0.0794, Time_for_epoch: 6.1184
+Tree 18: Epoch [17/20], lr:0.0003, Loss:0.0770, Time_for_epoch: 6.0811
+Tree 18: Epoch [18/20], lr:0.0003, Loss:0.0711, Time_for_epoch: 6.1163
+Tree 18: Epoch [19/20], lr:0.0003, Loss:0.0692, Time_for_epoch: 6.0706
+Tree 18: Epoch [20/20], lr:0.0003, Loss:0.0668, Time_for_epoch: 6.1080
+Tree 18: TestLoss: 0.0440, TestAccuracy: 0.9854, Time_for_individ: 122.8329
+Tree 19: Epoch [1/20], lr:-0.0009, Loss:2023.2352, Time_for_epoch: 6.0674
+Tree 19: Epoch [2/20], lr:-0.0009, Loss:115161.4990, Time_for_epoch: 6.1069
+Tree 19 is not valid
+Tree 20: Epoch [1/20], lr:-0.0008, Loss:1497.2421, Time_for_epoch: 6.0645
+Tree 20: Epoch [2/20], lr:-0.0008, Loss:94892.4732, Time_for_epoch: 6.1080
+Tree 20 is not valid
+Tree 21: Epoch [1/20], lr:0.0010, Loss:0.6836, Time_for_epoch: 6.0559
+Tree 21: Epoch [2/20], lr:0.0008, Loss:0.2221, Time_for_epoch: 6.0655
+Tree 21: Epoch [3/20], lr:0.0006, Loss:0.1540, Time_for_epoch: 6.1083
+Tree 21: Epoch [4/20], lr:0.0006, Loss:0.1212, Time_for_epoch: 6.0650
+Tree 21: Epoch [5/20], lr:0.0005, Loss:0.1032, Time_for_epoch: 6.1102
+Tree 21: Epoch [6/20], lr:0.0005, Loss:0.0908, Time_for_epoch: 6.0665
+Tree 21: Epoch [7/20], lr:0.0005, Loss:0.0816, Time_for_epoch: 6.1081
+Tree 21: Epoch [8/20], lr:0.0004, Loss:0.0759, Time_for_epoch: 6.0645
+Tree 21: Epoch [9/20], lr:0.0004, Loss:0.0707, Time_for_epoch: 6.1140
+Tree 21: Epoch [10/20], lr:0.0004, Loss:0.0671, Time_for_epoch: 6.0634
+Tree 21: Epoch [11/20], lr:0.0004, Loss:0.0625, Time_for_epoch: 6.1116
+Tree 21: Epoch [12/20], lr:0.0004, Loss:0.0577, Time_for_epoch: 6.0777
+Tree 21: Epoch [13/20], lr:0.0004, Loss:0.0560, Time_for_epoch: 6.0740
+Tree 21: Epoch [14/20], lr:0.0004, Loss:0.0539, Time_for_epoch: 6.1290
+Tree 21: Epoch [15/20], lr:0.0003, Loss:0.0495, Time_for_epoch: 6.0773
+Tree 21: Epoch [16/20], lr:0.0003, Loss:0.0489, Time_for_epoch: 6.1054
+Tree 21: Epoch [17/20], lr:0.0003, Loss:0.0459, Time_for_epoch: 6.0561
+Tree 21: Epoch [18/20], lr:0.0003, Loss:0.0439, Time_for_epoch: 6.1102
+Tree 21: Epoch [19/20], lr:0.0003, Loss:0.0441, Time_for_epoch: 6.0699
+Tree 21: Epoch [20/20], lr:0.0003, Loss:0.0434, Time_for_epoch: 6.1086
+Tree 21: TestLoss: 0.0336, TestAccuracy: 0.9892, Time_for_individ: 122.7085
+Tree 22: Epoch [1/20], lr:0.0026, Loss:0.5229, Time_for_epoch: 6.0588
+Tree 22: Epoch [2/20], lr:0.0026, Loss:0.1307, Time_for_epoch: 6.1025
+Tree 22: Epoch [3/20], lr:0.0026, Loss:0.0901, Time_for_epoch: 6.0659
+Tree 22: Epoch [4/20], lr:0.0026, Loss:0.0705, Time_for_epoch: 6.0851
+Tree 22: Epoch [5/20], lr:0.0026, Loss:0.0635, Time_for_epoch: 6.1209
+Tree 22: Epoch [6/20], lr:0.0026, Loss:0.0520, Time_for_epoch: 6.0781
+Tree 22: Epoch [7/20], lr:0.0026, Loss:0.0455, Time_for_epoch: 6.1152
+Tree 22: Epoch [8/20], lr:0.0026, Loss:0.0428, Time_for_epoch: 6.0602
+Tree 22: Epoch [9/20], lr:0.0026, Loss:0.0386, Time_for_epoch: 6.0915
+Tree 22: Epoch [10/20], lr:0.0026, Loss:0.0342, Time_for_epoch: 6.0634
+Tree 22: Epoch [11/20], lr:0.0026, Loss:0.0311, Time_for_epoch: 6.0991
+Tree 22: Epoch [12/20], lr:0.0026, Loss:0.0304, Time_for_epoch: 6.0691
+Tree 22: Epoch [13/20], lr:0.0026, Loss:0.0276, Time_for_epoch: 6.0957
+Tree 22: Epoch [14/20], lr:0.0026, Loss:0.0245, Time_for_epoch: 6.0607
+Tree 22: Epoch [15/20], lr:0.0026, Loss:0.0244, Time_for_epoch: 6.0615
+Tree 22: Epoch [16/20], lr:0.0026, Loss:0.0216, Time_for_epoch: 6.1071
+Tree 22: Epoch [17/20], lr:0.0026, Loss:0.0213, Time_for_epoch: 6.0636
+Tree 22: Epoch [18/20], lr:0.0026, Loss:0.0217, Time_for_epoch: 6.0983
+Tree 22: Epoch [19/20], lr:0.0026, Loss:0.0192, Time_for_epoch: 6.0626
+Tree 22: Epoch [20/20], lr:0.0026, Loss:0.0194, Time_for_epoch: 6.1076
+Tree 22: TestLoss: 0.0245, TestAccuracy: 0.9924, Time_for_individ: 122.6331
+Tree 23: Epoch [1/20], lr:0.0000, Loss:2.2543, Time_for_epoch: 6.0622
+Tree 23: Epoch [2/20], lr:0.0000, Loss:2.0008, Time_for_epoch: 6.1038
+Tree 23: Epoch [3/20], lr:0.0000, Loss:1.5010, Time_for_epoch: 6.0701
+Tree 23: Epoch [4/20], lr:0.0000, Loss:1.0350, Time_for_epoch: 6.1106
+Tree 23: Epoch [5/20], lr:0.0000, Loss:0.7631, Time_for_epoch: 6.0599
+Tree 23: Epoch [6/20], lr:0.0000, Loss:0.6109, Time_for_epoch: 6.1010
+Tree 23: Epoch [7/20], lr:0.0000, Loss:0.5201, Time_for_epoch: 6.0647
+Tree 23: Epoch [8/20], lr:0.0000, Loss:0.4648, Time_for_epoch: 6.0603
+Tree 23: Epoch [9/20], lr:0.0000, Loss:0.4220, Time_for_epoch: 6.1059
+Tree 23: Epoch [10/20], lr:0.0000, Loss:0.3933, Time_for_epoch: 6.0582
+Tree 23: Epoch [11/20], lr:0.0000, Loss:0.3683, Time_for_epoch: 6.1143
+Tree 23: Epoch [12/20], lr:0.0000, Loss:0.3461, Time_for_epoch: 6.0798
+Tree 23: Epoch [13/20], lr:0.0000, Loss:0.3307, Time_for_epoch: 6.1246
+Tree 23: Epoch [14/20], lr:0.0000, Loss:0.3148, Time_for_epoch: 6.0800
+Tree 23: Epoch [15/20], lr:0.0000, Loss:0.3025, Time_for_epoch: 6.1205
+Tree 23: Epoch [16/20], lr:0.0000, Loss:0.2888, Time_for_epoch: 6.0811
+Tree 23: Epoch [17/20], lr:0.0000, Loss:0.2814, Time_for_epoch: 6.1227
+Tree 23: Epoch [18/20], lr:0.0000, Loss:0.2702, Time_for_epoch: 6.0717
+Tree 23: Epoch [19/20], lr:0.0000, Loss:0.2600, Time_for_epoch: 6.0811
+Tree 23: Epoch [20/20], lr:0.0000, Loss:0.2516, Time_for_epoch: 6.1254
+Tree 23: TestLoss: 0.2143, TestAccuracy: 0.9381, Time_for_individ: 122.7637
+Tree 24: Epoch [1/20], lr:0.0006, Loss:0.9508, Time_for_epoch: 6.0870
+Tree 24: Epoch [2/20], lr:0.0006, Loss:0.3036, Time_for_epoch: 6.1198
+Tree 24: Epoch [3/20], lr:0.0006, Loss:0.2036, Time_for_epoch: 6.0744
+Tree 24: Epoch [4/20], lr:0.0006, Loss:0.1494, Time_for_epoch: 6.1184
+Tree 24: Epoch [5/20], lr:0.0006, Loss:0.1198, Time_for_epoch: 6.0914
+Tree 24: Epoch [6/20], lr:0.0006, Loss:0.1029, Time_for_epoch: 6.1236
+Tree 24: Epoch [7/20], lr:0.0006, Loss:0.0897, Time_for_epoch: 6.0796
+Tree 24: Epoch [8/20], lr:0.0006, Loss:0.0816, Time_for_epoch: 6.1198
+Tree 24: Epoch [9/20], lr:0.0006, Loss:0.0727, Time_for_epoch: 6.0776
+Tree 24: Epoch [10/20], lr:0.0006, Loss:0.0669, Time_for_epoch: 6.1263
+Tree 24: Epoch [11/20], lr:0.0006, Loss:0.0632, Time_for_epoch: 6.0661
+Tree 24: Epoch [12/20], lr:0.0006, Loss:0.0583, Time_for_epoch: 6.0672
+Tree 24: Epoch [13/20], lr:0.0006, Loss:0.0553, Time_for_epoch: 6.1048
+Tree 24: Epoch [14/20], lr:0.0006, Loss:0.0519, Time_for_epoch: 6.0694

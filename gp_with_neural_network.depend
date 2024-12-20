@@ -1,0 +1,466 @@
+# depslib dependency file v1.0
+1733227158 source:c:\programs\disk_c\codeblocks_projects\gp_with_neural_network\main.cpp
+	<iostream>
+	<cmath>
+	<random>
+	<ctime>
+	<climits>
+	<fstream>
+	<algorithm>
+	<string>
+	<time.h>
+	"windows.h"
+
+1712649018 "
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\python.h
+	"patchlevel.h"
+	"pyconfig.h"
+	"pymacconfig.h"
+	<stdlib.h>
+	<stdio.h>
+	<errno.h>
+	<string.h>
+	<unistd.h>
+	<stddef.h>
+	<assert.h>
+	<wchar.h>
+	"pyport.h"
+	"pymacro.h"
+	"pymath.h"
+	"pymem.h"
+	"pytypedefs.h"
+	"pybuffer.h"
+	"object.h"
+	"objimpl.h"
+	"typeslots.h"
+	"pyhash.h"
+	"cpython/pydebug.h"
+	"bytearrayobject.h"
+	"bytesobject.h"
+	"unicodeobject.h"
+	"cpython/initconfig.h"
+	"pystate.h"
+	"pyerrors.h"
+	"longobject.h"
+	"cpython/longintrepr.h"
+	"boolobject.h"
+	"floatobject.h"
+	"complexobject.h"
+	"rangeobject.h"
+	"memoryobject.h"
+	"tupleobject.h"
+	"listobject.h"
+	"dictobject.h"
+	"cpython/odictobject.h"
+	"enumobject.h"
+	"setobject.h"
+	"methodobject.h"
+	"moduleobject.h"
+	"cpython/funcobject.h"
+	"cpython/classobject.h"
+	"fileobject.h"
+	"pycapsule.h"
+	"cpython/code.h"
+	"pyframe.h"
+	"traceback.h"
+	"sliceobject.h"
+	"cpython/cellobject.h"
+	"iterobject.h"
+	"cpython/genobject.h"
+	"descrobject.h"
+	"genericaliasobject.h"
+	"warnings.h"
+	"weakrefobject.h"
+	"structseq.h"
+	"cpython/picklebufobject.h"
+	"cpython/pytime.h"
+	"codecs.h"
+	"pythread.h"
+	"cpython/context.h"
+	"modsupport.h"
+	"compile.h"
+	"pythonrun.h"
+	"pylifecycle.h"
+	"ceval.h"
+	"sysmodule.h"
+	"osmodule.h"
+	"intrcheck.h"
+	"import.h"
+	"abstract.h"
+	"bltinmodule.h"
+	"cpython/pyctype.h"
+	"pystrtod.h"
+	"pystrcmp.h"
+	"fileutils.h"
+	"cpython/pyfpe.h"
+	"tracemalloc.h"
+
+1712649018 oc.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\patchlevel.h
+
+1712649020 c:\users\Юлия\appdata\local\programs\python\python312\include\pyconfig.h
+	<io.h>
+	<winapifamily.h>
+	<basetsd.h>
+	<stdio.h>
+
+1712649020 
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pymacconfig.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pyport.h
+	"pyconfig.h"
+	<inttypes.h>
+	<limits.h>
+	<ieeefp.h>
+	<math.h>
+	<sys/time.h>
+	<time.h>
+	<sys/select.h>
+	<sys/stat.h>
+	<stat.h>
+	<sys/types.h>
+	<sys/termio.h>
+	<ctype.h>
+	<wctype.h>
+	"exports.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\exports.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pymacro.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pymath.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pymem.h
+	"pyport.h"
+	"cpython/pymem.h"
+
+1712649018 ymem.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pymem.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pytypedefs.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pybuffer.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\object.h
+	"pystats.h"
+	"cpython/object.h"
+
+1712649018 bject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pystats.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\object.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\objimpl.h
+	"pymem.h"
+	"cpython/objimpl.h"
+
+1712649018 bjimpl.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\objimpl.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\typeslots.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pyhash.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pydebug.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\bytearrayobject.h
+	"cpython/bytearrayobject.h"
+
+1712649018 ytearrayobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\bytearrayobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\bytesobject.h
+	<stdarg.h>
+	"cpython/bytesobject.h"
+
+1712649018 ytesobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\bytesobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\unicodeobject.h
+	<stdarg.h>
+	<ctype.h>
+	<wchar.h>
+	"cpython/unicodeobject.h"
+
+1712649018 nicodeobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\unicodeobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\initconfig.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pystate.h
+	"cpython/pystate.h"
+
+1712649018 ystate.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pystate.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pyerrors.h
+	<stdarg.h>
+	"cpython/pyerrors.h"
+
+1712649018 yerrors.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pyerrors.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\longobject.h
+	"cpython/longobject.h"
+
+1712649018 ongobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\longobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\longintrepr.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\boolobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\floatobject.h
+	"cpython/floatobject.h"
+
+1712649018 loatobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\floatobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\complexobject.h
+	"cpython/complexobject.h"
+
+1712649018 omplexobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\complexobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\rangeobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\memoryobject.h
+	"cpython/memoryobject.h"
+
+1712649018 emoryobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\memoryobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\tupleobject.h
+	"cpython/tupleobject.h"
+
+1712649018 upleobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\tupleobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\listobject.h
+	"cpython/listobject.h"
+
+1712649018 istobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\listobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\dictobject.h
+	"cpython/dictobject.h"
+
+1712649018 ictobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\dictobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\odictobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\enumobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\setobject.h
+	"cpython/setobject.h"
+
+1712649018 etobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\setobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\methodobject.h
+	"cpython/methodobject.h"
+
+1712649018 ethodobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\methodobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\moduleobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\funcobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\classobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\fileobject.h
+	"cpython/fileobject.h"
+
+1712649018 ileobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\fileobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pycapsule.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\code.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pyframe.h
+	"cpython/pyframe.h"
+
+1712649018 yframe.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pyframe.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\traceback.h
+	"cpython/traceback.h"
+
+1712649018 raceback.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\traceback.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\sliceobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\cellobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\iterobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\genobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\descrobject.h
+	"cpython/descrobject.h"
+
+1712649018 escrobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\descrobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\genericaliasobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\warnings.h
+	"cpython/warnings.h"
+
+1712649018 arnings.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\warnings.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\weakrefobject.h
+	"cpython/weakrefobject.h"
+
+1712649018 eakrefobject.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\weakrefobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\structseq.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\picklebufobject.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pytime.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\codecs.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pythread.h
+	"cpython/pythread.h"
+
+1712649018 ythread.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pythread.h
+	<pthread.h>
+	"cpython/pthread_stubs.h"
+
+1712649018 thread_stubs.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pthread_stubs.h
+	<bits/alltypes.h>
+
+1712649018 ypes.h>
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\context.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\modsupport.h
+	<stdarg.h>
+	"cpython/modsupport.h"
+
+1712649018 odsupport.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\modsupport.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\compile.h
+	"cpython/compile.h"
+
+1712649018 ompile.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\compile.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pythonrun.h
+	"cpython/pythonrun.h"
+
+1712649018 ythonrun.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pythonrun.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pylifecycle.h
+	"cpython/pylifecycle.h"
+
+1712649018 ylifecycle.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pylifecycle.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\ceval.h
+	"cpython/ceval.h"
+
+1712649018 eval.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\ceval.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\sysmodule.h
+	"cpython/sysmodule.h"
+
+1712649018 ysmodule.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\sysmodule.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\osmodule.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\intrcheck.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\import.h
+	"cpython/import.h"
+
+1712649018 mport.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\import.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\abstract.h
+	"cpython/abstract.h"
+
+1712649018 bstract.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\abstract.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\bltinmodule.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pyctype.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pystrtod.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\pystrcmp.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\fileutils.h
+	"cpython/fileutils.h"
+
+1712649018 ileutils.h"
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\fileutils.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\cpython\pyfpe.h
+
+1712649018 c:\users\Юлия\appdata\local\programs\python\python312\include\tracemalloc.h
+
+1734598550 source:/home/mpiscil/cloud2/Yulia/gp_with_neural_network/main.cpp
+	<iostream>
+	<cmath>
+	<random>
+	<ctime>
+	<climits>
+	<fstream>
+	<algorithm>
+	<string>
+	<time.h>
+	<unistd.h>
+
