@@ -763,193 +763,6 @@ string Tree::printExpression(Node* cur_el)
     return "";
 }
 
-/*string Tree::printExpressionForPython(Node* cur_el, double** x)
-{
-    string check, left_check, right_check;
-    int i, flag = 1, flag2 = 1;
-    double ev_expression, left_value, right_value;
-    if (cur_el == nullptr) {return "";}
-    if (cur_el->type == 'c')
-    {
-        if(cur_el->constant<0)
-        {
-            check =  "(" + to_string(cur_el->constant) + ")";
-        }
-        else{check = to_string(cur_el->constant);}
-        size_t comma {check.find(",")};
-        if (comma != string::npos)
-            check.replace(comma, 1, ".");
-        return check;
-    }
-    else if (cur_el->type == 'v')
-    {
-        check = to_string(cur_el->variable);
-        if(check.size() == 1){return "x0" + check;}
-        else {return "x" + check;}
-    }
-    else if (cur_el->operation < 2000)
-    {
-        //проверить если хотя бы с одним из номеров эпох возникает исключение, то всю формулу заменяем на число наиболее близко возможное
-        check = printExpressionForPython(cur_el->left, x);
-        if (check.find("x") == std::string::npos)
-        {
-            flag = 0;
-            ev_expression = evaluateExpression(x[0], cur_el->left);// если там нет x, то считаем выражение с любым x и если что заменяем
-            if (isinf(ev_expression))
-            {
-                check = to_string(MAX);
-                size_t comma {check.find(",")};
-                check.replace(comma, 1, ".");
-            }
-        }
-        switch(cur_el->operation)
-        {
-            case 1000:
-            {
-                if (check.find("(")==0)
-                    return "sin" + check;
-                else
-                {
-                    return "sin(" + check + ")";
-                }
-            }
-            case 1001:
-            {
-                if (check.find("(")==0)
-                    return "cos" + check;
-                else
-                {
-                    return "cos(" + check + ")";
-                }
-            }
-            case 1002:
-            {
-                if (check.find("(")==0)
-                    return "exp" + check;
-                else
-                {
-                    return "exp(" + check + ")";
-                }
-            }
-            case 1003:
-            {
-                if (flag == 0 && ev_expression <= 0)
-                {
-                    check = to_string(MIN);
-                    size_t comma {check.find(",")};
-                    check.replace(comma, 1, ".");
-                }
-                return "log(" + check + ")";//натуральный логарифм
-            }
-            case 1004:
-            {
-                if (flag == 0 && ev_expression == 0)
-                {
-                    check = to_string(MIN);
-                    size_t comma {check.find(",")};
-                    check.replace(comma, 1, ".");
-                }
-                if (check.find("(")==0)
-                    return "1/" + check;
-                else return "1/(" + check + ")";
-            }
-            case 1005:
-            {
-                return "(-" + check + ")";
-            }
-        }
-    }
-     else if (cur_el->operation >=2000 && cur_el->operation < 3000)
-    {
-        left_check = printExpressionForPython(cur_el->left, x);
-        right_check = printExpressionForPython(cur_el->right, x);
-        if (left_check.find("x") == std::string::npos)
-        {
-            flag = 0;
-            left_value = evaluateExpression(x[0], cur_el->left);
-            if (isinf(left_value))
-            {
-                left_check = to_string(MAX);
-                size_t comma {left_check.find(",")};
-                left_check.replace(comma, 1, ".");
-            }
-        }
-        if (right_check.find("x") == std::string::npos)
-        {
-            flag2 = 0;
-            right_value = evaluateExpression(x[0], cur_el->right);
-            if (isinf(right_value))
-            {
-                right_check = to_string(MAX);
-                size_t comma {right_check.find(",")};
-                right_check.replace(comma, 1, ".");
-            }
-        }
-        switch (cur_el->operation)
-        {
-            case 2000://слева основание, справа аргумент, для Python надо наоборот
-            {
-                if(flag == 0 && left_value <= 0)
-                {
-                    left_check = to_string(MIN);
-                    size_t comma {left_check.find(",")};
-                    left_check.replace(comma, 1, ".");
-                }
-                else if(flag == 0 && left_value == 1){left_check = "0.9999999999999999";}
-                if(flag2 == 0 && right_value <= 0)
-                {
-                    right_check = to_string(MIN);
-                    size_t comma {right_check.find(",")};
-                    right_check.replace(comma, 1, ".");
-                }
-                return "log(" + right_check + "," + left_check + ")";
-            }
-            case 2001:
-                return "(" + left_check + "+" + right_check + ")";
-            case 2002:
-                return "(" + left_check + "-" + right_check + ")";
-            case 2003:
-                return "(" + left_check + "*" + right_check + ")";
-            case 2004:
-            {
-                if(flag2 == 0 && right_value == 0)
-                {
-                    right_check = to_string(MIN);
-                    size_t comma {right_check.find(",")};
-                    right_check.replace(comma, 1, ".");
-                }
-                return "(" + left_check + "/" + right_check + ")";
-            }
-            case 2005:
-            {
-                if(flag2 == 0 && left_value < 0)//изменяем правое поддерево поэтому проверяем flag2
-                {
-                    right_value = round(right_value);
-                    right_check = to_string(right_value);
-                    size_t comma {right_check.find(",")};
-                    if (comma != string::npos)
-                        right_check.replace(comma, 1, ".");
-                }
-                if(flag == 0 && flag2 == 0 && left_value == 0 && right_value < 0){return "0";}
-                return "(" + left_check + ")**" + "(" + right_check + ")";
-            }
-        }
-    }
-    else if (cur_el->operation >= 3000)
-    {
-        string left_value = printExpressionForPython(cur_el->left, x);
-        string mid_value = printExpressionForPython(cur_el->mid, x);
-        string right_value = printExpressionForPython(cur_el->right, x);
-        switch (cur_el->operation)
-        {
-            case 3000:
-                return "if" + left_value + "then" + mid_value + "else" + right_value;
-        }
-    }
-
-    return "";
-}*/
-
 double Tree::error(int num_obs, double** x, double* y)
 {
     int obs;
@@ -1395,15 +1208,6 @@ void init_population(int switch_init, int n, Tree* tree, int depth)
     }
 }
 
-string delete_brackets(string s)
-{
-    if (s.find("(")==0)
-    {
-        s.erase(0, 1);
-        s.erase(s.size()-1,1);
-    }
-    return s;
-}
 
 double add_lex_selection1(double* rangs, int* accept_index, int n, int* n_new)
 {
@@ -1763,46 +1567,6 @@ void count_rang_fitness(double* arr, double* rang, int n, bool var = false)
     delete[] index;
 }
 
-/*void fitness_by_neural_network()
-{
-    cout << "in function" << endl;
-    char* filename = "C:\\Programs\\PycharmProjects\\neuron_network_QW\\main.py";
-    PyObject *obj = Py_BuildValue("s", filename);
-    FILE *file = _Py_fopen_obj(obj, "r+");
-    // Открываем Python файл для выполнения
-    //FILE* file = fopen(filename, "r");
-    if (file != nullptr) {
-        // Выполняем Python скрипт
-        cout << "run" << endl;
-        PyRun_SimpleFile(file, filename);
-        cout << "return from Python" << endl;
-        if (PyErr_Occurred())
-        {
-            cout << "OPA" << endl;
-            PyObject *type, *value, *traceback;
-            PyErr_Fetch(&type, &value, &traceback);
-
-            // check if the exception is a TypeError
-            if (PyExc_TypeError && PyErr_ExceptionMatches(PyExc_TypeError))
-            {
-              // get the exception text as a UTF-8 encoded string
-              const char *exception_text = PyUnicode_AsUTF8(value);
-
-              // print the exception text
-              printf("Exception: %s\n", exception_text); // Печать ошибки, если она возникла
-            }
-            Py_XDECREF(type);
-            Py_XDECREF(value);
-            Py_XDECREF(traceback);
-        }
-        cout << "almost close" << endl;
-        fclose(file);
-        cout << "close" << endl;
-    }
-    else cout << "Не удалось открыть файл " << filename << endl;
-    cout << "almost out" << endl;
-
-}*/
 
 string fitness_by_neural_network()
 {
@@ -1828,6 +1592,36 @@ string fitness_by_neural_network()
     return result;
 }
 
+void distribute_lrs(double** lrs, Tree* tree, int* ind_cuda, double** x, int n, int num_epochs)
+{
+
+    double f = 0.65, s = 0.05, t = 0.3, lr;//1-145, 2-49, 3-Yulia
+    int i, j, valid, count_valid = 0;
+    for(i = 0; i < n; i++)
+    {
+        for(j = 0; j < num_epochs; j++)
+        {
+            valid = 0;
+            lr = tree[i].evaluateExpressionForPython(x[j], tree[i].root, &valid);
+            if (valid == 0 && !(isinf(lr)))
+            {
+                lrs[i][j] = lr*0.001;
+            }
+            else
+            {
+                lrs[i][0] = -50000;
+                count_valid--;
+                break;
+            }
+        }
+        count_valid++;
+    }
+    ind_cuda[0] = round(count_valid*f);
+    ind_cuda[1] = round(count_valid*s);
+    ind_cuda[2] = count_valid - ind_cuda[0] - ind_cuda[1];
+}
+
+
 int main()
 {
     ifstream fin_losses;
@@ -1839,7 +1633,7 @@ int main()
     //fout_lrs.open("Lrs.txt");
     srand(time(NULL));
     setlocale(0, "");
-    int i, j, k, in, obs, num_obs = 506-100, num_obs_test = 100, depth = 3, nrang = 3, num_epochs = 20, valid;
+    int i, j, k, in, obs, num_obs = 506-100, num_obs_test = 100, depth = 3, nrang = 3, num_epochs = 100, valid;
     int n = 50, num_generals = 500, general, status = 1, n_cuda = 3;//700 500
     //n - количество индивидов в поколении, num_generals - количество поколений
     double MSE, MSE_test, lr;
@@ -1850,7 +1644,7 @@ int main()
     double no = 1, v = 2, e = 20;
     string line, filename;
     time_t start_time, end_time, start_program, end_program;
-    int s_interval, f_interval, sum_ind = 0;
+    int s_interval, f_interval, individual;
     char symbol;
     bool cuda = true;//чтобы включить параллельный режим без cuda, поставь n_cuda =1, если НЕпараллельный режим то тоже надо 1 поставить
 
@@ -1882,6 +1676,11 @@ int main()
         rangs_temp[i] = new double[n];
     }
     int* ind_cuda = new int[n_cuda];
+    double** lrs = new double*[n];
+    for(i = 0; i < n; i++)
+    {
+        lrs[i] = new double[num_epochs];
+    }
 
 
 
@@ -1903,18 +1702,9 @@ int main()
         x[i][0] = i+1;
     }
     //количество индивидов на компьютер
-    ind_cuda[0] = 18;
-    ind_cuda[1] = 18;
-    ind_cuda[2] = 14;
-    for(i = 0; i < n_cuda; i++)
-    {
-        sum_ind+=ind_cuda[i];
-    }
-    if(sum_ind!=n)
-    {
-        cout << "AMOUNT OF DISTRIBUTED INDIVIDUALS DOES NOT EQUAL THEIR NUMBER!!!" << endl;
-        return(0);
-    }
+    //ind_cuda[0] = 27;// 145
+    //ind_cuda[1] = 9; // 49
+    //ind_cuda[2] = 14; // Yulia
 
     sleep(10);
     //synthetic_data(x, y, num_obs);
@@ -1924,8 +1714,15 @@ int main()
         cout << tree[i].printExpression() << endl;
         fout_log << tree[i].printExpression() << endl;
     }
-    //ind_cuda = n/n_cuda;
-    //remaind = n%n_cuda;
+    distribute_lrs(lrs, tree, ind_cuda, x, n, num_epochs);
+
+    for(i = 0; i < n_cuda; i++)
+    {
+        fout_log << i+1 << " " << ind_cuda[i] << endl;
+        cout << "ind_cuda " << i << " " << ind_cuda[i] << endl;
+    }
+
+    individual = 0;
     s_interval = 0;
     f_interval = ind_cuda[0];
     for(k = 0; k < n_cuda; k++)
@@ -1937,45 +1734,24 @@ int main()
         {
             for(j = 0; j < num_epochs; j++)
             {
-                valid = 0;
-                lr = tree[i].evaluateExpressionForPython(x[j], tree[i].root, &valid);
-                if (valid == 0)
-                {
-                    fout_lrs << lr*0.001 << '\t';
-                    //cout << lr << '\t';
-                }
+                if (lrs[individual][0] == -50000)
+                    break;
                 else
-                {
-                    fout_lrs << "-50000\t";
-                    //cout << "-50000\t";
-                }
+                    fout_lrs << lrs[individual][j] << '\t';
             }
-            fout_lrs << endl;
+            if (lrs[individual][0] == -50000)
+            {
+                i--;
+                individual++;
+                continue;
+            }
+            else
+            {
+                fout_lrs << endl;
+                individual++;
+            }
             //cout << endl;
         }
-        /*if(k+1 == n_cuda && remaind != 0)
-        {
-            for(i = (k+1)*ind_cuda; i < (k+1)*ind_cuda+remaind; i++)
-            {
-                for(j = 0; j < num_epochs; j++)
-                {
-                    valid = 0;
-                    lr = tree[i].evaluateExpressionForPython(x[j], tree[i].root, &valid);
-                    if (valid == 0)
-                    {
-                        fout_lrs << lr*0.001 << '\t';
-                        //cout << lr << '\t';
-                    }
-                    else
-                    {
-                        fout_lrs << "-50000\t";
-                        //cout << "-50000\t";
-                    }
-                }
-                fout_lrs << endl;
-                //cout << endl;
-            }
-        }*/
         fout_lrs.close();
         cout << "Lrs is closed" << endl;
         if(k!=n_cuda-1)
@@ -2017,7 +1793,6 @@ int main()
                 //cout << status << endl;
             }
             fin_status.close();
-            //fout_log << fitness_by_neural_network();
         }
         //end_time = clock();
         time(&end_time);
@@ -2031,6 +1806,7 @@ int main()
     cout << "From C++ to C++ " << difftime(end_time, start_time) << endl;
     fout_log << "From C++ to C++ " << difftime(end_time, start_time) << endl;
     i = 0;
+    j = 0;
     for(k = 0; k < n_cuda; k++)
     {
         filename = "Losses" + to_string(k+1) + ".txt";
@@ -2041,16 +1817,27 @@ int main()
             while (getline(fin_losses, line))
             {
                 //cout << line << endl;
+                while (lrs[i][0] == -50000)
+                {
+                    losses[i] = MAX;
+                    i++;
+                }
                 size_t point {line.find(".")};
                 if (point != string::npos)
                     line.replace(point, 1, ",");
                 losses[i] = stod(line);
                 i++;
+                j++;
                 //cout << line << endl;
                 //cout << losses[i-1] << endl;
             }
         }
         fin_losses.close();
+    }
+    if (j != (ind_cuda[0] + ind_cuda[1] + ind_cuda[2]))
+    {
+        cout << "ERROR! NOT ALL LOSSES ARE FILLED IN" << endl;
+        return 0;
     }
     if (fit_switch == "formula")
     {
@@ -2160,6 +1947,13 @@ int main()
             cout << children[i].printExpression() << endl;
             fout_log << children[i].printExpression() << endl;
         }
+        distribute_lrs(lrs, children, ind_cuda, x, n, num_epochs);
+        for(i = 0; i < n_cuda; i++)
+        {
+            fout_log << i+1 << " " << ind_cuda[i] << endl;
+            cout << "ind_cuda " << i << " " << ind_cuda[i] << endl;
+        }
+        individual = 0;
         s_interval = 0;
         f_interval = ind_cuda[0];
         for(k = 0; k < n_cuda; k++)
@@ -2171,45 +1965,24 @@ int main()
             {
                 for(j = 0; j < num_epochs; j++)
                 {
-                    valid = 0;
-                    lr = children[i].evaluateExpressionForPython(x[j], children[i].root, &valid);
-                    if (valid == 0)
-                    {
-                        fout_lrs << lr*0.001 << '\t';
-                        //cout << lr << '\t';
-                    }
+                    if (lrs[individual][0] == -50000)
+                        break;
                     else
-                    {
-                        fout_lrs << "-50000\t";
-                        //cout << "-50000\t";
-                    }
+                        fout_lrs << lrs[individual][j] << '\t';
                 }
-                fout_lrs << endl;
+                if (lrs[individual][0] == -50000)
+                {
+                    i--;
+                    individual++;
+                    continue;
+                }
+                else
+                {
+                    fout_lrs << endl;
+                    individual++;
+                }
                 //cout << endl;
             }
-            /*if(k+1 == n_cuda && remaind != 0)
-            {
-                for(i = (k+1)*ind_cuda; i < (k+1)*ind_cuda+remaind; i++)
-                {
-                    for(j = 0; j < num_epochs; j++)
-                    {
-                        valid = 0;
-                        lr = children[i].evaluateExpressionForPython(x[j], children[i].root, &valid);
-                        if (valid == 0)
-                        {
-                            fout_lrs << lr*0.001 << '\t';
-                            //cout << lr << '\t';
-                        }
-                        else
-                        {
-                            fout_lrs << "-50000\t";
-                            //cout << "-50000\t";
-                        }
-                    }
-                    fout_lrs << endl;
-                    //cout << endl;
-                }
-            }*/
             fout_lrs.close();
             cout << "lrs is closed" << endl;
             if(k!=n_cuda-1)
@@ -2262,6 +2035,7 @@ int main()
         cout << "From C++ to C++ " << difftime(end_time, start_time) << endl;
         fout_log << "From C++ to C++ " << difftime(end_time, start_time) << endl;
         i = 0;
+        j = 0;
         for(k = 0; k < n_cuda; k++)
         {
             filename = "Losses" + to_string(k+1) + ".txt";
@@ -2271,16 +2045,27 @@ int main()
                 while (getline(fin_losses, line))
                 {
                     //cout << line << endl;
+                    while (lrs[i][0] == -50000)
+                    {
+                        losses[i+n] = MAX;
+                        i++;
+                    }
                     size_t point {line.find(".")};
                     if (point != string::npos)
                         line.replace(point, 1, ",");
                     losses[i+n] = stod(line);
                     i++;
+                    j++;
                     //cout << line << endl;
                     //cout << losses[i-1] << endl;
                 }
             }
             fin_losses.close();
+        }
+        if (j != (ind_cuda[0] + ind_cuda[1] + ind_cuda[2]))
+        {
+            cout << "ERROR! NOT ALL LOSSES ARE FILLED IN" << endl;
+            return 0;
         }
         if (fit_switch == "formula")
         {
@@ -2370,6 +2155,10 @@ int main()
         cout << "the best are found" << endl;
         fout_log << "the best are found" << endl;
         fout_testLoss << losses[0] << endl;
+
+        time(&end_program);
+        cout << "Algorithm is running for " << difftime(end_program, start_program) << " seconds" << endl;
+        fout_log << "Algorithm is running for " << difftime(end_program, start_program) << " seconds" << endl;
     }
     time(&end_program);
     cout << "Total time " << difftime(end_program, start_program) << endl;
@@ -2400,6 +2189,11 @@ int main()
     }
     delete[] x;
     delete[] ind_cuda;
+    for(i = 0; i < n; i++)
+    {
+        delete[] lrs[i];
+    }
+    delete[] lrs;
     fout_log.close();
     fout_testLoss.close();
 
