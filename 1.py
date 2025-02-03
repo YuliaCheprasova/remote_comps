@@ -59,7 +59,9 @@ def check_status():
         else:
             continue
         # print(status)
+    gen = int(f_status.readlines()[1])
     f_status.close()
+    return gen
 
 
 def get_lrs():
@@ -81,7 +83,7 @@ def get_lrs():
     return n_individs, num_epochs, lrs
 
 
-def train_cycle(results, num_epochs, lrs, k, optimizer, train_loader, model, criterion, log_filename):
+def train_cycle(results, num_epochs, lrs, k, optimizer, train_loader, model, criterion, log_filename, gen):
     f_log = open(log_filename, 'a', buffering=1)
     scaler = GradScaler()
     res = False
@@ -107,10 +109,10 @@ def train_cycle(results, num_epochs, lrs, k, optimizer, train_loader, model, cri
             scaler.update()
             running_loss += loss.item()
         running_loss /= len(train_loader)
-        print('Tree {}: Epoch [{}/{}], lr:{:.4f}, Loss:{:.4f}, Time_for_epoch: {:.4f}'.format(
-            k, epoch, num_epochs, lr, running_loss, time.time() - time_epoch))
-        f_log.write('Tree {}: Epoch [{}/{}], lr:{:.4f}, Loss:{:.4f}, Time_for_epoch: {:.4f}\n'.format(
-            k, epoch, num_epochs, lr, running_loss, time.time() - time_epoch))
+        print('Gen {} Tree {}: Epoch [{}/{}], lr:{:.4f}, Loss:{:.4f}, Time_for_epoch: {:.4f}'.format(
+            gen, k, epoch, num_epochs, lr, running_loss, time.time() - time_epoch))
+        f_log.write('Gen {} Tree {}: Epoch [{}/{}], lr:{:.4f}, Loss:{:.4f}, Time_for_epoch: {:.4f}\n'.format(
+            gen, k, epoch, num_epochs, lr, running_loss, time.time() - time_epoch))
         if epoch > 1 and (running_loss > 10000 or math.isnan(running_loss)):
             results[k] = max_int
             res = True
@@ -173,10 +175,10 @@ def main():
     #if parallel:
     f_log.write('Time_data_preparation: {:.4f}\n'.format(time.time() - time_prepar))
     for general in range(num_generals):
+        start = time.time()
+        general = check_status()
         print('General {}\n'.format(general))
         f_log.write('General {}\n'.format(general))
-        start = time.time()
-        check_status()
         n_individs, num_epochs, lrs = get_lrs()
         for i in range(n_individs):
             f_log.write(str(lrs[i]))
@@ -192,7 +194,7 @@ def main():
             optimizer = optim.Adam(model.parameters(), lr=0.1)
             model.train() # Если нет Dropout, то не имеет смысла, но считается правилом хорошего тона
             f_log.close()
-            res = train_cycle(results, num_epochs, lrs, k, optimizer, train_loader, model, criterion, log_filename)
+            res = train_cycle(results, num_epochs, lrs, k, optimizer, train_loader, model, criterion, log_filename, general)
             f_log = open(log_filename, 'a', buffering=1)
             if (res == False):
                 model.eval()  # Если нет Dropout, то не имеет смысла, но считается правилом хорошего тона

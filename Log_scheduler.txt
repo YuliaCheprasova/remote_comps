@@ -1,0 +1,3 @@
+start Python
+Time_data_preparation: 1.4829
+Testing scheduler 0: StepLR

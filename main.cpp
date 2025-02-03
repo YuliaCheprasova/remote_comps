@@ -1595,7 +1595,7 @@ string fitness_by_neural_network()
 void distribute_lrs(double** lrs, Tree* tree, int* ind_cuda, double** x, int n, int num_epochs)
 {
 
-    double f = 0.65, s = 0.05, t = 0.3, lr;//1-145, 2-49, 3-Yulia
+    double f = 0.3, s = 0.7, t = 0.31, lr;//1-145, 2-49, 3-Yulia f = 0.67, s = 0.02, t = 0.31
     int i, j, valid, count_valid = 0;
     for(i = 0; i < n; i++)
     {
@@ -1617,8 +1617,9 @@ void distribute_lrs(double** lrs, Tree* tree, int* ind_cuda, double** x, int n, 
         count_valid++;
     }
     ind_cuda[0] = round(count_valid*f);
-    ind_cuda[1] = round(count_valid*s);
-    ind_cuda[2] = count_valid - ind_cuda[0] - ind_cuda[1];
+    ind_cuda[1] = count_valid - ind_cuda[0];
+    //ind_cuda[1] = round(count_valid*s);
+    //ind_cuda[2] = count_valid - ind_cuda[0] - ind_cuda[1];
 }
 
 
@@ -1633,10 +1634,9 @@ int main()
     //fout_lrs.open("Lrs.txt");
     srand(time(NULL));
     setlocale(0, "");
-    int i, j, k, in, obs, num_obs = 506-100, num_obs_test = 100, depth = 3, nrang = 3, num_epochs = 100, valid;
-    int n = 50, num_generals = 500, general, status = 1, n_cuda = 3;//700 500
+    int i, j, k, in, depth = 3, nrang = 3, num_epochs = 1;
+    int n = 5, num_generals = 500, general, status = 1, n_cuda = 2, sum_cuda = 0;//700 500
     //n - количество индивидов в поколении, num_generals - количество поколений
-    double MSE, MSE_test, lr;
     int switch_init = 0;//0 - полный метод, 1 - метод выращивания
     string sel_switch = "prop";// prop, rang, tour, lex
     string mut_switch = "part";// point, part
@@ -1720,6 +1720,7 @@ int main()
     {
         fout_log << i+1 << " " << ind_cuda[i] << endl;
         cout << "ind_cuda " << i << " " << ind_cuda[i] << endl;
+        sum_cuda += ind_cuda[i];
     }
 
     individual = 0;
@@ -1767,7 +1768,7 @@ int main()
         {
             filename = "Status" + to_string(k+1) + ".txt";
             fout_status.open(filename);
-            fout_status << 1 << endl;
+            fout_status << 1 << "\n" << 0 << endl;
             fout_status.close();
         }
         cout << "ones were set" << endl;
@@ -1822,9 +1823,9 @@ int main()
                     losses[i] = MAX;
                     i++;
                 }
-                size_t point {line.find(".")};
-                if (point != string::npos)
-                    line.replace(point, 1, ",");
+                //size_t point {line.find(".")};
+                //if (point != string::npos)
+                    //line.replace(point, 1, ",");
                 losses[i] = stod(line);
                 i++;
                 j++;
@@ -1834,10 +1835,15 @@ int main()
         }
         fin_losses.close();
     }
-    if (j != (ind_cuda[0] + ind_cuda[1] + ind_cuda[2]))
+    if (j != sum_cuda)
     {
         cout << "ERROR! NOT ALL LOSSES ARE FILLED IN" << endl;
         return 0;
+    }
+    while (i < n)
+    {
+        losses[i] = MAX;
+        i++;
     }
     if (fit_switch == "formula")
     {
@@ -1867,7 +1873,7 @@ int main()
     }
 
     //цикл поколений
-    for(general = 0; general < num_generals; general++)
+    for(general = 1; general < num_generals; general++)
     {
         cout << "\nGeneral " << general << "\n" << endl;
         fout_log << "\nGeneral " << general << "\n" << endl;
@@ -1948,10 +1954,12 @@ int main()
             fout_log << children[i].printExpression() << endl;
         }
         distribute_lrs(lrs, children, ind_cuda, x, n, num_epochs);
+        sum_cuda = 0;
         for(i = 0; i < n_cuda; i++)
         {
             fout_log << i+1 << " " << ind_cuda[i] << endl;
             cout << "ind_cuda " << i << " " << ind_cuda[i] << endl;
+            sum_cuda += ind_cuda[i];
         }
         individual = 0;
         s_interval = 0;
@@ -1997,7 +2005,7 @@ int main()
             {
                 filename = "Status" + to_string(k+1) + ".txt";
                 fout_status.open(filename);
-                fout_status << 1 << endl;
+                fout_status << 1 << "\n" << general << endl;
                 fout_status.close();
             }
             cout << "ones were set" << endl;
@@ -2050,9 +2058,9 @@ int main()
                         losses[i+n] = MAX;
                         i++;
                     }
-                    size_t point {line.find(".")};
-                    if (point != string::npos)
-                        line.replace(point, 1, ",");
+                    //size_t point {line.find(".")};
+                    //if (point != string::npos)
+                        //line.replace(point, 1, ",");
                     losses[i+n] = stod(line);
                     i++;
                     j++;
@@ -2062,10 +2070,15 @@ int main()
             }
             fin_losses.close();
         }
-        if (j != (ind_cuda[0] + ind_cuda[1] + ind_cuda[2]))
+        if (j != sum_cuda)
         {
             cout << "ERROR! NOT ALL LOSSES ARE FILLED IN" << endl;
             return 0;
+        }
+        while (i < n)
+        {
+            losses[i+n] = MAX;
+            i++;
         }
         if (fit_switch == "formula")
         {
@@ -2147,6 +2160,7 @@ int main()
             tree[i].CloneTree(tree_temp[i].root);
             fitness[i] = fitness_temp[i];
             losses[i] = losses_temp[i];
+            cout << losses[i] << endl;
             for(j = 0; j < nrang; j++)
             {
                 rangs[j][i] = rangs_temp[j][i];

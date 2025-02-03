@@ -1,0 +1,2378 @@
+start Python
+Time_data_preparation: 1.1821
+General 0
+[ 8.41471e-04  9.09297e-04  1.41120e-04 -7.56802e-04 -9.58924e-04
+ -2.79415e-04  6.56987e-04  9.89358e-04  4.12118e-04 -5.44021e-04
+ -9.99990e-04 -5.36573e-04  4.20167e-04  9.90607e-04  6.50288e-04
+ -2.87903e-04 -9.61397e-04 -7.50987e-04  1.49877e-04  9.12945e-04
+  8.36656e-04 -8.85131e-06 -8.46220e-04 -9.05578e-04 -1.32352e-04
+  7.62558e-04  9.56376e-04  2.70906e-04 -6.63634e-04 -9.88032e-04
+ -4.04038e-04  5.51427e-04  9.99912e-04  5.29083e-04 -4.28183e-04
+ -9.91779e-04 -6.43538e-04  2.96369e-04  9.63795e-04  7.45113e-04
+ -1.58623e-04 -9.16522e-04 -8.31775e-04  1.77019e-05  8.50904e-04
+  9.01788e-04  1.23573e-04 -7.68255e-04 -9.53753e-04 -2.62375e-04
+  6.70229e-04  9.86628e-04  3.95925e-04 -5.58789e-04 -9.99755e-04
+ -5.21551e-04  4.36165e-04  9.92873e-04  6.36738e-04 -3.04811e-04
+ -9.66118e-04 -7.39181e-04  1.67356e-04  9.20026e-04  8.26829e-04
+ -2.65512e-05 -8.55520e-04 -8.97928e-04 -1.14785e-04  7.73891e-04
+  9.51055e-04  2.53823e-04 -6.76772e-04 -9.85146e-04 -3.87782e-04
+  5.66108e-04  9.99520e-04  5.13978e-04 -4.44113e-04 -9.93889e-04
+ -6.29888e-04  3.13229e-04  9.68364e-04  7.33190e-04 -1.76076e-04
+ -9.23458e-04 -8.21818e-04  3.53983e-05  8.60069e-04  8.93997e-04
+  1.05988e-04 -7.79466e-04 -9.48282e-04 -2.45252e-04  6.83262e-04
+  9.83588e-04  3.79608e-04 -5.73382e-04 -9.99207e-04 -5.06366e-04][0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+ 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+ 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+ 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+ 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+ 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+ 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+ 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+ 0.001 0.001 0.001 0.001]Tree 0: Epoch [1/100], lr:0.0008, Loss:1.4045, Time_for_epoch: 63.5152
+Tree 0: Epoch [2/100], lr:0.0009, Loss:0.9518, Time_for_epoch: 34.6306
+Tree 0: Epoch [3/100], lr:0.0001, Loss:0.6151, Time_for_epoch: 34.5012
+Tree 0: Epoch [4/100], lr:-0.0008, Loss:1161.6713, Time_for_epoch: 34.4508
+Tree 0: Epoch [5/100], lr:-0.0010, Loss:5433.7563, Time_for_epoch: 34.5484
+Tree 0: Epoch [6/100], lr:-0.0003, Loss:9214.7904, Time_for_epoch: 34.5507
+Tree 0: Epoch [7/100], lr:0.0007, Loss:2270.4249, Time_for_epoch: 34.5883
+Tree 0: Epoch [8/100], lr:0.0010, Loss:623.0018, Time_for_epoch: 34.5944
+Tree 0: Epoch [9/100], lr:0.0004, Loss:184.2799, Time_for_epoch: 34.5995
+Tree 0: Epoch [10/100], lr:-0.0005, Loss:9111.2145, Time_for_epoch: 34.5717
+Tree 0: Epoch [11/100], lr:-0.0010, Loss:14678.8675, Time_for_epoch: 34.5724
+Tree 0 is not valid
+Tree 1: Epoch [1/100], lr:0.0010, Loss:1.3916, Time_for_epoch: 34.6595
+Tree 1: Epoch [2/100], lr:0.0010, Loss:0.9387, Time_for_epoch: 34.6749
+Tree 1: Epoch [3/100], lr:0.0010, Loss:0.7441, Time_for_epoch: 34.6687
+Tree 1: Epoch [4/100], lr:0.0010, Loss:0.6078, Time_for_epoch: 34.6853
+Tree 1: Epoch [5/100], lr:0.0010, Loss:0.5059, Time_for_epoch: 34.7104
+Tree 1: Epoch [6/100], lr:0.0010, Loss:0.4256, Time_for_epoch: 34.7373
+Tree 1: Epoch [7/100], lr:0.0010, Loss:0.3721, Time_for_epoch: 34.7427
+Tree 1: Epoch [8/100], lr:0.0010, Loss:0.3082, Time_for_epoch: 34.7600
+Tree 1: Epoch [9/100], lr:0.0010, Loss:0.2680, Time_for_epoch: 34.7879
+Tree 1: Epoch [10/100], lr:0.0010, Loss:0.2299, Time_for_epoch: 34.8010
+Tree 1: Epoch [11/100], lr:0.0010, Loss:0.2010, Time_for_epoch: 34.7904
+Tree 1: Epoch [12/100], lr:0.0010, Loss:0.1745, Time_for_epoch: 34.8135
+Tree 1: Epoch [13/100], lr:0.0010, Loss:0.1592, Time_for_epoch: 34.9165
+Tree 1: Epoch [14/100], lr:0.0010, Loss:0.1419, Time_for_epoch: 34.8156
+Tree 1: Epoch [15/100], lr:0.0010, Loss:0.1201, Time_for_epoch: 34.8418
+Tree 1: Epoch [16/100], lr:0.0010, Loss:0.1206, Time_for_epoch: 34.8342
+Tree 1: Epoch [17/100], lr:0.0010, Loss:0.1087, Time_for_epoch: 34.8391
+Tree 1: Epoch [18/100], lr:0.0010, Loss:0.0953, Time_for_epoch: 34.8362
+Tree 1: Epoch [19/100], lr:0.0010, Loss:0.0934, Time_for_epoch: 34.8982
+Tree 1: Epoch [20/100], lr:0.0010, Loss:0.0906, Time_for_epoch: 34.9136
+Tree 1: Epoch [21/100], lr:0.0010, Loss:0.0870, Time_for_epoch: 34.9024
+Tree 1: Epoch [22/100], lr:0.0010, Loss:0.0761, Time_for_epoch: 34.9100
+Tree 1: Epoch [23/100], lr:0.0010, Loss:0.0777, Time_for_epoch: 34.8977
+Tree 1: Epoch [24/100], lr:0.0010, Loss:0.0733, Time_for_epoch: 34.9034
+Tree 1: Epoch [25/100], lr:0.0010, Loss:0.0750, Time_for_epoch: 34.9557
+Tree 1: Epoch [26/100], lr:0.0010, Loss:0.0695, Time_for_epoch: 34.9597
+Tree 1: Epoch [27/100], lr:0.0010, Loss:0.0530, Time_for_epoch: 34.8686
+Tree 1: Epoch [28/100], lr:0.0010, Loss:0.0719, Time_for_epoch: 34.8642
+Tree 1: Epoch [29/100], lr:0.0010, Loss:0.0619, Time_for_epoch: 34.8517
+Tree 1: Epoch [30/100], lr:0.0010, Loss:0.0579, Time_for_epoch: 34.8359
+Tree 1: Epoch [31/100], lr:0.0010, Loss:0.0550, Time_for_epoch: 34.8277
+Tree 1: Epoch [32/100], lr:0.0010, Loss:0.0611, Time_for_epoch: 34.8541
+Tree 1: Epoch [33/100], lr:0.0010, Loss:0.0584, Time_for_epoch: 34.9977
+Tree 1: Epoch [34/100], lr:0.0010, Loss:0.0467, Time_for_epoch: 35.0227
+Tree 1: Epoch [35/100], lr:0.0010, Loss:0.0465, Time_for_epoch: 34.9831
+Tree 1: Epoch [36/100], lr:0.0010, Loss:0.0557, Time_for_epoch: 35.0042
+Tree 1: Epoch [37/100], lr:0.0010, Loss:0.0478, Time_for_epoch: 34.9396
+Tree 1: Epoch [38/100], lr:0.0010, Loss:0.0432, Time_for_epoch: 34.8541
+Tree 1: Epoch [39/100], lr:0.0010, Loss:0.0474, Time_for_epoch: 34.8410
+Tree 1: Epoch [40/100], lr:0.0010, Loss:0.0446, Time_for_epoch: 34.8827
+Tree 1: Epoch [41/100], lr:0.0010, Loss:0.0421, Time_for_epoch: 34.8542
+Tree 1: Epoch [42/100], lr:0.0010, Loss:0.0383, Time_for_epoch: 34.8594
+Tree 1: Epoch [43/100], lr:0.0010, Loss:0.0508, Time_for_epoch: 34.8765
+Tree 1: Epoch [44/100], lr:0.0010, Loss:0.0371, Time_for_epoch: 34.8785
+Tree 1: Epoch [45/100], lr:0.0010, Loss:0.0465, Time_for_epoch: 34.8824
+Tree 1: Epoch [46/100], lr:0.0010, Loss:0.0343, Time_for_epoch: 34.8825
+Tree 1: Epoch [47/100], lr:0.0010, Loss:0.0340, Time_for_epoch: 34.8724
+Tree 1: Epoch [48/100], lr:0.0010, Loss:0.0437, Time_for_epoch: 34.8881
+Tree 1: Epoch [49/100], lr:0.0010, Loss:0.0358, Time_for_epoch: 34.8907
+Tree 1: Epoch [50/100], lr:0.0010, Loss:0.0417, Time_for_epoch: 34.8998
+Tree 1: Epoch [51/100], lr:0.0010, Loss:0.0325, Time_for_epoch: 34.8931
+Tree 1: Epoch [52/100], lr:0.0010, Loss:0.0331, Time_for_epoch: 34.8835
+Tree 1: Epoch [53/100], lr:0.0010, Loss:0.0358, Time_for_epoch: 34.8944
+Tree 1: Epoch [54/100], lr:0.0010, Loss:0.0336, Time_for_epoch: 34.8876
+Tree 1: Epoch [55/100], lr:0.0010, Loss:0.0358, Time_for_epoch: 34.8932
+Tree 1: Epoch [56/100], lr:0.0010, Loss:0.0270, Time_for_epoch: 34.8983
+Tree 1: Epoch [57/100], lr:0.0010, Loss:0.0360, Time_for_epoch: 34.8879
+Tree 1: Epoch [58/100], lr:0.0010, Loss:0.0316, Time_for_epoch: 34.8864
+Tree 1: Epoch [59/100], lr:0.0010, Loss:0.0258, Time_for_epoch: 34.9007
+Tree 1: Epoch [60/100], lr:0.0010, Loss:0.0256, Time_for_epoch: 34.8887
+Tree 1: Epoch [61/100], lr:0.0010, Loss:0.0332, Time_for_epoch: 34.8871
+Tree 1: Epoch [62/100], lr:0.0010, Loss:0.0372, Time_for_epoch: 34.9119
+Tree 1: Epoch [63/100], lr:0.0010, Loss:0.0297, Time_for_epoch: 34.9853
+Tree 1: Epoch [64/100], lr:0.0010, Loss:0.0255, Time_for_epoch: 35.0444
+Tree 1: Epoch [65/100], lr:0.0010, Loss:0.0258, Time_for_epoch: 35.0548
+Tree 1: Epoch [66/100], lr:0.0010, Loss:0.0231, Time_for_epoch: 35.0485
+Tree 1: Epoch [67/100], lr:0.0010, Loss:0.0289, Time_for_epoch: 35.0432
+Tree 1: Epoch [68/100], lr:0.0010, Loss:0.0234, Time_for_epoch: 35.0402
+Tree 1: Epoch [69/100], lr:0.0010, Loss:0.0295, Time_for_epoch: 35.0377
+Tree 1: Epoch [70/100], lr:0.0010, Loss:0.0187, Time_for_epoch: 35.0412
+Tree 1: Epoch [71/100], lr:0.0010, Loss:0.0323, Time_for_epoch: 35.0489
+Tree 1: Epoch [72/100], lr:0.0010, Loss:0.0233, Time_for_epoch: 35.0429
+Tree 1: Epoch [73/100], lr:0.0010, Loss:0.0254, Time_for_epoch: 35.0417
+Tree 1: Epoch [74/100], lr:0.0010, Loss:0.0215, Time_for_epoch: 35.0480
+Tree 1: Epoch [75/100], lr:0.0010, Loss:0.0241, Time_for_epoch: 35.0528
+Tree 1: Epoch [76/100], lr:0.0010, Loss:0.0199, Time_for_epoch: 35.0415
+Tree 1: Epoch [77/100], lr:0.0010, Loss:0.0237, Time_for_epoch: 34.9238
+Tree 1: Epoch [78/100], lr:0.0010, Loss:0.0233, Time_for_epoch: 34.9121
+Tree 1: Epoch [79/100], lr:0.0010, Loss:0.0273, Time_for_epoch: 34.9388
+Tree 1: Epoch [80/100], lr:0.0010, Loss:0.0262, Time_for_epoch: 34.9428
+Tree 1: Epoch [81/100], lr:0.0010, Loss:0.0214, Time_for_epoch: 34.9129
+Tree 1: Epoch [82/100], lr:0.0010, Loss:0.0189, Time_for_epoch: 34.9168
+Tree 1: Epoch [83/100], lr:0.0010, Loss:0.0222, Time_for_epoch: 34.9054
+Tree 1: Epoch [84/100], lr:0.0010, Loss:0.0164, Time_for_epoch: 34.9426
+Tree 1: Epoch [85/100], lr:0.0010, Loss:0.0278, Time_for_epoch: 34.9596
+Tree 1: Epoch [86/100], lr:0.0010, Loss:0.0200, Time_for_epoch: 34.9836
+Tree 1: Epoch [87/100], lr:0.0010, Loss:0.0128, Time_for_epoch: 34.9680
+Tree 1: Epoch [88/100], lr:0.0010, Loss:0.0267, Time_for_epoch: 35.0010
+Tree 1: Epoch [89/100], lr:0.0010, Loss:0.0240, Time_for_epoch: 34.9809
+Tree 1: Epoch [90/100], lr:0.0010, Loss:0.0165, Time_for_epoch: 34.9978
+Tree 1: Epoch [91/100], lr:0.0010, Loss:0.0194, Time_for_epoch: 34.9816
+Tree 1: Epoch [92/100], lr:0.0010, Loss:0.0196, Time_for_epoch: 34.9808
+Tree 1: Epoch [93/100], lr:0.0010, Loss:0.0177, Time_for_epoch: 34.9523
+Tree 1: Epoch [94/100], lr:0.0010, Loss:0.0225, Time_for_epoch: 34.9524
+Tree 1: Epoch [95/100], lr:0.0010, Loss:0.0178, Time_for_epoch: 34.9560
+Tree 1: Epoch [96/100], lr:0.0010, Loss:0.0140, Time_for_epoch: 34.9354
+Tree 1: Epoch [97/100], lr:0.0010, Loss:0.0225, Time_for_epoch: 34.9718
+Tree 1: Epoch [98/100], lr:0.0010, Loss:0.0193, Time_for_epoch: 34.9612
+Tree 1: Epoch [99/100], lr:0.0010, Loss:0.0172, Time_for_epoch: 34.9297
+Tree 1: Epoch [100/100], lr:0.0010, Loss:0.0201, Time_for_epoch: 34.9210
+Tree 1: TestLoss: 1.0280, TestAccuracy: 0.8377, Time_for_individ: 3493.7289
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 3903.2446 seconds
+General 1
+[0.00095113 0.00097526 0.00098344 0.00098755 0.00099003 0.00099168
+ 0.00099287 0.00099376 0.00099445 0.000995   0.00099545 0.00099583
+ 0.00099615 0.00099643 0.00099667 0.00099687 0.00099706 0.00099722
+ 0.00099737 0.0009975  0.00099762 0.00099773 0.00099782 0.00099792
+ 0.000998   0.00099807 0.00099815 0.00099821 0.00099827 0.00099833
+ 0.00099839 0.00099843 0.00099848 0.00099853 0.00099857 0.00099861
+ 0.00099865 0.00099868 0.00099872 0.00099875 0.00099878 0.00099881
+ 0.00099884 0.00099886 0.00099889 0.00099891 0.00099894 0.00099896
+ 0.00099898 0.000999   0.00099902 0.00099904 0.00099905 0.00099907
+ 0.00099909 0.00099911 0.00099912 0.00099914 0.00099915 0.00099916
+ 0.00099918 0.00099919 0.0009992  0.00099922 0.00099923 0.00099924
+ 0.00099925 0.00099926 0.00099927 0.00099928 0.0009993  0.0009993
+ 0.00099931 0.00099932 0.00099933 0.00099934 0.00099935 0.00099936
+ 0.00099937 0.00099937 0.00099938 0.00099939 0.0009994  0.0009994
+ 0.00099941 0.00099942 0.00099942 0.00099943 0.00099944 0.00099944
+ 0.00099945 0.00099946 0.00099946 0.00099947 0.00099947 0.00099948
+ 0.00099948 0.00099949 0.00099949 0.0009995 ][-0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248 -0.00194248
+ -0.00194248 -0.00194248 -0.00194248 -0.00194248]Tree 0: Epoch [1/100], lr:0.0010, Loss:1.4030, Time_for_epoch: 34.5783
+Tree 0: Epoch [2/100], lr:0.0010, Loss:0.9501, Time_for_epoch: 34.8020
+Tree 0: Epoch [3/100], lr:0.0010, Loss:0.7422, Time_for_epoch: 34.7837
+Tree 0: Epoch [4/100], lr:0.0010, Loss:0.6008, Time_for_epoch: 35.9575
+Tree 0: Epoch [5/100], lr:0.0010, Loss:0.5040, Time_for_epoch: 36.0249
+Tree 0: Epoch [6/100], lr:0.0010, Loss:0.4207, Time_for_epoch: 35.4242
+Tree 0: Epoch [7/100], lr:0.0010, Loss:0.3660, Time_for_epoch: 34.9743
+Tree 0: Epoch [8/100], lr:0.0010, Loss:0.3107, Time_for_epoch: 34.9815
+Tree 0: Epoch [9/100], lr:0.0010, Loss:0.2655, Time_for_epoch: 34.9881
+Tree 0: Epoch [10/100], lr:0.0010, Loss:0.2262, Time_for_epoch: 34.9826
+Tree 0: Epoch [11/100], lr:0.0010, Loss:0.2019, Time_for_epoch: 34.9359
+Tree 0: Epoch [12/100], lr:0.0010, Loss:0.1720, Time_for_epoch: 34.9487
+Tree 0: Epoch [13/100], lr:0.0010, Loss:0.1500, Time_for_epoch: 34.9538
+Tree 0: Epoch [14/100], lr:0.0010, Loss:0.1383, Time_for_epoch: 34.9710
+Tree 0: Epoch [15/100], lr:0.0010, Loss:0.1334, Time_for_epoch: 34.9697
+Tree 0: Epoch [16/100], lr:0.0010, Loss:0.1106, Time_for_epoch: 34.9686
+Tree 0: Epoch [17/100], lr:0.0010, Loss:0.0966, Time_for_epoch: 34.9673
+Tree 0: Epoch [18/100], lr:0.0010, Loss:0.1028, Time_for_epoch: 34.9684
+Tree 0: Epoch [19/100], lr:0.0010, Loss:0.0965, Time_for_epoch: 34.9837
+Tree 0: Epoch [20/100], lr:0.0010, Loss:0.0868, Time_for_epoch: 34.9874
+Tree 0: Epoch [21/100], lr:0.0010, Loss:0.0831, Time_for_epoch: 34.9904
+Tree 0: Epoch [22/100], lr:0.0010, Loss:0.0816, Time_for_epoch: 34.9996
+Tree 0: Epoch [23/100], lr:0.0010, Loss:0.0748, Time_for_epoch: 35.0070
+Tree 0: Epoch [24/100], lr:0.0010, Loss:0.0776, Time_for_epoch: 35.0180
+Tree 0: Epoch [25/100], lr:0.0010, Loss:0.0689, Time_for_epoch: 35.0107
+Tree 0: Epoch [26/100], lr:0.0010, Loss:0.0663, Time_for_epoch: 35.0151
+Tree 0: Epoch [27/100], lr:0.0010, Loss:0.0586, Time_for_epoch: 35.0091
+Tree 0: Epoch [28/100], lr:0.0010, Loss:0.0705, Time_for_epoch: 35.0309
+Tree 0: Epoch [29/100], lr:0.0010, Loss:0.0608, Time_for_epoch: 35.0201
+Tree 0: Epoch [30/100], lr:0.0010, Loss:0.0567, Time_for_epoch: 35.1582
+Tree 0: Epoch [31/100], lr:0.0010, Loss:0.0578, Time_for_epoch: 35.0235
+Tree 0: Epoch [32/100], lr:0.0010, Loss:0.0561, Time_for_epoch: 35.1183
+Tree 0: Epoch [33/100], lr:0.0010, Loss:0.0482, Time_for_epoch: 35.4108
+Tree 0: Epoch [34/100], lr:0.0010, Loss:0.0551, Time_for_epoch: 35.1963
+Tree 0: Epoch [35/100], lr:0.0010, Loss:0.0518, Time_for_epoch: 35.1753
+Tree 0: Epoch [36/100], lr:0.0010, Loss:0.0512, Time_for_epoch: 35.1755
+Tree 0: Epoch [37/100], lr:0.0010, Loss:0.0455, Time_for_epoch: 35.1817
+Tree 0: Epoch [38/100], lr:0.0010, Loss:0.0440, Time_for_epoch: 35.1526
+Tree 0: Epoch [39/100], lr:0.0010, Loss:0.0491, Time_for_epoch: 35.1380
+Tree 0: Epoch [40/100], lr:0.0010, Loss:0.0424, Time_for_epoch: 35.2371
+Tree 0: Epoch [41/100], lr:0.0010, Loss:0.0397, Time_for_epoch: 35.1857
+Tree 0: Epoch [42/100], lr:0.0010, Loss:0.0457, Time_for_epoch: 35.1194
+Tree 0: Epoch [43/100], lr:0.0010, Loss:0.0357, Time_for_epoch: 35.1062
+Tree 0: Epoch [44/100], lr:0.0010, Loss:0.0426, Time_for_epoch: 35.1357
+Tree 0: Epoch [45/100], lr:0.0010, Loss:0.0360, Time_for_epoch: 35.1206
+Tree 0: Epoch [46/100], lr:0.0010, Loss:0.0465, Time_for_epoch: 35.1399
+Tree 0: Epoch [47/100], lr:0.0010, Loss:0.0446, Time_for_epoch: 35.1110
+Tree 0: Epoch [48/100], lr:0.0010, Loss:0.0337, Time_for_epoch: 35.0955
+Tree 0: Epoch [49/100], lr:0.0010, Loss:0.0342, Time_for_epoch: 35.0964
+Tree 0: Epoch [50/100], lr:0.0010, Loss:0.0308, Time_for_epoch: 35.0259
+Tree 0: Epoch [51/100], lr:0.0010, Loss:0.0396, Time_for_epoch: 34.9616
+Tree 0: Epoch [52/100], lr:0.0010, Loss:0.0341, Time_for_epoch: 34.9395
+Tree 0: Epoch [53/100], lr:0.0010, Loss:0.0331, Time_for_epoch: 34.9433
+Tree 0: Epoch [54/100], lr:0.0010, Loss:0.0333, Time_for_epoch: 34.9509
+Tree 0: Epoch [55/100], lr:0.0010, Loss:0.0360, Time_for_epoch: 34.9272
+Tree 0: Epoch [56/100], lr:0.0010, Loss:0.0314, Time_for_epoch: 34.9557
+Tree 0: Epoch [57/100], lr:0.0010, Loss:0.0271, Time_for_epoch: 34.9435
+Tree 0: Epoch [58/100], lr:0.0010, Loss:0.0303, Time_for_epoch: 34.9396
+Tree 0: Epoch [59/100], lr:0.0010, Loss:0.0337, Time_for_epoch: 34.9291
+Tree 0: Epoch [60/100], lr:0.0010, Loss:0.0300, Time_for_epoch: 34.9418
+Tree 0: Epoch [61/100], lr:0.0010, Loss:0.0289, Time_for_epoch: 34.9388
+Tree 0: Epoch [62/100], lr:0.0010, Loss:0.0282, Time_for_epoch: 34.9468
+Tree 0: Epoch [63/100], lr:0.0010, Loss:0.0324, Time_for_epoch: 34.9345
+Tree 0: Epoch [64/100], lr:0.0010, Loss:0.0233, Time_for_epoch: 34.9641
+Tree 0: Epoch [65/100], lr:0.0010, Loss:0.0227, Time_for_epoch: 34.9460
+Tree 0: Epoch [66/100], lr:0.0010, Loss:0.0322, Time_for_epoch: 34.9406
+Tree 0: Epoch [67/100], lr:0.0010, Loss:0.0263, Time_for_epoch: 34.9330
+Tree 0: Epoch [68/100], lr:0.0010, Loss:0.0276, Time_for_epoch: 34.9376
+Tree 0: Epoch [69/100], lr:0.0010, Loss:0.0293, Time_for_epoch: 34.9465
+Tree 0: Epoch [70/100], lr:0.0010, Loss:0.0225, Time_for_epoch: 34.9554
+Tree 0: Epoch [71/100], lr:0.0010, Loss:0.0243, Time_for_epoch: 34.9459
+Tree 0: Epoch [72/100], lr:0.0010, Loss:0.0261, Time_for_epoch: 34.9387
+Tree 0: Epoch [73/100], lr:0.0010, Loss:0.0222, Time_for_epoch: 34.9656
+Tree 0: Epoch [74/100], lr:0.0010, Loss:0.0302, Time_for_epoch: 34.9521
+Tree 0: Epoch [75/100], lr:0.0010, Loss:0.0241, Time_for_epoch: 34.9705
+Tree 0: Epoch [76/100], lr:0.0010, Loss:0.0227, Time_for_epoch: 34.9626
+Tree 0: Epoch [77/100], lr:0.0010, Loss:0.0202, Time_for_epoch: 34.9613
+Tree 0: Epoch [78/100], lr:0.0010, Loss:0.0229, Time_for_epoch: 34.9578
+Tree 0: Epoch [79/100], lr:0.0010, Loss:0.0252, Time_for_epoch: 34.9343
+Tree 0: Epoch [80/100], lr:0.0010, Loss:0.0231, Time_for_epoch: 35.1093
+Tree 0: Epoch [81/100], lr:0.0010, Loss:0.0212, Time_for_epoch: 35.1723
+Tree 0: Epoch [82/100], lr:0.0010, Loss:0.0172, Time_for_epoch: 35.2162
+Tree 0: Epoch [83/100], lr:0.0010, Loss:0.0226, Time_for_epoch: 35.2089
+Tree 0: Epoch [84/100], lr:0.0010, Loss:0.0224, Time_for_epoch: 35.1888
+Tree 0: Epoch [85/100], lr:0.0010, Loss:0.0211, Time_for_epoch: 35.0203
+Tree 0: Epoch [86/100], lr:0.0010, Loss:0.0217, Time_for_epoch: 35.1273
+Tree 0: Epoch [87/100], lr:0.0010, Loss:0.0189, Time_for_epoch: 35.1353
+Tree 0: Epoch [88/100], lr:0.0010, Loss:0.0201, Time_for_epoch: 35.1308
+Tree 0: Epoch [89/100], lr:0.0010, Loss:0.0219, Time_for_epoch: 35.1242
+Tree 0: Epoch [90/100], lr:0.0010, Loss:0.0185, Time_for_epoch: 35.0905
+Tree 0: Epoch [91/100], lr:0.0010, Loss:0.0214, Time_for_epoch: 35.0982
+Tree 0: Epoch [92/100], lr:0.0010, Loss:0.0161, Time_for_epoch: 35.0292
+Tree 0: Epoch [93/100], lr:0.0010, Loss:0.0206, Time_for_epoch: 34.9998
+Tree 0: Epoch [94/100], lr:0.0010, Loss:0.0186, Time_for_epoch: 34.9972
+Tree 0: Epoch [95/100], lr:0.0010, Loss:0.0121, Time_for_epoch: 34.9807
+Tree 0: Epoch [96/100], lr:0.0010, Loss:0.0194, Time_for_epoch: 35.0233
+Tree 0: Epoch [97/100], lr:0.0010, Loss:0.0236, Time_for_epoch: 35.0199
+Tree 0: Epoch [98/100], lr:0.0010, Loss:0.0209, Time_for_epoch: 34.9948
+Tree 0: Epoch [99/100], lr:0.0010, Loss:0.0158, Time_for_epoch: 35.1268
+Tree 0: Epoch [100/100], lr:0.0010, Loss:0.0126, Time_for_epoch: 35.1318
+Tree 0: TestLoss: 1.0664, TestAccuracy: 0.8318, Time_for_individ: 3507.1769
+Tree 1: Epoch [1/100], lr:-0.0019, Loss:1273.9960, Time_for_epoch: 35.0298
+Tree 1: Epoch [2/100], lr:-0.0019, Loss:7674.2875, Time_for_epoch: 35.0507
+Tree 1: Epoch [3/100], lr:-0.0019, Loss:20290.3270, Time_for_epoch: 35.0832
+Tree 1 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 30253.4591 seconds
+General 2
+[0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612 0.00275612
+ 0.00275612 0.00275612 0.00275612 0.00275612][0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223 0.00039223
+ 0.00039223 0.00039223 0.00039223 0.00039223]Tree 0: Epoch [1/100], lr:0.0028, Loss:1.4239, Time_for_epoch: 34.6429
+Tree 0: Epoch [2/100], lr:0.0028, Loss:0.9568, Time_for_epoch: 34.6512
+Tree 0: Epoch [3/100], lr:0.0028, Loss:0.7514, Time_for_epoch: 34.6963
+Tree 0: Epoch [4/100], lr:0.0028, Loss:0.6226, Time_for_epoch: 35.9118
+Tree 0: Epoch [5/100], lr:0.0028, Loss:0.5394, Time_for_epoch: 36.0621
+Tree 0: Epoch [6/100], lr:0.0028, Loss:0.4761, Time_for_epoch: 35.4269
+Tree 0: Epoch [7/100], lr:0.0028, Loss:0.4174, Time_for_epoch: 34.9604
+Tree 0: Epoch [8/100], lr:0.0028, Loss:0.3680, Time_for_epoch: 34.9763
+Tree 0: Epoch [9/100], lr:0.0028, Loss:0.3267, Time_for_epoch: 35.0106
+Tree 0: Epoch [10/100], lr:0.0028, Loss:0.2997, Time_for_epoch: 35.0270
+Tree 0: Epoch [11/100], lr:0.0028, Loss:0.2692, Time_for_epoch: 35.0372
+Tree 0: Epoch [12/100], lr:0.0028, Loss:0.2371, Time_for_epoch: 35.0542
+Tree 0: Epoch [13/100], lr:0.0028, Loss:0.2147, Time_for_epoch: 35.0750
+Tree 0: Epoch [14/100], lr:0.0028, Loss:0.1899, Time_for_epoch: 35.0839
+Tree 0: Epoch [15/100], lr:0.0028, Loss:0.1730, Time_for_epoch: 35.0915
+Tree 0: Epoch [16/100], lr:0.0028, Loss:0.1500, Time_for_epoch: 35.0933
+Tree 0: Epoch [17/100], lr:0.0028, Loss:0.1427, Time_for_epoch: 35.1132
+Tree 0: Epoch [18/100], lr:0.0028, Loss:0.1275, Time_for_epoch: 36.0264
+Tree 0: Epoch [19/100], lr:0.0028, Loss:0.1246, Time_for_epoch: 36.2461
+Tree 0: Epoch [20/100], lr:0.0028, Loss:0.1131, Time_for_epoch: 36.2571
+Tree 0: Epoch [21/100], lr:0.0028, Loss:0.1040, Time_for_epoch: 35.5833
+Tree 0: Epoch [22/100], lr:0.0028, Loss:0.0999, Time_for_epoch: 35.1271
+Tree 0: Epoch [23/100], lr:0.0028, Loss:0.0921, Time_for_epoch: 35.1462
+Tree 0: Epoch [24/100], lr:0.0028, Loss:0.0876, Time_for_epoch: 35.1485
+Tree 0: Epoch [25/100], lr:0.0028, Loss:0.0811, Time_for_epoch: 35.1515
+Tree 0: Epoch [26/100], lr:0.0028, Loss:0.0838, Time_for_epoch: 35.1514
+Tree 0: Epoch [27/100], lr:0.0028, Loss:0.0798, Time_for_epoch: 35.1626
+Tree 0: Epoch [28/100], lr:0.0028, Loss:0.0730, Time_for_epoch: 35.1560
+Tree 0: Epoch [29/100], lr:0.0028, Loss:0.0726, Time_for_epoch: 35.1627
+Tree 0: Epoch [30/100], lr:0.0028, Loss:0.0679, Time_for_epoch: 35.1700
+Tree 0: Epoch [31/100], lr:0.0028, Loss:0.0658, Time_for_epoch: 35.2921
+Tree 0: Epoch [32/100], lr:0.0028, Loss:0.0601, Time_for_epoch: 35.1534
+Tree 0: Epoch [33/100], lr:0.0028, Loss:0.0632, Time_for_epoch: 35.2034
+Tree 0: Epoch [34/100], lr:0.0028, Loss:0.0598, Time_for_epoch: 35.2063
+Tree 0: Epoch [35/100], lr:0.0028, Loss:0.0580, Time_for_epoch: 35.1844
+Tree 0: Epoch [36/100], lr:0.0028, Loss:0.0518, Time_for_epoch: 35.1872
+Tree 0: Epoch [37/100], lr:0.0028, Loss:0.0521, Time_for_epoch: 35.1700
+Tree 0: Epoch [38/100], lr:0.0028, Loss:0.0517, Time_for_epoch: 35.1890
+Tree 0: Epoch [39/100], lr:0.0028, Loss:0.0552, Time_for_epoch: 35.1750
+Tree 0: Epoch [40/100], lr:0.0028, Loss:0.0479, Time_for_epoch: 35.1865
+Tree 0: Epoch [41/100], lr:0.0028, Loss:0.0473, Time_for_epoch: 35.1832
+Tree 0: Epoch [42/100], lr:0.0028, Loss:0.0507, Time_for_epoch: 35.1678
+Tree 0: Epoch [43/100], lr:0.0028, Loss:0.0396, Time_for_epoch: 35.1707
+Tree 0: Epoch [44/100], lr:0.0028, Loss:0.0466, Time_for_epoch: 35.1707
+Tree 0: Epoch [45/100], lr:0.0028, Loss:0.0403, Time_for_epoch: 35.1852
+Tree 0: Epoch [46/100], lr:0.0028, Loss:0.0500, Time_for_epoch: 35.1810
+Tree 0: Epoch [47/100], lr:0.0028, Loss:0.0397, Time_for_epoch: 35.1205
+Tree 0: Epoch [48/100], lr:0.0028, Loss:0.0400, Time_for_epoch: 35.1147
+Tree 0: Epoch [49/100], lr:0.0028, Loss:0.0344, Time_for_epoch: 35.1124
+Tree 0: Epoch [50/100], lr:0.0028, Loss:0.0413, Time_for_epoch: 35.0749
+Tree 0: Epoch [51/100], lr:0.0028, Loss:0.0409, Time_for_epoch: 35.0732
+Tree 0: Epoch [52/100], lr:0.0028, Loss:0.0414, Time_for_epoch: 35.0696
+Tree 0: Epoch [53/100], lr:0.0028, Loss:0.0363, Time_for_epoch: 35.0676
+Tree 0: Epoch [54/100], lr:0.0028, Loss:0.0322, Time_for_epoch: 35.0904
+Tree 0: Epoch [55/100], lr:0.0028, Loss:0.0353, Time_for_epoch: 35.2804
+Tree 0: Epoch [56/100], lr:0.0028, Loss:0.0356, Time_for_epoch: 35.2012
+Tree 0: Epoch [57/100], lr:0.0028, Loss:0.0370, Time_for_epoch: 35.1546
+Tree 0: Epoch [58/100], lr:0.0028, Loss:0.0298, Time_for_epoch: 35.1489
+Tree 0: Epoch [59/100], lr:0.0028, Loss:0.0378, Time_for_epoch: 35.0728
+Tree 0: Epoch [60/100], lr:0.0028, Loss:0.0302, Time_for_epoch: 34.9385
+Tree 0: Epoch [61/100], lr:0.0028, Loss:0.0351, Time_for_epoch: 35.0823
+Tree 0: Epoch [62/100], lr:0.0028, Loss:0.0304, Time_for_epoch: 34.9903
+Tree 0: Epoch [63/100], lr:0.0028, Loss:0.0336, Time_for_epoch: 35.1167
+Tree 0: Epoch [64/100], lr:0.0028, Loss:0.0289, Time_for_epoch: 35.1094
+Tree 0: Epoch [65/100], lr:0.0028, Loss:0.0266, Time_for_epoch: 35.1285
+Tree 0: Epoch [66/100], lr:0.0028, Loss:0.0314, Time_for_epoch: 35.0164
+Tree 0: Epoch [67/100], lr:0.0028, Loss:0.0274, Time_for_epoch: 34.9853
+Tree 0: Epoch [68/100], lr:0.0028, Loss:0.0270, Time_for_epoch: 34.9732
+Tree 0: Epoch [69/100], lr:0.0028, Loss:0.0315, Time_for_epoch: 34.9697
+Tree 0: Epoch [70/100], lr:0.0028, Loss:0.0256, Time_for_epoch: 34.9693
+Tree 0: Epoch [71/100], lr:0.0028, Loss:0.0312, Time_for_epoch: 34.9814
+Tree 0: Epoch [72/100], lr:0.0028, Loss:0.0273, Time_for_epoch: 34.9830
+Tree 0: Epoch [73/100], lr:0.0028, Loss:0.0245, Time_for_epoch: 34.9935
+Tree 0: Epoch [74/100], lr:0.0028, Loss:0.0280, Time_for_epoch: 35.0414
+Tree 0: Epoch [75/100], lr:0.0028, Loss:0.0240, Time_for_epoch: 35.0786
+Tree 0: Epoch [76/100], lr:0.0028, Loss:0.0262, Time_for_epoch: 35.0108
+Tree 0: Epoch [77/100], lr:0.0028, Loss:0.0226, Time_for_epoch: 34.9757
+Tree 0: Epoch [78/100], lr:0.0028, Loss:0.0287, Time_for_epoch: 34.9694
+Tree 0: Epoch [79/100], lr:0.0028, Loss:0.0233, Time_for_epoch: 34.9773
+Tree 0: Epoch [80/100], lr:0.0028, Loss:0.0246, Time_for_epoch: 35.0181
+Tree 0: Epoch [81/100], lr:0.0028, Loss:0.0277, Time_for_epoch: 35.0089
+Tree 0: Epoch [82/100], lr:0.0028, Loss:0.0191, Time_for_epoch: 34.9643
+Tree 0: Epoch [83/100], lr:0.0028, Loss:0.0256, Time_for_epoch: 34.9631
+Tree 0: Epoch [84/100], lr:0.0028, Loss:0.0223, Time_for_epoch: 34.9557
+Tree 0: Epoch [85/100], lr:0.0028, Loss:0.0210, Time_for_epoch: 34.8777
+Tree 0: Epoch [86/100], lr:0.0028, Loss:0.0213, Time_for_epoch: 34.8494
+Tree 0: Epoch [87/100], lr:0.0028, Loss:0.0323, Time_for_epoch: 34.8144
+Tree 0: Epoch [88/100], lr:0.0028, Loss:0.0184, Time_for_epoch: 34.8052
+Tree 0: Epoch [89/100], lr:0.0028, Loss:0.0139, Time_for_epoch: 34.9759
+Tree 0: Epoch [90/100], lr:0.0028, Loss:0.0266, Time_for_epoch: 34.9109
+Tree 0: Epoch [91/100], lr:0.0028, Loss:0.0219, Time_for_epoch: 34.8503
+Tree 0: Epoch [92/100], lr:0.0028, Loss:0.0146, Time_for_epoch: 34.7456
+Tree 0: Epoch [93/100], lr:0.0028, Loss:0.0211, Time_for_epoch: 34.7379
+Tree 0: Epoch [94/100], lr:0.0028, Loss:0.0243, Time_for_epoch: 34.7253
+Tree 0: Epoch [95/100], lr:0.0028, Loss:0.0222, Time_for_epoch: 34.7349
+Tree 0: Epoch [96/100], lr:0.0028, Loss:0.0171, Time_for_epoch: 34.7236
+Tree 0: Epoch [97/100], lr:0.0028, Loss:0.0147, Time_for_epoch: 34.7106
+Tree 0: Epoch [98/100], lr:0.0028, Loss:0.0287, Time_for_epoch: 34.7544
+Tree 0: Epoch [99/100], lr:0.0028, Loss:0.0167, Time_for_epoch: 34.6782
+Tree 0: Epoch [100/100], lr:0.0028, Loss:0.0169, Time_for_epoch: 34.6658
+Tree 0: TestLoss: 0.8823, TestAccuracy: 0.8580, Time_for_individ: 3511.1505
+Tree 1: Epoch [1/100], lr:0.0004, Loss:1.5179, Time_for_epoch: 34.6771
+Tree 1: Epoch [2/100], lr:0.0004, Loss:1.0798, Time_for_epoch: 34.6061
+Tree 1: Epoch [3/100], lr:0.0004, Loss:0.8460, Time_for_epoch: 34.6577
+Tree 1: Epoch [4/100], lr:0.0004, Loss:0.6854, Time_for_epoch: 34.6482
+Tree 1: Epoch [5/100], lr:0.0004, Loss:0.5593, Time_for_epoch: 34.6518
+Tree 1: Epoch [6/100], lr:0.0004, Loss:0.4522, Time_for_epoch: 34.6339
+Tree 1: Epoch [7/100], lr:0.0004, Loss:0.3644, Time_for_epoch: 34.6361
+Tree 1: Epoch [8/100], lr:0.0004, Loss:0.2853, Time_for_epoch: 34.7468
+Tree 1: Epoch [9/100], lr:0.0004, Loss:0.2309, Time_for_epoch: 34.6821
+Tree 1: Epoch [10/100], lr:0.0004, Loss:0.1841, Time_for_epoch: 34.6297
+Tree 1: Epoch [11/100], lr:0.0004, Loss:0.1654, Time_for_epoch: 34.6050
+Tree 1: Epoch [12/100], lr:0.0004, Loss:0.1432, Time_for_epoch: 34.6043
+Tree 1: Epoch [13/100], lr:0.0004, Loss:0.1190, Time_for_epoch: 34.5913
+Tree 1: Epoch [14/100], lr:0.0004, Loss:0.1194, Time_for_epoch: 34.6008
+Tree 1: Epoch [15/100], lr:0.0004, Loss:0.1138, Time_for_epoch: 34.5954
+Tree 1: Epoch [16/100], lr:0.0004, Loss:0.0967, Time_for_epoch: 34.5870
+Tree 1: Epoch [17/100], lr:0.0004, Loss:0.0971, Time_for_epoch: 34.5748
+Tree 1: Epoch [18/100], lr:0.0004, Loss:0.0910, Time_for_epoch: 34.7256
+Tree 1: Epoch [19/100], lr:0.0004, Loss:0.0870, Time_for_epoch: 34.7223
+Tree 1: Epoch [20/100], lr:0.0004, Loss:0.0843, Time_for_epoch: 34.7291
+Tree 1: Epoch [21/100], lr:0.0004, Loss:0.0692, Time_for_epoch: 34.6580
+Tree 1: Epoch [22/100], lr:0.0004, Loss:0.0787, Time_for_epoch: 34.5972
+Tree 1: Epoch [23/100], lr:0.0004, Loss:0.0735, Time_for_epoch: 34.5894
+Tree 1: Epoch [24/100], lr:0.0004, Loss:0.0753, Time_for_epoch: 34.6031
+Tree 1: Epoch [25/100], lr:0.0004, Loss:0.0673, Time_for_epoch: 34.5906
+Tree 1: Epoch [26/100], lr:0.0004, Loss:0.0664, Time_for_epoch: 34.5771
+Tree 1: Epoch [27/100], lr:0.0004, Loss:0.0657, Time_for_epoch: 34.5829
+Tree 1: Epoch [28/100], lr:0.0004, Loss:0.0600, Time_for_epoch: 34.5939
+Tree 1: Epoch [29/100], lr:0.0004, Loss:0.0633, Time_for_epoch: 34.5734
+Tree 1: Epoch [30/100], lr:0.0004, Loss:0.0558, Time_for_epoch: 34.5947
+Tree 1: Epoch [31/100], lr:0.0004, Loss:0.0613, Time_for_epoch: 34.5900
+Tree 1: Epoch [32/100], lr:0.0004, Loss:0.0537, Time_for_epoch: 34.5941
+Tree 1: Epoch [33/100], lr:0.0004, Loss:0.0561, Time_for_epoch: 34.6310
+Tree 1: Epoch [34/100], lr:0.0004, Loss:0.0486, Time_for_epoch: 34.6137
+Tree 1: Epoch [35/100], lr:0.0004, Loss:0.0558, Time_for_epoch: 34.6164
+Tree 1: Epoch [36/100], lr:0.0004, Loss:0.0522, Time_for_epoch: 34.6048
+Tree 1: Epoch [37/100], lr:0.0004, Loss:0.0443, Time_for_epoch: 34.6013
+Tree 1: Epoch [38/100], lr:0.0004, Loss:0.0440, Time_for_epoch: 34.5814
+Tree 1: Epoch [39/100], lr:0.0004, Loss:0.0509, Time_for_epoch: 34.5747
+Tree 1: Epoch [40/100], lr:0.0004, Loss:0.0494, Time_for_epoch: 34.5580
+Tree 1: Epoch [41/100], lr:0.0004, Loss:0.0470, Time_for_epoch: 34.5594
+Tree 1: Epoch [42/100], lr:0.0004, Loss:0.0415, Time_for_epoch: 34.5423
+Tree 1: Epoch [43/100], lr:0.0004, Loss:0.0437, Time_for_epoch: 34.5398
+Tree 1: Epoch [44/100], lr:0.0004, Loss:0.0401, Time_for_epoch: 34.6780
+Tree 1: Epoch [45/100], lr:0.0004, Loss:0.0425, Time_for_epoch: 34.6956
+Tree 1: Epoch [46/100], lr:0.0004, Loss:0.0432, Time_for_epoch: 34.7259
+Tree 1: Epoch [47/100], lr:0.0004, Loss:0.0364, Time_for_epoch: 34.7400
+Tree 1: Epoch [48/100], lr:0.0004, Loss:0.0366, Time_for_epoch: 34.7381
+Tree 1: Epoch [49/100], lr:0.0004, Loss:0.0415, Time_for_epoch: 34.7471
+Tree 1: Epoch [50/100], lr:0.0004, Loss:0.0388, Time_for_epoch: 34.8462
+Tree 1: Epoch [51/100], lr:0.0004, Loss:0.0355, Time_for_epoch: 34.8902
+Tree 1: Epoch [52/100], lr:0.0004, Loss:0.0297, Time_for_epoch: 34.7959
+Tree 1: Epoch [53/100], lr:0.0004, Loss:0.0343, Time_for_epoch: 34.8096
+Tree 1: Epoch [54/100], lr:0.0004, Loss:0.0375, Time_for_epoch: 34.8138
+Tree 1: Epoch [55/100], lr:0.0004, Loss:0.0390, Time_for_epoch: 34.8201
+Tree 1: Epoch [56/100], lr:0.0004, Loss:0.0351, Time_for_epoch: 34.8095
+Tree 1: Epoch [57/100], lr:0.0004, Loss:0.0310, Time_for_epoch: 34.8358
+Tree 1: Epoch [58/100], lr:0.0004, Loss:0.0230, Time_for_epoch: 34.8209
+Tree 1: Epoch [59/100], lr:0.0004, Loss:0.0369, Time_for_epoch: 34.8265
+Tree 1: Epoch [60/100], lr:0.0004, Loss:0.0399, Time_for_epoch: 34.8458
+Tree 1: Epoch [61/100], lr:0.0004, Loss:0.0257, Time_for_epoch: 34.8288
+Tree 1: Epoch [62/100], lr:0.0004, Loss:0.0262, Time_for_epoch: 34.8542
+Tree 1: Epoch [63/100], lr:0.0004, Loss:0.0362, Time_for_epoch: 34.8659
+Tree 1: Epoch [64/100], lr:0.0004, Loss:0.0297, Time_for_epoch: 34.8670
+Tree 1: Epoch [65/100], lr:0.0004, Loss:0.0259, Time_for_epoch: 34.8778
+Tree 1: Epoch [66/100], lr:0.0004, Loss:0.0289, Time_for_epoch: 34.8847
+Tree 1: Epoch [67/100], lr:0.0004, Loss:0.0269, Time_for_epoch: 34.8969
+Tree 1: Epoch [68/100], lr:0.0004, Loss:0.0352, Time_for_epoch: 34.8856
+Tree 1: Epoch [69/100], lr:0.0004, Loss:0.0297, Time_for_epoch: 34.9052
+Tree 1: Epoch [70/100], lr:0.0004, Loss:0.0242, Time_for_epoch: 34.9069
+Tree 1: Epoch [71/100], lr:0.0004, Loss:0.0244, Time_for_epoch: 34.9062
+Tree 1: Epoch [72/100], lr:0.0004, Loss:0.0231, Time_for_epoch: 34.9120
+Tree 1: Epoch [73/100], lr:0.0004, Loss:0.0322, Time_for_epoch: 34.9179
+Tree 1: Epoch [74/100], lr:0.0004, Loss:0.0294, Time_for_epoch: 34.9162
+Tree 1: Epoch [75/100], lr:0.0004, Loss:0.0250, Time_for_epoch: 34.9372
+Tree 1: Epoch [76/100], lr:0.0004, Loss:0.0195, Time_for_epoch: 34.9224
+Tree 1: Epoch [77/100], lr:0.0004, Loss:0.0295, Time_for_epoch: 34.9176
+Tree 1: Epoch [78/100], lr:0.0004, Loss:0.0243, Time_for_epoch: 34.9057
+Tree 1: Epoch [79/100], lr:0.0004, Loss:0.0215, Time_for_epoch: 34.8882
+Tree 1: Epoch [80/100], lr:0.0004, Loss:0.0208, Time_for_epoch: 34.9017
+Tree 1: Epoch [81/100], lr:0.0004, Loss:0.0318, Time_for_epoch: 34.8954
+Tree 1: Epoch [82/100], lr:0.0004, Loss:0.0242, Time_for_epoch: 34.8990
+Tree 1: Epoch [83/100], lr:0.0004, Loss:0.0189, Time_for_epoch: 34.9031
+Tree 1: Epoch [84/100], lr:0.0004, Loss:0.0159, Time_for_epoch: 34.9037
+Tree 1: Epoch [85/100], lr:0.0004, Loss:0.0256, Time_for_epoch: 34.9226
+Tree 1: Epoch [86/100], lr:0.0004, Loss:0.0289, Time_for_epoch: 34.9604
+Tree 1: Epoch [87/100], lr:0.0004, Loss:0.0229, Time_for_epoch: 34.9598
+Tree 1: Epoch [88/100], lr:0.0004, Loss:0.0199, Time_for_epoch: 34.9787
+Tree 1: Epoch [89/100], lr:0.0004, Loss:0.0170, Time_for_epoch: 34.9776
+Tree 1: Epoch [90/100], lr:0.0004, Loss:0.0209, Time_for_epoch: 34.9740
+Tree 1: Epoch [91/100], lr:0.0004, Loss:0.0286, Time_for_epoch: 34.9799
+Tree 1: Epoch [92/100], lr:0.0004, Loss:0.0195, Time_for_epoch: 34.9766
+Tree 1: Epoch [93/100], lr:0.0004, Loss:0.0194, Time_for_epoch: 34.9812
+Tree 1: Epoch [94/100], lr:0.0004, Loss:0.0163, Time_for_epoch: 34.9861
+Tree 1: Epoch [95/100], lr:0.0004, Loss:0.0272, Time_for_epoch: 34.9840
+Tree 1: Epoch [96/100], lr:0.0004, Loss:0.0226, Time_for_epoch: 34.9752
+Tree 1: Epoch [97/100], lr:0.0004, Loss:0.0159, Time_for_epoch: 34.9895
+Tree 1: Epoch [98/100], lr:0.0004, Loss:0.0136, Time_for_epoch: 35.0061
+Tree 1: Epoch [99/100], lr:0.0004, Loss:0.0176, Time_for_epoch: 34.9979
+Tree 1: Epoch [100/100], lr:0.0004, Loss:0.0240, Time_for_epoch: 34.9789
+Tree 1: TestLoss: 1.3669, TestAccuracy: 0.7923, Time_for_individ: 3479.4462
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 37535.2684 seconds
+General 3
+[0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403 0.0005403
+ 0.0005403 0.0005403][0.0015403  0.00158385 0.00201001 0.00334636 0.00528366 0.00696017
+ 0.0077539  0.0078545  0.00808887 0.00916093 0.0110044  0.0128439
+ 0.0139074  0.0141367  0.0142403  0.0150423  0.0167248  0.0186603
+ 0.0199887  0.0204081  0.0204523  0.021      0.0224672  0.0244242
+ 0.0259912  0.0266469  0.0267079  0.0270374  0.0282519  0.0301543
+ 0.0319147  0.0328342  0.0329867  0.0331514  0.0340963  0.035872
+ 0.0377654  0.0389551  0.0392666  0.0393331  0.0400127  0.0416
+ 0.0435551  0.0449998  0.0455253  0.0455678  0.0460077  0.0473599
+ 0.0493006  0.050965   0.0517422  0.051837   0.0520817  0.0531707
+ 0.0550221  0.0568532  0.0578999  0.0581192  0.0582289  0.0590476
+ 0.0607419  0.0626735  0.0639859  0.0643919  0.0644375  0.0650004
+ 0.0664822  0.0684401  0.0699934  0.0706333  0.070691   0.0710327
+ 0.0722638  0.0741717  0.0759218  0.0768243  0.076969   0.0771422
+ 0.078104   0.0798896  0.0817767  0.0829497  0.0832495  0.08332
+ 0.0840156  0.0856163  0.0875698  0.0889994  0.0895102  0.0895519
+ 0.0900056  0.0913736  0.0933174  0.0949695  0.0957302  0.0958196
+ 0.0960749  0.0971807  0.0990398  0.100862  ]Tree 0: Epoch [1/100], lr:0.0005, Loss:1.4659, Time_for_epoch: 34.5777
+Tree 0: Epoch [2/100], lr:0.0005, Loss:1.0029, Time_for_epoch: 34.7602
+Tree 0: Epoch [3/100], lr:0.0005, Loss:0.7742, Time_for_epoch: 34.8169
+Tree 0: Epoch [4/100], lr:0.0005, Loss:0.6182, Time_for_epoch: 34.8440
+Tree 0: Epoch [5/100], lr:0.0005, Loss:0.4981, Time_for_epoch: 34.8312
+Tree 0: Epoch [6/100], lr:0.0005, Loss:0.4061, Time_for_epoch: 34.8459
+Tree 0: Epoch [7/100], lr:0.0005, Loss:0.3262, Time_for_epoch: 34.8924
+Tree 0: Epoch [8/100], lr:0.0005, Loss:0.2677, Time_for_epoch: 34.8952
+Tree 0: Epoch [9/100], lr:0.0005, Loss:0.2253, Time_for_epoch: 34.8628
+Tree 0: Epoch [10/100], lr:0.0005, Loss:0.1825, Time_for_epoch: 34.8208
+Tree 0: Epoch [11/100], lr:0.0005, Loss:0.1606, Time_for_epoch: 34.7624
+Tree 0: Epoch [12/100], lr:0.0005, Loss:0.1417, Time_for_epoch: 34.7681
+Tree 0: Epoch [13/100], lr:0.0005, Loss:0.1187, Time_for_epoch: 34.7859
+Tree 0: Epoch [14/100], lr:0.0005, Loss:0.1197, Time_for_epoch: 34.7802
+Tree 0: Epoch [15/100], lr:0.0005, Loss:0.1066, Time_for_epoch: 34.7572
+Tree 0: Epoch [16/100], lr:0.0005, Loss:0.0922, Time_for_epoch: 34.7423
+Tree 0: Epoch [17/100], lr:0.0005, Loss:0.0958, Time_for_epoch: 34.7588
+Tree 0: Epoch [18/100], lr:0.0005, Loss:0.0927, Time_for_epoch: 34.7741
+Tree 0: Epoch [19/100], lr:0.0005, Loss:0.0816, Time_for_epoch: 34.7619
+Tree 0: Epoch [20/100], lr:0.0005, Loss:0.0813, Time_for_epoch: 34.7756
+Tree 0: Epoch [21/100], lr:0.0005, Loss:0.0731, Time_for_epoch: 34.7766
+Tree 0: Epoch [22/100], lr:0.0005, Loss:0.0819, Time_for_epoch: 34.7937
+Tree 0: Epoch [23/100], lr:0.0005, Loss:0.0666, Time_for_epoch: 34.7577
+Tree 0: Epoch [24/100], lr:0.0005, Loss:0.0674, Time_for_epoch: 34.8662
+Tree 0: Epoch [25/100], lr:0.0005, Loss:0.0630, Time_for_epoch: 34.9285
+Tree 0: Epoch [26/100], lr:0.0005, Loss:0.0618, Time_for_epoch: 34.9073
+Tree 0: Epoch [27/100], lr:0.0005, Loss:0.0636, Time_for_epoch: 34.9026
+Tree 0: Epoch [28/100], lr:0.0005, Loss:0.0625, Time_for_epoch: 34.9054
+Tree 0: Epoch [29/100], lr:0.0005, Loss:0.0599, Time_for_epoch: 34.8988
+Tree 0: Epoch [30/100], lr:0.0005, Loss:0.0497, Time_for_epoch: 34.8915
+Tree 0: Epoch [31/100], lr:0.0005, Loss:0.0576, Time_for_epoch: 34.8862
+Tree 0: Epoch [32/100], lr:0.0005, Loss:0.0482, Time_for_epoch: 34.8744
+Tree 0: Epoch [33/100], lr:0.0005, Loss:0.0526, Time_for_epoch: 34.8688
+Tree 0: Epoch [34/100], lr:0.0005, Loss:0.0532, Time_for_epoch: 34.8988
+Tree 0: Epoch [35/100], lr:0.0005, Loss:0.0499, Time_for_epoch: 34.9082
+Tree 0: Epoch [36/100], lr:0.0005, Loss:0.0459, Time_for_epoch: 34.9109
+Tree 0: Epoch [37/100], lr:0.0005, Loss:0.0490, Time_for_epoch: 34.9021
+Tree 0: Epoch [38/100], lr:0.0005, Loss:0.0497, Time_for_epoch: 34.9170
+Tree 0: Epoch [39/100], lr:0.0005, Loss:0.0409, Time_for_epoch: 34.9265
+Tree 0: Epoch [40/100], lr:0.0005, Loss:0.0403, Time_for_epoch: 34.9185
+Tree 0: Epoch [41/100], lr:0.0005, Loss:0.0410, Time_for_epoch: 34.9072
+Tree 0: Epoch [42/100], lr:0.0005, Loss:0.0469, Time_for_epoch: 34.9645
+Tree 0: Epoch [43/100], lr:0.0005, Loss:0.0335, Time_for_epoch: 35.0045
+Tree 0: Epoch [44/100], lr:0.0005, Loss:0.0364, Time_for_epoch: 35.0044
+Tree 0: Epoch [45/100], lr:0.0005, Loss:0.0513, Time_for_epoch: 34.9985
+Tree 0: Epoch [46/100], lr:0.0005, Loss:0.0444, Time_for_epoch: 34.9858
+Tree 0: Epoch [47/100], lr:0.0005, Loss:0.0281, Time_for_epoch: 34.9865
+Tree 0: Epoch [48/100], lr:0.0005, Loss:0.0311, Time_for_epoch: 34.9341
+Tree 0: Epoch [49/100], lr:0.0005, Loss:0.0388, Time_for_epoch: 34.8764
+Tree 0: Epoch [50/100], lr:0.0005, Loss:0.0375, Time_for_epoch: 34.8422
+Tree 0: Epoch [51/100], lr:0.0005, Loss:0.0294, Time_for_epoch: 34.8517
+Tree 0: Epoch [52/100], lr:0.0005, Loss:0.0320, Time_for_epoch: 34.8469
+Tree 0: Epoch [53/100], lr:0.0005, Loss:0.0374, Time_for_epoch: 34.8071
+Tree 0: Epoch [54/100], lr:0.0005, Loss:0.0349, Time_for_epoch: 34.7790
+Tree 0: Epoch [55/100], lr:0.0005, Loss:0.0249, Time_for_epoch: 34.7825
+Tree 0: Epoch [56/100], lr:0.0005, Loss:0.0331, Time_for_epoch: 34.7721
+Tree 0: Epoch [57/100], lr:0.0005, Loss:0.0352, Time_for_epoch: 34.8345
+Tree 0: Epoch [58/100], lr:0.0005, Loss:0.0374, Time_for_epoch: 34.7414
+Tree 0: Epoch [59/100], lr:0.0005, Loss:0.0253, Time_for_epoch: 34.7700
+Tree 0: Epoch [60/100], lr:0.0005, Loss:0.0241, Time_for_epoch: 34.7794
+Tree 0: Epoch [61/100], lr:0.0005, Loss:0.0340, Time_for_epoch: 34.7777
+Tree 0: Epoch [62/100], lr:0.0005, Loss:0.0279, Time_for_epoch: 34.7639
+Tree 0: Epoch [63/100], lr:0.0005, Loss:0.0266, Time_for_epoch: 34.7595
+Tree 0: Epoch [64/100], lr:0.0005, Loss:0.0294, Time_for_epoch: 34.7530
+Tree 0: Epoch [65/100], lr:0.0005, Loss:0.0238, Time_for_epoch: 34.7417
+Tree 0: Epoch [66/100], lr:0.0005, Loss:0.0261, Time_for_epoch: 34.7491
+Tree 0: Epoch [67/100], lr:0.0005, Loss:0.0301, Time_for_epoch: 34.7493
+Tree 0: Epoch [68/100], lr:0.0005, Loss:0.0279, Time_for_epoch: 34.8057
+Tree 0: Epoch [69/100], lr:0.0005, Loss:0.0197, Time_for_epoch: 34.8704
+Tree 0: Epoch [70/100], lr:0.0005, Loss:0.0257, Time_for_epoch: 34.8572
+Tree 0: Epoch [71/100], lr:0.0005, Loss:0.0288, Time_for_epoch: 34.8732
+Tree 0: Epoch [72/100], lr:0.0005, Loss:0.0287, Time_for_epoch: 34.8662
+Tree 0: Epoch [73/100], lr:0.0005, Loss:0.0220, Time_for_epoch: 34.8705
+Tree 0: Epoch [74/100], lr:0.0005, Loss:0.0253, Time_for_epoch: 34.8804
+Tree 0: Epoch [75/100], lr:0.0005, Loss:0.0268, Time_for_epoch: 34.8781
+Tree 0: Epoch [76/100], lr:0.0005, Loss:0.0235, Time_for_epoch: 34.7898
+Tree 0: Epoch [77/100], lr:0.0005, Loss:0.0203, Time_for_epoch: 34.7797
+Tree 0: Epoch [78/100], lr:0.0005, Loss:0.0219, Time_for_epoch: 34.7667
+Tree 0: Epoch [79/100], lr:0.0005, Loss:0.0174, Time_for_epoch: 34.7810
+Tree 0: Epoch [80/100], lr:0.0005, Loss:0.0229, Time_for_epoch: 34.7693
+Tree 0: Epoch [81/100], lr:0.0005, Loss:0.0289, Time_for_epoch: 34.7670
+Tree 0: Epoch [82/100], lr:0.0005, Loss:0.0242, Time_for_epoch: 34.7781
+Tree 0: Epoch [83/100], lr:0.0005, Loss:0.0184, Time_for_epoch: 34.7804
+Tree 0: Epoch [84/100], lr:0.0005, Loss:0.0179, Time_for_epoch: 34.8007
+Tree 0: Epoch [85/100], lr:0.0005, Loss:0.0209, Time_for_epoch: 34.8161
+Tree 0: Epoch [86/100], lr:0.0005, Loss:0.0257, Time_for_epoch: 34.8038
+Tree 0: Epoch [87/100], lr:0.0005, Loss:0.0232, Time_for_epoch: 34.7971
+Tree 0: Epoch [88/100], lr:0.0005, Loss:0.0217, Time_for_epoch: 34.7951
+Tree 0: Epoch [89/100], lr:0.0005, Loss:0.0201, Time_for_epoch: 34.7948
+Tree 0: Epoch [90/100], lr:0.0005, Loss:0.0187, Time_for_epoch: 34.7943
+Tree 0: Epoch [91/100], lr:0.0005, Loss:0.0168, Time_for_epoch: 34.7828
+Tree 0: Epoch [92/100], lr:0.0005, Loss:0.0229, Time_for_epoch: 34.7820
+Tree 0: Epoch [93/100], lr:0.0005, Loss:0.0172, Time_for_epoch: 34.7733
+Tree 0: Epoch [94/100], lr:0.0005, Loss:0.0185, Time_for_epoch: 34.7740
+Tree 0: Epoch [95/100], lr:0.0005, Loss:0.0189, Time_for_epoch: 34.7414
+Tree 0: Epoch [96/100], lr:0.0005, Loss:0.0199, Time_for_epoch: 34.7588
+Tree 0: Epoch [97/100], lr:0.0005, Loss:0.0139, Time_for_epoch: 34.7384
+Tree 0: Epoch [98/100], lr:0.0005, Loss:0.0221, Time_for_epoch: 34.7695
+Tree 0: Epoch [99/100], lr:0.0005, Loss:0.0196, Time_for_epoch: 34.7645
+Tree 0: Epoch [100/100], lr:0.0005, Loss:0.0147, Time_for_epoch: 34.8150
+Tree 0: TestLoss: 1.2108, TestAccuracy: 0.8185, Time_for_individ: 3485.0473
+Tree 1: Epoch [1/100], lr:0.0015, Loss:1.3845, Time_for_epoch: 34.8361
+Tree 1: Epoch [2/100], lr:0.0016, Loss:0.9234, Time_for_epoch: 34.8046
+Tree 1: Epoch [3/100], lr:0.0020, Loss:0.7500, Time_for_epoch: 34.7969
+Tree 1: Epoch [4/100], lr:0.0033, Loss:0.6917, Time_for_epoch: 34.8135
+Tree 1: Epoch [5/100], lr:0.0053, Loss:0.6691, Time_for_epoch: 34.8444
+Tree 1: Epoch [6/100], lr:0.0070, Loss:0.6030, Time_for_epoch: 34.9042
+Tree 1: Epoch [7/100], lr:0.0078, Loss:0.5390, Time_for_epoch: 34.9000
+Tree 1: Epoch [8/100], lr:0.0079, Loss:0.4745, Time_for_epoch: 34.8942
+Tree 1: Epoch [9/100], lr:0.0081, Loss:0.4323, Time_for_epoch: 34.9032
+Tree 1: Epoch [10/100], lr:0.0092, Loss:0.4218, Time_for_epoch: 34.9284
+Tree 1: Epoch [11/100], lr:0.0110, Loss:0.4325, Time_for_epoch: 34.8868
+Tree 1: Epoch [12/100], lr:0.0128, Loss:0.4294, Time_for_epoch: 34.8785
+Tree 1: Epoch [13/100], lr:0.0139, Loss:0.4135, Time_for_epoch: 34.8788
+Tree 1: Epoch [14/100], lr:0.0141, Loss:0.3734, Time_for_epoch: 34.8389
+Tree 1: Epoch [15/100], lr:0.0142, Loss:0.3439, Time_for_epoch: 34.8325
+Tree 1: Epoch [16/100], lr:0.0150, Loss:0.3365, Time_for_epoch: 34.7448
+Tree 1: Epoch [17/100], lr:0.0167, Loss:0.3360, Time_for_epoch: 34.7146
+Tree 1: Epoch [18/100], lr:0.0187, Loss:0.3421, Time_for_epoch: 34.7072
+Tree 1: Epoch [19/100], lr:0.0200, Loss:0.3250, Time_for_epoch: 34.7026
+Tree 1: Epoch [20/100], lr:0.0204, Loss:0.3071, Time_for_epoch: 34.7104
+Tree 1: Epoch [21/100], lr:0.0205, Loss:0.2818, Time_for_epoch: 34.6998
+Tree 1: Epoch [22/100], lr:0.0210, Loss:0.2635, Time_for_epoch: 34.7130
+Tree 1: Epoch [23/100], lr:0.0225, Loss:0.2731, Time_for_epoch: 34.7055
+Tree 1: Epoch [24/100], lr:0.0244, Loss:0.2593, Time_for_epoch: 34.7852
+Tree 1: Epoch [25/100], lr:0.0260, Loss:0.2607, Time_for_epoch: 34.8414
+Tree 1: Epoch [26/100], lr:0.0266, Loss:0.2515, Time_for_epoch: 34.8782
+Tree 1: Epoch [27/100], lr:0.0267, Loss:0.2330, Time_for_epoch: 34.8065
+Tree 1: Epoch [28/100], lr:0.0270, Loss:0.2186, Time_for_epoch: 34.7497
+Tree 1: Epoch [29/100], lr:0.0283, Loss:0.2147, Time_for_epoch: 34.7596
+Tree 1: Epoch [30/100], lr:0.0302, Loss:0.2157, Time_for_epoch: 34.7586
+Tree 1: Epoch [31/100], lr:0.0319, Loss:0.2153, Time_for_epoch: 34.7503
+Tree 1: Epoch [32/100], lr:0.0328, Loss:0.2142, Time_for_epoch: 34.7085
+Tree 1: Epoch [33/100], lr:0.0330, Loss:0.1960, Time_for_epoch: 34.7227
+Tree 1: Epoch [34/100], lr:0.0332, Loss:0.1848, Time_for_epoch: 34.7210
+Tree 1: Epoch [35/100], lr:0.0341, Loss:0.1839, Time_for_epoch: 34.7322
+Tree 1: Epoch [36/100], lr:0.0359, Loss:0.1862, Time_for_epoch: 34.7490
+Tree 1: Epoch [37/100], lr:0.0378, Loss:0.1838, Time_for_epoch: 34.7349
+Tree 1: Epoch [38/100], lr:0.0390, Loss:0.1823, Time_for_epoch: 34.7331
+Tree 1: Epoch [39/100], lr:0.0393, Loss:0.1719, Time_for_epoch: 34.7248
+Tree 1: Epoch [40/100], lr:0.0393, Loss:0.1598, Time_for_epoch: 34.7292
+Tree 1: Epoch [41/100], lr:0.0400, Loss:0.1559, Time_for_epoch: 34.7881
+Tree 1: Epoch [42/100], lr:0.0416, Loss:0.1527, Time_for_epoch: 34.8058
+Tree 1: Epoch [43/100], lr:0.0436, Loss:0.1543, Time_for_epoch: 34.7943
+Tree 1: Epoch [44/100], lr:0.0450, Loss:0.1637, Time_for_epoch: 34.7860
+Tree 1: Epoch [45/100], lr:0.0455, Loss:0.1520, Time_for_epoch: 34.7413
+Tree 1: Epoch [46/100], lr:0.0456, Loss:0.1427, Time_for_epoch: 34.7462
+Tree 1: Epoch [47/100], lr:0.0460, Loss:0.1420, Time_for_epoch: 34.7478
+Tree 1: Epoch [48/100], lr:0.0474, Loss:0.1383, Time_for_epoch: 34.7359
+Tree 1: Epoch [49/100], lr:0.0493, Loss:0.1453, Time_for_epoch: 34.7546
+Tree 1: Epoch [50/100], lr:0.0510, Loss:0.1400, Time_for_epoch: 34.7519
+Tree 1: Epoch [51/100], lr:0.0517, Loss:0.1343, Time_for_epoch: 34.8466
+Tree 1: Epoch [52/100], lr:0.0518, Loss:0.1341, Time_for_epoch: 34.8558
+Tree 1: Epoch [53/100], lr:0.0521, Loss:0.1260, Time_for_epoch: 34.8392
+Tree 1: Epoch [54/100], lr:0.0532, Loss:0.1323, Time_for_epoch: 34.8607
+Tree 1: Epoch [55/100], lr:0.0550, Loss:0.1268, Time_for_epoch: 34.8361
+Tree 1: Epoch [56/100], lr:0.0569, Loss:0.1288, Time_for_epoch: 34.8171
+Tree 1: Epoch [57/100], lr:0.0579, Loss:0.1233, Time_for_epoch: 34.8214
+Tree 1: Epoch [58/100], lr:0.0581, Loss:0.1173, Time_for_epoch: 34.7640
+Tree 1: Epoch [59/100], lr:0.0582, Loss:0.1098, Time_for_epoch: 34.5605
+Tree 1: Epoch [60/100], lr:0.0590, Loss:0.1204, Time_for_epoch: 34.5425
+Tree 1: Epoch [61/100], lr:0.0607, Loss:0.1136, Time_for_epoch: 34.6215
+Tree 1: Epoch [62/100], lr:0.0627, Loss:0.1181, Time_for_epoch: 34.6286
+Tree 1: Epoch [63/100], lr:0.0640, Loss:0.1179, Time_for_epoch: 34.6130
+Tree 1: Epoch [64/100], lr:0.0644, Loss:0.1134, Time_for_epoch: 34.6223
+Tree 1: Epoch [65/100], lr:0.0644, Loss:0.1072, Time_for_epoch: 34.6296
+Tree 1: Epoch [66/100], lr:0.0650, Loss:0.1135, Time_for_epoch: 34.6433
+Tree 1: Epoch [67/100], lr:0.0665, Loss:0.1066, Time_for_epoch: 34.6212
+Tree 1: Epoch [68/100], lr:0.0684, Loss:0.0999, Time_for_epoch: 34.6270
+Tree 1: Epoch [69/100], lr:0.0700, Loss:0.1089, Time_for_epoch: 34.5899
+Tree 1: Epoch [70/100], lr:0.0706, Loss:0.1137, Time_for_epoch: 34.5917
+Tree 1: Epoch [71/100], lr:0.0707, Loss:0.0963, Time_for_epoch: 34.5947
+Tree 1: Epoch [72/100], lr:0.0710, Loss:0.1064, Time_for_epoch: 34.6127
+Tree 1: Epoch [73/100], lr:0.0723, Loss:0.1002, Time_for_epoch: 34.5963
+Tree 1: Epoch [74/100], lr:0.0742, Loss:0.1007, Time_for_epoch: 34.6128
+Tree 1: Epoch [75/100], lr:0.0759, Loss:0.1003, Time_for_epoch: 34.6126
+Tree 1: Epoch [76/100], lr:0.0768, Loss:0.1019, Time_for_epoch: 34.6100
+Tree 1: Epoch [77/100], lr:0.0770, Loss:nan, Time_for_epoch: 34.5952
+Tree 1 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 29316.8066 seconds
+General 4
+[0.002 0.004 0.006 0.008 0.01  0.012 0.014 0.016 0.018 0.02  0.022 0.024
+ 0.026 0.028 0.03  0.032 0.034 0.036 0.038 0.04  0.042 0.044 0.046 0.048
+ 0.05  0.052 0.054 0.056 0.058 0.06  0.062 0.064 0.066 0.068 0.07  0.072
+ 0.074 0.076 0.078 0.08  0.082 0.084 0.086 0.088 0.09  0.092 0.094 0.096
+ 0.098 0.1   0.102 0.104 0.106 0.108 0.11  0.112 0.114 0.116 0.118 0.12
+ 0.122 0.124 0.126 0.128 0.13  0.132 0.134 0.136 0.138 0.14  0.142 0.144
+ 0.146 0.148 0.15  0.152 0.154 0.156 0.158 0.16  0.162 0.164 0.166 0.168
+ 0.17  0.172 0.174 0.176 0.178 0.18  0.182 0.184 0.186 0.188 0.19  0.192
+ 0.194 0.196 0.198 0.2  ][-0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776 -0.0002776
+ -0.0002776 -0.0002776 -0.0002776 -0.0002776]Tree 0: Epoch [1/100], lr:0.0020, Loss:1.3754, Time_for_epoch: 34.6296
+Tree 0: Epoch [2/100], lr:0.0040, Loss:1.0176, Time_for_epoch: 34.6357
+Tree 0: Epoch [3/100], lr:0.0060, Loss:0.8141, Time_for_epoch: 34.7317
+Tree 0: Epoch [4/100], lr:0.0080, Loss:0.7019, Time_for_epoch: 34.8615
+Tree 0: Epoch [5/100], lr:0.0100, Loss:0.6300, Time_for_epoch: 34.8650
+Tree 0: Epoch [6/100], lr:0.0120, Loss:0.5857, Time_for_epoch: 34.8732
+Tree 0: Epoch [7/100], lr:0.0140, Loss:0.5418, Time_for_epoch: 34.8924
+Tree 0: Epoch [8/100], lr:0.0160, Loss:0.5157, Time_for_epoch: 34.9122
+Tree 0: Epoch [9/100], lr:0.0180, Loss:0.4932, Time_for_epoch: 34.9021
+Tree 0: Epoch [10/100], lr:0.0200, Loss:0.4755, Time_for_epoch: 34.8980
+Tree 0: Epoch [11/100], lr:0.0220, Loss:0.4616, Time_for_epoch: 34.9485
+Tree 0: Epoch [12/100], lr:0.0240, Loss:0.4361, Time_for_epoch: 34.9156
+Tree 0: Epoch [13/100], lr:0.0260, Loss:0.4176, Time_for_epoch: 34.9366
+Tree 0: Epoch [14/100], lr:0.0280, Loss:0.4058, Time_for_epoch: 35.0491
+Tree 0: Epoch [15/100], lr:0.0300, Loss:0.3857, Time_for_epoch: 35.0795
+Tree 0: Epoch [16/100], lr:0.0320, Loss:0.3786, Time_for_epoch: 35.0747
+Tree 0: Epoch [17/100], lr:0.0340, Loss:0.3714, Time_for_epoch: 35.0919
+Tree 0: Epoch [18/100], lr:0.0360, Loss:0.3590, Time_for_epoch: 35.0942
+Tree 0: Epoch [19/100], lr:0.0380, Loss:0.3545, Time_for_epoch: 35.0961
+Tree 0: Epoch [20/100], lr:0.0400, Loss:0.3408, Time_for_epoch: 35.0812
+Tree 0: Epoch [21/100], lr:0.0420, Loss:0.3329, Time_for_epoch: 35.0947
+Tree 0: Epoch [22/100], lr:0.0440, Loss:0.3212, Time_for_epoch: 35.1125
+Tree 0: Epoch [23/100], lr:0.0460, Loss:0.3096, Time_for_epoch: 34.9793
+Tree 0: Epoch [24/100], lr:0.0480, Loss:0.2943, Time_for_epoch: 35.0540
+Tree 0: Epoch [25/100], lr:0.0500, Loss:0.2896, Time_for_epoch: 34.9468
+Tree 0: Epoch [26/100], lr:0.0520, Loss:0.2795, Time_for_epoch: 34.9332
+Tree 0: Epoch [27/100], lr:0.0540, Loss:0.2775, Time_for_epoch: 35.0907
+Tree 0: Epoch [28/100], lr:0.0560, Loss:0.2691, Time_for_epoch: 35.1215
+Tree 0: Epoch [29/100], lr:0.0580, Loss:0.2625, Time_for_epoch: 35.0867
+Tree 0: Epoch [30/100], lr:0.0600, Loss:0.2597, Time_for_epoch: 35.1170
+Tree 0: Epoch [31/100], lr:0.0620, Loss:0.2503, Time_for_epoch: 35.1259
+Tree 0: Epoch [32/100], lr:0.0640, Loss:0.2430, Time_for_epoch: 35.1060
+Tree 0: Epoch [33/100], lr:0.0660, Loss:0.2374, Time_for_epoch: 35.1223
+Tree 0: Epoch [34/100], lr:0.0680, Loss:0.2281, Time_for_epoch: 35.0166
+Tree 0: Epoch [35/100], lr:0.0700, Loss:0.2348, Time_for_epoch: 35.0984
+Tree 0: Epoch [36/100], lr:0.0720, Loss:0.2270, Time_for_epoch: 34.8594
+Tree 0: Epoch [37/100], lr:0.0740, Loss:0.2158, Time_for_epoch: 35.6523
+Tree 0: Epoch [38/100], lr:0.0760, Loss:0.2102, Time_for_epoch: 36.0985
+Tree 0: Epoch [39/100], lr:0.0780, Loss:0.2058, Time_for_epoch: 35.2921
+Tree 0: Epoch [40/100], lr:0.0800, Loss:0.2077, Time_for_epoch: 34.9564
+Tree 0: Epoch [41/100], lr:0.0820, Loss:0.2036, Time_for_epoch: 35.1432
+Tree 0: Epoch [42/100], lr:0.0840, Loss:0.1914, Time_for_epoch: 35.1469
+Tree 0: Epoch [43/100], lr:0.0860, Loss:0.1899, Time_for_epoch: 35.1261
+Tree 0: Epoch [44/100], lr:0.0880, Loss:0.1878, Time_for_epoch: 35.1138
+Tree 0: Epoch [45/100], lr:0.0900, Loss:0.1754, Time_for_epoch: 35.0668
+Tree 0: Epoch [46/100], lr:0.0920, Loss:0.1748, Time_for_epoch: 35.0386
+Tree 0: Epoch [47/100], lr:0.0940, Loss:0.1791, Time_for_epoch: 35.0152
+Tree 0: Epoch [48/100], lr:0.0960, Loss:nan, Time_for_epoch: 34.9658
+Tree 0 is not valid
+Tree 1: Epoch [1/100], lr:-0.0003, Loss:86.6665, Time_for_epoch: 35.1031
+Tree 1: Epoch [2/100], lr:-0.0003, Loss:328.8837, Time_for_epoch: 35.1472
+Tree 1: Epoch [3/100], lr:-0.0003, Loss:685.3955, Time_for_epoch: 35.1236
+Tree 1: Epoch [4/100], lr:-0.0003, Loss:1149.9611, Time_for_epoch: 35.1555
+Tree 1: Epoch [5/100], lr:-0.0003, Loss:1706.2422, Time_for_epoch: 35.1378
+Tree 1: Epoch [6/100], lr:-0.0003, Loss:2361.6471, Time_for_epoch: 35.1630
+Tree 1: Epoch [7/100], lr:-0.0003, Loss:3137.7786, Time_for_epoch: 35.1474
+Tree 1: Epoch [8/100], lr:-0.0003, Loss:3987.5826, Time_for_epoch: 35.1303
+Tree 1: Epoch [9/100], lr:-0.0003, Loss:4913.4179, Time_for_epoch: 35.1425
+Tree 1: Epoch [10/100], lr:-0.0003, Loss:5882.3671, Time_for_epoch: 35.1375
+Tree 1: Epoch [11/100], lr:-0.0003, Loss:6954.8795, Time_for_epoch: 35.1925
+Tree 1: Epoch [12/100], lr:-0.0003, Loss:8098.0789, Time_for_epoch: 35.2476
+Tree 1: Epoch [13/100], lr:-0.0003, Loss:9313.1917, Time_for_epoch: 35.2640
+Tree 1: Epoch [14/100], lr:-0.0003, Loss:10544.3738, Time_for_epoch: 35.2397
+Tree 1 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 48276.8391 seconds
+General 5
+[-0.707396 -0.707896 -0.708063 -0.708146 -0.708196 -0.70823  -0.708254
+ -0.708271 -0.708285 -0.708296 -0.708306 -0.708313 -0.708319 -0.708325
+ -0.70833  -0.708334 -0.708338 -0.708341 -0.708344 -0.708346 -0.708349
+ -0.708351 -0.708353 -0.708355 -0.708356 -0.708358 -0.708359 -0.708361
+ -0.708362 -0.708363 -0.708364 -0.708365 -0.708366 -0.708367 -0.708368
+ -0.708369 -0.708369 -0.70837  -0.708371 -0.708371 -0.708372 -0.708373
+ -0.708373 -0.708374 -0.708374 -0.708375 -0.708375 -0.708376 -0.708376
+ -0.708376 -0.708377 -0.708377 -0.708378 -0.708378 -0.708378 -0.708379
+ -0.708379 -0.708379 -0.708379 -0.70838  -0.70838  -0.70838  -0.708381
+ -0.708381 -0.708381 -0.708381 -0.708381 -0.708382 -0.708382 -0.708382
+ -0.708382 -0.708383 -0.708383 -0.708383 -0.708383 -0.708383 -0.708383
+ -0.708384 -0.708384 -0.708384 -0.708384 -0.708384 -0.708384 -0.708385
+ -0.708385 -0.708385 -0.708385 -0.708385 -0.708385 -0.708385 -0.708385
+ -0.708386 -0.708386 -0.708386 -0.708386 -0.708386 -0.708386 -0.708386
+ -0.708386 -0.708386][-59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136 -59.3136
+ -59.3136 -59.3136 -59.3136 -59.3136]Tree 0: Epoch [1/100], lr:-0.7074, Loss:nan, Time_for_epoch: 31.4620
+Tree 0: Epoch [2/100], lr:-0.7079, Loss:nan, Time_for_epoch: 31.3188
+Tree 0 is not valid
+Tree 1: Epoch [1/100], lr:-59.3136, Loss:nan, Time_for_epoch: 31.4859
+Tree 1: Epoch [2/100], lr:-59.3136, Loss:nan, Time_for_epoch: 31.5314
+Tree 1 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 50192.7575 seconds
+General 6
+[0.00085755 0.00091465 0.0005487  0.00079387 0.00096004 0.00057338
+ 0.00072902 0.00098943 0.00061285 0.00066815 0.00099999 0.00066459
+ 0.00061576 0.00099067 0.00072505 0.00057544 0.00096238 0.0007898
+ 0.00054977 0.00091788 0.00085371 0.00054033 0.00086137 0.00091138
+ 0.00054768 0.00079794 0.00095763 0.00057138 0.00073301 0.00098813
+ 0.00061    0.00067175 0.00099991 0.00066106 0.00061871 0.00099182
+ 0.0007211  0.00057755 0.00096466 0.00078572 0.00055091 0.00092107
+ 0.00084984 0.00054043 0.00086516 0.00090806 0.00054674 0.00080201
+ 0.00095516 0.00056945 0.00073701 0.00098675 0.00060718 0.00067539
+ 0.00099975 0.00065756 0.00062171 0.00099291 0.00071716 0.00057972
+ 0.00096688 0.00078164 0.00055212 0.0009242  0.00084595 0.0005406
+ 0.00086892 0.00090469 0.00054585 0.00080607 0.00095263 0.00056757
+ 0.00074103 0.00098529 0.00060443 0.00067905 0.00099952 0.0006541
+ 0.00062476 0.00099391 0.00071324 0.00058195 0.00096903 0.00077756
+ 0.00055338 0.00092729 0.00084204 0.00054083 0.00087266 0.00090128
+ 0.00054503 0.00081012 0.00095004 0.00056574 0.00074506 0.00098377
+ 0.00060172 0.00068274 0.00099921 0.00065068][-1.00000e-003  4.00000e-003 -2.70000e-002  2.56000e-001 -3.12500e+000
+  4.66560e+001 -8.23543e+002  1.67772e+004 -3.87420e+005  1.00000e+007
+ -2.85312e+008  8.91610e+009 -3.02875e+011  1.11120e+013 -4.37894e+014
+  1.84467e+016 -8.27240e+017  3.93464e+019 -1.97842e+021  1.04858e+023
+ -5.84259e+024  3.41428e+026 -2.08805e+028  1.33374e+030 -8.88178e+031
+  6.15612e+033 -4.43426e+035  3.31455e+037 -2.56769e+039  2.05891e+041
+ -1.70692e+043  1.46150e+045 -1.29110e+047  1.17566e+049 -1.10251e+051
+  1.06387e+053 -1.05551e+055  1.07591e+057 -1.12595e+059  1.20893e+061
+ -1.33088e+063  1.50131e+065 -1.73438e+067  2.05077e+069 -2.48064e+071
+  3.06803e+073 -3.87792e+075  5.00702e+077 -6.60097e+079  8.88178e+081
+ -1.21921e+084  1.70677e+086 -2.43568e+088  3.54212e+090 -5.24745e+092
+  7.91643e+094 -1.21581e+097  1.90031e+099 -3.02182e+101  4.88737e+103
+ -8.03748e+105  1.34365e+108 -2.28273e+110  3.94020e+112 -6.90825e+114
+  1.22998e+117 -2.22337e+119  4.07949e+121 -7.59604e+123  1.43504e+126
+ -2.75006e+128  5.34490e+130 -1.05334e+133  2.10449e+135 -4.26182e+137
+  8.74647e+139 -1.81880e+142  3.83159e+144 -8.17599e+146  1.76685e+149
+ -3.86622e+151  8.56517e+153 -1.92080e+156  4.35973e+158 -1.00140e+161
+  2.32738e+163 -5.47236e+165  1.30159e+168 -3.13120e+170  7.61773e+172
+ -1.87399e+175  4.66101e+177 -1.17196e+180  2.97864e+182 -7.65143e+184
+  1.98627e+187 -5.21025e+189  1.38088e+192 -3.69730e+194  1.00000e+197]Tree 0: Epoch [1/100], lr:0.0009, Loss:1.4230, Time_for_epoch: 34.6315
+Tree 0: Epoch [2/100], lr:0.0009, Loss:0.9778, Time_for_epoch: 34.7402
+Tree 0: Epoch [3/100], lr:0.0005, Loss:0.6860, Time_for_epoch: 34.7828
+Tree 0: Epoch [4/100], lr:0.0008, Loss:0.6228, Time_for_epoch: 34.8233
+Tree 0: Epoch [5/100], lr:0.0010, Loss:0.5478, Time_for_epoch: 34.8672
+Tree 0: Epoch [6/100], lr:0.0006, Loss:0.3537, Time_for_epoch: 34.8835
+Tree 0: Epoch [7/100], lr:0.0007, Loss:0.3340, Time_for_epoch: 34.9047
+Tree 0: Epoch [8/100], lr:0.0010, Loss:0.3763, Time_for_epoch: 34.9380
+Tree 0: Epoch [9/100], lr:0.0006, Loss:0.2028, Time_for_epoch: 34.9323
+Tree 0: Epoch [10/100], lr:0.0007, Loss:0.1703, Time_for_epoch: 34.9515
+Tree 0: Epoch [11/100], lr:0.0010, Loss:0.2806, Time_for_epoch: 34.8600
+Tree 0: Epoch [12/100], lr:0.0007, Loss:0.1368, Time_for_epoch: 34.8539
+Tree 0: Epoch [13/100], lr:0.0006, Loss:0.0804, Time_for_epoch: 34.8578
+Tree 0: Epoch [14/100], lr:0.0010, Loss:0.2444, Time_for_epoch: 34.9549
+Tree 0: Epoch [15/100], lr:0.0007, Loss:0.1082, Time_for_epoch: 34.9569
+Tree 0: Epoch [16/100], lr:0.0006, Loss:0.0448, Time_for_epoch: 34.9652
+Tree 0: Epoch [17/100], lr:0.0010, Loss:0.1940, Time_for_epoch: 34.9299
+Tree 0: Epoch [18/100], lr:0.0008, Loss:0.1059, Time_for_epoch: 34.9788
+Tree 0: Epoch [19/100], lr:0.0005, Loss:0.0367, Time_for_epoch: 35.0961
+Tree 0: Epoch [20/100], lr:0.0009, Loss:0.1472, Time_for_epoch: 35.1162
+Tree 0: Epoch [21/100], lr:0.0009, Loss:0.1121, Time_for_epoch: 35.1349
+Tree 0: Epoch [22/100], lr:0.0005, Loss:0.0361, Time_for_epoch: 36.0101
+Tree 0: Epoch [23/100], lr:0.0009, Loss:0.0854, Time_for_epoch: 36.1869
+Tree 0: Epoch [24/100], lr:0.0009, Loss:0.1244, Time_for_epoch: 36.2255
+Tree 0: Epoch [25/100], lr:0.0005, Loss:0.0384, Time_for_epoch: 36.0000
+Tree 0: Epoch [26/100], lr:0.0008, Loss:0.0452, Time_for_epoch: 35.1591
+Tree 0: Epoch [27/100], lr:0.0010, Loss:0.1427, Time_for_epoch: 35.1269
+Tree 0: Epoch [28/100], lr:0.0006, Loss:0.0389, Time_for_epoch: 35.0991
+Tree 0: Epoch [29/100], lr:0.0007, Loss:0.0201, Time_for_epoch: 35.0751
+Tree 0: Epoch [30/100], lr:0.0010, Loss:0.1471, Time_for_epoch: 35.0184
+Tree 0: Epoch [31/100], lr:0.0006, Loss:0.0400, Time_for_epoch: 35.0182
+Tree 0: Epoch [32/100], lr:0.0007, Loss:0.0147, Time_for_epoch: 35.0038
+Tree 0: Epoch [33/100], lr:0.0010, Loss:0.1400, Time_for_epoch: 35.0187
+Tree 0: Epoch [34/100], lr:0.0007, Loss:0.0451, Time_for_epoch: 35.0137
+Tree 0: Epoch [35/100], lr:0.0006, Loss:0.0121, Time_for_epoch: 35.0231
+Tree 0: Epoch [36/100], lr:0.0010, Loss:0.1084, Time_for_epoch: 35.0209
+Tree 0: Epoch [37/100], lr:0.0007, Loss:0.0606, Time_for_epoch: 35.0301
+Tree 0: Epoch [38/100], lr:0.0006, Loss:0.0154, Time_for_epoch: 35.0211
+Tree 0: Epoch [39/100], lr:0.0010, Loss:0.0812, Time_for_epoch: 35.0643
+Tree 0: Epoch [40/100], lr:0.0008, Loss:0.0532, Time_for_epoch: 35.0613
+Tree 0: Epoch [41/100], lr:0.0006, Loss:0.0144, Time_for_epoch: 35.0085
+Tree 0: Epoch [42/100], lr:0.0009, Loss:0.0664, Time_for_epoch: 35.0427
+Tree 0: Epoch [43/100], lr:0.0008, Loss:0.0634, Time_for_epoch: 35.0664
+Tree 0: Epoch [44/100], lr:0.0005, Loss:0.0183, Time_for_epoch: 35.0707
+Tree 0: Epoch [45/100], lr:0.0009, Loss:0.0172, Time_for_epoch: 35.0710
+Tree 0: Epoch [46/100], lr:0.0009, Loss:0.0991, Time_for_epoch: 35.0091
+Tree 0: Epoch [47/100], lr:0.0005, Loss:0.0233, Time_for_epoch: 34.9355
+Tree 0: Epoch [48/100], lr:0.0008, Loss:0.0093, Time_for_epoch: 34.9428
+Tree 0: Epoch [49/100], lr:0.0010, Loss:0.0968, Time_for_epoch: 34.9330
+Tree 0: Epoch [50/100], lr:0.0006, Loss:0.0270, Time_for_epoch: 34.9315
+Tree 0: Epoch [51/100], lr:0.0007, Loss:0.0070, Time_for_epoch: 34.9153
+Tree 0: Epoch [52/100], lr:0.0010, Loss:0.0775, Time_for_epoch: 34.9741
+Tree 0: Epoch [53/100], lr:0.0006, Loss:0.0415, Time_for_epoch: 34.9855
+Tree 0: Epoch [54/100], lr:0.0007, Loss:0.0091, Time_for_epoch: 34.9700
+Tree 0: Epoch [55/100], lr:0.0010, Loss:0.0630, Time_for_epoch: 34.9865
+Tree 0: Epoch [56/100], lr:0.0007, Loss:0.0369, Time_for_epoch: 35.0287
+Tree 0: Epoch [57/100], lr:0.0006, Loss:0.0074, Time_for_epoch: 35.0346
+Tree 0: Epoch [58/100], lr:0.0010, Loss:0.0455, Time_for_epoch: 35.0293
+Tree 0: Epoch [59/100], lr:0.0007, Loss:0.0496, Time_for_epoch: 35.0277
+Tree 0: Epoch [60/100], lr:0.0006, Loss:0.0094, Time_for_epoch: 35.0299
+Tree 0: Epoch [61/100], lr:0.0010, Loss:0.0464, Time_for_epoch: 35.0052
+Tree 0: Epoch [62/100], lr:0.0008, Loss:0.0452, Time_for_epoch: 34.9841
+Tree 0: Epoch [63/100], lr:0.0006, Loss:0.0094, Time_for_epoch: 35.0587
+Tree 0: Epoch [64/100], lr:0.0009, Loss:0.0311, Time_for_epoch: 34.9743
+Tree 0: Epoch [65/100], lr:0.0008, Loss:0.0556, Time_for_epoch: 34.9504
+Tree 0: Epoch [66/100], lr:0.0005, Loss:0.0119, Time_for_epoch: 34.9904
+Tree 0: Epoch [67/100], lr:0.0009, Loss:0.0064, Time_for_epoch: 34.9661
+Tree 0: Epoch [68/100], lr:0.0009, Loss:0.0511, Time_for_epoch: 34.9153
+Tree 0: Epoch [69/100], lr:0.0005, Loss:0.0213, Time_for_epoch: 34.9168
+Tree 0: Epoch [70/100], lr:0.0008, Loss:0.0120, Time_for_epoch: 34.9176
+Tree 0: Epoch [71/100], lr:0.0010, Loss:0.0645, Time_for_epoch: 34.9224
+Tree 0: Epoch [72/100], lr:0.0006, Loss:0.0182, Time_for_epoch: 34.9174
+Tree 0: Epoch [73/100], lr:0.0007, Loss:0.0066, Time_for_epoch: 34.9162
+Tree 0: Epoch [74/100], lr:0.0010, Loss:0.0588, Time_for_epoch: 34.9242
+Tree 0: Epoch [75/100], lr:0.0006, Loss:0.0251, Time_for_epoch: 34.9340
+Tree 0: Epoch [76/100], lr:0.0007, Loss:0.0059, Time_for_epoch: 34.9125
+Tree 0: Epoch [77/100], lr:0.0010, Loss:0.0142, Time_for_epoch: 34.9066
+Tree 0: Epoch [78/100], lr:0.0007, Loss:0.0259, Time_for_epoch: 34.9161
+Tree 0: Epoch [79/100], lr:0.0006, Loss:0.0067, Time_for_epoch: 34.9014
+Tree 0: Epoch [80/100], lr:0.0010, Loss:0.0626, Time_for_epoch: 34.9034
+Tree 0: Epoch [81/100], lr:0.0007, Loss:0.0312, Time_for_epoch: 34.9051
+Tree 0: Epoch [82/100], lr:0.0006, Loss:0.0066, Time_for_epoch: 34.9112
+Tree 0: Epoch [83/100], lr:0.0010, Loss:0.0067, Time_for_epoch: 34.9132
+Tree 0: Epoch [84/100], lr:0.0008, Loss:0.0273, Time_for_epoch: 34.9068
+Tree 0: Epoch [85/100], lr:0.0006, Loss:0.0133, Time_for_epoch: 34.9217
+Tree 0: Epoch [86/100], lr:0.0009, Loss:0.0373, Time_for_epoch: 34.9433
+Tree 0: Epoch [87/100], lr:0.0008, Loss:0.0365, Time_for_epoch: 34.9814
+Tree 0: Epoch [88/100], lr:0.0005, Loss:0.0082, Time_for_epoch: 34.9818
+Tree 0: Epoch [89/100], lr:0.0009, Loss:0.0037, Time_for_epoch: 34.9990
+Tree 0: Epoch [90/100], lr:0.0009, Loss:0.0357, Time_for_epoch: 34.9821
+Tree 0: Epoch [91/100], lr:0.0005, Loss:0.0207, Time_for_epoch: 34.9897
+Tree 0: Epoch [92/100], lr:0.0008, Loss:0.0079, Time_for_epoch: 35.0127
+Tree 0: Epoch [93/100], lr:0.0010, Loss:0.0394, Time_for_epoch: 35.0300
+Tree 0: Epoch [94/100], lr:0.0006, Loss:0.0187, Time_for_epoch: 34.9528
+Tree 0: Epoch [95/100], lr:0.0007, Loss:0.0044, Time_for_epoch: 34.9814
+Tree 0: Epoch [96/100], lr:0.0010, Loss:0.0391, Time_for_epoch: 34.9717
+Tree 0: Epoch [97/100], lr:0.0006, Loss:0.0218, Time_for_epoch: 34.9644
+Tree 0: Epoch [98/100], lr:0.0007, Loss:0.0059, Time_for_epoch: 34.9751
+Tree 0: Epoch [99/100], lr:0.0010, Loss:0.0360, Time_for_epoch: 34.9974
+Tree 0: Epoch [100/100], lr:0.0007, Loss:0.0217, Time_for_epoch: 34.9644
+Tree 0: TestLoss: 0.8844, TestAccuracy: 0.8444, Time_for_individ: 3503.8735
+Tree 1: Epoch [1/100], lr:-0.0010, Loss:435.4723, Time_for_epoch: 34.9112
+Tree 1: Epoch [2/100], lr:0.0040, Loss:34.6935, Time_for_epoch: 34.9586
+Tree 1: Epoch [3/100], lr:-0.0270, Loss:nan, Time_for_epoch: 32.5280
+Tree 1 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 39077.1656 seconds
+General 7
+[3.07263e-05 7.23873e-04 1.12934e-03 1.41702e-03 1.64016e-03 1.82249e-03
+ 1.97664e-03 2.11017e-03 2.22795e-03 2.33331e-03 2.42862e-03 2.51563e-03
+ 2.59568e-03 2.66978e-03 2.73878e-03 2.80331e-03 2.86394e-03 2.92110e-03
+ 2.97517e-03 3.02646e-03 3.07525e-03 3.12177e-03 3.16622e-03 3.20878e-03
+ 3.24960e-03 3.28882e-03 3.32656e-03 3.36293e-03 3.39802e-03 3.43192e-03
+ 3.46471e-03 3.49646e-03 3.52723e-03 3.55709e-03 3.58607e-03 3.61425e-03
+ 3.64164e-03 3.66831e-03 3.69429e-03 3.71961e-03 3.74430e-03 3.76840e-03
+ 3.79193e-03 3.81492e-03 3.83739e-03 3.85937e-03 3.88087e-03 3.90193e-03
+ 3.92255e-03 3.94275e-03 3.96255e-03 3.98197e-03 4.00102e-03 4.01971e-03
+ 4.03806e-03 4.05608e-03 4.07378e-03 4.09117e-03 4.10826e-03 4.12507e-03
+ 4.14160e-03 4.15786e-03 4.17386e-03 4.18961e-03 4.20511e-03 4.22038e-03
+ 4.23542e-03 4.25023e-03 4.26483e-03 4.27922e-03 4.29341e-03 4.30739e-03
+ 4.32119e-03 4.33479e-03 4.34821e-03 4.36146e-03 4.37453e-03 4.38744e-03
+ 4.40017e-03 4.41275e-03 4.42518e-03 4.43745e-03 4.44957e-03 4.46154e-03
+ 4.47338e-03 4.48507e-03 4.49663e-03 4.50806e-03 4.51936e-03 4.53054e-03
+ 4.54159e-03 4.55251e-03 4.56333e-03 4.57402e-03 4.58460e-03 4.59507e-03
+ 4.60544e-03 4.61569e-03 4.62585e-03 4.63590e-03][ 5.40302e-04 -4.16147e-04 -9.89992e-04 -6.53644e-04  2.83662e-04
+  9.60170e-04  7.53902e-04 -1.45500e-04 -9.11130e-04 -8.39072e-04
+  4.42570e-06  8.43854e-04  9.07447e-04  1.36737e-04 -7.59688e-04
+ -9.57659e-04 -2.75163e-04  6.60317e-04  9.88705e-04  4.08082e-04
+ -5.47729e-04 -9.99961e-04 -5.32833e-04  4.24179e-04  9.91203e-04
+  6.46919e-04 -2.92139e-04 -9.62606e-04 -7.48058e-04  1.54251e-04
+  9.14742e-04  8.34223e-04 -1.32767e-05 -8.48570e-04 -9.03692e-04
+ -1.27964e-04  7.65414e-04  9.55074e-04  2.66643e-04 -6.66938e-04
+ -9.87339e-04 -3.99985e-04  5.55113e-04  9.99843e-04  5.25322e-04
+ -4.32178e-04 -9.92335e-04 -6.40144e-04  3.00593e-04  9.64966e-04
+  7.42154e-04 -1.62991e-04 -9.18283e-04 -8.29310e-04  2.21268e-05
+  8.53220e-04  8.99867e-04  1.19180e-04 -7.71080e-04 -9.52413e-04
+ -2.58102e-04  6.73507e-04  9.85897e-04  3.91857e-04 -5.62454e-04
+ -9.99647e-04 -5.17770e-04  4.40143e-04  9.93390e-04  6.33319e-04
+ -3.09023e-04 -9.67251e-04 -7.36193e-04  1.71717e-04  9.21751e-04
+  8.24331e-04 -3.09750e-05 -8.57803e-04 -8.95971e-04 -1.10387e-04
+  7.76686e-04  9.49678e-04  2.49540e-04 -6.80023e-04 -9.84377e-04
+ -3.83698e-04  5.69750e-04  9.99373e-04  5.10177e-04 -4.48074e-04
+ -9.94367e-04 -6.26444e-04  3.17429e-04  9.69459e-04  7.30174e-04
+ -1.80430e-04 -9.25148e-04 -8.19288e-04  3.98209e-05  8.62319e-04]Tree 0: Epoch [1/100], lr:0.0000, Loss:1.9667, Time_for_epoch: 34.6111
+Tree 0: Epoch [2/100], lr:0.0007, Loss:1.3781, Time_for_epoch: 34.6795
+Tree 0: Epoch [3/100], lr:0.0011, Loss:1.0018, Time_for_epoch: 34.6536
+Tree 0: Epoch [4/100], lr:0.0014, Loss:0.7950, Time_for_epoch: 34.6855
+Tree 0: Epoch [5/100], lr:0.0016, Loss:0.6616, Time_for_epoch: 34.8406
+Tree 0: Epoch [6/100], lr:0.0018, Loss:0.5803, Time_for_epoch: 34.9112
+Tree 0: Epoch [7/100], lr:0.0020, Loss:0.5200, Time_for_epoch: 34.7895
+Tree 0: Epoch [8/100], lr:0.0021, Loss:0.4652, Time_for_epoch: 34.8223
+Tree 0: Epoch [9/100], lr:0.0022, Loss:0.4239, Time_for_epoch: 34.8576
+Tree 0: Epoch [10/100], lr:0.0023, Loss:0.3866, Time_for_epoch: 34.8847
+Tree 0: Epoch [11/100], lr:0.0024, Loss:0.3525, Time_for_epoch: 34.9920
+Tree 0: Epoch [12/100], lr:0.0025, Loss:0.3314, Time_for_epoch: 35.0075
+Tree 0: Epoch [13/100], lr:0.0026, Loss:0.3000, Time_for_epoch: 35.0580
+Tree 0: Epoch [14/100], lr:0.0027, Loss:0.2722, Time_for_epoch: 35.1141
+Tree 0: Epoch [15/100], lr:0.0027, Loss:0.2572, Time_for_epoch: 35.0364
+Tree 0: Epoch [16/100], lr:0.0028, Loss:0.2328, Time_for_epoch: 35.0445
+Tree 0: Epoch [17/100], lr:0.0029, Loss:0.2179, Time_for_epoch: 35.0365
+Tree 0: Epoch [18/100], lr:0.0029, Loss:0.2007, Time_for_epoch: 35.0299
+Tree 0: Epoch [19/100], lr:0.0030, Loss:0.1897, Time_for_epoch: 35.0397
+Tree 0: Epoch [20/100], lr:0.0030, Loss:0.1804, Time_for_epoch: 35.0460
+Tree 0: Epoch [21/100], lr:0.0031, Loss:0.1605, Time_for_epoch: 35.0952
+Tree 0: Epoch [22/100], lr:0.0031, Loss:0.1527, Time_for_epoch: 35.1292
+Tree 0: Epoch [23/100], lr:0.0032, Loss:0.1546, Time_for_epoch: 35.0657
+Tree 0: Epoch [24/100], lr:0.0032, Loss:0.1438, Time_for_epoch: 35.0444
+Tree 0: Epoch [25/100], lr:0.0032, Loss:0.1275, Time_for_epoch: 35.0527
+Tree 0: Epoch [26/100], lr:0.0033, Loss:0.1237, Time_for_epoch: 35.0627
+Tree 0: Epoch [27/100], lr:0.0033, Loss:0.1149, Time_for_epoch: 35.0725
+Tree 0: Epoch [28/100], lr:0.0034, Loss:0.1159, Time_for_epoch: 35.0666
+Tree 0: Epoch [29/100], lr:0.0034, Loss:0.0974, Time_for_epoch: 35.0089
+Tree 0: Epoch [30/100], lr:0.0034, Loss:0.1078, Time_for_epoch: 34.9488
+Tree 0: Epoch [31/100], lr:0.0035, Loss:0.0987, Time_for_epoch: 34.9622
+Tree 0: Epoch [32/100], lr:0.0035, Loss:0.1007, Time_for_epoch: 34.9585
+Tree 0: Epoch [33/100], lr:0.0035, Loss:0.0866, Time_for_epoch: 35.0020
+Tree 0: Epoch [34/100], lr:0.0036, Loss:0.0910, Time_for_epoch: 35.0001
+Tree 0: Epoch [35/100], lr:0.0036, Loss:0.0817, Time_for_epoch: 35.0180
+Tree 0: Epoch [36/100], lr:0.0036, Loss:0.0835, Time_for_epoch: 35.0287
+Tree 0: Epoch [37/100], lr:0.0036, Loss:0.0793, Time_for_epoch: 34.9873
+Tree 0: Epoch [38/100], lr:0.0037, Loss:0.0729, Time_for_epoch: 34.9994
+Tree 0: Epoch [39/100], lr:0.0037, Loss:0.0804, Time_for_epoch: 35.0236
+Tree 0: Epoch [40/100], lr:0.0037, Loss:0.0676, Time_for_epoch: 34.9565
+Tree 0: Epoch [41/100], lr:0.0037, Loss:0.0717, Time_for_epoch: 34.9661
+Tree 0: Epoch [42/100], lr:0.0038, Loss:0.0690, Time_for_epoch: 35.0280
+Tree 0: Epoch [43/100], lr:0.0038, Loss:0.0659, Time_for_epoch: 35.0136
+Tree 0: Epoch [44/100], lr:0.0038, Loss:0.0639, Time_for_epoch: 35.0717
+Tree 0: Epoch [45/100], lr:0.0038, Loss:0.0658, Time_for_epoch: 35.0689
+Tree 0: Epoch [46/100], lr:0.0039, Loss:0.0679, Time_for_epoch: 35.0823
+Tree 0: Epoch [47/100], lr:0.0039, Loss:0.0535, Time_for_epoch: 35.1172
+Tree 0: Epoch [48/100], lr:0.0039, Loss:0.0595, Time_for_epoch: 34.9702
+Tree 0: Epoch [49/100], lr:0.0039, Loss:0.0577, Time_for_epoch: 34.9625
+Tree 0: Epoch [50/100], lr:0.0039, Loss:0.0521, Time_for_epoch: 34.9694
+Tree 0: Epoch [51/100], lr:0.0040, Loss:0.0597, Time_for_epoch: 35.0617
+Tree 0: Epoch [52/100], lr:0.0040, Loss:0.0527, Time_for_epoch: 35.1396
+Tree 0: Epoch [53/100], lr:0.0040, Loss:0.0457, Time_for_epoch: 35.1320
+Tree 0: Epoch [54/100], lr:0.0040, Loss:0.0580, Time_for_epoch: 35.1338
+Tree 0: Epoch [55/100], lr:0.0040, Loss:0.0478, Time_for_epoch: 35.1295
+Tree 0: Epoch [56/100], lr:0.0041, Loss:0.0495, Time_for_epoch: 35.0999
+Tree 0: Epoch [57/100], lr:0.0041, Loss:0.0451, Time_for_epoch: 35.0823
+Tree 0: Epoch [58/100], lr:0.0041, Loss:0.0484, Time_for_epoch: 35.0802
+Tree 0: Epoch [59/100], lr:0.0041, Loss:0.0417, Time_for_epoch: 35.0700
+Tree 0: Epoch [60/100], lr:0.0041, Loss:0.0471, Time_for_epoch: 35.0527
+Tree 0: Epoch [61/100], lr:0.0041, Loss:0.0459, Time_for_epoch: 35.0749
+Tree 0: Epoch [62/100], lr:0.0042, Loss:0.0424, Time_for_epoch: 34.9934
+Tree 0: Epoch [63/100], lr:0.0042, Loss:0.0410, Time_for_epoch: 35.0082
+Tree 0: Epoch [64/100], lr:0.0042, Loss:0.0418, Time_for_epoch: 35.0054
+Tree 0: Epoch [65/100], lr:0.0042, Loss:0.0434, Time_for_epoch: 34.9945
+Tree 0: Epoch [66/100], lr:0.0042, Loss:0.0418, Time_for_epoch: 34.9880
+Tree 0: Epoch [67/100], lr:0.0042, Loss:0.0403, Time_for_epoch: 34.9918
+Tree 0: Epoch [68/100], lr:0.0043, Loss:0.0404, Time_for_epoch: 34.9603
+Tree 0: Epoch [69/100], lr:0.0043, Loss:0.0389, Time_for_epoch: 35.0383
+Tree 0: Epoch [70/100], lr:0.0043, Loss:0.0380, Time_for_epoch: 34.9741
+Tree 0: Epoch [71/100], lr:0.0043, Loss:0.0314, Time_for_epoch: 34.9528
+Tree 0: Epoch [72/100], lr:0.0043, Loss:0.0405, Time_for_epoch: 34.9860
+Tree 0: Epoch [73/100], lr:0.0043, Loss:0.0358, Time_for_epoch: 34.9558
+Tree 0: Epoch [74/100], lr:0.0043, Loss:0.0352, Time_for_epoch: 34.9540
+Tree 0: Epoch [75/100], lr:0.0043, Loss:0.0344, Time_for_epoch: 34.9660
+Tree 0: Epoch [76/100], lr:0.0044, Loss:0.0347, Time_for_epoch: 34.9530
+Tree 0: Epoch [77/100], lr:0.0044, Loss:0.0355, Time_for_epoch: 34.9661
+Tree 0: Epoch [78/100], lr:0.0044, Loss:0.0290, Time_for_epoch: 34.9559
+Tree 0: Epoch [79/100], lr:0.0044, Loss:0.0395, Time_for_epoch: 34.9616
+Tree 0: Epoch [80/100], lr:0.0044, Loss:0.0307, Time_for_epoch: 34.9867
+Tree 0: Epoch [81/100], lr:0.0044, Loss:0.0332, Time_for_epoch: 34.9729
+Tree 0: Epoch [82/100], lr:0.0044, Loss:0.0295, Time_for_epoch: 35.0187
+Tree 0: Epoch [83/100], lr:0.0044, Loss:0.0348, Time_for_epoch: 35.0266
+Tree 0: Epoch [84/100], lr:0.0045, Loss:0.0317, Time_for_epoch: 35.1014
+Tree 0: Epoch [85/100], lr:0.0045, Loss:0.0270, Time_for_epoch: 35.1120
+Tree 0: Epoch [86/100], lr:0.0045, Loss:0.0323, Time_for_epoch: 35.0902
+Tree 0: Epoch [87/100], lr:0.0045, Loss:0.0306, Time_for_epoch: 35.1025
+Tree 0: Epoch [88/100], lr:0.0045, Loss:0.0268, Time_for_epoch: 35.1067
+Tree 0: Epoch [89/100], lr:0.0045, Loss:0.0271, Time_for_epoch: 35.1000
+Tree 0: Epoch [90/100], lr:0.0045, Loss:0.0314, Time_for_epoch: 35.0990
+Tree 0: Epoch [91/100], lr:0.0045, Loss:0.0228, Time_for_epoch: 35.1027
+Tree 0: Epoch [92/100], lr:0.0046, Loss:0.0273, Time_for_epoch: 35.1001
+Tree 0: Epoch [93/100], lr:0.0046, Loss:0.0347, Time_for_epoch: 35.0978
+Tree 0: Epoch [94/100], lr:0.0046, Loss:0.0269, Time_for_epoch: 35.0926
+Tree 0: Epoch [95/100], lr:0.0046, Loss:0.0256, Time_for_epoch: 35.0945
+Tree 0: Epoch [96/100], lr:0.0046, Loss:0.0285, Time_for_epoch: 35.0979
+Tree 0: Epoch [97/100], lr:0.0046, Loss:0.0206, Time_for_epoch: 35.0156
+Tree 0: Epoch [98/100], lr:0.0046, Loss:0.0261, Time_for_epoch: 34.9775
+Tree 0: Epoch [99/100], lr:0.0046, Loss:0.0312, Time_for_epoch: 34.9708
+Tree 0: Epoch [100/100], lr:0.0046, Loss:0.0244, Time_for_epoch: 34.9819
+Tree 0: TestLoss: 0.7738, TestAccuracy: 0.8603, Time_for_individ: 3503.2004
+Tree 1: Epoch [1/100], lr:0.0005, Loss:1.4826, Time_for_epoch: 35.0357
+Tree 1: Epoch [2/100], lr:-0.0004, Loss:305.3090, Time_for_epoch: 34.9493
+Tree 1: Epoch [3/100], lr:-0.0010, Loss:2079.9900, Time_for_epoch: 34.9974
+Tree 1: Epoch [4/100], lr:-0.0007, Loss:5434.5071, Time_for_epoch: 34.9614
+Tree 1: Epoch [5/100], lr:0.0003, Loss:2140.9263, Time_for_epoch: 34.9763
+Tree 1: Epoch [6/100], lr:0.0010, Loss:727.9768, Time_for_epoch: 34.9703
+Tree 1: Epoch [7/100], lr:0.0008, Loss:161.1085, Time_for_epoch: 34.9959
+Tree 1: Epoch [8/100], lr:-0.0001, Loss:4585.9239, Time_for_epoch: 35.0051
+Tree 1: Epoch [9/100], lr:-0.0009, Loss:8120.1298, Time_for_epoch: 34.9866
+Tree 1: Epoch [10/100], lr:-0.0008, Loss:13337.0697, Time_for_epoch: 34.9942
+Tree 1 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 34277.8436 seconds
+General 8
+[0.001      0.00079435 0.00078405 0.00079435 0.00080748 0.00082005
+ 0.00083138 0.00084141 0.00085028 0.00085816 0.00086518 0.00087148
+ 0.00087715 0.0008823  0.00088698 0.00089126 0.00089519 0.00089882
+ 0.00090217 0.00090528 0.00090818 0.00091088 0.00091342 0.00091579
+ 0.00091802 0.00092012 0.00092211 0.00092398 0.00092576 0.00092745
+ 0.00092905 0.00093058 0.00093203 0.00093342 0.00093474 0.00093601
+ 0.00093722 0.00093839 0.0009395  0.00094057 0.0009416  0.00094259
+ 0.00094355 0.00094447 0.00094535 0.00094621 0.00094703 0.00094783
+ 0.0009486  0.00094935 0.00095007 0.00095077 0.00095145 0.00095211
+ 0.00095275 0.00095337 0.00095397 0.00095456 0.00095513 0.00095568
+ 0.00095622 0.00095674 0.00095725 0.00095775 0.00095823 0.00095871
+ 0.00095917 0.00095962 0.00096005 0.00096048 0.0009609  0.00096131
+ 0.00096171 0.0009621  0.00096248 0.00096285 0.00096322 0.00096357
+ 0.00096392 0.00096427 0.0009646  0.00096493 0.00096525 0.00096557
+ 0.00096587 0.00096618 0.00096647 0.00096676 0.00096705 0.00096733
+ 0.00096761 0.00096788 0.00096814 0.0009684  0.00096866 0.00096891
+ 0.00096915 0.0009694  0.00096964 0.00096987][0.001 0.002 0.003 0.004 0.005 0.006 0.007 0.008 0.009 0.01  0.011 0.012
+ 0.013 0.014 0.015 0.016 0.017 0.018 0.019 0.02  0.021 0.022 0.023 0.024
+ 0.025 0.026 0.027 0.028 0.029 0.03  0.031 0.032 0.033 0.034 0.035 0.036
+ 0.037 0.038 0.039 0.04  0.041 0.042 0.043 0.044 0.045 0.046 0.047 0.048
+ 0.049 0.05  0.051 0.052 0.053 0.054 0.055 0.056 0.057 0.058 0.059 0.06
+ 0.061 0.062 0.063 0.064 0.065 0.066 0.067 0.068 0.069 0.07  0.071 0.072
+ 0.073 0.074 0.075 0.076 0.077 0.078 0.079 0.08  0.081 0.082 0.083 0.084
+ 0.085 0.086 0.087 0.088 0.089 0.09  0.091 0.092 0.093 0.094 0.095 0.096
+ 0.097 0.098 0.099 0.1  ]Tree 0: Epoch [1/100], lr:0.0010, Loss:1.4185, Time_for_epoch: 34.6859
+Tree 0: Epoch [2/100], lr:0.0008, Loss:0.9176, Time_for_epoch: 34.7586
+Tree 0: Epoch [3/100], lr:0.0008, Loss:0.7095, Time_for_epoch: 34.8060
+Tree 0: Epoch [4/100], lr:0.0008, Loss:0.5693, Time_for_epoch: 34.8062
+Tree 0: Epoch [5/100], lr:0.0008, Loss:0.4777, Time_for_epoch: 34.7983
+Tree 0: Epoch [6/100], lr:0.0008, Loss:0.4063, Time_for_epoch: 34.8390
+Tree 0: Epoch [7/100], lr:0.0008, Loss:0.3444, Time_for_epoch: 34.9182
+Tree 0: Epoch [8/100], lr:0.0008, Loss:0.2964, Time_for_epoch: 34.9696
+Tree 0: Epoch [9/100], lr:0.0009, Loss:0.2460, Time_for_epoch: 35.0736
+Tree 0: Epoch [10/100], lr:0.0009, Loss:0.2177, Time_for_epoch: 35.0544
+Tree 0: Epoch [11/100], lr:0.0009, Loss:0.1941, Time_for_epoch: 34.9018
+Tree 0: Epoch [12/100], lr:0.0009, Loss:0.1629, Time_for_epoch: 34.8994
+Tree 0: Epoch [13/100], lr:0.0009, Loss:0.1539, Time_for_epoch: 34.8959
+Tree 0: Epoch [14/100], lr:0.0009, Loss:0.1455, Time_for_epoch: 34.9553
+Tree 0: Epoch [15/100], lr:0.0009, Loss:0.1217, Time_for_epoch: 34.9065
+Tree 0: Epoch [16/100], lr:0.0009, Loss:0.1174, Time_for_epoch: 34.8971
+Tree 0: Epoch [17/100], lr:0.0009, Loss:0.1075, Time_for_epoch: 34.9231
+Tree 0: Epoch [18/100], lr:0.0009, Loss:0.0981, Time_for_epoch: 34.9142
+Tree 0: Epoch [19/100], lr:0.0009, Loss:0.1001, Time_for_epoch: 34.9067
+Tree 0: Epoch [20/100], lr:0.0009, Loss:0.0961, Time_for_epoch: 34.9158
+Tree 0: Epoch [21/100], lr:0.0009, Loss:0.0872, Time_for_epoch: 34.9304
+Tree 0: Epoch [22/100], lr:0.0009, Loss:0.0837, Time_for_epoch: 34.9765
+Tree 0: Epoch [23/100], lr:0.0009, Loss:0.0819, Time_for_epoch: 34.9470
+Tree 0: Epoch [24/100], lr:0.0009, Loss:0.0838, Time_for_epoch: 35.1624
+Tree 0: Epoch [25/100], lr:0.0009, Loss:0.0709, Time_for_epoch: 35.0851
+Tree 0: Epoch [26/100], lr:0.0009, Loss:0.0759, Time_for_epoch: 34.9747
+Tree 0: Epoch [27/100], lr:0.0009, Loss:0.0628, Time_for_epoch: 34.9997
+Tree 0: Epoch [28/100], lr:0.0009, Loss:0.0714, Time_for_epoch: 35.0594
+Tree 0: Epoch [29/100], lr:0.0009, Loss:0.0690, Time_for_epoch: 35.0846
+Tree 0: Epoch [30/100], lr:0.0009, Loss:0.0581, Time_for_epoch: 35.0829
+Tree 0: Epoch [31/100], lr:0.0009, Loss:0.0631, Time_for_epoch: 35.0584
+Tree 0: Epoch [32/100], lr:0.0009, Loss:0.0549, Time_for_epoch: 34.9671
+Tree 0: Epoch [33/100], lr:0.0009, Loss:0.0618, Time_for_epoch: 34.9788
+Tree 0: Epoch [34/100], lr:0.0009, Loss:0.0588, Time_for_epoch: 34.9771
+Tree 0: Epoch [35/100], lr:0.0009, Loss:0.0525, Time_for_epoch: 34.9900
+Tree 0: Epoch [36/100], lr:0.0009, Loss:0.0459, Time_for_epoch: 34.9522
+Tree 0: Epoch [37/100], lr:0.0009, Loss:0.0515, Time_for_epoch: 34.9423
+Tree 0: Epoch [38/100], lr:0.0009, Loss:0.0628, Time_for_epoch: 34.9426
+Tree 0: Epoch [39/100], lr:0.0009, Loss:0.0423, Time_for_epoch: 34.9489
+Tree 0: Epoch [40/100], lr:0.0009, Loss:0.0413, Time_for_epoch: 34.9555
+Tree 0: Epoch [41/100], lr:0.0009, Loss:0.0531, Time_for_epoch: 34.9491
+Tree 0: Epoch [42/100], lr:0.0009, Loss:0.0556, Time_for_epoch: 34.9564
+Tree 0: Epoch [43/100], lr:0.0009, Loss:0.0392, Time_for_epoch: 34.9484
+Tree 0: Epoch [44/100], lr:0.0009, Loss:0.0402, Time_for_epoch: 34.9547
+Tree 0: Epoch [45/100], lr:0.0009, Loss:0.0388, Time_for_epoch: 34.9827
+Tree 0: Epoch [46/100], lr:0.0009, Loss:0.0514, Time_for_epoch: 35.0006
+Tree 0: Epoch [47/100], lr:0.0009, Loss:0.0410, Time_for_epoch: 35.0054
+Tree 0: Epoch [48/100], lr:0.0009, Loss:0.0295, Time_for_epoch: 34.9829
+Tree 0: Epoch [49/100], lr:0.0009, Loss:0.0357, Time_for_epoch: 35.0113
+Tree 0: Epoch [50/100], lr:0.0009, Loss:0.0445, Time_for_epoch: 35.0109
+Tree 0: Epoch [51/100], lr:0.0010, Loss:0.0416, Time_for_epoch: 35.0083
+Tree 0: Epoch [52/100], lr:0.0010, Loss:0.0345, Time_for_epoch: 34.9994
+Tree 0: Epoch [53/100], lr:0.0010, Loss:0.0423, Time_for_epoch: 35.1671
+Tree 0: Epoch [54/100], lr:0.0010, Loss:0.0341, Time_for_epoch: 35.0347
+Tree 0: Epoch [55/100], lr:0.0010, Loss:0.0346, Time_for_epoch: 35.0338
+Tree 0: Epoch [56/100], lr:0.0010, Loss:0.0367, Time_for_epoch: 35.0243
+Tree 0: Epoch [57/100], lr:0.0010, Loss:0.0317, Time_for_epoch: 35.0406
+Tree 0: Epoch [58/100], lr:0.0010, Loss:0.0333, Time_for_epoch: 35.1587
+Tree 0: Epoch [59/100], lr:0.0010, Loss:0.0396, Time_for_epoch: 35.1029
+Tree 0: Epoch [60/100], lr:0.0010, Loss:0.0288, Time_for_epoch: 35.0325
+Tree 0: Epoch [61/100], lr:0.0010, Loss:0.0299, Time_for_epoch: 35.0084
+Tree 0: Epoch [62/100], lr:0.0010, Loss:0.0310, Time_for_epoch: 35.0162
+Tree 0: Epoch [63/100], lr:0.0010, Loss:0.0303, Time_for_epoch: 35.0573
+Tree 0: Epoch [64/100], lr:0.0010, Loss:0.0299, Time_for_epoch: 35.0624
+Tree 0: Epoch [65/100], lr:0.0010, Loss:0.0279, Time_for_epoch: 35.0488
+Tree 0: Epoch [66/100], lr:0.0010, Loss:0.0263, Time_for_epoch: 35.0910
+Tree 0: Epoch [67/100], lr:0.0010, Loss:0.0349, Time_for_epoch: 35.0667
+Tree 0: Epoch [68/100], lr:0.0010, Loss:0.0301, Time_for_epoch: 34.9660
+Tree 0: Epoch [69/100], lr:0.0010, Loss:0.0231, Time_for_epoch: 34.9803
+Tree 0: Epoch [70/100], lr:0.0010, Loss:0.0298, Time_for_epoch: 34.9911
+Tree 0: Epoch [71/100], lr:0.0010, Loss:0.0334, Time_for_epoch: 35.0344
+Tree 0: Epoch [72/100], lr:0.0010, Loss:0.0194, Time_for_epoch: 35.0241
+Tree 0: Epoch [73/100], lr:0.0010, Loss:0.0240, Time_for_epoch: 35.0193
+Tree 0: Epoch [74/100], lr:0.0010, Loss:0.0313, Time_for_epoch: 35.0289
+Tree 0: Epoch [75/100], lr:0.0010, Loss:0.0279, Time_for_epoch: 35.0582
+Tree 0: Epoch [76/100], lr:0.0010, Loss:0.0177, Time_for_epoch: 35.0316
+Tree 0: Epoch [77/100], lr:0.0010, Loss:0.0283, Time_for_epoch: 35.0834
+Tree 0: Epoch [78/100], lr:0.0010, Loss:0.0326, Time_for_epoch: 35.1174
+Tree 0: Epoch [79/100], lr:0.0010, Loss:0.0273, Time_for_epoch: 35.1207
+Tree 0: Epoch [80/100], lr:0.0010, Loss:0.0209, Time_for_epoch: 35.1493
+Tree 0: Epoch [81/100], lr:0.0010, Loss:0.0171, Time_for_epoch: 35.1535
+Tree 0: Epoch [82/100], lr:0.0010, Loss:0.0221, Time_for_epoch: 35.1267
+Tree 0: Epoch [83/100], lr:0.0010, Loss:0.0259, Time_for_epoch: 35.1264
+Tree 0: Epoch [84/100], lr:0.0010, Loss:0.0301, Time_for_epoch: 35.1066
+Tree 0: Epoch [85/100], lr:0.0010, Loss:0.0200, Time_for_epoch: 35.1059
+Tree 0: Epoch [86/100], lr:0.0010, Loss:0.0145, Time_for_epoch: 35.1111
+Tree 0: Epoch [87/100], lr:0.0010, Loss:0.0198, Time_for_epoch: 35.1208
+Tree 0: Epoch [88/100], lr:0.0010, Loss:0.0331, Time_for_epoch: 35.1009
+Tree 0: Epoch [89/100], lr:0.0010, Loss:0.0178, Time_for_epoch: 35.1129
+Tree 0: Epoch [90/100], lr:0.0010, Loss:0.0190, Time_for_epoch: 35.1193
+Tree 0: Epoch [91/100], lr:0.0010, Loss:0.0260, Time_for_epoch: 35.1205
+Tree 0: Epoch [92/100], lr:0.0010, Loss:0.0185, Time_for_epoch: 35.0988
+Tree 0: Epoch [93/100], lr:0.0010, Loss:0.0213, Time_for_epoch: 35.1174
+Tree 0: Epoch [94/100], lr:0.0010, Loss:0.0152, Time_for_epoch: 35.1131
+Tree 0: Epoch [95/100], lr:0.0010, Loss:0.0211, Time_for_epoch: 35.1219
+Tree 0: Epoch [96/100], lr:0.0010, Loss:0.0221, Time_for_epoch: 35.1032
+Tree 0: Epoch [97/100], lr:0.0010, Loss:0.0226, Time_for_epoch: 35.1053
+Tree 0: Epoch [98/100], lr:0.0010, Loss:0.0167, Time_for_epoch: 35.1029
+Tree 0: Epoch [99/100], lr:0.0010, Loss:0.0196, Time_for_epoch: 35.1121
+Tree 0: Epoch [100/100], lr:0.0010, Loss:0.0185, Time_for_epoch: 35.0993
+Tree 0: TestLoss: 1.0176, TestAccuracy: 0.8401, Time_for_individ: 3503.9130
+Tree 1: Epoch [1/100], lr:0.0010, Loss:1.3985, Time_for_epoch: 35.1059
+Tree 1: Epoch [2/100], lr:0.0020, Loss:1.0104, Time_for_epoch: 35.0118
+Tree 1: Epoch [3/100], lr:0.0030, Loss:0.8169, Time_for_epoch: 35.0067
+Tree 1: Epoch [4/100], lr:0.0040, Loss:0.6857, Time_for_epoch: 35.0219
+Tree 1: Epoch [5/100], lr:0.0050, Loss:0.6183, Time_for_epoch: 35.0144
+Tree 1: Epoch [6/100], lr:0.0060, Loss:0.5592, Time_for_epoch: 35.0137
+Tree 1: Epoch [7/100], lr:0.0070, Loss:0.5191, Time_for_epoch: 35.0135
+Tree 1: Epoch [8/100], lr:0.0080, Loss:0.4875, Time_for_epoch: 35.2138
+Tree 1: Epoch [9/100], lr:0.0090, Loss:0.4504, Time_for_epoch: 35.2270
+Tree 1: Epoch [10/100], lr:0.0100, Loss:0.4339, Time_for_epoch: 35.2208
+Tree 1: Epoch [11/100], lr:0.0110, Loss:0.4177, Time_for_epoch: 35.2212
+Tree 1: Epoch [12/100], lr:0.0120, Loss:0.3987, Time_for_epoch: 35.2085
+Tree 1: Epoch [13/100], lr:0.0130, Loss:0.3835, Time_for_epoch: 35.2009
+Tree 1: Epoch [14/100], lr:0.0140, Loss:0.3704, Time_for_epoch: 35.2137
+Tree 1: Epoch [15/100], lr:0.0150, Loss:0.3623, Time_for_epoch: 35.1590
+Tree 1: Epoch [16/100], lr:0.0160, Loss:0.3482, Time_for_epoch: 34.9914
+Tree 1: Epoch [17/100], lr:0.0170, Loss:0.3306, Time_for_epoch: 34.9881
+Tree 1: Epoch [18/100], lr:0.0180, Loss:0.3283, Time_for_epoch: 34.9952
+Tree 1: Epoch [19/100], lr:0.0190, Loss:0.3050, Time_for_epoch: 34.9914
+Tree 1: Epoch [20/100], lr:0.0200, Loss:0.2933, Time_for_epoch: 35.0590
+Tree 1: Epoch [21/100], lr:0.0210, Loss:0.2935, Time_for_epoch: 35.1889
+Tree 1: Epoch [22/100], lr:0.0220, Loss:0.2708, Time_for_epoch: 35.1879
+Tree 1: Epoch [23/100], lr:0.0230, Loss:0.2701, Time_for_epoch: 35.1708
+Tree 1: Epoch [24/100], lr:0.0240, Loss:0.2656, Time_for_epoch: 35.1744
+Tree 1: Epoch [25/100], lr:0.0250, Loss:0.2475, Time_for_epoch: 35.0392
+Tree 1: Epoch [26/100], lr:0.0260, Loss:0.2472, Time_for_epoch: 35.0064
+Tree 1: Epoch [27/100], lr:0.0270, Loss:0.2416, Time_for_epoch: 35.0186
+Tree 1: Epoch [28/100], lr:0.0280, Loss:0.2262, Time_for_epoch: 35.0033
+Tree 1: Epoch [29/100], lr:0.0290, Loss:0.2209, Time_for_epoch: 35.0050
+Tree 1: Epoch [30/100], lr:0.0300, Loss:0.2174, Time_for_epoch: 35.0002
+Tree 1: Epoch [31/100], lr:0.0310, Loss:0.2038, Time_for_epoch: 34.9613
+Tree 1: Epoch [32/100], lr:0.0320, Loss:0.2037, Time_for_epoch: 35.0060
+Tree 1: Epoch [33/100], lr:0.0330, Loss:0.2015, Time_for_epoch: 34.9672
+Tree 1: Epoch [34/100], lr:0.0340, Loss:0.1943, Time_for_epoch: 34.9761
+Tree 1: Epoch [35/100], lr:0.0350, Loss:0.1865, Time_for_epoch: 35.0089
+Tree 1: Epoch [36/100], lr:0.0360, Loss:0.1875, Time_for_epoch: 35.0036
+Tree 1: Epoch [37/100], lr:0.0370, Loss:0.1732, Time_for_epoch: 35.0148
+Tree 1: Epoch [38/100], lr:0.0380, Loss:0.1703, Time_for_epoch: 34.9791
+Tree 1: Epoch [39/100], lr:0.0390, Loss:0.1718, Time_for_epoch: 34.9686
+Tree 1: Epoch [40/100], lr:0.0400, Loss:0.1612, Time_for_epoch: 34.9563
+Tree 1: Epoch [41/100], lr:0.0410, Loss:0.1660, Time_for_epoch: 34.9726
+Tree 1: Epoch [42/100], lr:0.0420, Loss:0.1557, Time_for_epoch: 34.9459
+Tree 1: Epoch [43/100], lr:0.0430, Loss:0.1538, Time_for_epoch: 34.9514
+Tree 1: Epoch [44/100], lr:0.0440, Loss:0.1508, Time_for_epoch: 34.9670
+Tree 1: Epoch [45/100], lr:0.0450, Loss:0.1461, Time_for_epoch: 34.9438
+Tree 1: Epoch [46/100], lr:0.0460, Loss:0.1405, Time_for_epoch: 34.9568
+Tree 1: Epoch [47/100], lr:0.0470, Loss:0.1409, Time_for_epoch: 34.9512
+Tree 1: Epoch [48/100], lr:0.0480, Loss:0.1464, Time_for_epoch: 34.9431
+Tree 1: Epoch [49/100], lr:0.0490, Loss:0.1365, Time_for_epoch: 34.9563
+Tree 1: Epoch [50/100], lr:0.0500, Loss:0.1311, Time_for_epoch: 34.9407
+Tree 1: Epoch [51/100], lr:0.0510, Loss:0.1359, Time_for_epoch: 34.9413
+Tree 1: Epoch [52/100], lr:0.0520, Loss:0.1329, Time_for_epoch: 34.9271
+Tree 1: Epoch [53/100], lr:0.0530, Loss:0.1280, Time_for_epoch: 34.9331
+Tree 1: Epoch [54/100], lr:0.0540, Loss:0.1280, Time_for_epoch: 34.9841
+Tree 1: Epoch [55/100], lr:0.0550, Loss:0.1209, Time_for_epoch: 34.9536
+Tree 1: Epoch [56/100], lr:0.0560, Loss:0.1288, Time_for_epoch: 34.9301
+Tree 1: Epoch [57/100], lr:0.0570, Loss:0.1189, Time_for_epoch: 34.9305
+Tree 1: Epoch [58/100], lr:0.0580, Loss:0.1190, Time_for_epoch: 34.9394
+Tree 1: Epoch [59/100], lr:0.0590, Loss:0.1195, Time_for_epoch: 34.9337
+Tree 1: Epoch [60/100], lr:0.0600, Loss:0.1210, Time_for_epoch: 34.9014
+Tree 1: Epoch [61/100], lr:0.0610, Loss:0.1093, Time_for_epoch: 35.0701
+Tree 1: Epoch [62/100], lr:0.0620, Loss:0.1164, Time_for_epoch: 35.0473
+Tree 1: Epoch [63/100], lr:0.0630, Loss:0.1238, Time_for_epoch: 35.0273
+Tree 1: Epoch [64/100], lr:0.0640, Loss:0.1177, Time_for_epoch: 34.9779
+Tree 1: Epoch [65/100], lr:0.0650, Loss:0.0984, Time_for_epoch: 34.9715
+Tree 1: Epoch [66/100], lr:0.0660, Loss:0.1172, Time_for_epoch: 34.9405
+Tree 1: Epoch [67/100], lr:0.0670, Loss:0.1101, Time_for_epoch: 34.9072
+Tree 1: Epoch [68/100], lr:0.0680, Loss:0.1042, Time_for_epoch: 34.9129
+Tree 1: Epoch [69/100], lr:0.0690, Loss:0.1029, Time_for_epoch: 34.9109
+Tree 1: Epoch [70/100], lr:0.0700, Loss:0.1058, Time_for_epoch: 34.8908
+Tree 1: Epoch [71/100], lr:0.0710, Loss:0.1024, Time_for_epoch: 34.8745
+Tree 1: Epoch [72/100], lr:0.0720, Loss:0.0922, Time_for_epoch: 34.8749
+Tree 1: Epoch [73/100], lr:0.0730, Loss:0.0964, Time_for_epoch: 34.9383
+Tree 1: Epoch [74/100], lr:0.0740, Loss:0.0983, Time_for_epoch: 35.0576
+Tree 1: Epoch [75/100], lr:0.0750, Loss:0.0980, Time_for_epoch: 35.0656
+Tree 1: Epoch [76/100], lr:0.0760, Loss:nan, Time_for_epoch: 35.0690
+Tree 1 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 41094.5066 seconds
+General 9
+[2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311
+ 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311 2.22507e-311][-0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565 -0.709565
+ -0.709565 -0.709565]Tree 0: Epoch [1/100], lr:0.0000, Loss:2.3141, Time_for_epoch: 34.6406
+Tree 0: Epoch [2/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 34.7506
+Tree 0: Epoch [3/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 34.7967
+Tree 0: Epoch [4/100], lr:0.0000, Loss:2.3141, Time_for_epoch: 34.8352
+Tree 0: Epoch [5/100], lr:0.0000, Loss:2.3146, Time_for_epoch: 34.8641
+Tree 0: Epoch [6/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 34.8801
+Tree 0: Epoch [7/100], lr:0.0000, Loss:2.3148, Time_for_epoch: 34.9144
+Tree 0: Epoch [8/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 34.9317
+Tree 0: Epoch [9/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 34.9519
+Tree 0: Epoch [10/100], lr:0.0000, Loss:2.3146, Time_for_epoch: 34.9784
+Tree 0: Epoch [11/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 34.9930
+Tree 0: Epoch [12/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 34.9926
+Tree 0: Epoch [13/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.0496
+Tree 0: Epoch [14/100], lr:0.0000, Loss:2.3141, Time_for_epoch: 35.0602
+Tree 0: Epoch [15/100], lr:0.0000, Loss:2.3148, Time_for_epoch: 34.9827
+Tree 0: Epoch [16/100], lr:0.0000, Loss:2.3141, Time_for_epoch: 34.9955
+Tree 0: Epoch [17/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 34.9746
+Tree 0: Epoch [18/100], lr:0.0000, Loss:2.3137, Time_for_epoch: 35.0072
+Tree 0: Epoch [19/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.0515
+Tree 0: Epoch [20/100], lr:0.0000, Loss:2.3148, Time_for_epoch: 35.0697
+Tree 0: Epoch [21/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.1307
+Tree 0: Epoch [22/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 35.1088
+Tree 0: Epoch [23/100], lr:0.0000, Loss:2.3147, Time_for_epoch: 35.2503
+Tree 0: Epoch [24/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.3045
+Tree 0: Epoch [25/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.3081
+Tree 0: Epoch [26/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.3095
+Tree 0: Epoch [27/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.3137
+Tree 0: Epoch [28/100], lr:0.0000, Loss:2.3137, Time_for_epoch: 35.2999
+Tree 0: Epoch [29/100], lr:0.0000, Loss:2.3146, Time_for_epoch: 35.3171
+Tree 0: Epoch [30/100], lr:0.0000, Loss:2.3146, Time_for_epoch: 35.3045
+Tree 0: Epoch [31/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.0533
+Tree 0: Epoch [32/100], lr:0.0000, Loss:2.3146, Time_for_epoch: 35.0316
+Tree 0: Epoch [33/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 34.9998
+Tree 0: Epoch [34/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.0127
+Tree 0: Epoch [35/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 35.0088
+Tree 0: Epoch [36/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.0194
+Tree 0: Epoch [37/100], lr:0.0000, Loss:2.3147, Time_for_epoch: 35.0040
+Tree 0: Epoch [38/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.0582
+Tree 0: Epoch [39/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 35.1182
+Tree 0: Epoch [40/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.1262
+Tree 0: Epoch [41/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.1324
+Tree 0: Epoch [42/100], lr:0.0000, Loss:2.3148, Time_for_epoch: 35.1273
+Tree 0: Epoch [43/100], lr:0.0000, Loss:2.3148, Time_for_epoch: 35.1277
+Tree 0: Epoch [44/100], lr:0.0000, Loss:2.3150, Time_for_epoch: 35.1303
+Tree 0: Epoch [45/100], lr:0.0000, Loss:2.3146, Time_for_epoch: 35.1501
+Tree 0: Epoch [46/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.1300
+Tree 0: Epoch [47/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.1206
+Tree 0: Epoch [48/100], lr:0.0000, Loss:2.3140, Time_for_epoch: 35.1957
+Tree 0: Epoch [49/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.2179
+Tree 0: Epoch [50/100], lr:0.0000, Loss:2.3140, Time_for_epoch: 35.1904
+Tree 0: Epoch [51/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.0960
+Tree 0: Epoch [52/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.0466
+Tree 0: Epoch [53/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.0470
+Tree 0: Epoch [54/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.0439
+Tree 0: Epoch [55/100], lr:0.0000, Loss:2.3141, Time_for_epoch: 35.0418
+Tree 0: Epoch [56/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.0340
+Tree 0: Epoch [57/100], lr:0.0000, Loss:2.3139, Time_for_epoch: 35.0255
+Tree 0: Epoch [58/100], lr:0.0000, Loss:2.3140, Time_for_epoch: 35.0299
+Tree 0: Epoch [59/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.0261
+Tree 0: Epoch [60/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.0360
+Tree 0: Epoch [61/100], lr:0.0000, Loss:2.3149, Time_for_epoch: 35.0582
+Tree 0: Epoch [62/100], lr:0.0000, Loss:2.3147, Time_for_epoch: 35.0893
+Tree 0: Epoch [63/100], lr:0.0000, Loss:2.3140, Time_for_epoch: 35.0252
+Tree 0: Epoch [64/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 35.0101
+Tree 0: Epoch [65/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 35.0192
+Tree 0: Epoch [66/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.0468
+Tree 0: Epoch [67/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.1067
+Tree 0: Epoch [68/100], lr:0.0000, Loss:2.3139, Time_for_epoch: 35.0639
+Tree 0: Epoch [69/100], lr:0.0000, Loss:2.3149, Time_for_epoch: 35.0566
+Tree 0: Epoch [70/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.0831
+Tree 0: Epoch [71/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.0830
+Tree 0: Epoch [72/100], lr:0.0000, Loss:2.3146, Time_for_epoch: 35.1859
+Tree 0: Epoch [73/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.2090
+Tree 0: Epoch [74/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.2247
+Tree 0: Epoch [75/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.2111
+Tree 0: Epoch [76/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.1949
+Tree 0: Epoch [77/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.2127
+Tree 0: Epoch [78/100], lr:0.0000, Loss:2.3141, Time_for_epoch: 35.1867
+Tree 0: Epoch [79/100], lr:0.0000, Loss:2.3138, Time_for_epoch: 35.1998
+Tree 0: Epoch [80/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 35.2140
+Tree 0: Epoch [81/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.2105
+Tree 0: Epoch [82/100], lr:0.0000, Loss:2.3146, Time_for_epoch: 35.2076
+Tree 0: Epoch [83/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 35.2053
+Tree 0: Epoch [84/100], lr:0.0000, Loss:2.3141, Time_for_epoch: 35.2028
+Tree 0: Epoch [85/100], lr:0.0000, Loss:2.3147, Time_for_epoch: 35.2268
+Tree 0: Epoch [86/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.2578
+Tree 0: Epoch [87/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 35.2546
+Tree 0: Epoch [88/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.2337
+Tree 0: Epoch [89/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.2155
+Tree 0: Epoch [90/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 35.2000
+Tree 0: Epoch [91/100], lr:0.0000, Loss:2.3148, Time_for_epoch: 35.0381
+Tree 0: Epoch [92/100], lr:0.0000, Loss:2.3139, Time_for_epoch: 35.0370
+Tree 0: Epoch [93/100], lr:0.0000, Loss:2.3138, Time_for_epoch: 35.0308
+Tree 0: Epoch [94/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 35.1024
+Tree 0: Epoch [95/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.0520
+Tree 0: Epoch [96/100], lr:0.0000, Loss:2.3144, Time_for_epoch: 35.0228
+Tree 0: Epoch [97/100], lr:0.0000, Loss:2.3145, Time_for_epoch: 34.9880
+Tree 0: Epoch [98/100], lr:0.0000, Loss:2.3143, Time_for_epoch: 34.9779
+Tree 0: Epoch [99/100], lr:0.0000, Loss:2.3140, Time_for_epoch: 34.9949
+Tree 0: Epoch [100/100], lr:0.0000, Loss:2.3142, Time_for_epoch: 34.9732
+Tree 0: TestLoss: 2.3145, TestAccuracy: 0.1135, Time_for_individ: 3511.0859
+Tree 1: Epoch [1/100], lr:-0.7096, Loss:nan, Time_for_epoch: 31.8184
+Tree 1: Epoch [2/100], lr:-0.7096, Loss:nan, Time_for_epoch: 31.6878
+Tree 1 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 29614.3168 seconds
+General 10
+[-0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822 -0.00048822
+ -0.00048822 -0.00048822 -0.00048822 -0.00048822][1.00000e-003 4.00000e-003 2.70000e-002 2.56000e-001 3.12500e+000
+ 4.66560e+001 8.23543e+002 1.67772e+004 3.87420e+005 1.00000e+007
+ 2.85312e+008 8.91610e+009 3.02875e+011 1.11120e+013 4.37894e+014
+ 1.84467e+016 8.27240e+017 3.93464e+019 1.97842e+021 1.04858e+023
+ 5.84259e+024 3.41428e+026 2.08805e+028 1.33374e+030 8.88178e+031
+ 6.15612e+033 4.43426e+035 3.31455e+037 2.56769e+039 2.05891e+041
+ 1.70692e+043 1.46150e+045 1.29110e+047 1.17566e+049 1.10251e+051
+ 1.06387e+053 1.05551e+055 1.07591e+057 1.12595e+059 1.20893e+061
+ 1.33088e+063 1.50131e+065 1.73438e+067 2.05077e+069 2.48064e+071
+ 3.06803e+073 3.87792e+075 5.00702e+077 6.60097e+079 8.88178e+081
+ 1.21921e+084 1.70677e+086 2.43568e+088 3.54212e+090 5.24745e+092
+ 7.91643e+094 1.21581e+097 1.90031e+099 3.02182e+101 4.88737e+103
+ 8.03748e+105 1.34365e+108 2.28273e+110 3.94020e+112 6.90825e+114
+ 1.22998e+117 2.22337e+119 4.07949e+121 7.59604e+123 1.43504e+126
+ 2.75006e+128 5.34490e+130 1.05334e+133 2.10449e+135 4.26182e+137
+ 8.74647e+139 1.81880e+142 3.83159e+144 8.17599e+146 1.76685e+149
+ 3.86622e+151 8.56517e+153 1.92080e+156 4.35973e+158 1.00140e+161
+ 2.32738e+163 5.47236e+165 1.30159e+168 3.13120e+170 7.61773e+172
+ 1.87399e+175 4.66101e+177 1.17196e+180 2.97864e+182 7.65143e+184
+ 1.98627e+187 5.21025e+189 1.38088e+192 3.69730e+194 1.00000e+197]Tree 0: Epoch [1/100], lr:-0.0005, Loss:172.6966, Time_for_epoch: 34.5864
+Tree 0: Epoch [2/100], lr:-0.0005, Loss:753.0947, Time_for_epoch: 34.7141
+Tree 0: Epoch [3/100], lr:-0.0005, Loss:1702.2672, Time_for_epoch: 34.7781
+Tree 0: Epoch [4/100], lr:-0.0005, Loss:3011.7884, Time_for_epoch: 34.8241
+Tree 0: Epoch [5/100], lr:-0.0005, Loss:4627.8999, Time_for_epoch: 34.8570
+Tree 0: Epoch [6/100], lr:-0.0005, Loss:6543.3603, Time_for_epoch: 34.8605
+Tree 0: Epoch [7/100], lr:-0.0005, Loss:8689.9240, Time_for_epoch: 34.9032
+Tree 0: Epoch [8/100], lr:-0.0005, Loss:11092.8187, Time_for_epoch: 34.9186
+Tree 0 is not valid
+Tree 1: Epoch [1/100], lr:0.0010, Loss:1.3801, Time_for_epoch: 34.9876
+Tree 1: Epoch [2/100], lr:0.0040, Loss:1.0439, Time_for_epoch: 34.8590
+Tree 1: Epoch [3/100], lr:0.0270, Loss:1.1986, Time_for_epoch: 34.9391
+Tree 1: Epoch [4/100], lr:0.2560, Loss:1.7221, Time_for_epoch: 35.0092
+Tree 1: Epoch [5/100], lr:3.1250, Loss:nan, Time_for_epoch: 31.7664
+Tree 1 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 30393.9203 seconds
+General 11
+[ 1.00000e-03  7.69239e-04  4.54832e-04  1.83457e-04 -3.86320e-05
+ -2.19169e-04 -3.66378e-04 -4.86994e-04 -5.86255e-04 -6.68202e-04
+ -7.35970e-04 -7.92020e-04 -8.38297e-04 -8.76364e-04 -9.07483e-04
+ -9.32687e-04 -9.52827e-04 -9.68610e-04 -9.80628e-04 -9.89381e-04
+ -9.95292e-04 -9.98723e-04 -9.99981e-04 -9.99335e-04 -9.97015e-04
+ -9.93221e-04 -9.88128e-04 -9.81888e-04 -9.74637e-04 -9.66492e-04
+ -9.57556e-04 -9.47924e-04 -9.37676e-04 -9.26886e-04 -9.15617e-04
+ -9.03930e-04 -8.91874e-04 -8.79496e-04 -8.66839e-04 -8.53940e-04
+ -8.40831e-04 -8.27544e-04 -8.14106e-04 -8.00542e-04 -7.86874e-04
+ -7.73121e-04 -7.59303e-04 -7.45436e-04 -7.31534e-04 -7.17611e-04
+ -7.03680e-04 -6.89751e-04 -6.75835e-04 -6.61941e-04 -6.48076e-04
+ -6.34249e-04 -6.20467e-04 -6.06734e-04 -5.93058e-04 -5.79442e-04
+ -5.65892e-04 -5.52412e-04 -5.39004e-04 -5.25673e-04 -5.12421e-04
+ -4.99251e-04 -4.86165e-04 -4.73166e-04 -4.60255e-04 -4.47434e-04
+ -4.34704e-04 -4.22066e-04 -4.09522e-04 -3.97072e-04 -3.84717e-04
+ -3.72457e-04 -3.60294e-04 -3.48228e-04 -3.36258e-04 -3.24386e-04
+ -3.12610e-04 -3.00932e-04 -2.89351e-04 -2.77866e-04 -2.66479e-04
+ -2.55188e-04 -2.43993e-04 -2.32894e-04 -2.21890e-04 -2.10982e-04
+ -2.00168e-04 -1.89448e-04 -1.78822e-04 -1.68290e-04 -1.57849e-04
+ -1.47501e-04 -1.37243e-04 -1.27077e-04 -1.17001e-04 -1.07013e-04][0.001      0.00269315 0.00409861 0.00538629 0.00660944 0.00779176
+ 0.00894591 0.0100794  0.0111972  0.0123026  0.0133979  0.0144849
+ 0.0155649  0.0166391  0.0177081  0.0187726  0.0198332  0.0208904
+ 0.0219444  0.0229957  0.0240445  0.025091   0.0261355  0.0271781
+ 0.0282189  0.0292581  0.0302958  0.0313322  0.0323673  0.0334012
+ 0.034434   0.0354657  0.0364965  0.0375264  0.0385553  0.0395835
+ 0.0406109  0.0416376  0.0426636  0.0436889  0.0447136  0.0457377
+ 0.0467612  0.0477842  0.0488067  0.0498286  0.0508501  0.0518712
+ 0.0528918  0.053912   0.0549318  0.0559512  0.0569703  0.057989
+ 0.0590073  0.0600254  0.0610431  0.0620604  0.0630775  0.0640943
+ 0.0651109  0.0661271  0.0671431  0.0681589  0.0691744  0.0701897
+ 0.0712047  0.0722195  0.0732341  0.0742485  0.0752627  0.0762767
+ 0.0772905  0.0783041  0.0793175  0.0803307  0.0813438  0.0823567
+ 0.0833694  0.084382   0.0853944  0.0864067  0.0874188  0.0884308
+ 0.0894427  0.0904543  0.0914659  0.0924773  0.0934886  0.0944998
+ 0.0955109  0.0965218  0.0975326  0.0985433  0.0995539  0.100564
+ 0.101575   0.102585   0.103595   0.104605  ]Tree 0: Epoch [1/100], lr:0.0010, Loss:1.4142, Time_for_epoch: 34.5206
+Tree 0: Epoch [2/100], lr:0.0008, Loss:0.9499, Time_for_epoch: 34.6237
+Tree 0: Epoch [3/100], lr:0.0005, Loss:0.6814, Time_for_epoch: 34.6789
+Tree 0: Epoch [4/100], lr:0.0002, Loss:0.4440, Time_for_epoch: 34.7356
+Tree 0: Epoch [5/100], lr:-0.0000, Loss:33.6739, Time_for_epoch: 34.7307
+Tree 0: Epoch [6/100], lr:-0.0002, Loss:185.2614, Time_for_epoch: 34.8735
+Tree 0: Epoch [7/100], lr:-0.0004, Loss:718.3565, Time_for_epoch: 34.9256
+Tree 0: Epoch [8/100], lr:-0.0005, Loss:1876.4616, Time_for_epoch: 34.9708
+Tree 0: Epoch [9/100], lr:-0.0006, Loss:3783.7596, Time_for_epoch: 34.9971
+Tree 0: Epoch [10/100], lr:-0.0007, Loss:6559.8608, Time_for_epoch: 35.0181
+Tree 0: Epoch [11/100], lr:-0.0007, Loss:10342.6962, Time_for_epoch: 35.0419
+Tree 0 is not valid
+Tree 1: Epoch [1/100], lr:0.0010, Loss:1.4172, Time_for_epoch: 35.1287
+Tree 1: Epoch [2/100], lr:0.0027, Loss:1.0430, Time_for_epoch: 35.1200
+Tree 1: Epoch [3/100], lr:0.0041, Loss:0.8300, Time_for_epoch: 35.1092
+Tree 1: Epoch [4/100], lr:0.0054, Loss:0.7067, Time_for_epoch: 35.1283
+Tree 1: Epoch [5/100], lr:0.0066, Loss:0.6278, Time_for_epoch: 35.1329
+Tree 1: Epoch [6/100], lr:0.0078, Loss:0.5739, Time_for_epoch: 35.1401
+Tree 1: Epoch [7/100], lr:0.0089, Loss:0.5371, Time_for_epoch: 35.1465
+Tree 1: Epoch [8/100], lr:0.0101, Loss:0.4972, Time_for_epoch: 34.9374
+Tree 1: Epoch [9/100], lr:0.0112, Loss:0.4758, Time_for_epoch: 34.9485
+Tree 1: Epoch [10/100], lr:0.0123, Loss:0.4504, Time_for_epoch: 34.9562
+Tree 1: Epoch [11/100], lr:0.0134, Loss:0.4340, Time_for_epoch: 34.9600
+Tree 1: Epoch [12/100], lr:0.0145, Loss:0.4106, Time_for_epoch: 34.9753
+Tree 1: Epoch [13/100], lr:0.0156, Loss:0.3881, Time_for_epoch: 35.0138
+Tree 1: Epoch [14/100], lr:0.0166, Loss:0.3831, Time_for_epoch: 35.0225
+Tree 1: Epoch [15/100], lr:0.0177, Loss:0.3678, Time_for_epoch: 35.0000
+Tree 1: Epoch [16/100], lr:0.0188, Loss:0.3548, Time_for_epoch: 35.0527
+Tree 1: Epoch [17/100], lr:0.0198, Loss:0.3370, Time_for_epoch: 34.9599
+Tree 1: Epoch [18/100], lr:0.0209, Loss:0.3314, Time_for_epoch: 34.9462
+Tree 1: Epoch [19/100], lr:0.0219, Loss:0.3227, Time_for_epoch: 34.9478
+Tree 1: Epoch [20/100], lr:0.0230, Loss:0.3071, Time_for_epoch: 34.9540
+Tree 1: Epoch [21/100], lr:0.0240, Loss:0.2935, Time_for_epoch: 34.9489
+Tree 1: Epoch [22/100], lr:0.0251, Loss:0.2864, Time_for_epoch: 34.9374
+Tree 1: Epoch [23/100], lr:0.0261, Loss:0.2705, Time_for_epoch: 34.9309
+Tree 1: Epoch [24/100], lr:0.0272, Loss:0.2640, Time_for_epoch: 34.9211
+Tree 1: Epoch [25/100], lr:0.0282, Loss:0.2547, Time_for_epoch: 34.9141
+Tree 1: Epoch [26/100], lr:0.0293, Loss:0.2516, Time_for_epoch: 34.9355
+Tree 1: Epoch [27/100], lr:0.0303, Loss:0.2399, Time_for_epoch: 34.9371
+Tree 1: Epoch [28/100], lr:0.0313, Loss:0.2364, Time_for_epoch: 34.9711
+Tree 1: Epoch [29/100], lr:0.0324, Loss:0.2278, Time_for_epoch: 34.9307
+Tree 1: Epoch [30/100], lr:0.0334, Loss:0.2182, Time_for_epoch: 34.9678
+Tree 1: Epoch [31/100], lr:0.0344, Loss:0.2115, Time_for_epoch: 35.0138
+Tree 1: Epoch [32/100], lr:0.0355, Loss:0.2044, Time_for_epoch: 35.0432
+Tree 1: Epoch [33/100], lr:0.0365, Loss:0.1964, Time_for_epoch: 35.0408
+Tree 1: Epoch [34/100], lr:0.0375, Loss:0.1912, Time_for_epoch: 35.0502
+Tree 1: Epoch [35/100], lr:0.0386, Loss:0.1892, Time_for_epoch: 35.1189
+Tree 1: Epoch [36/100], lr:0.0396, Loss:0.1852, Time_for_epoch: 35.0030
+Tree 1: Epoch [37/100], lr:0.0406, Loss:0.1830, Time_for_epoch: 35.0377
+Tree 1: Epoch [38/100], lr:0.0416, Loss:0.1739, Time_for_epoch: 35.0235
+Tree 1: Epoch [39/100], lr:0.0427, Loss:0.1694, Time_for_epoch: 35.0444
+Tree 1: Epoch [40/100], lr:0.0437, Loss:0.1700, Time_for_epoch: 35.0269
+Tree 1: Epoch [41/100], lr:0.0447, Loss:0.1591, Time_for_epoch: 35.0789
+Tree 1: Epoch [42/100], lr:0.0457, Loss:0.1569, Time_for_epoch: 35.0774
+Tree 1: Epoch [43/100], lr:0.0468, Loss:0.1572, Time_for_epoch: 35.0205
+Tree 1: Epoch [44/100], lr:0.0478, Loss:0.1550, Time_for_epoch: 35.0324
+Tree 1: Epoch [45/100], lr:0.0488, Loss:0.1488, Time_for_epoch: 35.0322
+Tree 1: Epoch [46/100], lr:0.0498, Loss:0.1456, Time_for_epoch: 35.0259
+Tree 1: Epoch [47/100], lr:0.0509, Loss:0.1436, Time_for_epoch: 35.0587
+Tree 1: Epoch [48/100], lr:0.0519, Loss:0.1392, Time_for_epoch: 35.1583
+Tree 1: Epoch [49/100], lr:0.0529, Loss:0.1407, Time_for_epoch: 34.9863
+Tree 1: Epoch [50/100], lr:0.0539, Loss:0.1459, Time_for_epoch: 34.9875
+Tree 1: Epoch [51/100], lr:0.0549, Loss:0.1296, Time_for_epoch: 34.9917
+Tree 1: Epoch [52/100], lr:0.0560, Loss:0.1373, Time_for_epoch: 34.9868
+Tree 1: Epoch [53/100], lr:0.0570, Loss:0.1329, Time_for_epoch: 34.9753
+Tree 1: Epoch [54/100], lr:0.0580, Loss:0.1280, Time_for_epoch: 35.0895
+Tree 1: Epoch [55/100], lr:0.0590, Loss:0.1289, Time_for_epoch: 35.1046
+Tree 1: Epoch [56/100], lr:0.0600, Loss:0.1228, Time_for_epoch: 35.0970
+Tree 1: Epoch [57/100], lr:0.0610, Loss:0.1219, Time_for_epoch: 35.0814
+Tree 1: Epoch [58/100], lr:0.0621, Loss:0.1210, Time_for_epoch: 35.0936
+Tree 1: Epoch [59/100], lr:0.0631, Loss:0.1235, Time_for_epoch: 35.1067
+Tree 1: Epoch [60/100], lr:0.0641, Loss:0.1194, Time_for_epoch: 35.0874
+Tree 1: Epoch [61/100], lr:0.0651, Loss:0.1125, Time_for_epoch: 35.0849
+Tree 1: Epoch [62/100], lr:0.0661, Loss:0.1167, Time_for_epoch: 35.0640
+Tree 1: Epoch [63/100], lr:0.0671, Loss:0.1135, Time_for_epoch: 35.0808
+Tree 1: Epoch [64/100], lr:0.0682, Loss:0.1102, Time_for_epoch: 35.0742
+Tree 1: Epoch [65/100], lr:0.0692, Loss:0.1110, Time_for_epoch: 35.0441
+Tree 1: Epoch [66/100], lr:0.0702, Loss:0.1060, Time_for_epoch: 34.9146
+Tree 1: Epoch [67/100], lr:0.0712, Loss:0.1135, Time_for_epoch: 34.8972
+Tree 1: Epoch [68/100], lr:0.0722, Loss:0.1011, Time_for_epoch: 34.9002
+Tree 1: Epoch [69/100], lr:0.0732, Loss:0.1082, Time_for_epoch: 34.8951
+Tree 1: Epoch [70/100], lr:0.0742, Loss:0.1024, Time_for_epoch: 34.8984
+Tree 1: Epoch [71/100], lr:0.0753, Loss:0.1024, Time_for_epoch: 34.8958
+Tree 1: Epoch [72/100], lr:0.0763, Loss:0.1082, Time_for_epoch: 34.9019
+Tree 1: Epoch [73/100], lr:0.0773, Loss:0.0972, Time_for_epoch: 34.8941
+Tree 1: Epoch [74/100], lr:0.0783, Loss:0.0990, Time_for_epoch: 34.8807
+Tree 1: Epoch [75/100], lr:0.0793, Loss:nan, Time_for_epoch: 34.8727
+Tree 1 is not valid
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 34574.6022 seconds
+General 12
+[0.001      0.00269315 0.00409861 0.00538629 0.00660944 0.00779176
+ 0.00894591 0.0100794  0.0111972  0.0123026  0.0133979  0.0144849
+ 0.0155649  0.0166391  0.0177081  0.0187726  0.0198332  0.0208904
+ 0.0219444  0.0229957  0.0240445  0.025091   0.0261355  0.0271781
+ 0.0282189  0.0292581  0.0302958  0.0313322  0.0323673  0.0334012
+ 0.034434   0.0354657  0.0364965  0.0375264  0.0385553  0.0395835
+ 0.0406109  0.0416376  0.0426636  0.0436889  0.0447136  0.0457377
+ 0.0467612  0.0477842  0.0488067  0.0498286  0.0508501  0.0518712
+ 0.0528918  0.053912   0.0549318  0.0559512  0.0569703  0.057989
+ 0.0590073  0.0600254  0.0610431  0.0620604  0.0630775  0.0640943
+ 0.0651109  0.0661271  0.0671431  0.0681589  0.0691744  0.0701897
+ 0.0712047  0.0722195  0.0732341  0.0742485  0.0752627  0.0762767
+ 0.0772905  0.0783041  0.0793175  0.0803307  0.0813438  0.0823567
+ 0.0833694  0.084382   0.0853944  0.0864067  0.0874188  0.0884308
+ 0.0894427  0.0904543  0.0914659  0.0924773  0.0934886  0.0944998
+ 0.0955109  0.0965218  0.0975326  0.0985433  0.0995539  0.100564
+ 0.101575   0.102585   0.103595   0.104605  ][0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504 0.00212504
+ 0.00212504 0.00212504 0.00212504 0.00212504]Tree 0: Epoch [1/100], lr:0.0010, Loss:1.3921, Time_for_epoch: 34.3923
+Tree 0: Epoch [2/100], lr:0.0027, Loss:1.0177, Time_for_epoch: 34.4750
+Tree 0: Epoch [3/100], lr:0.0041, Loss:0.8024, Time_for_epoch: 34.6051
+Tree 0: Epoch [4/100], lr:0.0054, Loss:0.6953, Time_for_epoch: 34.5975
+Tree 0: Epoch [5/100], lr:0.0066, Loss:0.6155, Time_for_epoch: 34.6156
+Tree 0: Epoch [6/100], lr:0.0078, Loss:0.5580, Time_for_epoch: 34.6221
+Tree 0: Epoch [7/100], lr:0.0089, Loss:0.5230, Time_for_epoch: 34.6285
+Tree 0: Epoch [8/100], lr:0.0101, Loss:0.4944, Time_for_epoch: 34.6396
+Tree 0: Epoch [9/100], lr:0.0112, Loss:0.4627, Time_for_epoch: 34.6212
+Tree 0: Epoch [10/100], lr:0.0123, Loss:0.4432, Time_for_epoch: 34.6264
+Tree 0: Epoch [11/100], lr:0.0134, Loss:0.4220, Time_for_epoch: 34.6489
+Tree 0: Epoch [12/100], lr:0.0145, Loss:0.4028, Time_for_epoch: 34.6539
+Tree 0: Epoch [13/100], lr:0.0156, Loss:0.3929, Time_for_epoch: 34.6456
+Tree 0: Epoch [14/100], lr:0.0166, Loss:0.3728, Time_for_epoch: 34.6282
+Tree 0: Epoch [15/100], lr:0.0177, Loss:0.3589, Time_for_epoch: 34.6333
+Tree 0: Epoch [16/100], lr:0.0188, Loss:0.3440, Time_for_epoch: 34.6533
+Tree 0: Epoch [17/100], lr:0.0198, Loss:0.3341, Time_for_epoch: 34.6362
+Tree 0: Epoch [18/100], lr:0.0209, Loss:0.3268, Time_for_epoch: 34.6433
+Tree 0: Epoch [19/100], lr:0.0219, Loss:0.3034, Time_for_epoch: 34.6984
+Tree 0: Epoch [20/100], lr:0.0230, Loss:0.2988, Time_for_epoch: 34.8152
+Tree 0: Epoch [21/100], lr:0.0240, Loss:0.2854, Time_for_epoch: 34.8006
+Tree 0: Epoch [22/100], lr:0.0251, Loss:0.2708, Time_for_epoch: 34.7397
+Tree 0: Epoch [23/100], lr:0.0261, Loss:0.2704, Time_for_epoch: 34.7950
+Tree 0: Epoch [24/100], lr:0.0272, Loss:0.2606, Time_for_epoch: 34.8025
+Tree 0: Epoch [25/100], lr:0.0282, Loss:0.2516, Time_for_epoch: 34.7117
+Tree 0: Epoch [26/100], lr:0.0293, Loss:0.2369, Time_for_epoch: 34.7046
+Tree 0: Epoch [27/100], lr:0.0303, Loss:0.2324, Time_for_epoch: 34.7842
+Tree 0: Epoch [28/100], lr:0.0313, Loss:0.2258, Time_for_epoch: 34.8060
+Tree 0: Epoch [29/100], lr:0.0324, Loss:0.2204, Time_for_epoch: 34.8109
+Tree 0: Epoch [30/100], lr:0.0334, Loss:0.2169, Time_for_epoch: 34.7997
+Tree 0: Epoch [31/100], lr:0.0344, Loss:0.2021, Time_for_epoch: 34.7973
+Tree 0: Epoch [32/100], lr:0.0355, Loss:0.2028, Time_for_epoch: 34.8164
+Tree 0: Epoch [33/100], lr:0.0365, Loss:0.1981, Time_for_epoch: 34.6697
+Tree 0: Epoch [34/100], lr:0.0375, Loss:0.1833, Time_for_epoch: 34.6304
+Tree 0: Epoch [35/100], lr:0.0386, Loss:0.1861, Time_for_epoch: 34.6306
+Tree 0: Epoch [36/100], lr:0.0396, Loss:0.1816, Time_for_epoch: 34.6264
+Tree 0: Epoch [37/100], lr:0.0406, Loss:0.1743, Time_for_epoch: 34.6266
+Tree 0: Epoch [38/100], lr:0.0416, Loss:0.1722, Time_for_epoch: 34.6435
+Tree 0: Epoch [39/100], lr:0.0427, Loss:0.1654, Time_for_epoch: 34.6102
+Tree 0: Epoch [40/100], lr:0.0437, Loss:0.1599, Time_for_epoch: 34.5139
+Tree 0: Epoch [41/100], lr:0.0447, Loss:0.1592, Time_for_epoch: 34.5247
+Tree 0: Epoch [42/100], lr:0.0457, Loss:0.1580, Time_for_epoch: 34.5185
+Tree 0: Epoch [43/100], lr:0.0468, Loss:0.1497, Time_for_epoch: 34.5123
+Tree 0: Epoch [44/100], lr:0.0478, Loss:0.1462, Time_for_epoch: 34.5786
+Tree 0: Epoch [45/100], lr:0.0488, Loss:0.1486, Time_for_epoch: 34.6399
+Tree 0: Epoch [46/100], lr:0.0498, Loss:0.1489, Time_for_epoch: 34.6859
+Tree 0: Epoch [47/100], lr:0.0509, Loss:0.1358, Time_for_epoch: 34.6093
+Tree 0: Epoch [48/100], lr:0.0519, Loss:0.1348, Time_for_epoch: 34.4757
+Tree 0: Epoch [49/100], lr:0.0529, Loss:0.1365, Time_for_epoch: 34.4813
+Tree 0: Epoch [50/100], lr:0.0539, Loss:0.1385, Time_for_epoch: 34.4721
+Tree 0: Epoch [51/100], lr:0.0549, Loss:0.1314, Time_for_epoch: 34.6168
+Tree 0: Epoch [52/100], lr:0.0560, Loss:0.1276, Time_for_epoch: 34.5754
+Tree 0: Epoch [53/100], lr:0.0570, Loss:0.1257, Time_for_epoch: 34.5398
+Tree 0: Epoch [54/100], lr:0.0580, Loss:0.1301, Time_for_epoch: 34.5596
+Tree 0: Epoch [55/100], lr:0.0590, Loss:0.1199, Time_for_epoch: 34.5599
+Tree 0: Epoch [56/100], lr:0.0600, Loss:0.1236, Time_for_epoch: 34.5514
+Tree 0: Epoch [57/100], lr:0.0610, Loss:0.1144, Time_for_epoch: 34.5906
+Tree 0: Epoch [58/100], lr:0.0621, Loss:0.1170, Time_for_epoch: 34.5835
+Tree 0: Epoch [59/100], lr:0.0631, Loss:0.1157, Time_for_epoch: 34.5403
+Tree 0: Epoch [60/100], lr:0.0641, Loss:0.1257, Time_for_epoch: 34.5524
+Tree 0: Epoch [61/100], lr:0.0651, Loss:0.1107, Time_for_epoch: 34.5109
+Tree 0: Epoch [62/100], lr:0.0661, Loss:0.1092, Time_for_epoch: 34.4790
+Tree 0: Epoch [63/100], lr:0.0671, Loss:0.1094, Time_for_epoch: 34.4807
+Tree 0: Epoch [64/100], lr:0.0682, Loss:0.1061, Time_for_epoch: 34.5246
+Tree 0: Epoch [65/100], lr:0.0692, Loss:0.1081, Time_for_epoch: 34.6504
+Tree 0: Epoch [66/100], lr:0.0702, Loss:0.1101, Time_for_epoch: 34.6203
+Tree 0: Epoch [67/100], lr:0.0712, Loss:0.1056, Time_for_epoch: 34.5763
+Tree 0: Epoch [68/100], lr:0.0722, Loss:0.1047, Time_for_epoch: 34.4943
+Tree 0: Epoch [69/100], lr:0.0732, Loss:0.1074, Time_for_epoch: 34.5295
+Tree 0: Epoch [70/100], lr:0.0742, Loss:0.1056, Time_for_epoch: 34.5232
+Tree 0: Epoch [71/100], lr:0.0753, Loss:0.1023, Time_for_epoch: 34.4741
+Tree 0: Epoch [72/100], lr:0.0763, Loss:0.0959, Time_for_epoch: 34.4656
+Tree 0: Epoch [73/100], lr:0.0773, Loss:0.0983, Time_for_epoch: 34.4585
+Tree 0: Epoch [74/100], lr:0.0783, Loss:nan, Time_for_epoch: 34.4572
+Tree 0 is not valid
+Tree 1: Epoch [1/100], lr:0.0021, Loss:1.3978, Time_for_epoch: 34.5436
+Tree 1: Epoch [2/100], lr:0.0021, Loss:0.9453, Time_for_epoch: 34.5303
+Tree 1: Epoch [3/100], lr:0.0021, Loss:0.7413, Time_for_epoch: 34.5522
+Tree 1: Epoch [4/100], lr:0.0021, Loss:0.6180, Time_for_epoch: 34.5544
+Tree 1: Epoch [5/100], lr:0.0021, Loss:0.5311, Time_for_epoch: 34.5672
+Tree 1: Epoch [6/100], lr:0.0021, Loss:0.4631, Time_for_epoch: 34.5632
+Tree 1: Epoch [7/100], lr:0.0021, Loss:0.4057, Time_for_epoch: 34.5708
+Tree 1: Epoch [8/100], lr:0.0021, Loss:0.3547, Time_for_epoch: 34.5633
+Tree 1: Epoch [9/100], lr:0.0021, Loss:0.3208, Time_for_epoch: 34.5446
+Tree 1: Epoch [10/100], lr:0.0021, Loss:0.2896, Time_for_epoch: 34.5718
+Tree 1: Epoch [11/100], lr:0.0021, Loss:0.2435, Time_for_epoch: 34.5492
+Tree 1: Epoch [12/100], lr:0.0021, Loss:0.2231, Time_for_epoch: 34.5876
+Tree 1: Epoch [13/100], lr:0.0021, Loss:0.2040, Time_for_epoch: 34.6256
+Tree 1: Epoch [14/100], lr:0.0021, Loss:0.1778, Time_for_epoch: 34.6366
+Tree 1: Epoch [15/100], lr:0.0021, Loss:0.1613, Time_for_epoch: 34.7098
+Tree 1: Epoch [16/100], lr:0.0021, Loss:0.1424, Time_for_epoch: 34.7320
+Tree 1: Epoch [17/100], lr:0.0021, Loss:0.1402, Time_for_epoch: 34.6728
+Tree 1: Epoch [18/100], lr:0.0021, Loss:0.1204, Time_for_epoch: 34.6690
+Tree 1: Epoch [19/100], lr:0.0021, Loss:0.1173, Time_for_epoch: 34.6725
+Tree 1: Epoch [20/100], lr:0.0021, Loss:0.1136, Time_for_epoch: 34.6728
+Tree 1: Epoch [21/100], lr:0.0021, Loss:0.0945, Time_for_epoch: 34.6802
+Tree 1: Epoch [22/100], lr:0.0021, Loss:0.0921, Time_for_epoch: 34.6274
+Tree 1: Epoch [23/100], lr:0.0021, Loss:0.0875, Time_for_epoch: 34.6309
+Tree 1: Epoch [24/100], lr:0.0021, Loss:0.0928, Time_for_epoch: 34.6156
+Tree 1: Epoch [25/100], lr:0.0021, Loss:0.0695, Time_for_epoch: 34.6334
+Tree 1: Epoch [26/100], lr:0.0021, Loss:0.0795, Time_for_epoch: 34.6322
+Tree 1: Epoch [27/100], lr:0.0021, Loss:0.0772, Time_for_epoch: 34.6189
+Tree 1: Epoch [28/100], lr:0.0021, Loss:0.0726, Time_for_epoch: 34.6408
+Tree 1: Epoch [29/100], lr:0.0021, Loss:0.0697, Time_for_epoch: 34.6316
+Tree 1: Epoch [30/100], lr:0.0021, Loss:0.0600, Time_for_epoch: 34.6248
+Tree 1: Epoch [31/100], lr:0.0021, Loss:0.0641, Time_for_epoch: 34.6358
+Tree 1: Epoch [32/100], lr:0.0021, Loss:0.0636, Time_for_epoch: 34.7086
+Tree 1: Epoch [33/100], lr:0.0021, Loss:0.0589, Time_for_epoch: 34.7196
+Tree 1: Epoch [34/100], lr:0.0021, Loss:0.0630, Time_for_epoch: 34.6468
+Tree 1: Epoch [35/100], lr:0.0021, Loss:0.0532, Time_for_epoch: 34.6560
+Tree 1: Epoch [36/100], lr:0.0021, Loss:0.0574, Time_for_epoch: 34.6356
+Tree 1: Epoch [37/100], lr:0.0021, Loss:0.0523, Time_for_epoch: 34.6482
+Tree 1: Epoch [38/100], lr:0.0021, Loss:0.0506, Time_for_epoch: 34.6700
+Tree 1: Epoch [39/100], lr:0.0021, Loss:0.0564, Time_for_epoch: 34.6688
+Tree 1: Epoch [40/100], lr:0.0021, Loss:0.0423, Time_for_epoch: 34.6524
+Tree 1: Epoch [41/100], lr:0.0021, Loss:0.0449, Time_for_epoch: 34.6449
+Tree 1: Epoch [42/100], lr:0.0021, Loss:0.0497, Time_for_epoch: 34.6507
+Tree 1: Epoch [43/100], lr:0.0021, Loss:0.0502, Time_for_epoch: 34.6469
+Tree 1: Epoch [44/100], lr:0.0021, Loss:0.0403, Time_for_epoch: 34.6380
+Tree 1: Epoch [45/100], lr:0.0021, Loss:0.0409, Time_for_epoch: 34.6289
+Tree 1: Epoch [46/100], lr:0.0021, Loss:0.0440, Time_for_epoch: 34.6353
+Tree 1: Epoch [47/100], lr:0.0021, Loss:0.0446, Time_for_epoch: 34.6215
+Tree 1: Epoch [48/100], lr:0.0021, Loss:0.0389, Time_for_epoch: 34.6245
+Tree 1: Epoch [49/100], lr:0.0021, Loss:0.0347, Time_for_epoch: 34.6388
+Tree 1: Epoch [50/100], lr:0.0021, Loss:0.0432, Time_for_epoch: 34.6167
+Tree 1: Epoch [51/100], lr:0.0021, Loss:0.0387, Time_for_epoch: 34.6470
+Tree 1: Epoch [52/100], lr:0.0021, Loss:0.0387, Time_for_epoch: 34.6168
+Tree 1: Epoch [53/100], lr:0.0021, Loss:0.0350, Time_for_epoch: 34.6328
+Tree 1: Epoch [54/100], lr:0.0021, Loss:0.0354, Time_for_epoch: 34.6424
+Tree 1: Epoch [55/100], lr:0.0021, Loss:0.0389, Time_for_epoch: 34.6423
+Tree 1: Epoch [56/100], lr:0.0021, Loss:0.0277, Time_for_epoch: 34.6386
+Tree 1: Epoch [57/100], lr:0.0021, Loss:0.0355, Time_for_epoch: 34.6335
+Tree 1: Epoch [58/100], lr:0.0021, Loss:0.0316, Time_for_epoch: 34.6884
+Tree 1: Epoch [59/100], lr:0.0021, Loss:0.0337, Time_for_epoch: 34.6378
+Tree 1: Epoch [60/100], lr:0.0021, Loss:0.0335, Time_for_epoch: 34.6531
+Tree 1: Epoch [61/100], lr:0.0021, Loss:0.0385, Time_for_epoch: 34.6673
+Tree 1: Epoch [62/100], lr:0.0021, Loss:0.0273, Time_for_epoch: 34.6590
+Tree 1: Epoch [63/100], lr:0.0021, Loss:0.0268, Time_for_epoch: 34.6688
+Tree 1: Epoch [64/100], lr:0.0021, Loss:0.0349, Time_for_epoch: 34.6603
+Tree 1: Epoch [65/100], lr:0.0021, Loss:0.0301, Time_for_epoch: 34.6480
+Tree 1: Epoch [66/100], lr:0.0021, Loss:0.0246, Time_for_epoch: 34.6932
+Tree 1: Epoch [67/100], lr:0.0021, Loss:0.0302, Time_for_epoch: 34.6941
+Tree 1: Epoch [68/100], lr:0.0021, Loss:0.0280, Time_for_epoch: 34.7058
+Tree 1: Epoch [69/100], lr:0.0021, Loss:0.0271, Time_for_epoch: 34.6977
+Tree 1: Epoch [70/100], lr:0.0021, Loss:0.0281, Time_for_epoch: 34.7024
+Tree 1: Epoch [71/100], lr:0.0021, Loss:0.0276, Time_for_epoch: 34.6912
+Tree 1: Epoch [72/100], lr:0.0021, Loss:0.0248, Time_for_epoch: 34.6782
+Tree 1: Epoch [73/100], lr:0.0021, Loss:0.0311, Time_for_epoch: 34.6930
+Tree 1: Epoch [74/100], lr:0.0021, Loss:0.0253, Time_for_epoch: 34.6825
+Tree 1: Epoch [75/100], lr:0.0021, Loss:0.0208, Time_for_epoch: 34.7071
+Tree 1: Epoch [76/100], lr:0.0021, Loss:0.0279, Time_for_epoch: 34.6983
+Tree 1: Epoch [77/100], lr:0.0021, Loss:0.0266, Time_for_epoch: 34.7096
+Tree 1: Epoch [78/100], lr:0.0021, Loss:0.0212, Time_for_epoch: 34.7198
+Tree 1: Epoch [79/100], lr:0.0021, Loss:0.0229, Time_for_epoch: 34.7104
+Tree 1: Epoch [80/100], lr:0.0021, Loss:0.0251, Time_for_epoch: 34.7055
+Tree 1: Epoch [81/100], lr:0.0021, Loss:0.0258, Time_for_epoch: 34.6172
+Tree 1: Epoch [82/100], lr:0.0021, Loss:0.0195, Time_for_epoch: 34.6000
+Tree 1: Epoch [83/100], lr:0.0021, Loss:0.0228, Time_for_epoch: 34.5973
+Tree 1: Epoch [84/100], lr:0.0021, Loss:0.0229, Time_for_epoch: 34.5937
+Tree 1: Epoch [85/100], lr:0.0021, Loss:0.0217, Time_for_epoch: 34.5983
+Tree 1: Epoch [86/100], lr:0.0021, Loss:0.0193, Time_for_epoch: 34.6115
+Tree 1: Epoch [87/100], lr:0.0021, Loss:0.0227, Time_for_epoch: 34.6172
+Tree 1: Epoch [88/100], lr:0.0021, Loss:0.0261, Time_for_epoch: 34.6079
+Tree 1: Epoch [89/100], lr:0.0021, Loss:0.0206, Time_for_epoch: 34.6104
+Tree 1: Epoch [90/100], lr:0.0021, Loss:0.0200, Time_for_epoch: 34.6006
+Tree 1: Epoch [91/100], lr:0.0021, Loss:0.0167, Time_for_epoch: 34.6156
+Tree 1: Epoch [92/100], lr:0.0021, Loss:0.0227, Time_for_epoch: 34.6607
+Tree 1: Epoch [93/100], lr:0.0021, Loss:0.0224, Time_for_epoch: 34.6080
+Tree 1: Epoch [94/100], lr:0.0021, Loss:0.0161, Time_for_epoch: 34.6179
+Tree 1: Epoch [95/100], lr:0.0021, Loss:0.0209, Time_for_epoch: 34.6045
+Tree 1: Epoch [96/100], lr:0.0021, Loss:0.0224, Time_for_epoch: 34.5932
+Tree 1: Epoch [97/100], lr:0.0021, Loss:0.0224, Time_for_epoch: 34.5931
+Tree 1: Epoch [98/100], lr:0.0021, Loss:0.0179, Time_for_epoch: 34.6092
+Tree 1: Epoch [99/100], lr:0.0021, Loss:0.0202, Time_for_epoch: 34.6075
+Tree 1: Epoch [100/100], lr:0.0021, Loss:0.0147, Time_for_epoch: 34.6096
+Tree 1: TestLoss: 0.9045, TestAccuracy: 0.8564, Time_for_individ: 3466.2084
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 33508.5001 seconds
+General 13
+[0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733 0.00099733
+ 0.00099733 0.00099733 0.00099733 0.00099733][0.00117792 0.00187107 0.00227653 0.00256422 0.00278736 0.00296968
+ 0.00312383 0.00325736 0.00337515 0.00348051 0.00357582 0.00366283
+ 0.00374287 0.00381698 0.00388597 0.00395051 0.00401113 0.00406829
+ 0.00412236 0.00417365 0.00422244 0.00426896 0.00431342 0.00435597
+ 0.0043968  0.00443602 0.00447376 0.00451013 0.00454522 0.00457912
+ 0.00461191 0.00464366 0.00467443 0.00470428 0.00473327 0.00476144
+ 0.00478884 0.00481551 0.00484148 0.0048668  0.00489149 0.00491559
+ 0.00493912 0.00496211 0.00498458 0.00500656 0.00502807 0.00504912
+ 0.00506974 0.00508994 0.00510975 0.00512916 0.00514821 0.00516691
+ 0.00518525 0.00520327 0.00522097 0.00523836 0.00525546 0.00527227
+ 0.0052888  0.00530506 0.00532106 0.0053368  0.00535231 0.00536758
+ 0.00538261 0.00539743 0.00541203 0.00542642 0.0054406  0.00545459
+ 0.00546838 0.00548199 0.00549541 0.00550865 0.00552173 0.00553463
+ 0.00554737 0.00555995 0.00557237 0.00558464 0.00559676 0.00560874
+ 0.00562057 0.00563227 0.00564383 0.00565526 0.00566656 0.00567773
+ 0.00568878 0.00569971 0.00571052 0.00572122 0.0057318  0.00574227
+ 0.00575263 0.00576289 0.00577304 0.00578309]Tree 0: Epoch [1/100], lr:0.0010, Loss:1.4298, Time_for_epoch: 34.8607
+Tree 0: Epoch [2/100], lr:0.0010, Loss:0.9858, Time_for_epoch: 34.3944
+Tree 0: Epoch [3/100], lr:0.0010, Loss:0.7514, Time_for_epoch: 34.4062
+Tree 0: Epoch [4/100], lr:0.0010, Loss:0.6123, Time_for_epoch: 34.5007
+Tree 0: Epoch [5/100], lr:0.0010, Loss:0.5048, Time_for_epoch: 34.5884
+Tree 0: Epoch [6/100], lr:0.0010, Loss:0.4334, Time_for_epoch: 34.4826
+Tree 0: Epoch [7/100], lr:0.0010, Loss:0.3671, Time_for_epoch: 34.5112
+Tree 0: Epoch [8/100], lr:0.0010, Loss:0.3118, Time_for_epoch: 34.5044
+Tree 0: Epoch [9/100], lr:0.0010, Loss:0.2738, Time_for_epoch: 34.5198
+Tree 0: Epoch [10/100], lr:0.0010, Loss:0.2379, Time_for_epoch: 34.5291
+Tree 0: Epoch [11/100], lr:0.0010, Loss:0.2011, Time_for_epoch: 34.5085
+Tree 0: Epoch [12/100], lr:0.0010, Loss:0.1795, Time_for_epoch: 34.5341
+Tree 0: Epoch [13/100], lr:0.0010, Loss:0.1543, Time_for_epoch: 34.5133
+Tree 0: Epoch [14/100], lr:0.0010, Loss:0.1390, Time_for_epoch: 34.4915
+Tree 0: Epoch [15/100], lr:0.0010, Loss:0.1324, Time_for_epoch: 34.5255
+Tree 0: Epoch [16/100], lr:0.0010, Loss:0.1107, Time_for_epoch: 34.6012
+Tree 0: Epoch [17/100], lr:0.0010, Loss:0.1150, Time_for_epoch: 34.5353
+Tree 0: Epoch [18/100], lr:0.0010, Loss:0.1005, Time_for_epoch: 34.5228
+Tree 0: Epoch [19/100], lr:0.0010, Loss:0.0959, Time_for_epoch: 34.5267
+Tree 0: Epoch [20/100], lr:0.0010, Loss:0.0897, Time_for_epoch: 34.5649
+Tree 0: Epoch [21/100], lr:0.0010, Loss:0.0845, Time_for_epoch: 34.5443
+Tree 0: Epoch [22/100], lr:0.0010, Loss:0.0812, Time_for_epoch: 34.5815
+Tree 0: Epoch [23/100], lr:0.0010, Loss:0.0760, Time_for_epoch: 34.5504
+Tree 0: Epoch [24/100], lr:0.0010, Loss:0.0742, Time_for_epoch: 34.5762
+Tree 0: Epoch [25/100], lr:0.0010, Loss:0.0701, Time_for_epoch: 34.6970
+Tree 0: Epoch [26/100], lr:0.0010, Loss:0.0731, Time_for_epoch: 34.7072
+Tree 0: Epoch [27/100], lr:0.0010, Loss:0.0631, Time_for_epoch: 34.7110
+Tree 0: Epoch [28/100], lr:0.0010, Loss:0.0625, Time_for_epoch: 34.6830
+Tree 0: Epoch [29/100], lr:0.0010, Loss:0.0657, Time_for_epoch: 34.6240
+Tree 0: Epoch [30/100], lr:0.0010, Loss:0.0595, Time_for_epoch: 34.5630
+Tree 0: Epoch [31/100], lr:0.0010, Loss:0.0521, Time_for_epoch: 34.5793
+Tree 0: Epoch [32/100], lr:0.0010, Loss:0.0607, Time_for_epoch: 34.5353
+Tree 0: Epoch [33/100], lr:0.0010, Loss:0.0518, Time_for_epoch: 34.5346
+Tree 0: Epoch [34/100], lr:0.0010, Loss:0.0554, Time_for_epoch: 34.5947
+Tree 0: Epoch [35/100], lr:0.0010, Loss:0.0521, Time_for_epoch: 34.7080
+Tree 0: Epoch [36/100], lr:0.0010, Loss:0.0563, Time_for_epoch: 34.6230
+Tree 0: Epoch [37/100], lr:0.0010, Loss:0.0423, Time_for_epoch: 34.6965
+Tree 0: Epoch [38/100], lr:0.0010, Loss:0.0419, Time_for_epoch: 34.6994
+Tree 0: Epoch [39/100], lr:0.0010, Loss:0.0503, Time_for_epoch: 34.7135
+Tree 0: Epoch [40/100], lr:0.0010, Loss:0.0469, Time_for_epoch: 34.6493
+Tree 0: Epoch [41/100], lr:0.0010, Loss:0.0351, Time_for_epoch: 34.6033
+Tree 0: Epoch [42/100], lr:0.0010, Loss:0.0434, Time_for_epoch: 34.5333
+Tree 0: Epoch [43/100], lr:0.0010, Loss:0.0463, Time_for_epoch: 34.5457
+Tree 0: Epoch [44/100], lr:0.0010, Loss:0.0421, Time_for_epoch: 34.5508
+Tree 0: Epoch [45/100], lr:0.0010, Loss:0.0379, Time_for_epoch: 34.5515
+Tree 0: Epoch [46/100], lr:0.0010, Loss:0.0359, Time_for_epoch: 34.5499
+Tree 0: Epoch [47/100], lr:0.0010, Loss:0.0423, Time_for_epoch: 34.5392
+Tree 0: Epoch [48/100], lr:0.0010, Loss:0.0446, Time_for_epoch: 34.5543
+Tree 0: Epoch [49/100], lr:0.0010, Loss:0.0282, Time_for_epoch: 34.5653
+Tree 0: Epoch [50/100], lr:0.0010, Loss:0.0299, Time_for_epoch: 34.5580
+Tree 0: Epoch [51/100], lr:0.0010, Loss:0.0426, Time_for_epoch: 34.5878
+Tree 0: Epoch [52/100], lr:0.0010, Loss:0.0358, Time_for_epoch: 34.5491
+Tree 0: Epoch [53/100], lr:0.0010, Loss:0.0324, Time_for_epoch: 34.5654
+Tree 0: Epoch [54/100], lr:0.0010, Loss:0.0313, Time_for_epoch: 34.5825
+Tree 0: Epoch [55/100], lr:0.0010, Loss:0.0299, Time_for_epoch: 34.5442
+Tree 0: Epoch [56/100], lr:0.0010, Loss:0.0386, Time_for_epoch: 34.5669
+Tree 0: Epoch [57/100], lr:0.0010, Loss:0.0267, Time_for_epoch: 34.7055
+Tree 0: Epoch [58/100], lr:0.0010, Loss:0.0248, Time_for_epoch: 34.7076
+Tree 0: Epoch [59/100], lr:0.0010, Loss:0.0388, Time_for_epoch: 34.7092
+Tree 0: Epoch [60/100], lr:0.0010, Loss:0.0333, Time_for_epoch: 34.6954
+Tree 0: Epoch [61/100], lr:0.0010, Loss:0.0204, Time_for_epoch: 34.6801
+Tree 0: Epoch [62/100], lr:0.0010, Loss:0.0276, Time_for_epoch: 34.7066
+Tree 0: Epoch [63/100], lr:0.0010, Loss:0.0362, Time_for_epoch: 34.7136
+Tree 0: Epoch [64/100], lr:0.0010, Loss:0.0257, Time_for_epoch: 35.7611
+Tree 0: Epoch [65/100], lr:0.0010, Loss:0.0227, Time_for_epoch: 34.6636
+Tree 0: Epoch [66/100], lr:0.0010, Loss:0.0302, Time_for_epoch: 34.6129
+Tree 0: Epoch [67/100], lr:0.0010, Loss:0.0292, Time_for_epoch: 34.6552
+Tree 0: Epoch [68/100], lr:0.0010, Loss:0.0326, Time_for_epoch: 34.6244
+Tree 0: Epoch [69/100], lr:0.0010, Loss:0.0231, Time_for_epoch: 34.6331
+Tree 0: Epoch [70/100], lr:0.0010, Loss:0.0243, Time_for_epoch: 34.6070
+Tree 0: Epoch [71/100], lr:0.0010, Loss:0.0240, Time_for_epoch: 34.6308
+Tree 0: Epoch [72/100], lr:0.0010, Loss:0.0233, Time_for_epoch: 34.6345
+Tree 0: Epoch [73/100], lr:0.0010, Loss:0.0293, Time_for_epoch: 34.6126
+Tree 0: Epoch [74/100], lr:0.0010, Loss:0.0254, Time_for_epoch: 34.6137
+Tree 0: Epoch [75/100], lr:0.0010, Loss:0.0231, Time_for_epoch: 34.6227
+Tree 0: Epoch [76/100], lr:0.0010, Loss:0.0206, Time_for_epoch: 34.6277
+Tree 0: Epoch [77/100], lr:0.0010, Loss:0.0199, Time_for_epoch: 34.6190
+Tree 0: Epoch [78/100], lr:0.0010, Loss:0.0267, Time_for_epoch: 34.5961
+Tree 0: Epoch [79/100], lr:0.0010, Loss:0.0243, Time_for_epoch: 34.5755
+Tree 0: Epoch [80/100], lr:0.0010, Loss:0.0207, Time_for_epoch: 34.6034
+Tree 0: Epoch [81/100], lr:0.0010, Loss:0.0213, Time_for_epoch: 34.7060
+Tree 0: Epoch [82/100], lr:0.0010, Loss:0.0217, Time_for_epoch: 34.6802
+Tree 0: Epoch [83/100], lr:0.0010, Loss:0.0219, Time_for_epoch: 34.5875
+Tree 0: Epoch [84/100], lr:0.0010, Loss:0.0179, Time_for_epoch: 34.5462
+Tree 0: Epoch [85/100], lr:0.0010, Loss:0.0251, Time_for_epoch: 34.5137
+Tree 0: Epoch [86/100], lr:0.0010, Loss:0.0201, Time_for_epoch: 34.5063
+Tree 0: Epoch [87/100], lr:0.0010, Loss:0.0220, Time_for_epoch: 34.5029
+Tree 0: Epoch [88/100], lr:0.0010, Loss:0.0184, Time_for_epoch: 34.5018
+Tree 0: Epoch [89/100], lr:0.0010, Loss:0.0132, Time_for_epoch: 34.5012
+Tree 0: Epoch [90/100], lr:0.0010, Loss:0.0255, Time_for_epoch: 34.5578
+Tree 0: Epoch [91/100], lr:0.0010, Loss:0.0162, Time_for_epoch: 34.5499
+Tree 0: Epoch [92/100], lr:0.0010, Loss:0.0198, Time_for_epoch: 34.5645
+Tree 0: Epoch [93/100], lr:0.0010, Loss:0.0215, Time_for_epoch: 34.5587
+Tree 0: Epoch [94/100], lr:0.0010, Loss:0.0185, Time_for_epoch: 34.5512
+Tree 0: Epoch [95/100], lr:0.0010, Loss:0.0184, Time_for_epoch: 34.5714
+Tree 0: Epoch [96/100], lr:0.0010, Loss:0.0210, Time_for_epoch: 34.5421
+Tree 0: Epoch [97/100], lr:0.0010, Loss:0.0191, Time_for_epoch: 34.5580
+Tree 0: Epoch [98/100], lr:0.0010, Loss:0.0183, Time_for_epoch: 34.5543
+Tree 0: Epoch [99/100], lr:0.0010, Loss:0.0148, Time_for_epoch: 34.5598
+Tree 0: Epoch [100/100], lr:0.0010, Loss:0.0135, Time_for_epoch: 34.5480
+Tree 0: TestLoss: 1.0474, TestAccuracy: 0.8407, Time_for_individ: 3462.3145
+Tree 1: Epoch [1/100], lr:0.0012, Loss:1.4040, Time_for_epoch: 34.6084
+Tree 1: Epoch [2/100], lr:0.0019, Loss:0.9929, Time_for_epoch: 34.6185
+Tree 1: Epoch [3/100], lr:0.0023, Loss:0.7840, Time_for_epoch: 34.6077
+Tree 1: Epoch [4/100], lr:0.0026, Loss:0.6433, Time_for_epoch: 34.5973
+Tree 1: Epoch [5/100], lr:0.0028, Loss:0.5654, Time_for_epoch: 34.6070
+Tree 1: Epoch [6/100], lr:0.0030, Loss:0.5050, Time_for_epoch: 34.6058
+Tree 1: Epoch [7/100], lr:0.0031, Loss:0.4574, Time_for_epoch: 34.6034
+Tree 1: Epoch [8/100], lr:0.0033, Loss:0.4078, Time_for_epoch: 34.5975
+Tree 1: Epoch [9/100], lr:0.0034, Loss:0.3828, Time_for_epoch: 34.6054
+Tree 1: Epoch [10/100], lr:0.0035, Loss:0.3412, Time_for_epoch: 34.6119
+Tree 1: Epoch [11/100], lr:0.0036, Loss:0.3143, Time_for_epoch: 34.6065
+Tree 1: Epoch [12/100], lr:0.0037, Loss:0.2924, Time_for_epoch: 34.6020
+Tree 1: Epoch [13/100], lr:0.0037, Loss:0.2691, Time_for_epoch: 34.5940
+Tree 1: Epoch [14/100], lr:0.0038, Loss:0.2462, Time_for_epoch: 34.6013
+Tree 1: Epoch [15/100], lr:0.0039, Loss:0.2284, Time_for_epoch: 34.5914
+Tree 1: Epoch [16/100], lr:0.0040, Loss:0.2074, Time_for_epoch: 34.5867
+Tree 1: Epoch [17/100], lr:0.0040, Loss:0.1911, Time_for_epoch: 34.6107
+Tree 1: Epoch [18/100], lr:0.0041, Loss:0.1799, Time_for_epoch: 34.6029
+Tree 1: Epoch [19/100], lr:0.0041, Loss:0.1708, Time_for_epoch: 34.6116
+Tree 1: Epoch [20/100], lr:0.0042, Loss:0.1553, Time_for_epoch: 34.6039
+Tree 1: Epoch [21/100], lr:0.0042, Loss:0.1447, Time_for_epoch: 34.5812
+Tree 1: Epoch [22/100], lr:0.0043, Loss:0.1407, Time_for_epoch: 34.6006
+Tree 1: Epoch [23/100], lr:0.0043, Loss:0.1312, Time_for_epoch: 34.5223
+Tree 1: Epoch [24/100], lr:0.0044, Loss:0.1243, Time_for_epoch: 34.4303
+Tree 1: Epoch [25/100], lr:0.0044, Loss:0.1122, Time_for_epoch: 34.4510
+Tree 1: Epoch [26/100], lr:0.0044, Loss:0.1103, Time_for_epoch: 34.4571
+Tree 1: Epoch [27/100], lr:0.0045, Loss:0.1065, Time_for_epoch: 34.4455
+Tree 1: Epoch [28/100], lr:0.0045, Loss:0.1054, Time_for_epoch: 34.4635
+Tree 1: Epoch [29/100], lr:0.0045, Loss:0.0969, Time_for_epoch: 34.4992
+Tree 1: Epoch [30/100], lr:0.0046, Loss:0.0950, Time_for_epoch: 34.5186
+Tree 1: Epoch [31/100], lr:0.0046, Loss:0.0892, Time_for_epoch: 34.4682
+Tree 1: Epoch [32/100], lr:0.0046, Loss:0.0821, Time_for_epoch: 34.4094
+Tree 1: Epoch [33/100], lr:0.0047, Loss:0.0952, Time_for_epoch: 34.4253
+Tree 1: Epoch [34/100], lr:0.0047, Loss:0.0793, Time_for_epoch: 34.4412
+Tree 1: Epoch [35/100], lr:0.0047, Loss:0.0774, Time_for_epoch: 34.4587
+Tree 1: Epoch [36/100], lr:0.0048, Loss:0.0733, Time_for_epoch: 34.4362
+Tree 1: Epoch [37/100], lr:0.0048, Loss:0.0759, Time_for_epoch: 34.4555
+Tree 1: Epoch [38/100], lr:0.0048, Loss:0.0679, Time_for_epoch: 34.4769
+Tree 1: Epoch [39/100], lr:0.0048, Loss:0.0701, Time_for_epoch: 34.4540
+Tree 1: Epoch [40/100], lr:0.0049, Loss:0.0658, Time_for_epoch: 34.5163
+Tree 1: Epoch [41/100], lr:0.0049, Loss:0.0646, Time_for_epoch: 34.5621
+Tree 1: Epoch [42/100], lr:0.0049, Loss:0.0617, Time_for_epoch: 34.5310
+Tree 1: Epoch [43/100], lr:0.0049, Loss:0.0618, Time_for_epoch: 34.4752
+Tree 1: Epoch [44/100], lr:0.0050, Loss:0.0604, Time_for_epoch: 34.4445
+Tree 1: Epoch [45/100], lr:0.0050, Loss:0.0544, Time_for_epoch: 34.4930
+Tree 1: Epoch [46/100], lr:0.0050, Loss:0.0625, Time_for_epoch: 34.5190
+Tree 1: Epoch [47/100], lr:0.0050, Loss:0.0560, Time_for_epoch: 34.5254
+Tree 1: Epoch [48/100], lr:0.0050, Loss:0.0520, Time_for_epoch: 34.5160
+Tree 1: Epoch [49/100], lr:0.0051, Loss:0.0548, Time_for_epoch: 34.5044
+Tree 1: Epoch [50/100], lr:0.0051, Loss:0.0512, Time_for_epoch: 34.5180
+Tree 1: Epoch [51/100], lr:0.0051, Loss:0.0531, Time_for_epoch: 34.5245
+Tree 1: Epoch [52/100], lr:0.0051, Loss:0.0470, Time_for_epoch: 34.4548
+Tree 1: Epoch [53/100], lr:0.0051, Loss:0.0463, Time_for_epoch: 34.4453
+Tree 1: Epoch [54/100], lr:0.0052, Loss:0.0502, Time_for_epoch: 34.4563
+Tree 1: Epoch [55/100], lr:0.0052, Loss:0.0486, Time_for_epoch: 34.4793
+Tree 1: Epoch [56/100], lr:0.0052, Loss:0.0469, Time_for_epoch: 34.5074
+Tree 1: Epoch [57/100], lr:0.0052, Loss:0.0437, Time_for_epoch: 34.5768
+Tree 1: Epoch [58/100], lr:0.0052, Loss:0.0469, Time_for_epoch: 34.5828
+Tree 1: Epoch [59/100], lr:0.0053, Loss:0.0411, Time_for_epoch: 34.5075
+Tree 1: Epoch [60/100], lr:0.0053, Loss:0.0442, Time_for_epoch: 34.5137
+Tree 1: Epoch [61/100], lr:0.0053, Loss:0.0382, Time_for_epoch: 34.5006
+Tree 1: Epoch [62/100], lr:0.0053, Loss:0.0480, Time_for_epoch: 34.5044
+Tree 1: Epoch [63/100], lr:0.0053, Loss:0.0360, Time_for_epoch: 34.5072
+Tree 1: Epoch [64/100], lr:0.0053, Loss:0.0422, Time_for_epoch: 34.5124
+Tree 1: Epoch [65/100], lr:0.0054, Loss:0.0355, Time_for_epoch: 34.5157
+Tree 1: Epoch [66/100], lr:0.0054, Loss:0.0431, Time_for_epoch: 34.5031
+Tree 1: Epoch [67/100], lr:0.0054, Loss:0.0363, Time_for_epoch: 34.5093
+Tree 1: Epoch [68/100], lr:0.0054, Loss:0.0368, Time_for_epoch: 34.5090
+Tree 1: Epoch [69/100], lr:0.0054, Loss:0.0374, Time_for_epoch: 34.5049
+Tree 1: Epoch [70/100], lr:0.0054, Loss:0.0391, Time_for_epoch: 34.5044
+Tree 1: Epoch [71/100], lr:0.0054, Loss:0.0312, Time_for_epoch: 34.5138
+Tree 1: Epoch [72/100], lr:0.0055, Loss:0.0368, Time_for_epoch: 34.5221
+Tree 1: Epoch [73/100], lr:0.0055, Loss:0.0297, Time_for_epoch: 34.5215
+Tree 1: Epoch [74/100], lr:0.0055, Loss:0.0412, Time_for_epoch: 34.5211
+Tree 1: Epoch [75/100], lr:0.0055, Loss:0.0294, Time_for_epoch: 34.4838
+Tree 1: Epoch [76/100], lr:0.0055, Loss:0.0366, Time_for_epoch: 34.5036
+Tree 1: Epoch [77/100], lr:0.0055, Loss:0.0335, Time_for_epoch: 34.4901
+Tree 1: Epoch [78/100], lr:0.0055, Loss:0.0327, Time_for_epoch: 34.4886
+Tree 1: Epoch [79/100], lr:0.0055, Loss:0.0291, Time_for_epoch: 34.4957
+Tree 1: Epoch [80/100], lr:0.0056, Loss:0.0312, Time_for_epoch: 34.5035
+Tree 1: Epoch [81/100], lr:0.0056, Loss:0.0315, Time_for_epoch: 34.4890
+Tree 1: Epoch [82/100], lr:0.0056, Loss:0.0315, Time_for_epoch: 34.4942
+Tree 1: Epoch [83/100], lr:0.0056, Loss:0.0242, Time_for_epoch: 34.4981
+Tree 1: Epoch [84/100], lr:0.0056, Loss:0.0302, Time_for_epoch: 34.5109
+Tree 1: Epoch [85/100], lr:0.0056, Loss:0.0329, Time_for_epoch: 34.5104
+Tree 1: Epoch [86/100], lr:0.0056, Loss:0.0315, Time_for_epoch: 34.4992
+Tree 1: Epoch [87/100], lr:0.0056, Loss:0.0252, Time_for_epoch: 34.5166
+Tree 1: Epoch [88/100], lr:0.0057, Loss:0.0292, Time_for_epoch: 34.4251
+Tree 1: Epoch [89/100], lr:0.0057, Loss:0.0320, Time_for_epoch: 34.4138
+Tree 1: Epoch [90/100], lr:0.0057, Loss:0.0217, Time_for_epoch: 34.4110
+Tree 1: Epoch [91/100], lr:0.0057, Loss:0.0268, Time_for_epoch: 34.4303
+Tree 1: Epoch [92/100], lr:0.0057, Loss:0.0305, Time_for_epoch: 34.4383
+Tree 1: Epoch [93/100], lr:0.0057, Loss:0.0239, Time_for_epoch: 34.4483
+Tree 1: Epoch [94/100], lr:0.0057, Loss:0.0298, Time_for_epoch: 34.4188
+Tree 1: Epoch [95/100], lr:0.0057, Loss:0.0243, Time_for_epoch: 34.4926
+Tree 1: Epoch [96/100], lr:0.0057, Loss:0.0248, Time_for_epoch: 34.5039
+Tree 1: Epoch [97/100], lr:0.0058, Loss:0.0240, Time_for_epoch: 34.5072
+Tree 1: Epoch [98/100], lr:0.0058, Loss:0.0304, Time_for_epoch: 34.4144
+Tree 1: Epoch [99/100], lr:0.0058, Loss:0.0193, Time_for_epoch: 34.4684
+Tree 1: Epoch [100/100], lr:0.0058, Loss:0.0291, Time_for_epoch: 34.5136
+Tree 1: TestLoss: 0.7730, TestAccuracy: 0.8627, Time_for_individ: 3453.6289
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 38781.5436 seconds
+General 14
+[0.0010334  0.00172655 0.00213201 0.0024197  0.00264284 0.00282516
+ 0.00297931 0.00311284 0.00323063 0.00333599 0.0034313  0.00351831
+ 0.00359835 0.00367246 0.00374145 0.00380599 0.00386661 0.00392377
+ 0.00397784 0.00402913 0.00407792 0.00412444 0.0041689  0.00421145
+ 0.00425228 0.0042915  0.00432924 0.00436561 0.0044007  0.0044346
+ 0.00446739 0.00449914 0.00452991 0.00455976 0.00458875 0.00461692
+ 0.00464432 0.00467099 0.00469696 0.00472228 0.00474697 0.00477107
+ 0.0047946  0.00481759 0.00484006 0.00486204 0.00488355 0.0049046
+ 0.00492522 0.00494542 0.00496523 0.00498464 0.00500369 0.00502239
+ 0.00504073 0.00505875 0.00507645 0.00509384 0.00511094 0.00512775
+ 0.00514427 0.00516054 0.00517654 0.00519228 0.00520779 0.00522306
+ 0.00523809 0.00525291 0.00526751 0.0052819  0.00529608 0.00531007
+ 0.00532386 0.00533747 0.00535089 0.00536413 0.00537721 0.00539011
+ 0.00540285 0.00541543 0.00542785 0.00544012 0.00545224 0.00546422
+ 0.00547605 0.00548775 0.00549931 0.00551074 0.00552204 0.00553321
+ 0.00554426 0.00555519 0.005566   0.0055767  0.00558728 0.00559775
+ 0.00560811 0.00561837 0.00562852 0.00563857][0.00191519 0.00191421 0.00191364 0.00191323 0.00191292 0.00191266
+ 0.00191244 0.00191225 0.00191209 0.00191194 0.00191181 0.00191168
+ 0.00191157 0.00191146 0.00191137 0.00191128 0.00191119 0.00191111
+ 0.00191103 0.00191096 0.00191089 0.00191083 0.00191076 0.0019107
+ 0.00191065 0.00191059 0.00191054 0.00191049 0.00191044 0.00191039
+ 0.00191034 0.0019103  0.00191025 0.00191021 0.00191017 0.00191013
+ 0.00191009 0.00191006 0.00191002 0.00190998 0.00190995 0.00190991
+ 0.00190988 0.00190985 0.00190982 0.00190979 0.00190976 0.00190973
+ 0.0019097  0.00190967 0.00190964 0.00190961 0.00190959 0.00190956
+ 0.00190953 0.00190951 0.00190948 0.00190946 0.00190943 0.00190941
+ 0.00190939 0.00190936 0.00190934 0.00190932 0.0019093  0.00190928
+ 0.00190925 0.00190923 0.00190921 0.00190919 0.00190917 0.00190915
+ 0.00190913 0.00190911 0.0019091  0.00190908 0.00190906 0.00190904
+ 0.00190902 0.001909   0.00190899 0.00190897 0.00190895 0.00190894
+ 0.00190892 0.0019089  0.00190889 0.00190887 0.00190885 0.00190884
+ 0.00190882 0.00190881 0.00190879 0.00190878 0.00190876 0.00190875
+ 0.00190873 0.00190872 0.0019087  0.00190869]Tree 0: Epoch [1/100], lr:0.0010, Loss:1.4094, Time_for_epoch: 34.4684
+Tree 0: Epoch [2/100], lr:0.0017, Loss:0.9692, Time_for_epoch: 34.5207
+Tree 0: Epoch [3/100], lr:0.0021, Loss:0.7517, Time_for_epoch: 34.6043
+Tree 0: Epoch [4/100], lr:0.0024, Loss:0.6384, Time_for_epoch: 34.7569
+Tree 0: Epoch [5/100], lr:0.0026, Loss:0.5527, Time_for_epoch: 34.7297
+Tree 0: Epoch [6/100], lr:0.0028, Loss:0.4970, Time_for_epoch: 34.7226
+Tree 0: Epoch [7/100], lr:0.0030, Loss:0.4513, Time_for_epoch: 34.6685
+Tree 0: Epoch [8/100], lr:0.0031, Loss:0.4072, Time_for_epoch: 34.6370
+Tree 0: Epoch [9/100], lr:0.0032, Loss:0.3693, Time_for_epoch: 34.7196
+Tree 0: Epoch [10/100], lr:0.0033, Loss:0.3445, Time_for_epoch: 34.7325
+Tree 0: Epoch [11/100], lr:0.0034, Loss:0.3108, Time_for_epoch: 34.6971
+Tree 0: Epoch [12/100], lr:0.0035, Loss:0.2884, Time_for_epoch: 34.7015
+Tree 0: Epoch [13/100], lr:0.0036, Loss:0.2642, Time_for_epoch: 34.7178
+Tree 0: Epoch [14/100], lr:0.0037, Loss:0.2440, Time_for_epoch: 34.7098
+Tree 0: Epoch [15/100], lr:0.0037, Loss:0.2303, Time_for_epoch: 34.7217
+Tree 0: Epoch [16/100], lr:0.0038, Loss:0.2103, Time_for_epoch: 34.7660
+Tree 0: Epoch [17/100], lr:0.0039, Loss:0.1927, Time_for_epoch: 34.7893
+Tree 0: Epoch [18/100], lr:0.0039, Loss:0.1858, Time_for_epoch: 34.7556
+Tree 0: Epoch [19/100], lr:0.0040, Loss:0.1639, Time_for_epoch: 34.7810
+Tree 0: Epoch [20/100], lr:0.0040, Loss:0.1599, Time_for_epoch: 34.8689
+Tree 0: Epoch [21/100], lr:0.0041, Loss:0.1540, Time_for_epoch: 34.8858
+Tree 0: Epoch [22/100], lr:0.0041, Loss:0.1323, Time_for_epoch: 34.8852
+Tree 0: Epoch [23/100], lr:0.0042, Loss:0.1318, Time_for_epoch: 34.8724
+Tree 0: Epoch [24/100], lr:0.0042, Loss:0.1217, Time_for_epoch: 34.8626
+Tree 0: Epoch [25/100], lr:0.0043, Loss:0.1143, Time_for_epoch: 34.8919
+Tree 0: Epoch [26/100], lr:0.0043, Loss:0.1170, Time_for_epoch: 34.8751
+Tree 0: Epoch [27/100], lr:0.0043, Loss:0.1040, Time_for_epoch: 34.8773
+Tree 0: Epoch [28/100], lr:0.0044, Loss:0.1059, Time_for_epoch: 34.8732
+Tree 0: Epoch [29/100], lr:0.0044, Loss:0.0959, Time_for_epoch: 34.8629
+Tree 0: Epoch [30/100], lr:0.0044, Loss:0.0924, Time_for_epoch: 34.8904
+Tree 0: Epoch [31/100], lr:0.0045, Loss:0.0901, Time_for_epoch: 34.8724
+Tree 0: Epoch [32/100], lr:0.0045, Loss:0.0841, Time_for_epoch: 34.8749
+Tree 0: Epoch [33/100], lr:0.0045, Loss:0.0874, Time_for_epoch: 34.8746
+Tree 0: Epoch [34/100], lr:0.0046, Loss:0.0805, Time_for_epoch: 34.8712
+Tree 0: Epoch [35/100], lr:0.0046, Loss:0.0731, Time_for_epoch: 34.8838
+Tree 0: Epoch [36/100], lr:0.0046, Loss:0.0768, Time_for_epoch: 34.8809
+Tree 0: Epoch [37/100], lr:0.0046, Loss:0.0670, Time_for_epoch: 34.8677
+Tree 0: Epoch [38/100], lr:0.0047, Loss:0.0765, Time_for_epoch: 34.8850
+Tree 0: Epoch [39/100], lr:0.0047, Loss:0.0746, Time_for_epoch: 34.8890
+Tree 0: Epoch [40/100], lr:0.0047, Loss:0.0678, Time_for_epoch: 34.8755
+Tree 0: Epoch [41/100], lr:0.0047, Loss:0.0588, Time_for_epoch: 34.8637
+Tree 0: Epoch [42/100], lr:0.0048, Loss:0.0617, Time_for_epoch: 34.8846
+Tree 0: Epoch [43/100], lr:0.0048, Loss:0.0644, Time_for_epoch: 34.8499
+Tree 0: Epoch [44/100], lr:0.0048, Loss:0.0611, Time_for_epoch: 34.9143
+Tree 0: Epoch [45/100], lr:0.0048, Loss:0.0629, Time_for_epoch: 34.9085
+Tree 0: Epoch [46/100], lr:0.0049, Loss:0.0565, Time_for_epoch: 34.8813
+Tree 0: Epoch [47/100], lr:0.0049, Loss:0.0554, Time_for_epoch: 34.8510
+Tree 0: Epoch [48/100], lr:0.0049, Loss:0.0529, Time_for_epoch: 34.8269
+Tree 0: Epoch [49/100], lr:0.0049, Loss:0.0522, Time_for_epoch: 34.8579
+Tree 0: Epoch [50/100], lr:0.0049, Loss:0.0562, Time_for_epoch: 34.8344
+Tree 0: Epoch [51/100], lr:0.0050, Loss:0.0496, Time_for_epoch: 34.8312
+Tree 0: Epoch [52/100], lr:0.0050, Loss:0.0467, Time_for_epoch: 34.8261
+Tree 0: Epoch [53/100], lr:0.0050, Loss:0.0503, Time_for_epoch: 34.8130
+Tree 0: Epoch [54/100], lr:0.0050, Loss:0.0472, Time_for_epoch: 34.7875
+Tree 0: Epoch [55/100], lr:0.0050, Loss:0.0490, Time_for_epoch: 34.8202
+Tree 0: Epoch [56/100], lr:0.0051, Loss:0.0459, Time_for_epoch: 34.7737
+Tree 0: Epoch [57/100], lr:0.0051, Loss:0.0429, Time_for_epoch: 34.8561
+Tree 0: Epoch [58/100], lr:0.0051, Loss:0.0475, Time_for_epoch: 34.8401
+Tree 0: Epoch [59/100], lr:0.0051, Loss:0.0395, Time_for_epoch: 34.8028
+Tree 0: Epoch [60/100], lr:0.0051, Loss:0.0408, Time_for_epoch: 34.8099
+Tree 0: Epoch [61/100], lr:0.0051, Loss:0.0406, Time_for_epoch: 34.8082
+Tree 0: Epoch [62/100], lr:0.0052, Loss:0.0469, Time_for_epoch: 34.8061
+Tree 0: Epoch [63/100], lr:0.0052, Loss:0.0399, Time_for_epoch: 34.8290
+Tree 0: Epoch [64/100], lr:0.0052, Loss:0.0377, Time_for_epoch: 34.8100
+Tree 0: Epoch [65/100], lr:0.0052, Loss:0.0462, Time_for_epoch: 34.8019
+Tree 0: Epoch [66/100], lr:0.0052, Loss:0.0309, Time_for_epoch: 34.8145
+Tree 0: Epoch [67/100], lr:0.0052, Loss:0.0475, Time_for_epoch: 34.8019
+Tree 0: Epoch [68/100], lr:0.0053, Loss:0.0274, Time_for_epoch: 34.8093
+Tree 0: Epoch [69/100], lr:0.0053, Loss:0.0432, Time_for_epoch: 34.8074
+Tree 0: Epoch [70/100], lr:0.0053, Loss:0.0300, Time_for_epoch: 34.8282
+Tree 0: Epoch [71/100], lr:0.0053, Loss:0.0405, Time_for_epoch: 34.8093
+Tree 0: Epoch [72/100], lr:0.0053, Loss:0.0367, Time_for_epoch: 34.8123
+Tree 0: Epoch [73/100], lr:0.0053, Loss:0.0308, Time_for_epoch: 34.8143
+Tree 0: Epoch [74/100], lr:0.0053, Loss:0.0368, Time_for_epoch: 34.8146
+Tree 0: Epoch [75/100], lr:0.0054, Loss:0.0355, Time_for_epoch: 34.8208
+Tree 0: Epoch [76/100], lr:0.0054, Loss:0.0290, Time_for_epoch: 34.8162
+Tree 0: Epoch [77/100], lr:0.0054, Loss:0.0333, Time_for_epoch: 34.8283
+Tree 0: Epoch [78/100], lr:0.0054, Loss:0.0333, Time_for_epoch: 34.8140
+Tree 0: Epoch [79/100], lr:0.0054, Loss:0.0335, Time_for_epoch: 34.7511
+Tree 0: Epoch [80/100], lr:0.0054, Loss:0.0275, Time_for_epoch: 34.7237
+Tree 0: Epoch [81/100], lr:0.0054, Loss:0.0325, Time_for_epoch: 34.7127
+Tree 0: Epoch [82/100], lr:0.0054, Loss:0.0320, Time_for_epoch: 34.7063
+Tree 0: Epoch [83/100], lr:0.0055, Loss:0.0338, Time_for_epoch: 34.7102
+Tree 0: Epoch [84/100], lr:0.0055, Loss:0.0239, Time_for_epoch: 34.7015
+Tree 0: Epoch [85/100], lr:0.0055, Loss:0.0309, Time_for_epoch: 34.7188
+Tree 0: Epoch [86/100], lr:0.0055, Loss:0.0343, Time_for_epoch: 34.7995
+Tree 0: Epoch [87/100], lr:0.0055, Loss:0.0226, Time_for_epoch: 34.8055
+Tree 0: Epoch [88/100], lr:0.0055, Loss:0.0312, Time_for_epoch: 34.7920
+Tree 0: Epoch [89/100], lr:0.0055, Loss:0.0297, Time_for_epoch: 34.8116
+Tree 0: Epoch [90/100], lr:0.0055, Loss:0.0264, Time_for_epoch: 34.8127
+Tree 0: Epoch [91/100], lr:0.0055, Loss:0.0308, Time_for_epoch: 34.8067
+Tree 0: Epoch [92/100], lr:0.0056, Loss:0.0264, Time_for_epoch: 34.8183
+Tree 0: Epoch [93/100], lr:0.0056, Loss:0.0272, Time_for_epoch: 34.8267
+Tree 0: Epoch [94/100], lr:0.0056, Loss:0.0256, Time_for_epoch: 34.8447
+Tree 0: Epoch [95/100], lr:0.0056, Loss:0.0278, Time_for_epoch: 34.8200
+Tree 0: Epoch [96/100], lr:0.0056, Loss:0.0286, Time_for_epoch: 34.8062
+Tree 0: Epoch [97/100], lr:0.0056, Loss:0.0237, Time_for_epoch: 34.8192
+Tree 0: Epoch [98/100], lr:0.0056, Loss:0.0235, Time_for_epoch: 34.8229
+Tree 0: Epoch [99/100], lr:0.0056, Loss:0.0256, Time_for_epoch: 34.8247
+Tree 0: Epoch [100/100], lr:0.0056, Loss:0.0270, Time_for_epoch: 34.8326
+Tree 0: TestLoss: 0.8251, TestAccuracy: 0.8598, Time_for_individ: 3482.7872
+Tree 1: Epoch [1/100], lr:0.0019, Loss:1.3715, Time_for_epoch: 34.8439
+Tree 1: Epoch [2/100], lr:0.0019, Loss:0.8924, Time_for_epoch: 34.8346
+Tree 1: Epoch [3/100], lr:0.0019, Loss:0.7147, Time_for_epoch: 34.8447
+Tree 1: Epoch [4/100], lr:0.0019, Loss:0.5969, Time_for_epoch: 34.8421
+Tree 1: Epoch [5/100], lr:0.0019, Loss:0.5205, Time_for_epoch: 34.8616
+Tree 1: Epoch [6/100], lr:0.0019, Loss:0.4605, Time_for_epoch: 34.8615
+Tree 1: Epoch [7/100], lr:0.0019, Loss:0.4013, Time_for_epoch: 34.8621
+Tree 1: Epoch [8/100], lr:0.0019, Loss:0.3562, Time_for_epoch: 34.8727
+Tree 1: Epoch [9/100], lr:0.0019, Loss:0.3201, Time_for_epoch: 34.8690
+Tree 1: Epoch [10/100], lr:0.0019, Loss:0.2783, Time_for_epoch: 34.8506
+Tree 1: Epoch [11/100], lr:0.0019, Loss:0.2514, Time_for_epoch: 34.8456
+Tree 1: Epoch [12/100], lr:0.0019, Loss:0.2213, Time_for_epoch: 34.8692
+Tree 1: Epoch [13/100], lr:0.0019, Loss:0.2011, Time_for_epoch: 34.8579
+Tree 1: Epoch [14/100], lr:0.0019, Loss:0.1833, Time_for_epoch: 34.8692
+Tree 1: Epoch [15/100], lr:0.0019, Loss:0.1555, Time_for_epoch: 34.8616
+Tree 1: Epoch [16/100], lr:0.0019, Loss:0.1508, Time_for_epoch: 34.8790
+Tree 1: Epoch [17/100], lr:0.0019, Loss:0.1285, Time_for_epoch: 34.8843
+Tree 1: Epoch [18/100], lr:0.0019, Loss:0.1291, Time_for_epoch: 34.8820
+Tree 1: Epoch [19/100], lr:0.0019, Loss:0.1143, Time_for_epoch: 34.8859
+Tree 1: Epoch [20/100], lr:0.0019, Loss:0.1114, Time_for_epoch: 34.8348
+Tree 1: Epoch [21/100], lr:0.0019, Loss:0.0943, Time_for_epoch: 34.8259
+Tree 1: Epoch [22/100], lr:0.0019, Loss:0.0945, Time_for_epoch: 34.8350
+Tree 1: Epoch [23/100], lr:0.0019, Loss:0.0923, Time_for_epoch: 34.8487
+Tree 1: Epoch [24/100], lr:0.0019, Loss:0.0827, Time_for_epoch: 34.8445
+Tree 1: Epoch [25/100], lr:0.0019, Loss:0.0841, Time_for_epoch: 34.8389
+Tree 1: Epoch [26/100], lr:0.0019, Loss:0.0730, Time_for_epoch: 34.8418
+Tree 1: Epoch [27/100], lr:0.0019, Loss:0.0698, Time_for_epoch: 34.8790
+Tree 1: Epoch [28/100], lr:0.0019, Loss:0.0801, Time_for_epoch: 34.8837
+Tree 1: Epoch [29/100], lr:0.0019, Loss:0.0684, Time_for_epoch: 34.8864
+Tree 1: Epoch [30/100], lr:0.0019, Loss:0.0673, Time_for_epoch: 34.8908
+Tree 1: Epoch [31/100], lr:0.0019, Loss:0.0629, Time_for_epoch: 34.9054
+Tree 1: Epoch [32/100], lr:0.0019, Loss:0.0590, Time_for_epoch: 34.8866
+Tree 1: Epoch [33/100], lr:0.0019, Loss:0.0619, Time_for_epoch: 34.8973
+Tree 1: Epoch [34/100], lr:0.0019, Loss:0.0577, Time_for_epoch: 34.8830
+Tree 1: Epoch [35/100], lr:0.0019, Loss:0.0550, Time_for_epoch: 34.8767
+Tree 1: Epoch [36/100], lr:0.0019, Loss:0.0540, Time_for_epoch: 34.8667
+Tree 1: Epoch [37/100], lr:0.0019, Loss:0.0502, Time_for_epoch: 34.8644
+Tree 1: Epoch [38/100], lr:0.0019, Loss:0.0538, Time_for_epoch: 34.8652
+Tree 1: Epoch [39/100], lr:0.0019, Loss:0.0509, Time_for_epoch: 34.8646
+Tree 1: Epoch [40/100], lr:0.0019, Loss:0.0521, Time_for_epoch: 34.8655
+Tree 1: Epoch [41/100], lr:0.0019, Loss:0.0452, Time_for_epoch: 34.8612
+Tree 1: Epoch [42/100], lr:0.0019, Loss:0.0450, Time_for_epoch: 34.8706
+Tree 1: Epoch [43/100], lr:0.0019, Loss:0.0477, Time_for_epoch: 34.8543
+Tree 1: Epoch [44/100], lr:0.0019, Loss:0.0431, Time_for_epoch: 34.8613
+Tree 1: Epoch [45/100], lr:0.0019, Loss:0.0411, Time_for_epoch: 34.8926
+Tree 1: Epoch [46/100], lr:0.0019, Loss:0.0475, Time_for_epoch: 34.8724
+Tree 1: Epoch [47/100], lr:0.0019, Loss:0.0373, Time_for_epoch: 34.8644
+Tree 1: Epoch [48/100], lr:0.0019, Loss:0.0358, Time_for_epoch: 34.8652
+Tree 1: Epoch [49/100], lr:0.0019, Loss:0.0480, Time_for_epoch: 34.8802
+Tree 1: Epoch [50/100], lr:0.0019, Loss:0.0403, Time_for_epoch: 34.9519
+Tree 1: Epoch [51/100], lr:0.0019, Loss:0.0302, Time_for_epoch: 34.9446
+Tree 1: Epoch [52/100], lr:0.0019, Loss:0.0411, Time_for_epoch: 34.9522
+Tree 1: Epoch [53/100], lr:0.0019, Loss:0.0364, Time_for_epoch: 34.9614
+Tree 1: Epoch [54/100], lr:0.0019, Loss:0.0395, Time_for_epoch: 34.9591
+Tree 1: Epoch [55/100], lr:0.0019, Loss:0.0366, Time_for_epoch: 34.9546
+Tree 1: Epoch [56/100], lr:0.0019, Loss:0.0270, Time_for_epoch: 34.9516
+Tree 1: Epoch [57/100], lr:0.0019, Loss:0.0354, Time_for_epoch: 34.9439
+Tree 1: Epoch [58/100], lr:0.0019, Loss:0.0377, Time_for_epoch: 34.8944
+Tree 1: Epoch [59/100], lr:0.0019, Loss:0.0271, Time_for_epoch: 34.8521
+Tree 1: Epoch [60/100], lr:0.0019, Loss:0.0337, Time_for_epoch: 34.9183
+Tree 1: Epoch [61/100], lr:0.0019, Loss:0.0313, Time_for_epoch: 34.8717
+Tree 1: Epoch [62/100], lr:0.0019, Loss:0.0288, Time_for_epoch: 34.8742
+Tree 1: Epoch [63/100], lr:0.0019, Loss:0.0350, Time_for_epoch: 34.9491
+Tree 1: Epoch [64/100], lr:0.0019, Loss:0.0309, Time_for_epoch: 34.9324
+Tree 1: Epoch [65/100], lr:0.0019, Loss:0.0256, Time_for_epoch: 34.9077
+Tree 1: Epoch [66/100], lr:0.0019, Loss:0.0281, Time_for_epoch: 34.9110
+Tree 1: Epoch [67/100], lr:0.0019, Loss:0.0307, Time_for_epoch: 34.9031
+Tree 1: Epoch [68/100], lr:0.0019, Loss:0.0279, Time_for_epoch: 34.8395
+Tree 1: Epoch [69/100], lr:0.0019, Loss:0.0380, Time_for_epoch: 34.8428
+Tree 1: Epoch [70/100], lr:0.0019, Loss:0.0247, Time_for_epoch: 34.8256
+Tree 1: Epoch [71/100], lr:0.0019, Loss:0.0130, Time_for_epoch: 34.8303
+Tree 1: Epoch [72/100], lr:0.0019, Loss:0.0320, Time_for_epoch: 34.8466
+Tree 1: Epoch [73/100], lr:0.0019, Loss:0.0350, Time_for_epoch: 34.9080
+Tree 1: Epoch [74/100], lr:0.0019, Loss:0.0241, Time_for_epoch: 34.9183
+Tree 1: Epoch [75/100], lr:0.0019, Loss:0.0222, Time_for_epoch: 34.9190
+Tree 1: Epoch [76/100], lr:0.0019, Loss:0.0222, Time_for_epoch: 34.9128
+Tree 1: Epoch [77/100], lr:0.0019, Loss:0.0284, Time_for_epoch: 34.9275
+Tree 1: Epoch [78/100], lr:0.0019, Loss:0.0284, Time_for_epoch: 34.8937
+Tree 1: Epoch [79/100], lr:0.0019, Loss:0.0146, Time_for_epoch: 34.9058
+Tree 1: Epoch [80/100], lr:0.0019, Loss:0.0187, Time_for_epoch: 34.9090
+Tree 1: Epoch [81/100], lr:0.0019, Loss:0.0320, Time_for_epoch: 34.9148
+Tree 1: Epoch [82/100], lr:0.0019, Loss:0.0241, Time_for_epoch: 34.9246
+Tree 1: Epoch [83/100], lr:0.0019, Loss:0.0188, Time_for_epoch: 34.9353
+Tree 1: Epoch [84/100], lr:0.0019, Loss:0.0232, Time_for_epoch: 34.9205
+Tree 1: Epoch [85/100], lr:0.0019, Loss:0.0260, Time_for_epoch: 34.9178
+Tree 1: Epoch [86/100], lr:0.0019, Loss:0.0199, Time_for_epoch: 34.9379
+Tree 1: Epoch [87/100], lr:0.0019, Loss:0.0233, Time_for_epoch: 34.9224
+Tree 1: Epoch [88/100], lr:0.0019, Loss:0.0251, Time_for_epoch: 34.9287
+Tree 1: Epoch [89/100], lr:0.0019, Loss:0.0160, Time_for_epoch: 34.9307
+Tree 1: Epoch [90/100], lr:0.0019, Loss:0.0200, Time_for_epoch: 34.9241
+Tree 1: Epoch [91/100], lr:0.0019, Loss:0.0254, Time_for_epoch: 34.9193
+Tree 1: Epoch [92/100], lr:0.0019, Loss:0.0173, Time_for_epoch: 34.9264
+Tree 1: Epoch [93/100], lr:0.0019, Loss:0.0229, Time_for_epoch: 34.9338
+Tree 1: Epoch [94/100], lr:0.0019, Loss:0.0231, Time_for_epoch: 34.9159
+Tree 1: Epoch [95/100], lr:0.0019, Loss:0.0193, Time_for_epoch: 34.9195
+Tree 1: Epoch [96/100], lr:0.0019, Loss:0.0203, Time_for_epoch: 34.9269
+Tree 1: Epoch [97/100], lr:0.0019, Loss:0.0182, Time_for_epoch: 34.9232
+Tree 1: Epoch [98/100], lr:0.0019, Loss:0.0174, Time_for_epoch: 34.9230
+Tree 1: Epoch [99/100], lr:0.0019, Loss:0.0192, Time_for_epoch: 34.9075
+Tree 1: Epoch [100/100], lr:0.0019, Loss:0.0218, Time_for_epoch: 34.9166
+Tree 1: TestLoss: 0.9330, TestAccuracy: 0.8508, Time_for_individ: 3491.3752
+Открытие файла для записи losses
+Закрытие файла для записи losses
+Time_whole_program: 360377.0461 seconds
+General 15
