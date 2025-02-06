@@ -13,7 +13,7 @@ from models.av_MNIST import *
 from models.mobilenetv2 import *
 import math
 from torch.amp import autocast, GradScaler
-from torch.optim.lr_scheduler import StepLR, MultiStepLR, ExponentialLR, CosineAnnealingLR
+from torch.optim.lr_scheduler import StepLR, MultiStepLR, ExponentialLR, CosineAnnealingLR, CyclicLR, ReduceLROnPlateau
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 torch.set_default_device('cuda')
@@ -83,26 +83,29 @@ def main():
     f_log.write('Time_data_preparation: {:.4f}\n'.format(time.time() - time_prepar))
     
     num_epochs = 100
-    f_wr.write('StepLR\tMultiStepLR\tExponentialLR\tCosineAnnealingLR\n')
-    for l in range(10):
+    f_wr.write('CyclicLR1\tCyclicLR2\n')
+    for l in range(5):
         model = MobileNetV2()
         optimizer = optim.Adam(model.parameters(), lr=0.001)
         schedulers = [
-            StepLR(optimizer, step_size=3, gamma=0.95),  # Уменьшает LR каждые 30 эпох
-            MultiStepLR(optimizer, milestones=[10, 30, 50, 80], gamma=0.1),  # Уменьшает LR на 30 и 80 эпохах
-            ExponentialLR(optimizer, gamma=0.95),  # Экспоненциально уменьшает LR
-            CosineAnnealingLR(optimizer, T_max=50)  # Косинусное затухание LR
+            #CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=5,mode="triangular"),
+            #CyclicLR(optimizer, base_lr=0.001, max_lr=0.1,step_size_up=5,mode="triangular2")
+            #ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=10)
+            #StepLR(optimizer, step_size=3, gamma=0.95),  # Уменьшает LR каждые 30 эпох
+            #MultiStepLR(optimizer, milestones=[10, 30, 50, 80], gamma=0.1),  # Уменьшает LR на 30 и 80 эпохах
+            #ExponentialLR(optimizer, gamma=0.95),  # Экспоненциально уменьшает LR
+            CosineAnnealingLR(optimizer, T_max=num_epochs)  # Косинусное затухание LR
         ]
         for k, scheduler in enumerate(schedulers):#по schedulers
             print(f"Testing scheduler {k}: {scheduler.__class__.__name__}")
-            f_log.write(f"Testing scheduler {k}: {scheduler.__class__.__name__}")
+            f_log.write(f"Testing scheduler {k}: {scheduler.__class__.__name__}\n")
             time_individ = time.time()
             #model = av_Classifier()
             model = MobileNetV2()
             model = model.to(device)
             #model = torch.compile(model) кажется без этого лучше, было 21 с стало 27
             criterion = nn.CrossEntropyLoss()
-            optimizer = optim.Adam(model.parameters(), lr=0.01)
+            optimizer = optim.Adam(model.parameters(), lr=0.001)
             scheduler.optimizer = optimizer
             model.train() # Если нет Dropout, то не имеет смысла, но считается правилом хорошего тона
             f_log.close()

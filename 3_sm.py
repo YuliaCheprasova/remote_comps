@@ -13,9 +13,10 @@ from models.av_MNIST import *
 from models.mobilenetv2 import *
 from math import *
 from torch.amp import autocast, GradScaler
+from sklearn.linear_model import LinearRegression
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-#torch.set_default_device('cuda')
+torch.set_default_device('cuda')
 max_int = sys.maxsize
 # min_int = -sys.maxsize-1
 
@@ -23,7 +24,7 @@ max_int = sys.maxsize
 
 def check_status():
     status = 0
-    f_status = open('C:/Programs/Disk_C/CodeBlocks_projects/QW_send_formulas/Status1.txt', 'r')
+    f_status = open('/home/mpiscil/cloud2/Yulia/QW_send_formulas/Status3.txt', 'r')
     while status == 0:
         time.sleep(0.1)
         symbol = f_status.read(1)
@@ -38,33 +39,15 @@ def check_status():
     return gen
 
 def get_formulas():
-    f = open('C:/Programs/Disk_C/CodeBlocks_projects/QW_send_formulas/Formulas1.txt', 'r')
+    f = open('/home/mpiscil/cloud2/Yulia/QW_send_formulas/Formulas3.txt', 'r')
     try:
         formulas = f.readlines()
-        print(formulas)
         n_individs = len(formulas)
         formulas = [line.rstrip() for line in formulas]
+        print(formulas)
     finally:
         f.close()
     return n_individs, formulas
-
-def get_lrs():
-    f = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Lrs1.txt', 'r')
-    # f = open('C:/Programs/Disk_C/My projects/genetic_programming_with_nn/genetic_programming_with_nn/Lrs.txt', 'r')
-    try:
-        lines = f.readlines()
-        n_individs = len(lines)
-        num_epochs = lines[0].count('\t')
-        lrs = np.zeros((n_individs, num_epochs))
-        for i, line in enumerate(lines):
-            line = line.rstrip()
-            line = line.split('\t')
-            line = list(map(float, line))
-            lrs[i] = np.array(line)
-        print(lrs)
-    finally:
-        f.close()
-    return n_individs, num_epochs, lrs
 
 
 def train_cycle(results, num_epochs, formulas, k, optimizer, train_loader, model, criterion, log_filename, gen):
@@ -74,7 +57,9 @@ def train_cycle(results, num_epochs, formulas, k, optimizer, train_loader, model
     coef = 0
     wind = 10
     losses = np.zeros(num_epochs)
-    sm_losses = np.zeros(wind)
+    sm_losses = np.zeros(num_epochs)
+    x_last = np.arange(1, wind+1)
+    x_last = x_last.reshape(-1, 1)
     for epoch in range(1, num_epochs + 1):
         time_epoch = time.time()
         x00 = epoch
@@ -85,7 +70,7 @@ def train_cycle(results, num_epochs, formulas, k, optimizer, train_loader, model
             results[k] = max_int
             res = True
             break
-        if isinf(lr) or isnan(lr):
+        if type(lr) == complex or isinf(lr) or isnan(lr):
             results[k] = max_int
             res = True
             break
@@ -95,10 +80,10 @@ def train_cycle(results, num_epochs, formulas, k, optimizer, train_loader, model
         running_loss = 0
         for images, labels in train_loader:  # цикл по батчам
             images, labels = images.to(device, non_blocking=True), labels.to(device, non_blocking=True)
-            #torch.cuda.synchronize()
-            #with autocast(device_type='cuda'):
-            outputs = model(images)
-            loss = criterion(outputs, labels)
+            torch.cuda.synchronize()
+            with autocast(device_type='cuda'):
+                outputs = model(images)
+                loss = criterion(outputs, labels)
             optimizer.zero_grad()
             scaler.scale(loss).backward()
             scaler.step(optimizer)
@@ -114,11 +99,14 @@ def train_cycle(results, num_epochs, formulas, k, optimizer, train_loader, model
             results[k] = max_int
             res = True
             break
-        if epoch % 10 == 0:
-            sm_losses[0] = losses[epoch-10]
-            for i in range(1, wind):
-                sm_losses[i] = sm_losses[i - 1] * 0.999 + losses[epoch-10+i] * 0.001
-            coef = (sm_losses[0] - sm_losses[wind-1])/wind
+        if epoch % wind == 0:
+            sm_losses[0] = losses[0]
+            for i in range(1, epoch):
+                sm_losses[i] = sm_losses[i - 1] * 0.8 + losses[i] * 0.2
+            sm_losses_last = sm_losses[epoch-wind:epoch]
+            reg = LinearRegression().fit(x_last, sm_losses_last)
+            coef = reg.coef_[0]
+            #coef = (sm_losses[0] - sm_losses[wind-1])/wind
     f_log.close()
     return res
 
@@ -128,9 +116,9 @@ def test_cycle(test_loader, model, criterion, len_testdt, results, k):
     with torch.no_grad():
         for images, labels in test_loader:
             images, labels = images.to(device), labels.to(device)
-            #with autocast(device_type='cuda'):
-            outputs = model(images)
-            loss = criterion(outputs, labels)
+            with autocast(device_type='cuda'):
+                outputs = model(images)
+                loss = criterion(outputs, labels)
             test_loss += loss.item()
             _, predicted = torch.max(outputs.data, 1)  # получаем индекс
             correct += torch.sum(predicted == labels).item()
@@ -145,7 +133,7 @@ def test_cycle(test_loader, model, criterion, len_testdt, results, k):
 
 
 def write_losses(n_individs, results):
-    f_write = open('C:/Programs/Disk_C/CodeBlocks_projects/QW_send_formulas/Losses1.txt', 'w')
+    f_write = open('/home/mpiscil/cloud2/Yulia/QW_send_formulas/Losses3.txt', 'w')
     try:
         for i in range(n_individs):
             f_write.write(f"{results[i]:.8f}\n")
@@ -154,24 +142,24 @@ def write_losses(n_individs, results):
 
 def main():
     #parallel = True
-    #torch.set_float32_matmul_precision("medium")# снижение точности вычислений
-    #torch.backends.cudnn.benchmark = True
-    log_filename = 'C:/Programs/Disk_C/CodeBlocks_projects/QW_send_formulas/Log_python1.txt'
+    torch.set_float32_matmul_precision("medium")# снижение точности вычислений
+    torch.backends.cudnn.benchmark = True
+    log_filename = '/home/mpiscil/cloud2/Yulia/QW_send_formulas/Log_python3.txt'
     f_log = open(log_filename, 'w', buffering=1)
     print('start Python')
     f_log.write('start Python\n')
     num_generals = 500+1
     batch_size = 128
     num_workers = 0
-    num_epochs = 2
+    num_epochs = 100
     time_prepar = time.time()
     generator = torch.Generator(device=device)
     transform = transforms.Compose(
         [transforms.ToTensor(), ])  # transforms.ToTensor() автоматически нормализует данные в случае картинок
-    traindt = MNIST(root='data/', train=True, transform=transform, download=True)
-    testdt = MNIST(root='data/', train=False, transform=transform, download=True)
-    #traindt = CIFAR10(root='data/', train=True, transform=transform, download=True)
-    #testdt = CIFAR10(root='data/', train=False, transform=transform, download=True)
+    #traindt = MNIST(root='data/', train=True, transform=transform, download=True)
+    #testdt = MNIST(root='data/', train=False, transform=transform, download=True)
+    traindt = CIFAR10(root='data/', train=True, transform=transform, download=True)
+    testdt = CIFAR10(root='data/', train=False, transform=transform, download=True)
     train_loader = DataLoader(traindt, batch_size, shuffle=True, generator=generator, num_workers=num_workers)
     test_loader = DataLoader(testdt, batch_size, shuffle=False, generator=generator, num_workers=num_workers)
     print('Time_data_preparation: {:.4f}'.format(time.time() - time_prepar))
@@ -190,8 +178,8 @@ def main():
         results = np.zeros(n_individs)
         for k in range(n_individs):
             time_individ = time.time()
-            model = av_Classifier()
-            #model = MobileNetV2()
+            #model = av_Classifier()
+            model = MobileNetV2()
             model = model.to(device)
             #model = torch.compile(model) кажется без этого лучше, было 21 с стало 27
             criterion = nn.CrossEntropyLoss()
@@ -219,7 +207,7 @@ def main():
         write_losses(n_individs, results)
         print("Закрытие файла для записи losses")
         f_log.write("Закрытие файла для записи losses\n")
-        f_status = open('C:/Programs/Disk_C/CodeBlocks_projects/QW_send_formulas/Status1.txt', 'w')
+        f_status = open('/home/mpiscil/cloud2/Yulia/QW_send_formulas/Status3.txt', 'w')
         f_status.write('0')
         f_status.close()
         print("Time_whole_program: {:.4f} seconds".format(time.time() - start))  # 76 85 почему-то, надо попробовть когда процессор будет не так занят

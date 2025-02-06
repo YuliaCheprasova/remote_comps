@@ -11,6 +11,8 @@ import time
 import torch.nn.functional as F
 from models.av_MNIST import *
 from models.mobilenetv2 import *
+from models.resnet import *
+from models.preact_resnet import *
 from math import *
 from torch.amp import autocast, GradScaler
 from torch.optim.lr_scheduler import StepLR, MultiStepLR, ExponentialLR, CosineAnnealingLR
@@ -76,9 +78,10 @@ def main():
     torch.set_float32_matmul_precision("medium")  # снижение точности вычислений
     torch.backends.cudnn.benchmark = True
     #log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_ep^0,29.txt'
-    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_exp(sin(ep)).txt'
+    #log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_exp(sin(ep)).txt'
+    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_resnet.txt'
     f_log = open(log_filename, 'w', buffering=1)
-    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/exp(sin(ep))_losses.txt', 'w', buffering=1)
+    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/resnet_losses.txt', 'w', buffering=1)
     print('start Python')
     f_log.write('start Python\n')
     batch_size = 128
@@ -97,34 +100,40 @@ def main():
 
     #expr = "cos(cos(e))"
     #expr = "(e)**0.29"
-    expr = "exp(sin(e))"
-    get_lrs(num_epochs, lrs, expr)
-    f_log.write(f"Testing expression {expr}")
-    f_log.write(str(lrs))
-    for l in range(10):
-        time_individ = time.time()
-        # model = av_Classifier()
-        model = MobileNetV2()
-        model = model.to(device)
-        # model = torch.compile(model) кажется без этого лучше, было 21 с стало 27
-        criterion = nn.CrossEntropyLoss()
-        optimizer = optim.Adam(model.parameters(), lr=0.01)
-        model.train()  # Если нет Dropout, то не имеет смысла, но считается правилом хорошего тона
-        f_log.close()
-        train_cycle(num_epochs, lrs, optimizer, train_loader, model, criterion, log_filename)
-        f_log = open(log_filename, 'a', buffering=1)
-        model.eval()  # Если нет Dropout, то не имеет смысла, но считается правилом хорошего тона
-        len_testdt = len(testdt)
-        test_loss, test_acc = test_cycle(test_loader, model, criterion, len_testdt)
-        print(
-            'TestLoss: {:.4f}, TestAccuracy: {:.4f}, Time_for_individ: {:.4f}'.format(test_loss,
-                                                                                                 test_acc,
-                                                                                                 time.time() - time_individ))
-        f_log.write(
-            'TestLoss: {:.4f}, TestAccuracy: {:.4f}, Time_for_individ: {:.4f}\n'.format(test_loss,
-                                                                                                   test_acc,
-                                                                                                   time.time() - time_individ))
-        f_wr.write('{:.4f} {:.4f}\n'.format(test_loss, test_acc))
+    #expr = "exp(sin(e))"
+    #expr = 'log(e)'
+    #expr = '3.5'
+    exprs = ["cos(cos(e))", "(e)**0.29", "exp(sin(e))", "log(e)"]
+    for expr in exprs:
+        get_lrs(num_epochs, lrs, expr)
+        f_log.write(f"Testing expression {expr}")
+        f_log.write(str(lrs))
+        for l in range(5):
+            time_individ = time.time()
+            # model = av_Classifier()
+            #model = MobileNetV2()
+            model = ResNet18()
+            model = PreActResNet18()
+            model = model.to(device)
+            # model = torch.compile(model) кажется без этого лучше, было 21 с стало 27
+            criterion = nn.CrossEntropyLoss()
+            optimizer = optim.Adam(model.parameters(), lr=0.01)
+            model.train()  # Если нет Dropout, то не имеет смысла, но считается правилом хорошего тона
+            f_log.close()
+            train_cycle(num_epochs, lrs, optimizer, train_loader, model, criterion, log_filename)
+            f_log = open(log_filename, 'a', buffering=1)
+            model.eval()  # Если нет Dropout, то не имеет смысла, но считается правилом хорошего тона
+            len_testdt = len(testdt)
+            test_loss, test_acc = test_cycle(test_loader, model, criterion, len_testdt)
+            print(
+                'TestLoss: {:.4f}, TestAccuracy: {:.4f}, Time_for_individ: {:.4f}'.format(test_loss,
+                                                                                                    test_acc,
+                                                                                                    time.time() - time_individ))
+            f_log.write(
+                'TestLoss: {:.4f}, TestAccuracy: {:.4f}, Time_for_individ: {:.4f}\n'.format(test_loss,
+                                                                                                    test_acc,
+                                                                                                    time.time() - time_individ))
+            f_wr.write('{:.4f} {:.4f}\n'.format(test_loss, test_acc))
 
     f_log.close()
     f_wr.close()
