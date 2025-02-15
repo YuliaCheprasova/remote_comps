@@ -43,6 +43,8 @@ def get_formulas():
     try:
         formulas = f.readlines()
         n_individs = len(formulas)
+        if n_individs == 0:
+            return 0, ""
         formulas = [line.rstrip() for line in formulas]
         print(formulas)
     finally:
@@ -70,7 +72,7 @@ def train_cycle(results, num_epochs, formulas, k, optimizer, train_loader, model
             results[k] = max_int
             res = True
             break
-        if type(lr) == complex or isinf(lr) or isnan(lr):
+        if type(lr) == complex or isinf(lr) or isnan(lr) or lr > max_int:
             results[k] = max_int
             res = True
             break
@@ -172,6 +174,10 @@ def main():
         print('General {}\n'.format(general))
         f_log.write('General {}\n'.format(general))
         n_individs, formulas = get_formulas()
+        if n_individs == 0:
+            print("I haven't got individuals")
+            f_log.write("I haven't got individuals\n")
+            continue
         for i in range(n_individs):
             f_log.write(formulas[i])
             f_log.write("\n")

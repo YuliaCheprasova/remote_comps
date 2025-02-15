@@ -1,6 +1,6 @@
 import torch
 import torchvision
-from torchvision.datasets import MNIST, CIFAR10
+from torchvision.datasets import MNIST, CIFAR10, CIFAR100
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 import torch.nn as nn
@@ -11,6 +11,8 @@ import time
 import torch.nn.functional as F
 from models.av_MNIST import *
 from models.mobilenetv2 import *
+from models.resnet import *
+from models.preact_resnet import *
 import math
 from torch.amp import autocast, GradScaler
 from torch.optim.lr_scheduler import StepLR, MultiStepLR, ExponentialLR, CosineAnnealingLR, CyclicLR, ReduceLROnPlateau
@@ -18,6 +20,7 @@ from torch.optim.lr_scheduler import StepLR, MultiStepLR, ExponentialLR, CosineA
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 torch.set_default_device('cuda')
 
+# for ReduceLROnPlateau change train_cycle(test_loader), scheduler.step(test_loss), test_cycle
 def train_cycle(num_epochs, k, optimizer, train_loader, model, criterion, log_filename, scheduler, test_loader):
     f_log = open(log_filename, 'a', buffering=1)
     scaler = GradScaler()
@@ -66,18 +69,24 @@ def test_cycle(test_loader, model, criterion, len_testdt):
     return test_loss, test_acc
 
 def main():
+    #LOOK AT INITIAL_LR, FILENAME, TRANSFORMER, LIST, DATA, NET
     torch.set_float32_matmul_precision("medium")# снижение точности вычислений
     torch.backends.cudnn.benchmark = True
-    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_scheduler.txt'
+    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Scheduler_resnet_C10д_plat.txt'
     f_log = open(log_filename, 'w', buffering=1)
-    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_scheduler_losses.txt', 'w', buffering=1)
+    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Scheduler_losses_resnet_C10_plat.txt', 'w', buffering=1)
     print('start Python')
     f_log.write('start Python\n')
     batch_size = 128
     time_prepar = time.time()
     generator = torch.Generator(device=device)
-    transform = transforms.Compose(
-        [transforms.ToTensor(), ])  # transforms.ToTensor() автоматически нормализует данные в случае картинок
+    transform = transforms.Compose([transforms.ToTensor(), ])  # transforms.ToTensor() автоматически нормализует данные в случае картинок
+    """transform = transforms.Compose([
+        transforms.RandomCrop(32, padding=4),
+        transforms.RandomHorizontalFlip(),
+        transforms.ToTensor(),
+        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
+    ])"""
     traindt = CIFAR10(root='data/', train=True, transform=transform, download=True)
     testdt = CIFAR10(root='data/', train=False, transform=transform, download=True)
     train_loader = DataLoader(traindt, batch_size, shuffle=True, generator=generator)
@@ -86,29 +95,35 @@ def main():
     f_log.write('Time_data_preparation: {:.4f}\n'.format(time.time() - time_prepar))
     
     num_epochs = 100
-    f_wr.write('StepLR\tMultiStepLR\tExponLR\tCosineLR\n')
+    num_classes = 10
+    #f_wr.write('CyclicLR1\tCyclicLR2\tStepLR\tMultiStepLR\tExponLR\tCosineAnnLR\n')
+    f_wr.write("RedLROnPlat\n")
     for l in range(5):
-        model = MobileNetV2()
-        optimizer = optim.Adam(model.parameters(), lr=0.001)
+        #model = MobileNetV2()
+        model = ResNet18(num_classes)
+        model = PreActResNet18(num_classes)
+        optimizer = optim.Adam(model.parameters(), lr=0.01)
         schedulers = [
             #CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=5,mode="triangular"),
-            #CyclicLR(optimizer, base_lr=0.001, max_lr=0.1,step_size_up=5,mode="triangular2"),
-            ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=10)
+            #CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=5,mode="triangular2"),
+            ReduceLROnPlateau(optimizer, mode='min', factor=0.8, patience=10)
             #StepLR(optimizer, step_size=3, gamma=0.95),  # Уменьшает LR каждые 30 эпох
             #MultiStepLR(optimizer, milestones=[10, 30, 50, 80], gamma=0.5),  # Уменьшает LR на 30 и 80 эпохах
             #ExponentialLR(optimizer, gamma=0.95),  # Экспоненциально уменьшает LR
             #CosineAnnealingLR(optimizer, T_max=50)  # Косинусное затухание LR
         ]
-        for k, scheduler in enumerate(schedulers):#по schedulers
+        for k, scheduler in enumerate(schedulers):
             print(f"Testing scheduler {k}: {scheduler.__class__.__name__}")
             f_log.write(f"Testing scheduler {k}: {scheduler.__class__.__name__}\n")
             time_individ = time.time()
             #model = av_Classifier()
-            model = MobileNetV2()
+            #model = MobileNetV2()
+            model = ResNet18(num_classes)
+            model = PreActResNet18(num_classes)
             model = model.to(device)
             #model = torch.compile(model) кажется без этого лучше, было 21 с стало 27
             criterion = nn.CrossEntropyLoss()
-            optimizer = optim.Adam(model.parameters(), lr=0.001)
+            optimizer = optim.Adam(model.parameters(), lr=0.01)
             scheduler.optimizer = optimizer
             model.train() # Если нет Dropout, то не имеет смысла, но считается правилом хорошего тона
             f_log.close()
@@ -133,3 +148,4 @@ if __name__ == '__main__':
     main()
     
     
+ 

@@ -71,6 +71,8 @@ def get_lrs():
     try:
         lines = f.readlines()
         n_individs = len(lines)
+        if n_individs == 0:
+            return 0, 0, 0
         num_epochs = lines[0].count('\t')
         lrs = np.zeros((n_individs, num_epochs))
         for i, line in enumerate(lines):
@@ -185,6 +187,10 @@ def main():
         print('General {}\n'.format(general))
         f_log.write('General {}\n'.format(general))
         n_individs, num_epochs, lrs = get_lrs()
+        if n_individs == 0:
+            print("I haven't got individuals")
+            f_log.write("I haven't got individuals\n")
+            continue
         for i in range(n_individs):
             f_log.write(str(lrs[i]))
         #modified_lrs(lrs, ignore, max_int)

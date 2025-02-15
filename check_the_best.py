@@ -1,6 +1,6 @@
 import torch
 import torchvision
-from torchvision.datasets import MNIST, CIFAR10
+from torchvision.datasets import MNIST, CIFAR10, CIFAR100
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 import torch.nn as nn
@@ -13,6 +13,7 @@ from models.av_MNIST import *
 from models.mobilenetv2 import *
 from models.resnet import *
 from models.preact_resnet import *
+from models.googlenet import *
 from math import *
 from torch.amp import autocast, GradScaler
 from torch.optim.lr_scheduler import StepLR, MultiStepLR, ExponentialLR, CosineAnnealingLR
@@ -79,16 +80,21 @@ def main():
     torch.backends.cudnn.benchmark = True
     #log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_ep^0,29.txt'
     #log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_exp(sin(ep)).txt'
-    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_resnet.txt'
+    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Expr_google_C10.txt'
     f_log = open(log_filename, 'w', buffering=1)
-    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/resnet_losses.txt', 'w', buffering=1)
+    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Expr_google_C10_losses.txt', 'w', buffering=1)
     print('start Python')
     f_log.write('start Python\n')
     batch_size = 128
     time_prepar = time.time()
     generator = torch.Generator(device=device)
-    transform = transforms.Compose(
-        [transforms.ToTensor(), ])  # transforms.ToTensor() автоматически нормализует данные в случае картинок
+    transform = transforms.Compose([transforms.ToTensor(), ])  # transforms.ToTensor() автоматически нормализует данные в случае картинок
+    """transform = transforms.Compose([
+        transforms.RandomCrop(32, padding=4),
+        transforms.RandomHorizontalFlip(),
+        transforms.ToTensor(),
+        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
+    ])"""
     traindt = CIFAR10(root='data/', train=True, transform=transform, download=True)
     testdt = CIFAR10(root='data/', train=False, transform=transform, download=True)
     train_loader = DataLoader(traindt, batch_size, shuffle=True, generator=generator)
@@ -106,14 +112,15 @@ def main():
     exprs = ["cos(cos(e))", "(e)**0.29", "exp(sin(e))", "log(e)"]
     for expr in exprs:
         get_lrs(num_epochs, lrs, expr)
-        f_log.write(f"Testing expression {expr}")
-        f_log.write(str(lrs))
+        f_log.write(f"Testing expression {expr}\n")
+        f_log.write(str(lrs) + "\n")
         for l in range(5):
             time_individ = time.time()
             # model = av_Classifier()
             #model = MobileNetV2()
-            model = ResNet18()
-            model = PreActResNet18()
+            #model = ResNet18()
+            #model = PreActResNet18()
+            model = GoogLeNet()
             model = model.to(device)
             # model = torch.compile(model) кажется без этого лучше, было 21 с стало 27
             criterion = nn.CrossEntropyLoss()
