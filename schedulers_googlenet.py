@@ -16,7 +16,7 @@ from models.preact_resnet import *
 from models.googlenet import *
 import math
 from torch.amp import autocast, GradScaler
-from torch.optim.lr_scheduler import StepLR, MultiStepLR, ExponentialLR, CosineAnnealingLR, CyclicLR, ReduceLROnPlateau
+from torch.optim.lr_scheduler import StepLR, MultiStepLR, ExponentialLR, CosineAnnealingLR, CyclicLR, ReduceLROnPlateau, OneCycleLR
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 torch.set_default_device('cuda')
@@ -39,11 +39,12 @@ def train_cycle(num_epochs, k, optimizer, train_loader, model, criterion, log_fi
             scaler.step(optimizer)
             scaler.update()
             running_loss += loss.item()
+            scheduler.step()
         lr = optimizer.param_groups[0]['lr']
         #forReduceLROnPlateau
         #test_loss, test_acc = test_cycle(test_loader, model, criterion, len(labels))
         #
-        scheduler.step()
+        #scheduler.step()
         running_loss /= len(train_loader)
         print('Method {}: Epoch [{}/{}], lr:{:.4f}, Loss:{:.4f}, Time_for_epoch: {:.4f}'.format(
             k, epoch, num_epochs, lr, running_loss, time.time() - time_epoch))
@@ -70,63 +71,66 @@ def test_cycle(test_loader, model, criterion, len_testdt):
     return test_loss, test_acc
 
 def main():
-    #LOOK AT INITIAL_LR, FILENAME, TRANSFORMER, LIST, DATA, NET, RedLROnPlat
+    #LOOK AT INITIAL_LR, FILENAME, TRANSFORMER, LIST, DATA, NET, RedLROnPlat, NUM_classes, Cyclic, num_epochs, COSINE
+    #to apply OneCycleLR delete rewrited model and optimizer
     torch.set_float32_matmul_precision("medium")# снижение точности вычислений
     torch.backends.cudnn.benchmark = True
-    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Scheduler_google_C10.txt'
+    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Scheduler_resnet_C100_50_cycle.txt' 
     f_log = open(log_filename, 'w', buffering=1)
-    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Scheduler_losses_google_C10.txt', 'w', buffering=1)
+    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Scheduler_losses_resnet_C100_50_cycle.txt', 'w', buffering=1)
     print('start Python')
     f_log.write('start Python\n')
     batch_size = 128
     time_prepar = time.time()
     generator = torch.Generator(device=device)
-    transform = transforms.Compose([transforms.ToTensor(), ])  # transforms.ToTensor() автоматически нормализует данные в случае картинок
-    """transform = transforms.Compose([
+    #transform = transforms.Compose([transforms.ToTensor(), ])  # transforms.ToTensor() автоматически нормализует данные в случае картинок
+    transform = transforms.Compose([
         transforms.RandomCrop(32, padding=4),
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
         transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
-    ])"""
-    traindt = CIFAR10(root='data/', train=True, transform=transform, download=True)
-    testdt = CIFAR10(root='data/', train=False, transform=transform, download=True)
+    ])
+    traindt = CIFAR100(root='data/', train=True, transform=transform, download=True)
+    testdt = CIFAR100(root='data/', train=False, transform=transform, download=True)
     train_loader = DataLoader(traindt, batch_size, shuffle=True, generator=generator)
     test_loader = DataLoader(testdt, batch_size, shuffle=False, generator=generator)
     print('Time_data_preparation: {:.4f}'.format(time.time() - time_prepar))
     f_log.write('Time_data_preparation: {:.4f}\n'.format(time.time() - time_prepar))
     
-    num_epochs = 100
-    num_classes = 10
-    f_wr.write('CyclicLR1\tCyclicLR2\tStepLR\tMultiStepLR\tExponLR\tCosineAnnLR\n')
+    num_epochs = 50
+    num_classes = 100
+    f_wr.write('CyclicLR1\tCyclicLR2\n')
     #f_wr.write("RedLROnPlat\n")
     for l in range(5):
         #model = MobileNetV2()
-        #model = ResNet18(num_classes)
-        #model = PreActResNet18(num_classes)
-        model = GoogLeNet()
+        model = ResNet18(num_classes)
+        model = PreActResNet18(num_classes)
+        #model = GoogLeNet()
         optimizer = optim.Adam(model.parameters(), lr=0.01)
         schedulers = [
-            CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=5,mode="triangular"),
-            CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=5,mode="triangular2"),
+            #OneCycleLR(optimizer, max_lr=0.01, steps_per_epoch=len(train_loader), epochs=num_epochs),
+            CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=3125,mode="triangular"),
+            CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=3125,mode="triangular2"),
             #ReduceLROnPlateau(optimizer, mode='min', factor=0.8, patience=10)
-            StepLR(optimizer, step_size=3, gamma=0.95),  # Уменьшает LR каждые 30 эпох
-            MultiStepLR(optimizer, milestones=[10, 30, 50, 80], gamma=0.5),  # Уменьшает LR на 30 и 80 эпохах
-            ExponentialLR(optimizer, gamma=0.95),  # Экспоненциально уменьшает LR
-            CosineAnnealingLR(optimizer, T_max=50)  # Косинусное затухание LR
+            #StepLR(optimizer, step_size=3, gamma=0.95),  # Уменьшает LR каждые 30 эпох
+            #MultiStepLR(optimizer, milestones=[10, 30, 50, 80], gamma=0.5),  # Уменьшает LR на 30 и 80 эпохах
+            #ExponentialLR(optimizer, gamma=0.95),  # Экспоненциально уменьшает LR
+            #CosineAnnealingLR(optimizer, T_max=150),
+            #CosineAnnealingLR(optimizer, T_max=25) # Косинусное затухание LR
         ]
         for k, scheduler in enumerate(schedulers):
             print(f"Testing scheduler {k}: {scheduler.__class__.__name__}")
             f_log.write(f"Testing scheduler {k}: {scheduler.__class__.__name__}\n")
             time_individ = time.time()
             #model = av_Classifier()
-            #model = MobileNetV2()
-            #model = ResNet18(num_classes)
-            #model = PreActResNet18(num_classes)
-            model = GoogLeNet()
+            #model = MobileNetV2() #HERE OneCycleLR
+            model = ResNet18(num_classes)
+            model = PreActResNet18(num_classes)
+            #model = GoogLeNet()
             model = model.to(device)
             #model = torch.compile(model) кажется без этого лучше, было 21 с стало 27
-            criterion = nn.CrossEntropyLoss()
-            optimizer = optim.Adam(model.parameters(), lr=0.01)
+            criterion = nn.CrossEntropyLoss() 
+            optimizer = optim.Adam(model.parameters(), lr=0.01) #HERE OneCycleLR
             scheduler.optimizer = optimizer
             model.train() # Если нет Dropout, то не имеет смысла, но считается правилом хорошего тона
             f_log.close()

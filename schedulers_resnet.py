@@ -13,6 +13,7 @@ from models.av_MNIST import *
 from models.mobilenetv2 import *
 from models.resnet import *
 from models.preact_resnet import *
+from models.googlenet import *
 import math
 from torch.amp import autocast, GradScaler
 from torch.optim.lr_scheduler import StepLR, MultiStepLR, ExponentialLR, CosineAnnealingLR, CyclicLR, ReduceLROnPlateau
@@ -38,11 +39,12 @@ def train_cycle(num_epochs, k, optimizer, train_loader, model, criterion, log_fi
             scaler.step(optimizer)
             scaler.update()
             running_loss += loss.item()
+            scheduler.step()
         lr = optimizer.param_groups[0]['lr']
         #forReduceLROnPlateau
-        test_loss, test_acc = test_cycle(test_loader, model, criterion, len(labels))
+        #test_loss, test_acc = test_cycle(test_loader, model, criterion, len(labels))
         #
-        scheduler.step(test_loss)
+        #scheduler.step()
         running_loss /= len(train_loader)
         print('Method {}: Epoch [{}/{}], lr:{:.4f}, Loss:{:.4f}, Time_for_epoch: {:.4f}'.format(
             k, epoch, num_epochs, lr, running_loss, time.time() - time_epoch))
@@ -69,12 +71,12 @@ def test_cycle(test_loader, model, criterion, len_testdt):
     return test_loss, test_acc
 
 def main():
-    #LOOK AT INITIAL_LR, FILENAME, TRANSFORMER, LIST, DATA, NET
+    #LOOK AT INITIAL_LR, FILENAME, TRANSFORMER, LIST, DATA, NET, NUM_classes, RedLROnPlat, Cyclic
     torch.set_float32_matmul_precision("medium")# снижение точности вычислений
     torch.backends.cudnn.benchmark = True
-    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Scheduler_resnet_C10д_plat.txt'
+    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Cyclic3125_google_C10.txt'
     f_log = open(log_filename, 'w', buffering=1)
-    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Scheduler_losses_resnet_C10_plat.txt', 'w', buffering=1)
+    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Cyclic3125_google_C10_losses.txt', 'w', buffering=1)
     print('start Python')
     f_log.write('start Python\n')
     batch_size = 128
@@ -97,16 +99,18 @@ def main():
     num_epochs = 100
     num_classes = 10
     #f_wr.write('CyclicLR1\tCyclicLR2\tStepLR\tMultiStepLR\tExponLR\tCosineAnnLR\n')
-    f_wr.write("RedLROnPlat\n")
+    f_wr.write('CyclicLR1\tCyclicLR2\n')
+    #f_wr.write("RedLROnPlat\n")
     for l in range(5):
         #model = MobileNetV2()
-        model = ResNet18(num_classes)
-        model = PreActResNet18(num_classes)
+        #model = ResNet18(num_classes)
+        #model = PreActResNet18(num_classes)
+        model = GoogLeNet()
         optimizer = optim.Adam(model.parameters(), lr=0.01)
         schedulers = [
-            #CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=5,mode="triangular"),
-            #CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=5,mode="triangular2"),
-            ReduceLROnPlateau(optimizer, mode='min', factor=0.8, patience=10)
+            CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=3125,mode="triangular"),
+            CyclicLR(optimizer, base_lr=0.001, max_lr=0.01,step_size_up=3125,mode="triangular2")
+            #ReduceLROnPlateau(optimizer, mode='min', factor=0.8, patience=10)
             #StepLR(optimizer, step_size=3, gamma=0.95),  # Уменьшает LR каждые 30 эпох
             #MultiStepLR(optimizer, milestones=[10, 30, 50, 80], gamma=0.5),  # Уменьшает LR на 30 и 80 эпохах
             #ExponentialLR(optimizer, gamma=0.95),  # Экспоненциально уменьшает LR
@@ -118,8 +122,9 @@ def main():
             time_individ = time.time()
             #model = av_Classifier()
             #model = MobileNetV2()
-            model = ResNet18(num_classes)
-            model = PreActResNet18(num_classes)
+            #model = ResNet18(num_classes)
+            #model = PreActResNet18(num_classes)
+            model = GoogLeNet()
             model = model.to(device)
             #model = torch.compile(model) кажется без этого лучше, было 21 с стало 27
             criterion = nn.CrossEntropyLoss()

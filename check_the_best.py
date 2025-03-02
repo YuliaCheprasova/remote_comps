@@ -73,35 +73,36 @@ def get_lrs(num_epochs, lrs, expr):
         e = epoch+1
         lrs[epoch] = eval(expr)
 
-
+#LOOK AT INITIAL_LR, FILENAME, TRANSFORMER, LIST, DATA, NET, NUM_classes, num_epochs
 def main():
     # не забывай менять названия файлов и выражение для расчета lr
     torch.set_float32_matmul_precision("medium")  # снижение точности вычислений
     torch.backends.cudnn.benchmark = True
     #log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_ep^0,29.txt'
     #log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Log_exp(sin(ep)).txt'
-    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Expr_google_C10.txt'
+    log_filename = '/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Expr_resnet_C100_150.txt'
     f_log = open(log_filename, 'w', buffering=1)
-    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Expr_google_C10_losses.txt', 'w', buffering=1)
+    f_wr = open('/home/mpiscil/cloud2/Yulia/gp_with_neural_network/Expr_resnet_C100_150_losses.txt', 'w', buffering=1)
     print('start Python')
     f_log.write('start Python\n')
     batch_size = 128
     time_prepar = time.time()
     generator = torch.Generator(device=device)
-    transform = transforms.Compose([transforms.ToTensor(), ])  # transforms.ToTensor() автоматически нормализует данные в случае картинок
-    """transform = transforms.Compose([
+    #transform = transforms.Compose([transforms.ToTensor(), ])  # transforms.ToTensor() автоматически нормализует данные в случае картинок
+    transform = transforms.Compose([
         transforms.RandomCrop(32, padding=4),
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
         transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
-    ])"""
-    traindt = CIFAR10(root='data/', train=True, transform=transform, download=True)
-    testdt = CIFAR10(root='data/', train=False, transform=transform, download=True)
+    ])
+    traindt = CIFAR100(root='data/', train=True, transform=transform, download=True)
+    testdt = CIFAR100(root='data/', train=False, transform=transform, download=True)
     train_loader = DataLoader(traindt, batch_size, shuffle=True, generator=generator)
     test_loader = DataLoader(testdt, batch_size, shuffle=False, generator=generator)
     print('Time_data_preparation: {:.4f}'.format(time.time() - time_prepar))
     f_log.write('Time_data_preparation: {:.4f}\n'.format(time.time() - time_prepar))
-    num_epochs = 100
+    num_epochs = 150
+    num_classes = 100
     lrs = np.zeros(num_epochs)
 
     #expr = "cos(cos(e))"
@@ -118,9 +119,9 @@ def main():
             time_individ = time.time()
             # model = av_Classifier()
             #model = MobileNetV2()
-            #model = ResNet18()
-            #model = PreActResNet18()
-            model = GoogLeNet()
+            model = ResNet18(num_classes)
+            model = PreActResNet18(num_classes)
+            #model = GoogLeNet()
             model = model.to(device)
             # model = torch.compile(model) кажется без этого лучше, было 21 с стало 27
             criterion = nn.CrossEntropyLoss()
